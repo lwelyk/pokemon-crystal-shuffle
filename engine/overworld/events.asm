@@ -35,41 +35,6 @@ CheckBit5_ScriptFlags2:
 	bit 5, [hl]
 	ret
 
-DisableWarpsConnxns: ; unreferenced
-	ld hl, wScriptFlags2
-	res 2, [hl]
-	ret
-
-DisableCoordEvents: ; unreferenced
-	ld hl, wScriptFlags2
-	res 1, [hl]
-	ret
-
-DisableStepCount: ; unreferenced
-	ld hl, wScriptFlags2
-	res 0, [hl]
-	ret
-
-DisableWildEncounters: ; unreferenced
-	ld hl, wScriptFlags2
-	res 4, [hl]
-	ret
-
-EnableWarpsConnxns: ; unreferenced
-	ld hl, wScriptFlags2
-	set 2, [hl]
-	ret
-
-EnableCoordEvents: ; unreferenced
-	ld hl, wScriptFlags2
-	set 1, [hl]
-	ret
-
-EnableStepCount: ; unreferenced
-	ld hl, wScriptFlags2
-	set 0, [hl]
-	ret
-
 EnableWildEncounters:
 	ld hl, wScriptFlags2
 	set 4, [hl]
@@ -130,11 +95,6 @@ EnterMap:
 	ldh [hMapEntryMethod], a
 	ld a, MAPSTATUS_HANDLE
 	ld [wMapStatus], a
-	ret
-
-UnusedWait30Frames: ; unreferenced
-	ld c, 30
-	call DelayFrames
 	ret
 
 HandleMap:
@@ -475,10 +435,6 @@ CheckTimeEvents:
 	scf
 	ret
 
-.unused ; unreferenced
-	ld a, $8 ; ???
-	scf
-	ret
 
 OWPlayerInput:
 	call PlayerMovement
@@ -926,11 +882,6 @@ CountStep:
 	scf
 	ret
 
-.whiteout ; unreferenced
-	ld a, PLAYEREVENT_WHITEOUT
-	scf
-	ret
-
 DoRepelStep:
 	ld a, [wRepelEffect]
 	and a
@@ -940,8 +891,17 @@ DoRepelStep:
 	ld [wRepelEffect], a
 	ret nz
 
+	
+	ld a, [wRepelType]
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
 	ld a, BANK(RepelWoreOffScript)
 	ld hl, RepelWoreOffScript
+	jr nc, .got_script
+	ld a, BANK(UseAnotherRepelScript)
+	ld hl, UseAnotherRepelScript
+.got_script
 	call CallScript
 	scf
 	ret
@@ -988,9 +948,6 @@ PlayerEventScriptPointers:
 	assert_table_length NUM_PLAYER_EVENTS + 1
 
 InvalidEventScript:
-	end
-
-UnusedPlayerEventScript: ; unreferenced
 	end
 
 HatchEggScript:
