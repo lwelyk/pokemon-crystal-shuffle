@@ -17,13 +17,6 @@ BlackthornDragonSpeechHouseDratiniScript:
 	waitbutton
 	closetext
 	end
-
-BlackthornDragonSpeechHousePictureBookshelf: ; unreferenced
-	jumpstd PictureBookshelfScript
-
-BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
-	jumpstd MagazineBookshelfScript
-
 BlackthornDragonSpeechHouseGrannyText:
 	text "A clan of trainers"
 	line "who can freely"
