@@ -1670,10 +1670,6 @@ PackEmptyText:
 	text_far _PackEmptyText
 	text_end
 
-YouCantUseItInABattleText: ; unreferenced
-	text_far _YouCantUseItInABattleText
-	text_end
-
 PackMenuGFX:
 INCBIN "gfx/pack/pack_menu.2bpp"
 PackGFX:
