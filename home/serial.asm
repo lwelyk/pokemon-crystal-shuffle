@@ -114,7 +114,7 @@ Serial_ExchangeBytes::
 	dec hl
 	cp SERIAL_PREAMBLE_BYTE
 	jr nz, .loop
-	xor a
+	xor a ; FALSE
 	ldh [hSerialIgnoringInitialData], a
 	jr .loop
 
@@ -283,11 +283,6 @@ Serial_PrintWaitingTextAndSyncAndExchangeNybble::
 	callfar PlaceWaitingText
 	call WaitLinkTransfer
 	jp SafeLoadTempTilemapToTilemap
-
-Serial_SyncAndExchangeNybble:: ; unreferenced
-	call LoadTilemapToTempTilemap
-	callfar PlaceWaitingText
-	jp WaitLinkTransfer ; pointless
 
 WaitLinkTransfer::
 	vc_hook Wireless_WaitLinkTransfer

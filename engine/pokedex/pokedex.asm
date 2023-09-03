@@ -540,13 +540,8 @@ DexEntryScreen_MenuActionJumptable:
 	ret
 
 .Cry:
-; BUG: Playing Entei's Pokédex cry can distort Raikou's and Suicune's (see docs/bugs_and_glitches.md)
-	call Pokedex_GetSelectedMon
-	ld a, [wTempSpecies]
-	call GetCryIndex
-	ld e, c
-	ld d, b
-	call PlayCry
+	ld a, [wCurPartySpecies]
+	call PlayMonCry
 	ret
 
 .Print:
@@ -1454,7 +1449,7 @@ Pokedex_DrawUnownModeBG:
 	hlcoord 16, 15
 	ld [hl], $3e
 	hlcoord 6, 5
-	call Pokedex_PlaceFrontpicAtHL
+	call PlaceFrontpicAtHL
 	ld de, 0
 	ld b, 0
 	ld c, NUM_UNOWN
@@ -1523,7 +1518,7 @@ Pokedex_FillBackgroundColor2:
 
 Pokedex_PlaceFrontpicTopLeftCorner:
 	hlcoord 1, 1
-Pokedex_PlaceFrontpicAtHL:
+PlaceFrontpicAtHL:
 	xor a
 	ld b, $7
 .row

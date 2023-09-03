@@ -321,14 +321,6 @@ wTilemapEnd::
 ; This union spans 480 bytes.
 SECTION UNION "Miscellaneous", WRAM0
 
-; surrounding tiles
-; This buffer determines the size for the rest of the union;
-; it uses exactly 480 bytes.
-wSurroundingTiles:: ds SURROUNDING_WIDTH * SURROUNDING_HEIGHT
-
-
-SECTION UNION "Miscellaneous", WRAM0
-
 ; box save buffer
 ; SaveBoxAddress uses this buffer in three steps because it
 ; needs more space than the buffer can hold.
@@ -619,8 +611,8 @@ wBattleEnd::
 SECTION UNION "Miscellaneous", WRAM0
 
 ; link patch lists
-wPlayerPatchLists:: ds 200
-wOTPatchLists:: ds 200
+wPlayerPatchLists:: ds SERIAL_PATCH_LIST_LENGTH
+wOTPatchLists:: ds SERIAL_PATCH_LIST_LENGTH
 
 
 SECTION UNION "Miscellaneous", WRAM0
@@ -926,22 +918,71 @@ wGameboyPrinterRAMEnd::
 SECTION UNION "Overworld Map", WRAM0
 
 ; bill's pc data
-wBillsPCData::
-wBillsPCPokemonList::
-; (species, box number, list index) x30
-	ds 4 * 30
-	ds 690
-wBillsPC_ScrollPosition:: db
-wBillsPC_CursorPosition:: db
-wBillsPC_NumMonsInBox:: db
-wBillsPC_NumMonsOnScreen:: db
-wBillsPC_LoadedBox:: db ; 0 if party, 1 - 14 if box, 15 if active box
-wBillsPC_BackupScrollPosition:: db
-wBillsPC_BackupCursorPosition:: db
-wBillsPC_BackupLoadedBox:: db
-wBillsPC_MonHasMail:: db
-	ds 5
-wBillsPCDataEnd::
+
+; If you change ordering of this, remember to fix LCD hblank code too.
+; Note that (as of when comment was written), hblank can't always keep up
+; if doing 4 pals in one go during party shifting.
+wBillsPC_CurPals::
+wBillsPC_CurPartyPals:: ds 2 * 2 * 2 ; 2 bytes per color, 2 colors, 2 mons
+wBillsPC_CurMonPals:: ds 2 * 2 * 4 ; 2 bytes per color, 2 colors, 4 mons
+
+; Stores palettes used for party+box.
+wBillsPC_PalList::
+wBillsPC_PokepicPal:: ds 2 * 2 * 1
+
+	ds 2 * 2 * 1 ; unused BG3 for shiny+pokerus icons
+
+wBillsPC_MonPals1:: ds 2 * 2 * 4
+
+	ds 2 * 2 * 2 ; unused row2 BG2-3
+
+wBillsPC_MonPals2:: ds 2 * 2 * 4
+wBillsPC_PartyPals3:: ds 2 * 2 * 2
+wBillsPC_MonPals3:: ds 2 * 2 * 4
+wBillsPC_PartyPals4:: ds 2 * 2 * 2
+wBillsPC_MonPals4:: ds 2 * 2 * 4
+wBillsPC_PartyPals5:: ds 2 * 2 * 2
+wBillsPC_MonPals5:: ds 2 * 2 * 4
+
+; Species lists
+wBillsPC_PartyList:: ds 6
+wBillsPC_BoxList:: ds 20
+
+wBillsPC_HeldIcon:: db
+wBillsPC_QuickIcon:: db
+
+; Cursor data
+wBillsPC_CursorItem:: db ; what item is selected.
+wBillsPC_CursorPos:: db ; 0-3 * 4*row, row 0 is title. Bit 7 means in party.
+wBillsPC_CursorHeldBox:: db ; 0 for party, 1-16 otherwise
+wBillsPC_CursorHeldSlot:: db ; 0 for nothing held, or 1-20 (1-6 if party)
+wBillsPC_CursorDestBox:: db ; 0 for party, 1-16 otherwise
+wBillsPC_CursorDestSlot:: db ; 0 for release, or 1-20 (1-6 if party)
+wBillsPC_CursorMode:: db ; 0 for regular mode (red), 1 for swap mode (blue), 2 for item mode (green)
+wBillsPC_CursorAnimFlag:: db ; manage cursor behaviour
+
+; Quick-move sprite data
+wBillsPC_QuickFrom::
+wBillsPC_QuickFromBox:: db
+wBillsPC_QuickFromSlot:: db
+wBillsPC_QuickFromX:: db
+wBillsPC_QuickFromY:: db
+
+wBillsPC_QuickTo::
+wBillsPC_QuickToBox:: db
+wBillsPC_QuickToSlot:: db
+wBillsPC_QuickToX:: db
+wBillsPC_QuickToY:: db
+wBillsPC_QuickFrames:: db
+
+wBillsPC_ApplyThemePals:: db ; used by _CGB_BillsPC
+
+	ds 2
+
+wBillsPC_Blank2bppTiles::
+; Since we need GDMA for fast blank copy, reserve blank tiles here.
+	ds 4 tiles
+wBillsPC_ItemVWF:: ds 10 tiles
 
 
 SECTION UNION "Overworld Map", WRAM0
@@ -1011,10 +1052,6 @@ for n, 1, PARTY_LENGTH + 1
 wTimeCapsulePartyMon{d:n}Nickname:: ds MON_NAME_LENGTH
 endr
 
-NEXTU
-; link patch lists
-wLinkPatchList1:: ds SERIAL_PATCH_LIST_LENGTH
-wLinkPatchList2:: ds SERIAL_PATCH_LIST_LENGTH
 ENDU
 
 
@@ -1039,13 +1076,14 @@ wLinkPlayerMail::
 wLinkPlayerMailPreamble:: ds SERIAL_MAIL_PREAMBLE_LENGTH
 wLinkPlayerMailMessages:: ds (MAIL_MSG_LENGTH + 1) * PARTY_LENGTH
 wLinkPlayerMailMetadata:: ds (MAIL_STRUCT_LENGTH - (MAIL_MSG_LENGTH + 1)) * PARTY_LENGTH
-wLinkPlayerMailPatchSet:: ds 103
+wLinkPlayerMailPatchSet:: ds 100 + SERIAL_PATCH_PREAMBLE_LENGTH
 wLinkPlayerMailEnd::
 	ds 10
 wLinkOTMail::
 wLinkOTMailMessages:: ds (MAIL_MSG_LENGTH + 1) * PARTY_LENGTH
 wLinkOTMailMetadata:: ds (MAIL_STRUCT_LENGTH - (MAIL_MSG_LENGTH + 1)) * PARTY_LENGTH
-wOTPlayerMailPatchSet:: ds 103 + SERIAL_MAIL_PREAMBLE_LENGTH
+wLinkOTMailPatchSet:: ds 100 + SERIAL_PATCH_PREAMBLE_LENGTH
+wLinkOTMailPadding:: ds SERIAL_MAIL_PREAMBLE_LENGTH
 wLinkOTMailEnd::
 	ds 10
 
@@ -1078,7 +1116,7 @@ ENDU
 	ds 138
 
 wMysteryGiftPartnerData::
-wMysteryGiftGameVersion:: db
+wMysteryGiftPartnerGameVersion:: db
 wMysteryGiftPartnerID:: dw
 wMysteryGiftPartnerName:: ds NAME_LENGTH
 wMysteryGiftPartnerDexCaught:: db
@@ -1092,7 +1130,7 @@ wMysteryGiftPartnerDataEnd::
 	ds 60
 
 wMysteryGiftPlayerData::
-	ds 1
+wMysteryGiftPlayerGameVersion:: db
 wMysteryGiftPlayerID:: dw
 wMysteryGiftPlayerName:: ds NAME_LENGTH
 wMysteryGiftPlayerDexCaught:: db
@@ -1843,10 +1881,21 @@ wDefaultSpawnpoint:: db
 SECTION UNION "Miscellaneous WRAM 1", WRAMX
 
 ; mon buffer
+UNION
+wBufferMon:: party_struct wBufferMon
+wBufferMonAltSpecies:: db ; the 2nd (usually redundant) species byte, for eggs
 wBufferMonNickname:: ds MON_NAME_LENGTH
 wBufferMonOT:: ds NAME_LENGTH
-wBufferMon:: party_struct wBufferMon
-	ds 8
+NEXTU
+wEncodedBufferMon:: savemon_struct wEncodedBufferMon
+ENDU
+
+; Points towards box + slot if using GetStorageBoxMon. Slot set to 0 if empty.
+wBufferMonBox:: db
+wBufferMonSlot:: db
+
+wLuckyNumberDigitsBuffer:: ds 5
+
 wMonOrItemNameBuffer:: ds NAME_LENGTH
 	ds NAME_LENGTH
 
@@ -1935,12 +1984,6 @@ wRadioText:: ds 2 * SCREEN_WIDTH
 
 SECTION UNION "Miscellaneous WRAM 1", WRAMX
 
-; lucky number show
-wLuckyNumberDigitsBuffer:: ds 5
-
-
-SECTION UNION "Miscellaneous WRAM 1", WRAMX
-
 ; movement buffer data
 wMovementBufferCount:: db
 wMovementBufferObject:: db
@@ -2004,8 +2047,15 @@ wSwitchItemBuffer:: ds 2 ; may store 1 or 2 bytes
 SECTION UNION "Miscellaneous WRAM 1", WRAMX
 
 ; switching pokemon in party
-; may store NAME_LENGTH, PARTYMON_STRUCT_LENGTH, or MAIL_STRUCT_LENGTH bytes
-wSwitchMonBuffer:: ds 48
+; may store a name, partymon, or mail
+wSwitchMonBuffer::
+UNION
+	ds NAME_LENGTH
+NEXTU
+	ds PARTYMON_STRUCT_LENGTH
+NEXTU
+	ds MAIL_STRUCT_LENGTH
+ENDU
 
 
 SECTION UNION "Miscellaneous WRAM 1", WRAMX
@@ -2272,6 +2322,7 @@ wItemsPocketCursor::    db
 wKeyItemsPocketCursor:: db
 wBallsPocketCursor::    db
 wTMHMPocketCursor::     db
+wBerryPocketCursor::    db
 
 wPCItemsScrollPosition::        db
 	ds 1
@@ -2279,6 +2330,7 @@ wItemsPocketScrollPosition::    db
 wKeyItemsPocketScrollPosition:: db
 wBallsPocketScrollPosition::    db
 wTMHMPocketScrollPosition::     db
+wBerryPocketScrollPosition::    db
 
 wSwitchMon::
 wSwitchItem::
@@ -2373,7 +2425,7 @@ wSpriteFlags:: db
 
 wHandlePlayerStep:: db
 
-	ds 1
+wCurIconMonHasItemOrMail:: db
 
 wPartyMenuActionText:: db
 
@@ -2450,9 +2502,9 @@ wTilesetBlocksBank:: db
 wTilesetBlocksAddress:: dw
 wTilesetCollisionBank:: db
 wTilesetCollisionAddress:: dw
+wTilesetAttributesBank:: db
+wTilesetAttributesAddress:: dw
 wTilesetAnim:: dw ; bank 3f
-	ds 2 ; unused
-wTilesetPalettes:: dw ; bank 3f
 wTilesetEnd::
 	assert wTilesetEnd - wTileset == TILESET_LENGTH
 
@@ -2633,11 +2685,15 @@ ENDU
 wTempEnemyMonSpecies::  db
 wTempBattleMonSpecies:: db
 
+UNION
+wOTLinkBattleRNData:: ds SERIAL_RN_PREAMBLE_LENGTH + SERIAL_RNS_LENGTH
+NEXTU
 wEnemyMon:: battle_struct wEnemyMon
 wEnemyMonBaseStats:: ds NUM_EXP_STATS
 wEnemyMonCatchRate:: db
 wEnemyMonBaseExp::   db
 wEnemyMonEnd::
+ENDU
 
 wBattleMode::
 ; 0: overworld
@@ -2701,7 +2757,7 @@ wCurBaseDataEnd::
 
 wCurDamage:: dw
 
-	ds 2
+wTilesetDataAddress:: dw
 
 wMornEncounterRate::  db
 wDayEncounterRate::   db
@@ -2786,7 +2842,7 @@ NEXTU
 ; catch tutorial dude pack
 wDudeNumItems:: db
 wDudeItems:: ds 2 * 4 + 1
-
+wDudeNumBerries::
 wDudeNumKeyItems:: db
 wDudeKeyItems:: ds 18 + 1
 
@@ -2939,7 +2995,6 @@ endr
 
 wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
 
-	ds 40
 
 wMapObjects::
 wPlayerObject:: map_object wPlayer ; player is map object 0
@@ -3011,6 +3066,9 @@ wKeyItems:: ds MAX_KEY_ITEMS + 1
 
 wNumBalls:: db
 wBalls:: ds MAX_BALLS * 2 + 1
+
+wNumBerries:: db
+wBerries:: ds MAX_BERRIES * 2 + 1
 
 wNumPCItems:: db
 wPCItems:: ds MAX_PC_ITEMS * 2 + 1
@@ -3159,9 +3217,7 @@ wEventFlags:: flag_array NUM_EVENTS
 
 wCurBox:: db
 
-	ds 2
-
-wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES
+	ds 128
 
 wCelebiEvent::
 ; bit 2: forest is restless
@@ -3262,7 +3318,7 @@ wPhoneList:: ds CONTACT_LIST_SIZE + 1
 	ds 22
 
 wLuckyNumberShowFlag:: db
-	ds 1
+wRepelType:: db
 wLuckyIDNumber:: dw
 
 wRepelEffect:: db ; If a Repel is in use, it contains the nr of steps it's still active
@@ -3514,6 +3570,12 @@ SECTION "News Script RAM", WRAMX
 
 w4_d000:: ds $1000
 
+SECTION "Surrounding Data", WRAMX
+
+wSurroundingTiles:: ds SURROUNDING_WIDTH * SURROUNDING_HEIGHT
+wSurroundingAttributes:: ds SURROUNDING_WIDTH * SURROUNDING_HEIGHT
+
+
 
 SECTION "GBC Video", WRAMX, ALIGN[8]
 
@@ -3542,6 +3604,14 @@ wMagnetTrainPlayerSpriteInitX:: db
 	align 8
 wLYOverridesBackup:: ds SCREEN_HEIGHT_PX
 wLYOverridesBackupEnd::
+
+
+SECTION "Used Storage", WRAMX
+
+wPokeDBUsedEntries::
+wPokeDB1UsedEntries:: flag_array MONDB_ENTRIES
+wPokeDB2UsedEntries:: flag_array MONDB_ENTRIES
+wPokeDBUsedEntriesEnd::
 
 
 SECTION "Battle Animations", WRAMX
@@ -3649,6 +3719,11 @@ wScratchAttrmap:: ds BG_MAP_WIDTH * BG_MAP_HEIGHT
 
 NEXTU
 wDecompressScratch:: ds $100 tiles
+
+NEXTU
+
+	ds $80 tiles
+wDecompressEnemyFrontpic:: ds $80 tiles
 
 NEXTU
 ; unidentified uses

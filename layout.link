@@ -63,7 +63,6 @@ ROMX $0d
 	"Effect Commands"
 ROMX $0e
 	"Enemy Trainers"
-	"Enemy Trainer Parties 2"
 ROMX $0f
 	"Battle Core"
 ROMX $10
@@ -72,6 +71,8 @@ ROMX $10
 	"Evolutions and Attacks 1"
 ROMX $11
 	"bank11"
+	"Newbox"
+	"Bill's PC Graphics"
 ROMX $12
 	"Crystal Features 1"
 	"Egg Moves 2"
@@ -343,6 +344,7 @@ WRAMX 1
 	"Party"
 WRAMX 2
 	"Pic Animations"
+	"Surrounding Data"
 	align 8
 	"16-bit WRAM tables"
 WRAMX 3
@@ -373,15 +375,15 @@ SRAM $00
 	"Backup Save"
 SRAM $01
 	"Save"
-	"Active Box"
+	"Box Metadata"
 	"Link Battle Data"
 	"SRAM Hall of Fame"
 	"SRAM Crystal Data"
 	"SRAM Battle Tower"
 SRAM $02
-	"Boxes 1-7"
+	"PokeDB Bank 1"
 SRAM $03
-	"Boxes 8-14"
+	"PokeDB Bank 2"
 SRAM $04
 	"SRAM Mobile 1"
 SRAM $05

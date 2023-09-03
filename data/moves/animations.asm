@@ -27,7 +27,7 @@
 	assert_table_length NUM_BATTLE_ANIMS
 BattleAnimations::
 	table_width 2, BattleAnimations
-	dw BattleAnim_0
+	dw BattleAnim_Dummy
 	dw BattleAnim_Pound
 	dw BattleAnim_KarateChop
 	dw BattleAnim_Doubleslap
@@ -282,7 +282,7 @@ BattleAnimations::
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
-BattleAnim_0:
+BattleAnim_Dummy:
 BattleAnim_MirrorMove:
 	anim_ret
 
