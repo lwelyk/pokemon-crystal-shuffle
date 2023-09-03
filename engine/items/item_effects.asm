@@ -210,10 +210,13 @@ ItemEffects:
 ; NoEffect would be appropriate, with the table then being NUM_ITEMS long.
 
 PokeBallEffect:
-; BUG: The Dude's catching tutorial may crash if his Poké Ball can't be used (see docs/bugs_and_glitches.md)
 	ld a, [wBattleMode]
 	dec a
 	jp nz, UseBallInTrainerBattle
+
+	ld a, [wBattleType]
+	cp BATTLETYPE_TUTORIAL
+	jr z, .room_in_party
 
 	ld a, [wPartyCount]
 	cp PARTY_LENGTH
@@ -223,11 +226,10 @@ PokeBallEffect:
 	jp c, Ball_BoxIsFullMessage
 
 .room_in_party
-; BUG: Using a Park Ball in non-Contest battles has a corrupt animation (see docs/bugs_and_glitches.md)
 	xor a
 	ld [wWildMon], a
-	ld a, [wCurItem]
-	cp PARK_BALL
+	ld a, [wBattleType]
+	cp BATTLETYPE_CONTEST
 	call nz, ReturnToBattle_UseBall
 
 	ld hl, wOptions
@@ -332,7 +334,6 @@ PokeBallEffect:
 	jr nz, .statuscheck
 	ld a, 1
 .statuscheck
-; BUG: BRN/PSN/PAR do not affect catch rate (see docs/bugs_and_glitches.md)
 	ld b, a
 	ld a, [wEnemyMonStatus]
 	and 1 << FRZ | SLP_MASK
@@ -341,6 +342,7 @@ PokeBallEffect:
 	and a
 	ld c, 5
 	jr nz, .addstatus
+	ld a, [wEnemyMonStatus]
 	ld c, 0
 .addstatus
 	ld a, b
@@ -349,10 +351,10 @@ PokeBallEffect:
 	ld a, $ff
 .max_1
 
-; BUG: HELD_CATCH_CHANCE has no effect (see docs/bugs_and_glitches.md)
 	ld d, a
 	push de
 	ld a, [wBattleMonItem]
+	ld b, a
 	farcall GetItemHeldEffect
 	ld a, b
 	cp HELD_CATCH_CHANCE
@@ -963,12 +965,11 @@ LoveBallMultiplier:
 	inc d   ; female
 .got_wild_gender
 
-; BUG: Love Ball boosts catch rate for the wrong gender (see docs/bugs_and_glitches.md)
 	ld a, d
 	pop de
 	cp d
 	pop bc
-	ret nz
+	ret z
 
 	sla b
 	jr c, .max
@@ -998,7 +999,6 @@ FastBallMultiplier:
 	push bc
 
 .loop
-; BUG: Fast Ball only boosts catch rate for three Pokémon (see docs/bugs_and_glitches.md)
 	ld a, BANK(FleeMons)
 	call GetFarByte
 	ld c, a
@@ -1008,7 +1008,7 @@ FastBallMultiplier:
 	ld b, a
 	and c
 	inc a
-	jr z, .next_list
+	jr z, .loop
 	ld a, b
 	cp d
 	jr nz, .loop
