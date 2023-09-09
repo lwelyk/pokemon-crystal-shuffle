@@ -1,0 +1,66 @@
+constant: GOLBAT
+name: GOLBAT
+types:
+- Poison
+- Flying
+base-stats:
+  hp: 75
+  attack: 80
+  defense: 70
+  speed: 90
+  special-attack: 65
+  special-defense: 75
+growth-rate: Medium-Fast
+catch-rate: 90
+base-experience: 171
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Flying
+evolutions:
+- Method: Happiness
+  Time: TR_ANYTIME
+  Species: CROBAT
+moves:
+  level-up:
+  - 1: SCREECH
+  - 1: LEECH_LIFE
+  - 1: SUPERSONIC
+  - 6: SUPERSONIC
+  - 12: BITE
+  - 19: CONFUSE_RAY
+  - 30: WING_ATTACK
+  - 42: MEAN_LOOK
+  - 55: HAZE
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  egg: []
+species: BAT
+height: 503
+weight: 1210
+pokedex-entries: "When it plunges\nits fangs into its\fdraws and gulps\ndown more\
+  \ than ten\nounces of blood."
+icon: GolbatIcon
+icon-palettes:
+- BLUE
+- PINK

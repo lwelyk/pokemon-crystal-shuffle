@@ -1,0 +1,73 @@
+constant: KABUTO
+name: KABUTO
+types:
+- Rock
+- Water
+base-stats:
+  hp: 30
+  attack: 80
+  defense: 90
+  speed: 55
+  special-attack: 55
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 119
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 30
+egg-groups:
+- Water 1
+- Water 3
+evolutions:
+- Method: Level-Up
+  Level: '40'
+  Species: KABUTOPS
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: HARDEN
+  - 10: ABSORB
+  - 19: LEER
+  - 28: SAND_ATTACK
+  - 37: ENDURE
+  - 46: MEGA_DRAIN
+  - 55: ANCIENTPOWER
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - REST
+  - ATTRACT
+  - THIEF
+  - ICE_BEAM
+  egg:
+  - BUBBLEBEAM
+  - AURORA_BEAM
+  - RAPID_SPIN
+  - DIG
+  - FLAIL
+species: SHELLFISH
+height: 108
+weight: 250
+pokedex-entries: "Three hundred\nmillion years ago,\ffloor. It also has\neyes on its\
+  \ back\nthat glow."
+icon: KabutoIcon
+icon-palettes:
+- BROWN
+- GRAY

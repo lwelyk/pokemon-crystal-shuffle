@@ -1,0 +1,68 @@
+constant: PIDGEY
+name: PIDGEY
+types:
+- Flying
+- Normal
+base-stats:
+  hp: 40
+  attack: 45
+  defense: 40
+  speed: 56
+  special-attack: 35
+  special-defense: 35
+growth-rate: Medium-Slow
+catch-rate: 255
+base-experience: 55
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Flying
+evolutions:
+- Method: Level-Up
+  Level: '18'
+  Species: PIDGEOTTO
+moves:
+  level-up:
+  - 1: TACKLE
+  - 5: SAND_ATTACK
+  - 9: GUST
+  - 15: QUICK_ATTACK
+  - 21: WHIRLWIND
+  - 29: WING_ATTACK
+  - 37: AGILITY
+  - 47: MIRROR_MOVE
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - FLY
+  egg:
+  - PURSUIT
+  - FAINT_ATTACK
+  - FORESIGHT
+species: TINY BIRD
+height: 100
+weight: 40
+pokedex-entries: "It rapidly flaps\nits wings in the\fa dust cloud that\ndrives insect\
+  \ prey\nout into the open."
+icon: PidgeyIcon
+icon-palettes:
+- BROWN
+- RED

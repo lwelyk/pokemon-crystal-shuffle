@@ -1,0 +1,76 @@
+constant: SCYTHER
+name: SCYTHER
+types:
+- Flying
+- Bug
+base-stats:
+  hp: 70
+  attack: 110
+  defense: 80
+  speed: 105
+  special-attack: 55
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 187
+held-items: []
+female-ratio: '50'
+egg-cycle: 25
+egg-groups:
+- Bug
+evolutions:
+- Method: Trade
+  Held Item: METAL_COAT
+  Species: SCIZOR
+moves:
+  level-up:
+  - 1: QUICK_ATTACK
+  - 1: LEER
+  - 6: FOCUS_ENERGY
+  - 12: PURSUIT
+  - 18: FALSE_SWIPE
+  - 24: AGILITY
+  - 30: WING_ATTACK
+  - 36: SLASH
+  - 42: SWORDS_DANCE
+  - 48: DOUBLE_TEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - FURY_CUTTER
+  - CUT
+  egg:
+  - COUNTER
+  - SAFEGUARD
+  - BATON_PASS
+  - RAZOR_WIND
+  - REVERSAL
+  - LIGHT_SCREEN
+species: MANTIS
+height: 411
+weight: 1230
+pokedex-entries: "It's very proud of\nits speed. It\fits opponent does\nnot even know\
+  \ what\nknocked it down."
+icon: ScytherIcon
+icon-palettes:
+- GREEN
+- GREEN

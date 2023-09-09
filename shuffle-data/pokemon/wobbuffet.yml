@@ -1,0 +1,38 @@
+constant: WOBBUFFET
+name: WOBBUFFET
+types:
+- Psychic
+base-stats:
+  hp: 190
+  attack: 33
+  defense: 58
+  speed: 33
+  special-attack: 33
+  special-defense: 58
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 177
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions: []
+moves:
+  level-up:
+  - 1: COUNTER
+  - 1: MIRROR_COAT
+  - 1: SAFEGUARD
+  - 1: DESTINY_BOND
+  taught:
+  - ''
+  egg: []
+species: PATIENT
+height: 403
+weight: 630
+pokedex-entries: "In order to con-\nceal its black\fa dark cave and\nonly moves about\n\
+  at night."
+icon: WobbuffetIcon
+icon-palettes:
+- BLUE
+- PURPLE

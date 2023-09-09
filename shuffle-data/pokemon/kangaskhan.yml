@@ -1,0 +1,85 @@
+constant: KANGASKHAN
+name: KANGASKHAN
+types:
+- Normal
+base-stats:
+  hp: 105
+  attack: 95
+  defense: 80
+  speed: 90
+  special-attack: 40
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 175
+held-items: []
+female-ratio: '100'
+egg-cycle: 20
+egg-groups:
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: COMET_PUNCH
+  - 7: LEER
+  - 13: BITE
+  - 19: TAIL_WHIP
+  - 25: MEGA_PUNCH
+  - 31: RAGE
+  - 37: ENDURE
+  - 43: DIZZY_PUNCH
+  - 49: REVERSAL
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - SURF
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg:
+  - STOMP
+  - FORESIGHT
+  - FOCUS_ENERGY
+  - SAFEGUARD
+  - DISABLE
+species: PARENT
+height: 703
+weight: 1760
+pokedex-entries: "To avoid\ncrushing the\fits pouch, it\nalways sleeps\nstanding up."
+icon: KangaskhanIcon
+icon-palettes:
+- BROWN
+- GRAY

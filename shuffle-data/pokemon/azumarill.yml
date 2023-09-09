@@ -1,0 +1,77 @@
+constant: AZUMARILL
+name: AZUMARILL
+types:
+- Fairy
+- Water
+base-stats:
+  hp: 100
+  attack: 50
+  defense: 80
+  speed: 50
+  special-attack: 50
+  special-defense: 80
+growth-rate: Fast
+catch-rate: 75
+base-experience: 153
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Fairy
+- Water 1
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: DEFENSE_CURL
+  - 1: TAIL_WHIP
+  - 1: WATER_GUN
+  - 3: DEFENSE_CURL
+  - 6: TAIL_WHIP
+  - 10: WATER_GUN
+  - 15: ROLLOUT
+  - 25: BUBBLEBEAM
+  - 36: DOUBLE_EDGE
+  - 48: RAIN_DANCE
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg: []
+species: AQUARABBIT
+height: 207
+weight: 630
+pokedex-entries: "The bubble-like\npattern on its\fcamouflage itself\nwhen it's in\
+  \ the\nwater."
+icon: AzumarillIcon
+icon-palettes:
+- BLUE
+- BROWN

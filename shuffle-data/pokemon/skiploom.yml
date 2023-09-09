@@ -1,0 +1,71 @@
+constant: SKIPLOOM
+name: SKIPLOOM
+types:
+- Grass
+- Flying
+base-stats:
+  hp: 55
+  attack: 45
+  defense: 50
+  speed: 80
+  special-attack: 45
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 120
+base-experience: 136
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Fairy
+- Plant
+evolutions:
+- Method: Level-Up
+  Level: '27'
+  Species: JUMPLUFF
+moves:
+  level-up:
+  - 1: SPLASH
+  - 1: SYNTHESIS
+  - 1: TAIL_WHIP
+  - 1: TACKLE
+  - 5: SYNTHESIS
+  - 5: TAIL_WHIP
+  - 10: TACKLE
+  - 13: POISONPOWDER
+  - 15: STUN_SPORE
+  - 17: SLEEP_POWDER
+  - 22: LEECH_SEED
+  - 29: COTTON_SPORE
+  - 36: MEGA_DRAIN
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FLASH
+  egg: []
+species: COTTONWEED
+height: 200
+weight: 20
+pokedex-entries: "As soon as it\nrains, it closes\fhides in the shade\nof a tree to\
+  \ avoid\ngetting wet."
+icon: SkiploomIcon
+icon-palettes:
+- GREEN
+- PURPLE

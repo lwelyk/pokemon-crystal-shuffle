@@ -1,4 +1,5 @@
-import data_handlers
+from data_handlers import pokemon_data
+import yaml
 
 pokeDataFiles = {
     "constants"             : '../constants/pokemon_constants.asm',
@@ -57,7 +58,7 @@ evoMethodDataOrder = {
     "EVOLVE_ITEM"       : ["Used Item", "Species"],
     "EVOLVE_TRADE"      : ["Held Item", "Species"],
     "EVOLVE_HAPPINESS"  : ["Time", "Species"],
-    "EVOLVE_STAT"       : ["LEVEL", "Stat Relationship", "Species"]
+    "EVOLVE_STAT"       : ["Level", "Stat Relationship", "Species"]
 }
 
 dimensionsTranslation = {
@@ -618,9 +619,10 @@ class PokemonDataBuilder:
         array = array.split(", ")
         self.pokemonData[i]["Held Items"] = []
         for entry in array:
-            self.pokemonData[i]["Held Items"].append(
-                entry.replace("; items", "")
-            )
+            if "NO_ITEM" not in entry:
+                self.pokemonData[i]["Held Items"].append(
+                    entry.replace("; items", "").replace("\n", "")
+                )
 
     def bsGenderRatio(self, line, i):
         gender = line.split("db ")
@@ -720,8 +722,12 @@ class PokemonDataBuilder:
                             else:
                                 # Start Next Step
                                 currentStep += 1
-                        elif "dbbw" in line:
-                            evoData = line.split("dbbw")
+                        elif "dbbw" in line or "dbbbw" in line:
+                            evoData = []
+                            if "dbbw" in line:
+                                evoData = line.split("dbbw")
+                            if "dbbbw" in line:
+                                evoData = line.split("dbbbw")
                             evoData = evoData[1]
                             evoData = evoData.split(",")
                             dataOrder = evoMethodDataOrder[evoData[0].strip()]
@@ -795,8 +801,8 @@ class PokemonDataBuilder:
             if "Egg Move Pointer" in pokemon:
                 if pokemon["Egg Move Pointer"] in eggMoveData:
                     self.pokemonData[i]["Egg Moves"] = eggMoveData[pokemon["Egg Move Pointer"]]
-                else:
-                    print("ERROR No Egg Moves Found for " + pokemon["Constant"])
+                # else:
+                    # print("ERROR No Egg Moves Found for " + pokemon["Constant"])
 
             else:
                 print("ERROR No Egg Move Pointers Found for " + pokemon["Constant"])
@@ -895,7 +901,7 @@ class PokemonDataBuilder:
                             sizeData = sizeData.split(",")
                             height = sizeData[0].strip()
                             weight = sizeData[1].split(";")
-                            weight = sizeData[0].strip()
+                            weight = weight[0].strip()
                             dexData["Height"] = height
                             dexData["Weight"] = weight
                         if j > 1:
@@ -904,7 +910,11 @@ class PokemonDataBuilder:
                             dexText = dexText.strip()
                             dexTextArray.append(dexText)
                         j += 1
-                dexData["Pokedex Entry"] = " ".join(dexTextArray)
+                dexEntryArray = [
+                    "\n".join(dexTextArray[0:2]),
+                    "\n".join(dexTextArray[3:])
+                ]
+                dexData["Pokedex Entry"] = "\f".join(dexEntryArray)
                 self.pokemonData[i]["Species Name"] = dexData["Species Name"]
                 self.pokemonData[i]["Height"] = dexData["Height"]
                 self.pokemonData[i]["Weight"] = dexData["Weight"]
@@ -1024,25 +1034,62 @@ moves.buildMoveData()
 items = ItemDataBuilder()
 items.buildItemData()
 
-for poke in PokemonDataBuilder():
-    poke["stats"]  = {
-        'hp': poke["stats"]["HP"],
-        'attack': poke["stats"]["ATK"],
-        'defense': poke["stats"]["DEF"],
-        'sp_attack': poke["stats"]["SAT"],
-        'sp_defense': poke["stats"]["SDF"],
-        'speed': poke['stats']["SPD"]
+for poke in pokemon.pokemonData:
+    poke["Stats"]  = {
+        'hp': poke["Stats"]["HP"],
+        'attack': poke["Stats"]["ATK"],
+        'defense': poke["Stats"]["DEF"],
+        'sp_attack': poke["Stats"]["SAT"],
+        'sp_defense': poke["Stats"]["SDF"],
+        'speed': poke['Stats']["SPD"]
     }
-    poke['types'] = [
-        poke['types'][0].title()
-        poke['types'][1].title()
-    ]
-    mon = data_handlers.Pokemon(
+    poke['Types'] = list(set([
+        poke['Types'][0].title().replace("_Type",""),
+        poke['Types'][1].title().replace("_Type","")
+    ]))
+    eggs = []
+    for group in poke["Egg Groups"]:
+        group = group.replace("EGG_", "").replace("_"," ")
+        eggs.append(group.title())
+    eggs = list(set(eggs))
+    if "Egg Moves" not in poke:
+        poke["Egg Moves"] = []
+    level_ups = []
+    for move in poke["Level Up Moves"]:
+        level_ups.append((move["Level"], move["Move"]))
+    evolutions = []
+    if "Evolutions" in poke:
+        for evolu in poke["Evolutions"]:
+            evo = evolu
+            method = evo["Method"].replace("EVOLVE_","").title()
+            method = method.replace("Level", "Level-Up")
+            evo["Method"] = method
+            evolutions.append(evo)
+            # print(evo)
+        
+    mon = pokemon_data.Pokemon(
         constant = poke["Constant"],
         name = poke['Name'],
         stats = poke["Stats"],
         types = poke["Types"],
         catch_rate = poke["Catch Rate"],
-        base_xp = poke["Base XP"]
-        growth
+        base_xp = poke["Base XP"],
+        growth_rate = poke["Growth Rate"][7:].replace("_","-").title(),
+        egg_step_cycle = poke["Step Cycle"],
+        gender_ratio = poke["Gender Ratio"].replace("GENDER_","").replace("F","").replace("_",".").title(),
+        egg_groups = eggs,
+        held_items = poke["Held Items"],
+        level_up_moves = level_ups,
+        egg_moves = poke["Egg Moves"],
+        evolutions = poke["Evolutions"],
+        taught_moves = poke["TM HM List"],
+        species = poke["Species Name"],
+        height = poke["Height"],
+        weight = poke["Weight"],
+        icon = poke["Menu Icon"],
+        icon_pals = poke["Menu Icon Palettes"],
+        flavor_text = poke["Pokedex Entry"],
+        normal_palette = poke["Normal Palette"],
+        shiny_palette = poke["Shiny Palette"]
     )
+    mon.generate_yaml()

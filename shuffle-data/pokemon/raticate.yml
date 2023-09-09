@@ -1,0 +1,73 @@
+constant: RATICATE
+name: RATICATE
+types:
+- Normal
+base-stats:
+  hp: 55
+  attack: 81
+  defense: 60
+  speed: 97
+  special-attack: 50
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 90
+base-experience: 116
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: TAIL_WHIP
+  - 1: QUICK_ATTACK
+  - 7: QUICK_ATTACK
+  - 13: HYPER_FANG
+  - 20: SCARY_FACE
+  - 30: PURSUIT
+  - 40: SUPER_FANG
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DIG
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - THIEF
+  - CUT
+  - STRENGTH
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: RAT
+height: 204
+weight: 410
+pokedex-entries: "The webs on its\nhind legs enable\frivers. It search-\nes wide areas\
+  \ for\nfood."
+icon: RaticateIcon
+icon-palettes:
+- BROWN
+- BROWN

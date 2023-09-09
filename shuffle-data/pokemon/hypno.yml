@@ -1,0 +1,73 @@
+constant: HYPNO
+name: HYPNO
+types:
+- Psychic
+base-stats:
+  hp: 85
+  attack: 73
+  defense: 70
+  speed: 67
+  special-attack: 73
+  special-defense: 115
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 165
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Humanshape
+evolutions: []
+moves:
+  level-up:
+  - 1: POUND
+  - 1: HYPNOSIS
+  - 1: DISABLE
+  - 1: CONFUSION
+  - 10: DISABLE
+  - 18: CONFUSION
+  - 25: HEADBUTT
+  - 33: POISON_GAS
+  - 40: MEDITATE
+  - 49: PSYCHIC_M
+  - 55: PSYCH_UP
+  - 60: FUTURE_SIGHT
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - FLASH
+  egg: []
+species: HYPNOSIS
+height: 503
+weight: 1670
+pokedex-entries: "The longer it\nswings its\flonger the effects\nof its hypnosis\n\
+  last."
+icon: HypnoIcon
+icon-palettes:
+- BROWN
+- PURPLE

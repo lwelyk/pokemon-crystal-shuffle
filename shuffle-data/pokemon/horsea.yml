@@ -1,0 +1,74 @@
+constant: HORSEA
+name: HORSEA
+types:
+- Water
+base-stats:
+  hp: 30
+  attack: 40
+  defense: 70
+  speed: 60
+  special-attack: 70
+  special-defense: 25
+growth-rate: Medium-Fast
+catch-rate: 225
+base-experience: 83
+held-items:
+- 'DRAGON_SCALE '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Dragon
+- Water 1
+evolutions:
+- Method: Level-Up
+  Level: '32'
+  Species: SEADRA
+moves:
+  level-up:
+  - 1: BUBBLE
+  - 8: SMOKESCREEN
+  - 15: LEER
+  - 22: WATER_GUN
+  - 29: TWISTER
+  - 36: AGILITY
+  - 43: HYDRO_PUMP
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - DRAGONBREATH
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - SURF
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg:
+  - FLAIL
+  - AURORA_BEAM
+  - OCTAZOOKA
+  - DISABLE
+  - SPLASH
+  - DRAGON_RAGE
+species: DRAGON
+height: 104
+weight: 180
+pokedex-entries: "When they're in a\nsafe location,\fplayfully tangling\ntheir tails\n\
+  together."
+icon: HorseaIcon
+icon-palettes:
+- BLUE
+- BLUE

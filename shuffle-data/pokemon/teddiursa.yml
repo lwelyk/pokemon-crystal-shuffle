@@ -1,0 +1,83 @@
+constant: TEDDIURSA
+name: TEDDIURSA
+types:
+- Normal
+base-stats:
+  hp: 60
+  attack: 80
+  defense: 50
+  speed: 40
+  special-attack: 50
+  special-defense: 50
+growth-rate: Medium-Fast
+catch-rate: 120
+base-experience: 124
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: URSARING
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: LEER
+  - 8: LICK
+  - 15: FURY_SWIPES
+  - 22: FAINT_ATTACK
+  - 29: REST
+  - 36: SLASH
+  - 43: SNORE
+  - 50: THRASH
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  egg:
+  - CRUNCH
+  - TAKE_DOWN
+  - SEISMIC_TOSS
+  - FOCUS_ENERGY
+  - COUNTER
+  - METAL_CLAW
+species: LITTLE BEAR
+height: 200
+weight: 190
+pokedex-entries: "It always licks\nhoney. Its palm\fbecause of all the\nhoney it has\n\
+  absorbed."
+icon: TeddiursaIcon
+icon-palettes:
+- BROWN
+- GREEN

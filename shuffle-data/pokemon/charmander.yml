@@ -1,0 +1,82 @@
+constant: CHARMANDER
+name: CHARMANDER
+types:
+- Fire
+base-stats:
+  hp: 39
+  attack: 52
+  defense: 43
+  speed: 65
+  special-attack: 60
+  special-defense: 50
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 65
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Dragon
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '16'
+  Species: CHARMELEON
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: GROWL
+  - 7: EMBER
+  - 13: SMOKESCREEN
+  - 19: RAGE
+  - 25: SCARY_FACE
+  - 31: FLAMETHROWER
+  - 37: SLASH
+  - 43: DRAGON_RAGE
+  - 49: FIRE_SPIN
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  - FLAMETHROWER
+  egg:
+  - BELLY_DRUM
+  - ANCIENTPOWER
+  - ROCK_SLIDE
+  - BITE
+  - OUTRAGE
+  - BEAT_UP
+species: LIZARD
+height: 200
+weight: 190
+pokedex-entries: "If it's healthy,\nthe flame on the\fwill burn vigor-\nously, even\
+  \ if it\ngets a bit wet."
+icon: CharmanderIcon
+icon-palettes:
+- RED
+- BROWN

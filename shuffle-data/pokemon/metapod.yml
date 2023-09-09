@@ -1,0 +1,39 @@
+constant: METAPOD
+name: METAPOD
+types:
+- Bug
+base-stats:
+  hp: 50
+  attack: 20
+  defense: 55
+  speed: 30
+  special-attack: 25
+  special-defense: 25
+growth-rate: Medium-Fast
+catch-rate: 120
+base-experience: 72
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '10'
+  Species: BUTTERFREE
+moves:
+  level-up:
+  - 1: HARDEN
+  - 7: HARDEN
+  taught:
+  - ''
+  egg: []
+species: COCOON
+height: 204
+weight: 220
+pokedex-entries: "This is its pre-\nevolved form. At\fonly harden, so it\nremains\
+  \ motionless\nto avoid attack."
+icon: MetapodIcon
+icon-palettes:
+- GREEN
+- BROWN

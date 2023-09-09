@@ -1,0 +1,68 @@
+constant: ABRA
+name: ABRA
+types:
+- Psychic
+base-stats:
+  hp: 25
+  attack: 20
+  defense: 15
+  speed: 90
+  special-attack: 105
+  special-defense: 55
+growth-rate: Medium-Slow
+catch-rate: 200
+base-experience: 73
+held-items: []
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Humanshape
+evolutions:
+- Method: Level-Up
+  Level: '16'
+  Species: KADABRA
+moves:
+  level-up:
+  - 1: TELEPORT
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - FLASH
+  egg:
+  - LIGHT_SCREEN
+  - ENCORE
+  - BARRIER
+species: PSI
+height: 211
+weight: 430
+pokedex-entries: "It hypnotizes\nitself so that it\fwhen it senses\ndanger, even\n\
+  if it is asleep."
+icon: AbraIcon
+icon-palettes:
+- BROWN
+- PURPLE

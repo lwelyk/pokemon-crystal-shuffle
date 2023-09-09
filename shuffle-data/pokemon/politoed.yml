@@ -1,0 +1,72 @@
+constant: POLITOED
+name: POLITOED
+types:
+- Water
+base-stats:
+  hp: 90
+  attack: 75
+  defense: 75
+  speed: 70
+  special-attack: 90
+  special-defense: 100
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 185
+held-items:
+- 'KINGS_ROCK '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+evolutions: []
+moves:
+  level-up:
+  - 1: WATER_GUN
+  - 1: HYPNOSIS
+  - 1: DOUBLESLAP
+  - 1: PERISH_SONG
+  - 35: PERISH_SONG
+  - 51: SWAGGER
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - PSYCHIC_M
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg: []
+species: FROG
+height: 307
+weight: 750
+pokedex-entries: "When it expands\nits throat to\fnearby POLIWAG and\nPOLIWHIRL gather\n\
+  immediately."
+icon: PolitoedIcon
+icon-palettes:
+- GREEN
+- GRAY

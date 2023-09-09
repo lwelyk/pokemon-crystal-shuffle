@@ -1,0 +1,66 @@
+constant: RAPIDASH
+name: RAPIDASH
+types:
+- Fire
+base-stats:
+  hp: 65
+  attack: 100
+  defense: 70
+  speed: 105
+  special-attack: 80
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 192
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 1: TAIL_WHIP
+  - 1: EMBER
+  - 4: GROWL
+  - 8: TAIL_WHIP
+  - 13: EMBER
+  - 19: STOMP
+  - 26: FIRE_SPIN
+  - 34: TAKE_DOWN
+  - 40: FURY_ATTACK
+  - 47: AGILITY
+  - 61: FIRE_BLAST
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg: []
+species: FIRE HORSE
+height: 507
+weight: 2090
+pokedex-entries: "It just loves to\ngallop. The faster\fer the swaying\nflames of\
+  \ its mane\nwill become."
+icon: RapidashIcon
+icon-palettes:
+- RED
+- PURPLE

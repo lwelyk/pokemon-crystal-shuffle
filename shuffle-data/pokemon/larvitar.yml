@@ -1,0 +1,74 @@
+constant: LARVITAR
+name: LARVITAR
+types:
+- Ground
+- Rock
+base-stats:
+  hp: 50
+  attack: 64
+  defense: 50
+  speed: 41
+  special-attack: 45
+  special-defense: 50
+growth-rate: Slow
+catch-rate: 45
+base-experience: 67
+held-items: []
+female-ratio: '50'
+egg-cycle: 40
+egg-groups:
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: PUPITAR
+moves:
+  level-up:
+  - 1: BITE
+  - 1: LEER
+  - 8: SANDSTORM
+  - 15: SCREECH
+  - 22: ROCK_SLIDE
+  - 29: THRASH
+  - 36: SCARY_FACE
+  - 43: CRUNCH
+  - 50: EARTHQUAKE
+  - 57: HYPER_BEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - DETECT
+  - REST
+  - ATTRACT
+  egg:
+  - PURSUIT
+  - STOMP
+  - OUTRAGE
+  - FOCUS_ENERGY
+  - ANCIENTPOWER
+species: ROCK SKIN
+height: 200
+weight: 1590
+pokedex-entries: "Born deep under-\nground, this\fpupa after eating\nenough dirt to\n\
+  make a mountain."
+icon: LarvitarIcon
+icon-palettes:
+- GREEN
+- BROWN

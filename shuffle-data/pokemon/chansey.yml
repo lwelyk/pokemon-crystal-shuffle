@@ -1,0 +1,90 @@
+constant: CHANSEY
+name: CHANSEY
+types:
+- Normal
+base-stats:
+  hp: 250
+  attack: 5
+  defense: 5
+  speed: 50
+  special-attack: 35
+  special-defense: 105
+growth-rate: Fast
+catch-rate: 30
+base-experience: 255
+held-items:
+- 'LUCKY_EGG '
+female-ratio: '100'
+egg-cycle: 40
+egg-groups:
+- Fairy
+evolutions:
+- Method: Happiness
+  Time: TR_ANYTIME
+  Species: BLISSEY
+moves:
+  level-up:
+  - 1: POUND
+  - 5: GROWL
+  - 9: TAIL_WHIP
+  - 13: SOFTBOILED
+  - 17: DOUBLESLAP
+  - 23: MINIMIZE
+  - 29: SING
+  - 35: EGG_BOMB
+  - 41: DEFENSE_CURL
+  - 49: LIGHT_SCREEN
+  - 57: DOUBLE_EDGE
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - STRENGTH
+  - FLASH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg:
+  - PRESENT
+  - METRONOME
+  - HEAL_BELL
+species: EGG
+height: 307
+weight: 760
+pokedex-entries: "People try to\ncatch it for its\fnutritious eggs,\nbut it rarely\
+  \ can\nbe found."
+icon: ChanseyIcon
+icon-palettes:
+- PINK
+- GREEN

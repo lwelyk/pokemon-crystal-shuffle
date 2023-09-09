@@ -1,0 +1,70 @@
+constant: OMASTAR
+name: OMASTAR
+types:
+- Rock
+- Water
+base-stats:
+  hp: 70
+  attack: 60
+  defense: 125
+  speed: 55
+  special-attack: 115
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 199
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 30
+egg-groups:
+- Water 1
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: CONSTRICT
+  - 1: WITHDRAW
+  - 1: BITE
+  - 13: BITE
+  - 19: WATER_GUN
+  - 31: LEER
+  - 37: PROTECT
+  - 40: SPIKE_CANNON
+  - 54: ANCIENTPOWER
+  - 65: HYDRO_PUMP
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: SPIRAL
+height: 303
+weight: 770
+pokedex-entries: "Its heavy shell\nallowed it to\ffood. This could\nbe the reason\
+  \ it\nis extinct."
+icon: OmastarIcon
+icon-palettes:
+- BLUE
+- GRAY

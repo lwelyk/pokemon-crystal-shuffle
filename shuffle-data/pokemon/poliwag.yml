@@ -1,0 +1,73 @@
+constant: POLIWAG
+name: POLIWAG
+types:
+- Water
+base-stats:
+  hp: 40
+  attack: 50
+  defense: 40
+  speed: 90
+  special-attack: 40
+  special-defense: 40
+growth-rate: Medium-Slow
+catch-rate: 255
+base-experience: 77
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+evolutions:
+- Method: Level-Up
+  Level: '25'
+  Species: POLIWHIRL
+moves:
+  level-up:
+  - 1: BUBBLE
+  - 7: HYPNOSIS
+  - 13: WATER_GUN
+  - 19: DOUBLESLAP
+  - 25: RAIN_DANCE
+  - 31: BODY_SLAM
+  - 37: BELLY_DRUM
+  - 43: HYDRO_PUMP
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg:
+  - MIST
+  - SPLASH
+  - BUBBLEBEAM
+  - HAZE
+  - MIND_READER
+species: TADPOLE
+height: 200
+weight: 270
+pokedex-entries: "The swirl on its\nbelly is its\fthrough the skin.\nIt looks clearer\n\
+  after it eats."
+icon: PoliwagIcon
+icon-palettes:
+- RED
+- RED

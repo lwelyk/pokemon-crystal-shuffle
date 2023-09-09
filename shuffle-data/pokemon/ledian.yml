@@ -1,0 +1,72 @@
+constant: LEDIAN
+name: LEDIAN
+types:
+- Flying
+- Bug
+base-stats:
+  hp: 55
+  attack: 35
+  defense: 50
+  speed: 85
+  special-attack: 55
+  special-defense: 110
+growth-rate: Fast
+catch-rate: 90
+base-experience: 134
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: SUPERSONIC
+  - 8: SUPERSONIC
+  - 15: COMET_PUNCH
+  - 24: LIGHT_SCREEN
+  - 24: REFLECT
+  - 24: SAFEGUARD
+  - 33: BATON_PASS
+  - 42: SWIFT
+  - 51: AGILITY
+  - 60: DOUBLE_EDGE
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DIG
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - THIEF
+  - FLASH
+  egg: []
+species: FIVE STAR
+height: 407
+weight: 780
+pokedex-entries: "In the daytime\nwhen it gets warm,\fa big leaf and\ndrifts off into\n\
+  a deep slumber."
+icon: LedianIcon
+icon-palettes:
+- RED
+- PINK

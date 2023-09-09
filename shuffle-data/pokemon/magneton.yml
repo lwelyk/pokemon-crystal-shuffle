@@ -1,0 +1,67 @@
+constant: MAGNETON
+name: MAGNETON
+types:
+- Steel
+- Electric
+base-stats:
+  hp: 50
+  attack: 60
+  defense: 95
+  speed: 70
+  special-attack: 120
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 161
+held-items:
+- 'METAL_COAT '
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Mineral
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: THUNDERSHOCK
+  - 1: SUPERSONIC
+  - 1: SONICBOOM
+  - 6: THUNDERSHOCK
+  - 11: SUPERSONIC
+  - 16: SONICBOOM
+  - 21: THUNDER_WAVE
+  - 27: LOCK_ON
+  - 35: TRI_ATTACK
+  - 43: SCREECH
+  - 53: ZAP_CANNON
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: MAGNET
+height: 303
+weight: 1320
+pokedex-entries: "When many\nMAGNETON gather\fresulting magnetic\nstorm disrupts\n\
+  radio waves."
+icon: MagnetonIcon
+icon-palettes:
+- GRAY
+- GRAY

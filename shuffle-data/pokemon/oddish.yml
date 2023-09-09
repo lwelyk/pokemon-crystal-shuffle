@@ -1,0 +1,69 @@
+constant: ODDISH
+name: ODDISH
+types:
+- Grass
+- Poison
+base-stats:
+  hp: 45
+  attack: 50
+  defense: 55
+  speed: 30
+  special-attack: 75
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 255
+base-experience: 78
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions:
+- Method: Level-Up
+  Level: '21'
+  Species: GLOOM
+moves:
+  level-up:
+  - 1: ABSORB
+  - 7: SWEET_SCENT
+  - 14: POISONPOWDER
+  - 16: STUN_SPORE
+  - 18: SLEEP_POWDER
+  - 23: ACID
+  - 32: MOONLIGHT
+  - 39: PETAL_DANCE
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg:
+  - SWORDS_DANCE
+  - RAZOR_LEAF
+  - FLAIL
+  - SYNTHESIS
+species: WEED
+height: 108
+weight: 120
+pokedex-entries: "During the day, it\nstays in the cold\favoid the sun.\nIt grows\
+  \ by bath-\ning in moonlight."
+icon: OddishIcon
+icon-palettes:
+- GREEN
+- BROWN

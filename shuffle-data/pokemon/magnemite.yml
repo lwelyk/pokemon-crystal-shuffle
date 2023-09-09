@@ -1,0 +1,66 @@
+constant: MAGNEMITE
+name: MAGNEMITE
+types:
+- Steel
+- Electric
+base-stats:
+  hp: 25
+  attack: 35
+  defense: 70
+  speed: 45
+  special-attack: 95
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 89
+held-items:
+- 'METAL_COAT '
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Mineral
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: MAGNETON
+moves:
+  level-up:
+  - 1: TACKLE
+  - 6: THUNDERSHOCK
+  - 11: SUPERSONIC
+  - 16: SONICBOOM
+  - 21: THUNDER_WAVE
+  - 27: LOCK_ON
+  - 33: SWIFT
+  - 39: SCREECH
+  - 45: ZAP_CANNON
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: MAGNET
+height: 100
+weight: 130
+pokedex-entries: "The electricity\nemitted by the\fof its body cause\nit to become\
+  \ a\nstrong magnet."
+icon: MagnemiteIcon
+icon-palettes:
+- GRAY
+- GRAY

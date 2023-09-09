@@ -1,0 +1,79 @@
+constant: EEVEE
+name: EEVEE
+types:
+- Normal
+base-stats:
+  hp: 55
+  attack: 55
+  defense: 50
+  speed: 55
+  special-attack: 45
+  special-defense: 65
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 92
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 35
+egg-groups:
+- Ground
+evolutions:
+- Method: Item
+  Used Item: THUNDERSTONE
+  Species: JOLTEON
+- Method: Item
+  Used Item: WATER_STONE
+  Species: VAPOREON
+- Method: Item
+  Used Item: FIRE_STONE
+  Species: FLAREON
+- Method: Happiness
+  Time: TR_MORNDAY
+  Species: ESPEON
+- Method: Happiness
+  Time: TR_NITE
+  Species: UMBREON
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: TAIL_WHIP
+  - 8: SAND_ATTACK
+  - 16: GROWL
+  - 23: QUICK_ATTACK
+  - 30: BITE
+  - 36: BATON_PASS
+  - 42: TAKE_DOWN
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  egg:
+  - FLAIL
+  - CHARM
+species: EVOLUTION
+height: 100
+weight: 140
+pokedex-entries: "Its ability to\nevolve into many\fadapt smoothly\nand perfectly\
+  \ to\nany environment."
+icon: EeveeIcon
+icon-palettes:
+- BROWN
+- GRAY

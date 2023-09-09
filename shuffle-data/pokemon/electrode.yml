@@ -1,0 +1,66 @@
+constant: ELECTRODE
+name: ELECTRODE
+types:
+- Electric
+base-stats:
+  hp: 60
+  attack: 50
+  defense: 70
+  speed: 140
+  special-attack: 80
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 150
+held-items: []
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Mineral
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: SCREECH
+  - 1: SONICBOOM
+  - 1: SELFDESTRUCT
+  - 9: SCREECH
+  - 17: SONICBOOM
+  - 23: SELFDESTRUCT
+  - 29: ROLLOUT
+  - 34: LIGHT_SCREEN
+  - 40: SWIFT
+  - 44: EXPLOSION
+  - 48: MIRROR_COAT
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: BALL
+height: 311
+weight: 1470
+pokedex-entries: "The more energy it\ncharges up, the\fBut this also\nmakes it more\n\
+  likely to explode."
+icon: ElectrodeIcon
+icon-palettes:
+- RED
+- BLUE

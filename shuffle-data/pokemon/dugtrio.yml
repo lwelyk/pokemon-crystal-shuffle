@@ -1,0 +1,66 @@
+constant: DUGTRIO
+name: DUGTRIO
+types:
+- Ground
+base-stats:
+  hp: 35
+  attack: 80
+  defense: 50
+  speed: 120
+  special-attack: 50
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 50
+base-experience: 153
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TRI_ATTACK
+  - 1: SCRATCH
+  - 1: GROWL
+  - 1: MAGNITUDE
+  - 5: GROWL
+  - 9: MAGNITUDE
+  - 17: DIG
+  - 25: SAND_ATTACK
+  - 37: SLASH
+  - 49: EARTHQUAKE
+  - 61: FISSURE
+  taught:
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - THIEF
+  - CUT
+  egg: []
+species: MOLE
+height: 204
+weight: 730
+pokedex-entries: "These DIGLETT\ntriplets dig over\flevel. No one\nknows what it's\n\
+  like underground."
+icon: DugtrioIcon
+icon-palettes:
+- BROWN
+- BLUE

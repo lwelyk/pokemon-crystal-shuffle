@@ -1,0 +1,80 @@
+constant: SENTRET
+name: SENTRET
+types:
+- Normal
+base-stats:
+  hp: 35
+  attack: 46
+  defense: 34
+  speed: 20
+  special-attack: 35
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 57
+held-items:
+- 'BERRY '
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '15'
+  Species: FURRET
+moves:
+  level-up:
+  - 1: TACKLE
+  - 5: DEFENSE_CURL
+  - 11: QUICK_ATTACK
+  - 17: FURY_SWIPES
+  - 25: SLAM
+  - 33: REST
+  - 41: AMNESIA
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - SURF
+  egg:
+  - DOUBLE_EDGE
+  - PURSUIT
+  - SLASH
+  - FOCUS_ENERGY
+  - REVERSAL
+species: SCOUT
+height: 207
+weight: 130
+pokedex-entries: "When acting as a\nlookout, it warns\fby screeching and\nhitting\
+  \ the ground\nwith its tail."
+icon: SentretIcon
+icon-palettes:
+- BROWN
+- PURPLE

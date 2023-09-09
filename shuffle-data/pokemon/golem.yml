@@ -1,0 +1,77 @@
+constant: GOLEM
+name: GOLEM
+types:
+- Ground
+- Rock
+base-stats:
+  hp: 80
+  attack: 110
+  defense: 130
+  speed: 45
+  special-attack: 55
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 177
+held-items:
+- 'EVERSTONE '
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Mineral
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: DEFENSE_CURL
+  - 1: ROCK_THROW
+  - 1: MAGNITUDE
+  - 6: DEFENSE_CURL
+  - 11: ROCK_THROW
+  - 16: MAGNITUDE
+  - 21: SELFDESTRUCT
+  - 27: HARDEN
+  - 34: ROLLOUT
+  - 41: EARTHQUAKE
+  - 48: EXPLOSION
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: MEGATON
+height: 407
+weight: 6620
+pokedex-entries: "Its rock-like body\nis so durable,\fdynamite blasts\nfail to scratch\n\
+  its rugged hide."
+icon: GolemIcon
+icon-palettes:
+- GRAY
+- BROWN

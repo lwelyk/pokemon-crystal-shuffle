@@ -1,0 +1,77 @@
+constant: MAGBY
+name: MAGBY
+types:
+- Fire
+base-stats:
+  hp: 45
+  attack: 75
+  defense: 37
+  speed: 83
+  special-attack: 70
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 117
+held-items:
+- BURNT_BERRY
+- 'BURNT_BERRY '
+female-ratio: '25'
+egg-cycle: 25
+egg-groups:
+- None
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: MAGMAR
+moves:
+  level-up:
+  - 1: EMBER
+  - 7: LEER
+  - 13: SMOG
+  - 19: FIRE_PUNCH
+  - 25: SMOKESCREEN
+  - 31: SUNNY_DAY
+  - 37: FLAMETHROWER
+  - 43: CONFUSE_RAY
+  - 49: FIRE_BLAST
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - PSYCHIC_M
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FLAMETHROWER
+  egg:
+  - KARATE_CHOP
+  - MEGA_PUNCH
+  - BARRIER
+  - SCREECH
+  - CROSS_CHOP
+species: LIVE COAL
+height: 204
+weight: 470
+pokedex-entries: "It naturally spits\nan 1100-degree\fwhen many appear,\nit heralds\
+  \ a\nvolcanic eruption."
+icon: MagbyIcon
+icon-palettes:
+- RED
+- PINK

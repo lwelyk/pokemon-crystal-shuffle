@@ -1,0 +1,65 @@
+constant: SLUGMA
+name: SLUGMA
+types:
+- Fire
+base-stats:
+  hp: 40
+  attack: 40
+  defense: 40
+  speed: 20
+  special-attack: 70
+  special-defense: 40
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 78
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions:
+- Method: Level-Up
+  Level: '38'
+  Species: MAGCARGO
+moves:
+  level-up:
+  - 1: SMOG
+  - 8: EMBER
+  - 15: ROCK_THROW
+  - 22: HARDEN
+  - 29: AMNESIA
+  - 36: FLAMETHROWER
+  - 43: ROCK_SLIDE
+  - 50: BODY_SLAM
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg:
+  - ACID_ARMOR
+species: LAVA
+height: 204
+weight: 770
+pokedex-entries: "These group to-\ngether in areas\fthan normal. If it\ncools off,\
+  \ its\nskin hardens."
+icon: SlugmaIcon
+icon-palettes:
+- RED
+- GRAY

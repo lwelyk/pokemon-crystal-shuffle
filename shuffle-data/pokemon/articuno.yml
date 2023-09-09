@@ -1,0 +1,68 @@
+constant: ARTICUNO
+name: ARTICUNO
+types:
+- Ice
+- Flying
+base-stats:
+  hp: 90
+  attack: 85
+  defense: 100
+  speed: 85
+  special-attack: 95
+  special-defense: 125
+growth-rate: Slow
+catch-rate: 3
+base-experience: 215
+held-items: []
+female-ratio: Unknown
+egg-cycle: 80
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: GUST
+  - 1: POWDER_SNOW
+  - 13: MIST
+  - 25: AGILITY
+  - 37: MIND_READER
+  - 49: ICE_BEAM
+  - 61: REFLECT
+  - 73: BLIZZARD
+  taught:
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - SWIFT
+  - DETECT
+  - REST
+  - STEEL_WING
+  - FLY
+  - ICE_BEAM
+  egg: []
+species: FREEZE
+height: 507
+weight: 1220
+pokedex-entries: "Legendary bird\n#MON. As it\fsky, it cools the\nair, causing snow\n\
+  to fall."
+icon: ArticunoIcon
+icon-palettes:
+- BLUE
+- BLUE

@@ -1,0 +1,87 @@
+constant: LUGIA
+name: LUGIA
+types:
+- Flying
+- Psychic
+base-stats:
+  hp: 106
+  attack: 90
+  defense: 130
+  speed: 110
+  special-attack: 90
+  special-defense: 154
+growth-rate: Slow
+catch-rate: 3
+base-experience: 220
+held-items: []
+female-ratio: Unknown
+egg-cycle: 120
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: AEROBLAST
+  - 11: SAFEGUARD
+  - 22: GUST
+  - 33: RECOVER
+  - 44: HYDRO_PUMP
+  - 55: RAIN_DANCE
+  - 66: SWIFT
+  - 77: WHIRLWIND
+  - 88: ANCIENTPOWER
+  - 99: FUTURE_SIGHT
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - SWIFT
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - STEEL_WING
+  - NIGHTMARE
+  - FLY
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: DIVING
+height: 1701
+weight: 4760
+pokedex-entries: "It has an incred-\nible ability to\frms. It is said\nthat LUGIA\
+  \ appears\nwhen storms start."
+icon: LugiaIcon
+icon-palettes:
+- BLUE
+- TEAL

@@ -1,0 +1,81 @@
+constant: BLASTOISE
+name: BLASTOISE
+types:
+- Water
+base-stats:
+  hp: 79
+  attack: 83
+  defense: 100
+  speed: 78
+  special-attack: 85
+  special-defense: 105
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 210
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: TAIL_WHIP
+  - 1: BUBBLE
+  - 1: WITHDRAW
+  - 4: TAIL_WHIP
+  - 7: BUBBLE
+  - 10: WITHDRAW
+  - 13: WATER_GUN
+  - 19: BITE
+  - 25: RAPID_SPIN
+  - 31: PROTECT
+  - 42: RAIN_DANCE
+  - 55: SKULL_BASH
+  - 68: HYDRO_PUMP
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg: []
+species: SHELLFISH
+height: 503
+weight: 1890
+pokedex-entries: "It firmly plants\nits feet on the\fshooting water\nfrom the jets\
+  \ on\nits back."
+icon: BlastoiseIcon
+icon-palettes:
+- BLUE
+- TEAL

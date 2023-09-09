@@ -1,0 +1,72 @@
+constant: FLAAFFY
+name: FLAAFFY
+types:
+- Electric
+base-stats:
+  hp: 70
+  attack: 55
+  defense: 55
+  speed: 45
+  special-attack: 80
+  special-defense: 60
+growth-rate: Medium-Slow
+catch-rate: 120
+base-experience: 117
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: AMPHAROS
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 1: THUNDERSHOCK
+  - 9: THUNDERSHOCK
+  - 18: THUNDER_WAVE
+  - 27: COTTON_SPORE
+  - 36: LIGHT_SCREEN
+  - 45: THUNDER
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - STRENGTH
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: WOOL
+height: 207
+weight: 290
+pokedex-entries: "Because of its\nrubbery, electric-\fskin, it can store\nlots of\
+  \ electric-\nity in its fur."
+icon: FlaaffyIcon
+icon-palettes:
+- PINK
+- PINK

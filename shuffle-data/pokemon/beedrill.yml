@@ -1,0 +1,64 @@
+constant: BEEDRILL
+name: BEEDRILL
+types:
+- Poison
+- Bug
+base-stats:
+  hp: 65
+  attack: 80
+  defense: 40
+  speed: 75
+  special-attack: 45
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 159
+held-items:
+- 'POISON_BARB '
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: FURY_ATTACK
+  - 10: FURY_ATTACK
+  - 15: FOCUS_ENERGY
+  - 20: TWINEEDLE
+  - 25: RAGE
+  - 30: PURSUIT
+  - 35: PIN_MISSILE
+  - 40: AGILITY
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - SWIFT
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  egg: []
+species: POISON BEE
+height: 303
+weight: 650
+pokedex-entries: "It uses sharp,\npoisonous stings\fthen takes the\nvictim back to\
+  \ its\nnest for food."
+icon: BeedrillIcon
+icon-palettes:
+- RED
+- BLUE

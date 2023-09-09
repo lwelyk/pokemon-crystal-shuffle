@@ -1,0 +1,75 @@
+constant: MAGMAR
+name: MAGMAR
+types:
+- Fire
+base-stats:
+  hp: 65
+  attack: 95
+  defense: 57
+  speed: 93
+  special-attack: 100
+  special-defense: 85
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 167
+held-items:
+- BURNT_BERRY
+- 'BURNT_BERRY '
+female-ratio: '25'
+egg-cycle: 25
+egg-groups:
+- Humanshape
+evolutions: []
+moves:
+  level-up:
+  - 1: EMBER
+  - 1: LEER
+  - 1: SMOG
+  - 1: FIRE_PUNCH
+  - 7: LEER
+  - 13: SMOG
+  - 19: FIRE_PUNCH
+  - 25: SMOKESCREEN
+  - 33: SUNNY_DAY
+  - 41: FLAMETHROWER
+  - 49: CONFUSE_RAY
+  - 57: FIRE_BLAST
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - PSYCHIC_M
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: SPITFIRE
+height: 403
+weight: 980
+pokedex-entries: "It moves more\nfrequently in hot\fitself by dipping\nits wound into\n\
+  lava."
+icon: MagmarIcon
+icon-palettes:
+- RED
+- PURPLE

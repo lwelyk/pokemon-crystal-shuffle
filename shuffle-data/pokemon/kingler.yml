@@ -1,0 +1,69 @@
+constant: KINGLER
+name: KINGLER
+types:
+- Water
+base-stats:
+  hp: 55
+  attack: 130
+  defense: 115
+  speed: 75
+  special-attack: 50
+  special-defense: 50
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 206
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: BUBBLE
+  - 1: LEER
+  - 1: VICEGRIP
+  - 5: LEER
+  - 12: VICEGRIP
+  - 16: HARDEN
+  - 23: STOMP
+  - 27: GUILLOTINE
+  - 38: PROTECT
+  - 49: CRABHAMMER
+  taught:
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: PINCER
+height: 403
+weight: 1320
+pokedex-entries: "Its oversized claw\nis very powerful,\fin battle, the\nclaw just\
+  \ gets in\nthe way."
+icon: KinglerIcon
+icon-palettes:
+- RED
+- GRAY

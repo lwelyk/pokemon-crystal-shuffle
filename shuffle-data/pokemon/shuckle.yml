@@ -1,0 +1,69 @@
+constant: SHUCKLE
+name: SHUCKLE
+types:
+- Bug
+- Rock
+base-stats:
+  hp: 20
+  attack: 10
+  defense: 230
+  speed: 5
+  special-attack: 10
+  special-defense: 230
+growth-rate: Medium-Slow
+catch-rate: 190
+base-experience: 80
+held-items:
+- BERRY
+- 'BERRY '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: CONSTRICT
+  - 1: WITHDRAW
+  - 9: WRAP
+  - 14: ENCORE
+  - 23: SAFEGUARD
+  - 28: BIDE
+  - 37: REST
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - SANDSTORM
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STRENGTH
+  - FLASH
+  egg:
+  - SWEET_SCENT
+species: MOLD
+height: 200
+weight: 450
+pokedex-entries: "The fluid secreted\nby its toes carves\fnesting and can be\nmixed\
+  \ with BERRIES\nto make a drink."
+icon: ShuckleIcon
+icon-palettes:
+- RED
+- BLUE

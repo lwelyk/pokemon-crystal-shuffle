@@ -1,0 +1,73 @@
+constant: PORYGON2
+name: PORYGON2
+types:
+- Normal
+base-stats:
+  hp: 85
+  attack: 80
+  defense: 90
+  speed: 60
+  special-attack: 105
+  special-defense: 95
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 180
+held-items: []
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Mineral
+evolutions: []
+moves:
+  level-up:
+  - 1: CONVERSION2
+  - 1: TACKLE
+  - 1: CONVERSION
+  - 9: AGILITY
+  - 12: PSYBEAM
+  - 20: RECOVER
+  - 24: DEFENSE_CURL
+  - 32: LOCK_ON
+  - 36: TRI_ATTACK
+  - 44: ZAP_CANNON
+  taught:
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - REST
+  - THIEF
+  - NIGHTMARE
+  - FLASH
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: VIRTUAL
+height: 200
+weight: 720
+pokedex-entries: "This manmade\n#MON evolved\ftechnology. It\nmay have unprog-\nrammed\
+  \ reactions."
+icon: Porygon2Icon
+icon-palettes:
+- BLUE
+- BLUE

@@ -1,0 +1,68 @@
+constant: TENTACRUEL
+name: TENTACRUEL
+types:
+- Poison
+- Water
+base-stats:
+  hp: 80
+  attack: 70
+  defense: 65
+  speed: 100
+  special-attack: 80
+  special-defense: 120
+growth-rate: Slow
+catch-rate: 60
+base-experience: 205
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: POISON_STING
+  - 1: SUPERSONIC
+  - 1: CONSTRICT
+  - 6: SUPERSONIC
+  - 12: CONSTRICT
+  - 19: ACID
+  - 25: BUBBLEBEAM
+  - 30: WRAP
+  - 38: BARRIER
+  - 47: SCREECH
+  - 55: HYDRO_PUMP
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - SURF
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: JELLYFISH
+height: 503
+weight: 1210
+pokedex-entries: "When its 80 feel-\ners absorb water,\fbecome like a net\nto entangle\
+  \ its\nprey."
+icon: TentacruelIcon
+icon-palettes:
+- BLUE
+- BLUE

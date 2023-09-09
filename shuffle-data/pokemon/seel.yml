@@ -1,0 +1,71 @@
+constant: SEEL
+name: SEEL
+types:
+- Water
+base-stats:
+  hp: 65
+  attack: 45
+  defense: 55
+  speed: 45
+  special-attack: 45
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 100
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '34'
+  Species: DEWGONG
+moves:
+  level-up:
+  - 1: HEADBUTT
+  - 5: GROWL
+  - 16: AURORA_BEAM
+  - 21: REST
+  - 32: TAKE_DOWN
+  - 37: ICE_BEAM
+  - 48: SAFEGUARD
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - REST
+  - ATTRACT
+  - SURF
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg:
+  - LICK
+  - PERISH_SONG
+  - DISABLE
+  - PECK
+  - SLAM
+  - ENCORE
+species: SEA LION
+height: 307
+weight: 1980
+pokedex-entries: "The light blue fur\nthat covers it\fagainst the cold.\nIt loves\
+  \ iceberg-\nfilled oceans."
+icon: SeelIcon
+icon-palettes:
+- BLUE
+- GRAY

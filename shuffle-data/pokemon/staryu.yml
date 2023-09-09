@@ -1,0 +1,75 @@
+constant: STARYU
+name: STARYU
+types:
+- Water
+base-stats:
+  hp: 30
+  attack: 45
+  defense: 55
+  speed: 85
+  special-attack: 70
+  special-defense: 55
+growth-rate: Slow
+catch-rate: 225
+base-experience: 106
+held-items:
+- STARDUST
+- 'STAR_PIECE '
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Water 3
+evolutions:
+- Method: Item
+  Used Item: WATER_STONE
+  Species: STARMIE
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: HARDEN
+  - 7: WATER_GUN
+  - 13: RAPID_SPIN
+  - 19: RECOVER
+  - 25: SWIFT
+  - 31: BUBBLEBEAM
+  - 37: MINIMIZE
+  - 43: LIGHT_SCREEN
+  - 50: HYDRO_PUMP
+  taught:
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - SURF
+  - FLASH
+  - WHIRLPOOL
+  - WATERFALL
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: STARSHAPE
+height: 207
+weight: 760
+pokedex-entries: "When the stars\ntwinkle at night,\fthe sea floor, and\nits body's\
+  \ center\ncore flickers."
+icon: StaryuIcon
+icon-palettes:
+- BROWN
+- BLUE

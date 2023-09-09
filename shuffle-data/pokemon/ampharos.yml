@@ -1,0 +1,72 @@
+constant: AMPHAROS
+name: AMPHAROS
+types:
+- Electric
+base-stats:
+  hp: 90
+  attack: 75
+  defense: 75
+  speed: 55
+  special-attack: 115
+  special-defense: 90
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 194
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 1: THUNDERSHOCK
+  - 1: THUNDER_WAVE
+  - 9: THUNDERSHOCK
+  - 18: THUNDER_WAVE
+  - 27: COTTON_SPORE
+  - 30: THUNDERPUNCH
+  - 42: LIGHT_SCREEN
+  - 57: THUNDER
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - STRENGTH
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: LIGHT
+height: 407
+weight: 1360
+pokedex-entries: "When it gets dark,\nthe light from its\fcan be seen from\nfar away\
+  \ on the\nocean's surface."
+icon: AmpharosIcon
+icon-palettes:
+- BROWN
+- BLUE

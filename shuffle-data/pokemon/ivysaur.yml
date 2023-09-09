@@ -1,0 +1,74 @@
+constant: IVYSAUR
+name: IVYSAUR
+types:
+- Grass
+- Poison
+base-stats:
+  hp: 60
+  attack: 62
+  defense: 63
+  speed: 60
+  special-attack: 80
+  special-defense: 80
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 141
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Plant
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '32'
+  Species: VENUSAUR
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 1: LEECH_SEED
+  - 4: GROWL
+  - 7: LEECH_SEED
+  - 10: VINE_WHIP
+  - 15: POISONPOWDER
+  - 15: SLEEP_POWDER
+  - 22: RAZOR_LEAF
+  - 29: SWEET_SCENT
+  - 38: GROWTH
+  - 47: SYNTHESIS
+  - 56: SOLARBEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  - FLASH
+  egg: []
+species: SEED
+height: 303
+weight: 290
+pokedex-entries: "The bulb on its\nback grows as it\fThe bulb gives off\na pleasant\
+  \ aroma\nwhen it blooms."
+icon: IvysaurIcon
+icon-palettes:
+- TEAL
+- GREEN

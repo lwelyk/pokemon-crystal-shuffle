@@ -1,0 +1,73 @@
+constant: KABUTOPS
+name: KABUTOPS
+types:
+- Rock
+- Water
+base-stats:
+  hp: 60
+  attack: 115
+  defense: 105
+  speed: 80
+  special-attack: 65
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 201
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 30
+egg-groups:
+- Water 1
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: HARDEN
+  - 1: ABSORB
+  - 10: ABSORB
+  - 19: LEER
+  - 28: SAND_ATTACK
+  - 37: ENDURE
+  - 40: SLASH
+  - 51: MEGA_DRAIN
+  - 65: ANCIENTPOWER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - SURF
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: SHELLFISH
+height: 403
+weight: 890
+pokedex-entries: "It was able to\nswim quickly thro-\fcompactly folding\nup its razor-sharp\n\
+  sickles."
+icon: KabutopsIcon
+icon-palettes:
+- BROWN
+- GRAY

@@ -1,0 +1,85 @@
+constant: HO_OH
+name: HO-OH
+types:
+- Fire
+- Flying
+base-stats:
+  hp: 106
+  attack: 130
+  defense: 90
+  speed: 90
+  special-attack: 110
+  special-defense: 154
+growth-rate: Slow
+catch-rate: 3
+base-experience: 220
+held-items:
+- SACRED_ASH
+- 'SACRED_ASH '
+female-ratio: Unknown
+egg-cycle: 120
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: SACRED_FIRE
+  - 11: SAFEGUARD
+  - 22: GUST
+  - 33: RECOVER
+  - 44: FIRE_BLAST
+  - 55: SUNNY_DAY
+  - 66: SWIFT
+  - 77: WHIRLWIND
+  - 88: ANCIENTPOWER
+  - 99: FUTURE_SIGHT
+  taught:
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - DRAGONBREATH
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - SWIFT
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - STEEL_WING
+  - NIGHTMARE
+  - FLY
+  - STRENGTH
+  - FLASH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  egg: []
+species: RAINBOW
+height: 1206
+weight: 4390
+pokedex-entries: "It will reveal\nitself before a\ftrainer by shining\nits bright\
+  \ rain-\nbow-colored wings."
+icon: HoOhIcon
+icon-palettes:
+- RED
+- BROWN

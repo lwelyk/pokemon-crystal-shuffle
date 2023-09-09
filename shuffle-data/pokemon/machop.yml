@@ -1,0 +1,78 @@
+constant: MACHOP
+name: MACHOP
+types:
+- Fighting
+base-stats:
+  hp: 70
+  attack: 80
+  defense: 50
+  speed: 35
+  special-attack: 35
+  special-defense: 35
+growth-rate: Medium-Slow
+catch-rate: 180
+base-experience: 88
+held-items: []
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Humanshape
+evolutions:
+- Method: Level-Up
+  Level: '28'
+  Species: MACHOKE
+moves:
+  level-up:
+  - 1: LOW_KICK
+  - 1: LEER
+  - 7: FOCUS_ENERGY
+  - 13: KARATE_CHOP
+  - 19: SEISMIC_TOSS
+  - 25: FORESIGHT
+  - 31: VITAL_THROW
+  - 37: CROSS_CHOP
+  - 43: SCARY_FACE
+  - 49: SUBMISSION
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  - FLAMETHROWER
+  egg:
+  - LIGHT_SCREEN
+  - MEDITATE
+  - ROLLING_KICK
+  - ENCORE
+species: SUPERPOWER
+height: 207
+weight: 430
+pokedex-entries: "It trains by\nlifting rocks in\fcan even pick up a\nGRAVELER with\n\
+  ease."
+icon: MachopIcon
+icon-palettes:
+- BROWN
+- GRAY

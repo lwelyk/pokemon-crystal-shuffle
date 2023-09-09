@@ -1,0 +1,73 @@
+constant: REMORAID
+name: REMORAID
+types:
+- Water
+base-stats:
+  hp: 35
+  attack: 65
+  defense: 35
+  speed: 65
+  special-attack: 65
+  special-defense: 35
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 78
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Water 2
+evolutions:
+- Method: Level-Up
+  Level: '25'
+  Species: OCTILLERY
+moves:
+  level-up:
+  - 1: WATER_GUN
+  - 11: LOCK_ON
+  - 22: PSYBEAM
+  - 22: AURORA_BEAM
+  - 22: BUBBLEBEAM
+  - 33: FOCUS_ENERGY
+  - 44: ICE_BEAM
+  - 55: HYPER_BEAM
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - WHIRLPOOL
+  - FLAMETHROWER
+  - ICE_BEAM
+  egg:
+  - AURORA_BEAM
+  - OCTAZOOKA
+  - SUPERSONIC
+  - HAZE
+  - SCREECH
+species: JET
+height: 200
+weight: 260
+pokedex-entries: "To escape from an\nattacker, it may\fits mouth, then\nuse that force\
+  \ to\nswim backward."
+icon: RemoraidIcon
+icon-palettes:
+- BLUE
+- GRAY

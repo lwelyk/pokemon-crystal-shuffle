@@ -1,0 +1,66 @@
+constant: PIDGEOT
+name: PIDGEOT
+types:
+- Flying
+- Normal
+base-stats:
+  hp: 83
+  attack: 80
+  defense: 75
+  speed: 91
+  special-attack: 70
+  special-defense: 70
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 172
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Flying
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: SAND_ATTACK
+  - 1: GUST
+  - 1: QUICK_ATTACK
+  - 5: SAND_ATTACK
+  - 9: GUST
+  - 15: QUICK_ATTACK
+  - 23: WHIRLWIND
+  - 33: WING_ATTACK
+  - 46: AGILITY
+  - 61: MIRROR_MOVE
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - FLY
+  egg: []
+species: BIRD
+height: 411
+weight: 870
+pokedex-entries: "Its outstanding\nvision allows it\fMAGIKARP, even\nwhile flying\
+  \ at\n3300 feet."
+icon: PidgeotIcon
+icon-palettes:
+- BROWN
+- GREEN

@@ -1,0 +1,79 @@
+constant: PARAS
+name: PARAS
+types:
+- Grass
+- Bug
+base-stats:
+  hp: 35
+  attack: 70
+  defense: 55
+  speed: 25
+  special-attack: 45
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 70
+held-items:
+- TINYMUSHROOM
+- 'BIG_MUSHROOM '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '24'
+  Species: PARASECT
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 7: STUN_SPORE
+  - 13: POISONPOWDER
+  - 19: LEECH_LIFE
+  - 25: SPORE
+  - 31: SLASH
+  - 37: GROWTH
+  - 43: GIGA_DRAIN
+  taught:
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DIG
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - FLASH
+  egg:
+  - FALSE_SWIPE
+  - SCREECH
+  - COUNTER
+  - PSYBEAM
+  - FLAIL
+  - LIGHT_SCREEN
+  - PURSUIT
+species: MUSHROOM
+height: 100
+weight: 120
+pokedex-entries: "The tochukaso\ngrowing on this\forders it to\nextract juice from\n\
+  tree trunks."
+icon: ParasIcon
+icon-palettes:
+- RED
+- BROWN

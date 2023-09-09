@@ -1,0 +1,69 @@
+constant: ZAPDOS
+name: ZAPDOS
+types:
+- Electric
+- Flying
+base-stats:
+  hp: 90
+  attack: 90
+  defense: 85
+  speed: 100
+  special-attack: 125
+  special-defense: 90
+growth-rate: Slow
+catch-rate: 3
+base-experience: 216
+held-items: []
+female-ratio: Unknown
+egg-cycle: 80
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: PECK
+  - 1: THUNDERSHOCK
+  - 13: THUNDER_WAVE
+  - 25: AGILITY
+  - 37: DETECT
+  - 49: DRILL_PECK
+  - 61: LIGHT_SCREEN
+  - 73: THUNDER
+  taught:
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - SWIFT
+  - DETECT
+  - REST
+  - STEEL_WING
+  - FLY
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: ELECTRIC
+height: 503
+weight: 1160
+pokedex-entries: "Legendary bird\n#MON. They say\fby the flapping of\nits wings causes\n\
+  summer storms."
+icon: ZapdosIcon
+icon-palettes:
+- BROWN
+- RED

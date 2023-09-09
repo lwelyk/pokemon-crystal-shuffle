@@ -1,0 +1,35 @@
+constant: DITTO
+name: DITTO
+types:
+- Normal
+base-stats:
+  hp: 48
+  attack: 48
+  defense: 48
+  speed: 48
+  special-attack: 48
+  special-defense: 48
+growth-rate: Medium-Fast
+catch-rate: 35
+base-experience: 61
+held-items: []
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Ditto
+evolutions: []
+moves:
+  level-up:
+  - 1: TRANSFORM
+  taught:
+  - ''
+  egg: []
+species: TRANSFORM
+height: 100
+weight: 90
+pokedex-entries: "When it encount-\ners another DITTO,\ffaster than normal\nto duplicate\
+  \ that\nopponent exactly."
+icon: DittoIcon
+icon-palettes:
+- PURPLE
+- BLUE

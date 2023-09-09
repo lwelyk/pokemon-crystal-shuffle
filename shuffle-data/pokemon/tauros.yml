@@ -1,0 +1,71 @@
+constant: TAUROS
+name: TAUROS
+types:
+- Normal
+base-stats:
+  hp: 75
+  attack: 100
+  defense: 95
+  speed: 110
+  special-attack: 40
+  special-defense: 70
+growth-rate: Slow
+catch-rate: 45
+base-experience: 211
+held-items: []
+female-ratio: '0'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 4: TAIL_WHIP
+  - 8: RAGE
+  - 13: HORN_ATTACK
+  - 19: SCARY_FACE
+  - 26: PURSUIT
+  - 34: REST
+  - 43: THRASH
+  - 53: TAKE_DOWN
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - REST
+  - ATTRACT
+  - SURF
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: WILD BULL
+height: 407
+weight: 1950
+pokedex-entries: "These violent\n#MON fight\fbers of their herd\nin order to prove\n\
+  their strength."
+icon: TaurosIcon
+icon-palettes:
+- BROWN
+- BROWN

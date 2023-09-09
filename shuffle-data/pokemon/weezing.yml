@@ -1,0 +1,67 @@
+constant: WEEZING
+name: WEEZING
+types:
+- Poison
+base-stats:
+  hp: 65
+  attack: 90
+  defense: 120
+  speed: 60
+  special-attack: 85
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 173
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions: []
+moves:
+  level-up:
+  - 1: POISON_GAS
+  - 1: TACKLE
+  - 1: SMOG
+  - 1: SELFDESTRUCT
+  - 9: SMOG
+  - 17: SELFDESTRUCT
+  - 21: SLUDGE
+  - 25: SMOKESCREEN
+  - 33: HAZE
+  - 44: EXPLOSION
+  - 51: DESTINY_BOND
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - FIRE_BLAST
+  - REST
+  - ATTRACT
+  - THIEF
+  - FLAMETHROWER
+  - THUNDERBOLT
+  egg: []
+species: POISON GAS
+height: 311
+weight: 210
+pokedex-entries: "When it inhales\npoisonous gases\fbody expands, and\nits insides\
+  \ smell\nmuch worse."
+icon: WeezingIcon
+icon-palettes:
+- PURPLE
+- BLUE

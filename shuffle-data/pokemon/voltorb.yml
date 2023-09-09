@@ -1,0 +1,65 @@
+constant: VOLTORB
+name: VOLTORB
+types:
+- Electric
+base-stats:
+  hp: 40
+  attack: 30
+  defense: 50
+  speed: 100
+  special-attack: 55
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 103
+held-items: []
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Mineral
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: ELECTRODE
+moves:
+  level-up:
+  - 1: TACKLE
+  - 9: SCREECH
+  - 17: SONICBOOM
+  - 23: SELFDESTRUCT
+  - 29: ROLLOUT
+  - 33: LIGHT_SCREEN
+  - 37: SWIFT
+  - 39: EXPLOSION
+  - 41: MIRROR_COAT
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: BALL
+height: 108
+weight: 230
+pokedex-entries: "During the study\nof this #MON,\fthat its compo-\nnents are not\n\
+  found in nature."
+icon: VoltorbIcon
+icon-palettes:
+- RED
+- BLUE

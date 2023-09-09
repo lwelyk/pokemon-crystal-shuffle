@@ -1,0 +1,73 @@
+constant: POLIWRATH
+name: POLIWRATH
+types:
+- Fighting
+- Water
+base-stats:
+  hp: 90
+  attack: 85
+  defense: 95
+  speed: 70
+  special-attack: 70
+  special-defense: 90
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 185
+held-items:
+- 'KINGS_ROCK '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+evolutions: []
+moves:
+  level-up:
+  - 1: WATER_GUN
+  - 1: HYPNOSIS
+  - 1: DOUBLESLAP
+  - 1: SUBMISSION
+  - 35: SUBMISSION
+  - 51: MIND_READER
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - PSYCHIC_M
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg: []
+species: TADPOLE
+height: 403
+weight: 1190
+pokedex-entries: "It can use its\nwell-developed\frun on the surface\nof the water\
+  \ for a\nsplit second."
+icon: PoliwrathIcon
+icon-palettes:
+- BLUE
+- TEAL

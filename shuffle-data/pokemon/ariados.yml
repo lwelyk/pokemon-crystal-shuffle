@@ -1,0 +1,68 @@
+constant: ARIADOS
+name: ARIADOS
+types:
+- Poison
+- Bug
+base-stats:
+  hp: 70
+  attack: 90
+  defense: 70
+  speed: 40
+  special-attack: 60
+  special-defense: 60
+growth-rate: Fast
+catch-rate: 90
+base-experience: 134
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: POISON_STING
+  - 1: STRING_SHOT
+  - 1: SCARY_FACE
+  - 1: CONSTRICT
+  - 6: SCARY_FACE
+  - 11: CONSTRICT
+  - 17: NIGHT_SHADE
+  - 25: LEECH_LIFE
+  - 34: FURY_SWIPES
+  - 43: SPIDER_WEB
+  - 53: AGILITY
+  - 63: PSYCHIC_M
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DIG
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - THIEF
+  - FLASH
+  egg: []
+species: LONG LEG
+height: 307
+weight: 740
+pokedex-entries: "Rather than mak-\ning a nest in one\fwanders in search\nof food\
+  \ after\ndarkness falls."
+icon: AriadosIcon
+icon-palettes:
+- RED
+- PURPLE

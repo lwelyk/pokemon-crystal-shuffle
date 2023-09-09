@@ -1,0 +1,68 @@
+constant: ZUBAT
+name: ZUBAT
+types:
+- Poison
+- Flying
+base-stats:
+  hp: 40
+  attack: 45
+  defense: 35
+  speed: 55
+  special-attack: 30
+  special-defense: 40
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 54
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Flying
+evolutions:
+- Method: Level-Up
+  Level: '22'
+  Species: GOLBAT
+moves:
+  level-up:
+  - 1: LEECH_LIFE
+  - 6: SUPERSONIC
+  - 12: BITE
+  - 19: CONFUSE_RAY
+  - 27: WING_ATTACK
+  - 36: MEAN_LOOK
+  - 46: HAZE
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  egg:
+  - QUICK_ATTACK
+  - PURSUIT
+  - FAINT_ATTACK
+  - GUST
+  - WHIRLWIND
+species: BAT
+height: 207
+weight: 170
+pokedex-entries: "During the day, it\ngathers with\ffrom the ceilings\nof old buildings\n\
+  and caves."
+icon: ZubatIcon
+icon-palettes:
+- BLUE
+- GREEN

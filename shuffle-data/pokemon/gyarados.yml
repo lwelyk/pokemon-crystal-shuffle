@@ -1,0 +1,75 @@
+constant: GYARADOS
+name: GYARADOS
+types:
+- Flying
+- Water
+base-stats:
+  hp: 95
+  attack: 125
+  defense: 79
+  speed: 81
+  special-attack: 60
+  special-defense: 100
+growth-rate: Slow
+catch-rate: 45
+base-experience: 214
+held-items: []
+female-ratio: '50'
+egg-cycle: 5
+egg-groups:
+- Dragon
+- Water 2
+evolutions: []
+moves:
+  level-up:
+  - 1: THRASH
+  - 20: BITE
+  - 25: DRAGON_RAGE
+  - 30: LEER
+  - 35: TWISTER
+  - 40: HYDRO_PUMP
+  - 45: RAIN_DANCE
+  - 50: HYPER_BEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - DRAGONBREATH
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - REST
+  - ATTRACT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: ATROCIOUS
+height: 2104
+weight: 5180
+pokedex-entries: "It appears when-\never there is\fburning down any\nplace it travels\n\
+  through."
+icon: GyaradosIcon
+icon-palettes:
+- BLUE
+- RED

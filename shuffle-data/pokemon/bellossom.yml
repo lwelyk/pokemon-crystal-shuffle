@@ -1,0 +1,58 @@
+constant: BELLOSSOM
+name: BELLOSSOM
+types:
+- Grass
+base-stats:
+  hp: 75
+  attack: 80
+  defense: 85
+  speed: 50
+  special-attack: 90
+  special-defense: 100
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 184
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions: []
+moves:
+  level-up:
+  - 1: ABSORB
+  - 1: SWEET_SCENT
+  - 1: STUN_SPORE
+  - 1: PETAL_DANCE
+  - 55: SOLARBEAM
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: FLOWER
+height: 104
+weight: 130
+pokedex-entries: "When these dance\ntogether, their\feach other,\nmaking pretty,\n\
+  relaxing sounds."
+icon: BellossomIcon
+icon-palettes:
+- RED
+- PINK

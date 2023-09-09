@@ -1,0 +1,70 @@
+constant: CHIKORITA
+name: CHIKORITA
+types:
+- Grass
+base-stats:
+  hp: 45
+  attack: 49
+  defense: 65
+  speed: 45
+  special-attack: 49
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 64
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Plant
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '16'
+  Species: BAYLEEF
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 8: RAZOR_LEAF
+  - 12: REFLECT
+  - 15: POISONPOWDER
+  - 22: SYNTHESIS
+  - 29: BODY_SLAM
+  - 36: LIGHT_SCREEN
+  - 43: SAFEGUARD
+  - 50: SOLARBEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DETECT
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: LEAF
+height: 211
+weight: 140
+pokedex-entries: "It loves to bask\nin the sunlight.\fon its head to\nseek out warm\n\
+  places."
+icon: ChikoritaIcon
+icon-palettes:
+- GREEN
+- BROWN

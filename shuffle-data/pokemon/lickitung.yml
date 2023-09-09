@@ -1,0 +1,87 @@
+constant: LICKITUNG
+name: LICKITUNG
+types:
+- Normal
+base-stats:
+  hp: 90
+  attack: 55
+  defense: 75
+  speed: 30
+  special-attack: 60
+  special-defense: 75
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 127
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: LICK
+  - 7: SUPERSONIC
+  - 13: DEFENSE_CURL
+  - 19: STOMP
+  - 25: WRAP
+  - 31: DISABLE
+  - 37: SLAM
+  - 43: SCREECH
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - CUT
+  - SURF
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg:
+  - BELLY_DRUM
+  - MAGNITUDE
+  - BODY_SLAM
+species: LICKING
+height: 311
+weight: 1440
+pokedex-entries: "It has a tongue\nthat is over 6'6''\flong tongue to\nlick its body\n\
+  clean."
+icon: LickitungIcon
+icon-palettes:
+- RED
+- PINK

@@ -1,0 +1,86 @@
+constant: MEWTWO
+name: MEWTWO
+types:
+- Psychic
+base-stats:
+  hp: 106
+  attack: 110
+  defense: 90
+  speed: 130
+  special-attack: 154
+  special-defense: 90
+growth-rate: Slow
+catch-rate: 3
+base-experience: 220
+held-items:
+- 'BERSERK_GENE '
+female-ratio: Unknown
+egg-cycle: 120
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: CONFUSION
+  - 1: DISABLE
+  - 11: BARRIER
+  - 22: SWIFT
+  - 33: PSYCH_UP
+  - 44: FUTURE_SIGHT
+  - 55: MIST
+  - 66: PSYCHIC_M
+  - 77: AMNESIA
+  - 88: RECOVER
+  - 99: SAFEGUARD
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - STRENGTH
+  - FLASH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: GENETIC
+height: 607
+weight: 2690
+pokedex-entries: "Said to rest qui-\netly in an\fthis #MON was\ncreated solely for\n\
+  battling."
+icon: MewtwoIcon
+icon-palettes:
+- PURPLE
+- BROWN

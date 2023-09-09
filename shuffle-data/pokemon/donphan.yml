@@ -1,0 +1,65 @@
+constant: DONPHAN
+name: DONPHAN
+types:
+- Ground
+base-stats:
+  hp: 90
+  attack: 120
+  defense: 120
+  speed: 50
+  special-attack: 60
+  special-defense: 60
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 189
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: HORN_ATTACK
+  - 1: GROWL
+  - 9: DEFENSE_CURL
+  - 17: FLAIL
+  - 25: FURY_ATTACK
+  - 33: ROLLOUT
+  - 41: RAPID_SPIN
+  - 49: EARTHQUAKE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STRENGTH
+  egg: []
+species: ARMOR
+height: 307
+weight: 2650
+pokedex-entries: "Because this\n#MON's skin is\fattack won't even\nleave a scratch\
+  \ on\nit."
+icon: DonphanIcon
+icon-palettes:
+- GRAY
+- BROWN

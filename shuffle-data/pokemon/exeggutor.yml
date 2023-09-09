@@ -1,0 +1,66 @@
+constant: EXEGGUTOR
+name: EXEGGUTOR
+types:
+- Grass
+- Psychic
+base-stats:
+  hp: 95
+  attack: 95
+  defense: 85
+  speed: 55
+  special-attack: 125
+  special-defense: 65
+growth-rate: Slow
+catch-rate: 45
+base-experience: 212
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions: []
+moves:
+  level-up:
+  - 1: BARRAGE
+  - 1: HYPNOSIS
+  - 1: CONFUSION
+  - 19: STOMP
+  - 31: EGG_BOMB
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - STRENGTH
+  - FLASH
+  egg: []
+species: COCONUT
+height: 607
+weight: 2650
+pokedex-entries: "Living in a good\nenvironment makes\fheads. A head that\ndrops off\
+  \ becomes\nan EXEGGCUTE."
+icon: ExeggutorIcon
+icon-palettes:
+- GREEN
+- BROWN

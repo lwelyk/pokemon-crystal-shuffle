@@ -1,0 +1,71 @@
+constant: VULPIX
+name: VULPIX
+types:
+- Fire
+base-stats:
+  hp: 38
+  attack: 41
+  defense: 40
+  speed: 65
+  special-attack: 50
+  special-defense: 65
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 63
+held-items:
+- BURNT_BERRY
+- 'BURNT_BERRY '
+female-ratio: '75'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Item
+  Used Item: FIRE_STONE
+  Species: NINETALES
+moves:
+  level-up:
+  - 1: EMBER
+  - 1: TAIL_WHIP
+  - 7: QUICK_ATTACK
+  - 13: ROAR
+  - 19: CONFUSE_RAY
+  - 25: SAFEGUARD
+  - 31: FLAMETHROWER
+  - 37: FIRE_SPIN
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg:
+  - FAINT_ATTACK
+  - HYPNOSIS
+  - FLAIL
+  - SPITE
+  - DISABLE
+species: FOX
+height: 200
+weight: 220
+pokedex-entries: "As its body grows\nlarger, its six\fmore beautiful,\nwith a more\
+  \ luxur-\nious coat of fur."
+icon: VulpixIcon
+icon-palettes:
+- RED
+- BROWN

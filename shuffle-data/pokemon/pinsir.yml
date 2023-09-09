@@ -1,0 +1,64 @@
+constant: PINSIR
+name: PINSIR
+types:
+- Bug
+base-stats:
+  hp: 65
+  attack: 125
+  defense: 100
+  speed: 85
+  special-attack: 55
+  special-defense: 70
+growth-rate: Slow
+catch-rate: 45
+base-experience: 200
+held-items: []
+female-ratio: '50'
+egg-cycle: 25
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: VICEGRIP
+  - 7: FOCUS_ENERGY
+  - 13: BIND
+  - 19: SEISMIC_TOSS
+  - 25: HARDEN
+  - 31: GUILLOTINE
+  - 37: SUBMISSION
+  - 43: SWORDS_DANCE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  egg:
+  - FURY_ATTACK
+  - FLAIL
+species: STAGBEETLE
+height: 411
+weight: 1210
+pokedex-entries: "When the tempera-\nture drops at\fon treetops or\namong roots where\n\
+  it is well hidden."
+icon: PinsirIcon
+icon-palettes:
+- BROWN
+- GRAY

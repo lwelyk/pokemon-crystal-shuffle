@@ -1,0 +1,66 @@
+constant: HITMONLEE
+name: HITMONLEE
+types:
+- Fighting
+base-stats:
+  hp: 50
+  attack: 120
+  defense: 53
+  speed: 87
+  special-attack: 35
+  special-defense: 110
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 139
+held-items: []
+female-ratio: '0'
+egg-cycle: 25
+egg-groups:
+- Humanshape
+evolutions: []
+moves:
+  level-up:
+  - 1: DOUBLE_KICK
+  - 6: MEDITATE
+  - 11: ROLLING_KICK
+  - 16: JUMP_KICK
+  - 21: FOCUS_ENERGY
+  - 26: HI_JUMP_KICK
+  - 31: MIND_READER
+  - 36: FORESIGHT
+  - 41: ENDURE
+  - 46: MEGA_KICK
+  - 51: REVERSAL
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STRENGTH
+  egg: []
+species: KICKING
+height: 411
+weight: 1100
+pokedex-entries: "It is also called\nthe Kick Master.\felastic legs to\nexecute every\n\
+  known kick."
+icon: HitmonleeIcon
+icon-palettes:
+- BROWN
+- GREEN

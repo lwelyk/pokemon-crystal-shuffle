@@ -1,0 +1,71 @@
+constant: ESPEON
+name: ESPEON
+types:
+- Psychic
+base-stats:
+  hp: 65
+  attack: 65
+  defense: 60
+  speed: 110
+  special-attack: 130
+  special-defense: 95
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 197
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 35
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: TAIL_WHIP
+  - 8: SAND_ATTACK
+  - 16: CONFUSION
+  - 23: QUICK_ATTACK
+  - 30: SWIFT
+  - 36: PSYBEAM
+  - 42: PSYCH_UP
+  - 47: PSYCHIC_M
+  - 52: MORNING_SUN
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - NIGHTMARE
+  - CUT
+  - FLASH
+  egg: []
+species: SUN
+height: 211
+weight: 580
+pokedex-entries: "The tip of its\nforked tail\fpredicting its\nopponent's next\nmove."
+icon: EspeonIcon
+icon-palettes:
+- PURPLE
+- GREEN

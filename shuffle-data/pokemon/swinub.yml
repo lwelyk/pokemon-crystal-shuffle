@@ -1,0 +1,74 @@
+constant: SWINUB
+name: SWINUB
+types:
+- Ice
+- Ground
+base-stats:
+  hp: 50
+  attack: 50
+  defense: 40
+  speed: 50
+  special-attack: 30
+  special-defense: 30
+growth-rate: Slow
+catch-rate: 225
+base-experience: 78
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '33'
+  Species: PILOSWINE
+moves:
+  level-up:
+  - 1: TACKLE
+  - 10: POWDER_SNOW
+  - 19: ENDURE
+  - 28: TAKE_DOWN
+  - 37: MIST
+  - 46: BLIZZARD
+  - 55: AMNESIA
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - STRENGTH
+  - ICE_BEAM
+  egg:
+  - TAKE_DOWN
+  - BITE
+  - BODY_SLAM
+  - ROCK_SLIDE
+  - ANCIENTPOWER
+species: PIG
+height: 104
+weight: 140
+pokedex-entries: "It uses the tip of\nits nose to dig\fis so tough that\neven frozen\
+  \ ground\nposes no problem."
+icon: SwinubIcon
+icon-palettes:
+- BROWN
+- BLUE

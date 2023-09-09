@@ -1,0 +1,75 @@
+constant: RATTATA
+name: RATTATA
+types:
+- Normal
+base-stats:
+  hp: 30
+  attack: 56
+  defense: 35
+  speed: 72
+  special-attack: 25
+  special-defense: 35
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 57
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '20'
+  Species: RATICATE
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: TAIL_WHIP
+  - 7: QUICK_ATTACK
+  - 13: HYPER_FANG
+  - 20: FOCUS_ENERGY
+  - 27: PURSUIT
+  - 34: SUPER_FANG
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DIG
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - THIEF
+  egg:
+  - SCREECH
+  - FLAME_WHEEL
+  - FURY_SWIPES
+  - BITE
+  - COUNTER
+  - REVERSAL
+species: RAT
+height: 100
+weight: 80
+pokedex-entries: "This #MON's\nimpressive vital-\flive anywhere. It\nalso multiplies\n\
+  very quickly."
+icon: RattataIcon
+icon-palettes:
+- PURPLE
+- GRAY

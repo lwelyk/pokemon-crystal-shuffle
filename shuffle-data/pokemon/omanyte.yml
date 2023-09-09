@@ -1,0 +1,75 @@
+constant: OMANYTE
+name: OMANYTE
+types:
+- Rock
+- Water
+base-stats:
+  hp: 35
+  attack: 40
+  defense: 100
+  speed: 35
+  special-attack: 90
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 120
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 30
+egg-groups:
+- Water 1
+- Water 3
+evolutions:
+- Method: Level-Up
+  Level: '40'
+  Species: OMASTAR
+moves:
+  level-up:
+  - 1: CONSTRICT
+  - 1: WITHDRAW
+  - 13: BITE
+  - 19: WATER_GUN
+  - 31: LEER
+  - 37: PROTECT
+  - 49: ANCIENTPOWER
+  - 55: HYDRO_PUMP
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg:
+  - BUBBLEBEAM
+  - AURORA_BEAM
+  - SLAM
+  - SUPERSONIC
+  - HAZE
+species: SPIRAL
+height: 104
+weight: 170
+pokedex-entries: "In prehistoric\ntimes, it swam on\feating plankton.\nIts fossils\
+  \ are\nsometimes found."
+icon: OmanyteIcon
+icon-palettes:
+- BLUE
+- GRAY

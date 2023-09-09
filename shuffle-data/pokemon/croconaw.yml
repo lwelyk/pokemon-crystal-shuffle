@@ -1,0 +1,78 @@
+constant: CROCONAW
+name: CROCONAW
+types:
+- Water
+base-stats:
+  hp: 65
+  attack: 80
+  defense: 80
+  speed: 58
+  special-attack: 59
+  special-defense: 63
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 143
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: FERALIGATR
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: LEER
+  - 1: RAGE
+  - 7: RAGE
+  - 13: WATER_GUN
+  - 21: BITE
+  - 28: SCARY_FACE
+  - 37: SLASH
+  - 45: SCREECH
+  - 55: HYDRO_PUMP
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - DETECT
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: BIG JAW
+height: 307
+weight: 550
+pokedex-entries: "The tips of its\nfangs are slanted\fthose fangs clamp\ndown, the\
+  \ prey has\nno hope of escape."
+icon: CroconawIcon
+icon-palettes:
+- BLUE
+- TEAL

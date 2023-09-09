@@ -1,0 +1,69 @@
+constant: RAICHU
+name: RAICHU
+types:
+- Electric
+base-stats:
+  hp: 60
+  attack: 90
+  defense: 55
+  speed: 100
+  special-attack: 90
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 122
+held-items:
+- 'BERRY '
+female-ratio: '50'
+egg-cycle: 10
+egg-groups:
+- Fairy
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: THUNDERSHOCK
+  - 1: TAIL_WHIP
+  - 1: QUICK_ATTACK
+  - 1: THUNDERBOLT
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STRENGTH
+  - FLASH
+  - THUNDERBOLT
+  egg: []
+species: MOUSE
+height: 207
+weight: 660
+pokedex-entries: "If its electric\npouches run empty,\fto gather electri-\ncity from\
+  \ the\natmosphere."
+icon: RaichuIcon
+icon-palettes:
+- RED
+- BROWN

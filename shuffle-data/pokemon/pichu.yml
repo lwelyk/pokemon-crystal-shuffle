@@ -1,0 +1,72 @@
+constant: PICHU
+name: PICHU
+types:
+- Electric
+base-stats:
+  hp: 20
+  attack: 40
+  defense: 15
+  speed: 60
+  special-attack: 35
+  special-defense: 35
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 42
+held-items:
+- 'BERRY '
+female-ratio: '50'
+egg-cycle: 10
+egg-groups:
+- None
+evolutions:
+- Method: Happiness
+  Time: TR_ANYTIME
+  Species: PIKACHU
+moves:
+  level-up:
+  - 1: THUNDERSHOCK
+  - 1: CHARM
+  - 6: TAIL_WHIP
+  - 8: THUNDER_WAVE
+  - 11: SWEET_KISS
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - FLASH
+  - THUNDERBOLT
+  egg:
+  - REVERSAL
+  - BIDE
+  - PRESENT
+  - ENCORE
+  - DOUBLESLAP
+species: TINY MOUSE
+height: 100
+weight: 40
+pokedex-entries: "It is unskilled at\nstoring electric\fshock causes it to\ndischarge\
+  \ energy\nspontaneously."
+icon: PichuIcon
+icon-palettes:
+- RED
+- PINK

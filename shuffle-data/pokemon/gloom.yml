@@ -1,0 +1,70 @@
+constant: GLOOM
+name: GLOOM
+types:
+- Grass
+- Poison
+base-stats:
+  hp: 60
+  attack: 65
+  defense: 70
+  speed: 40
+  special-attack: 85
+  special-defense: 75
+growth-rate: Medium-Slow
+catch-rate: 120
+base-experience: 132
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions:
+- Method: Item
+  Used Item: LEAF_STONE
+  Species: VILEPLUME
+- Method: Item
+  Used Item: SUN_STONE
+  Species: BELLOSSOM
+moves:
+  level-up:
+  - 1: ABSORB
+  - 1: SWEET_SCENT
+  - 1: POISONPOWDER
+  - 7: SWEET_SCENT
+  - 14: POISONPOWDER
+  - 16: STUN_SPORE
+  - 18: SLEEP_POWDER
+  - 24: ACID
+  - 35: MOONLIGHT
+  - 44: PETAL_DANCE
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: WEED
+height: 207
+weight: 190
+pokedex-entries: "The smell from its\ndrool-like syrup\fits petals is so\nbad, it\
+  \ may make\nopponents faint."
+icon: GloomIcon
+icon-palettes:
+- RED
+- BROWN

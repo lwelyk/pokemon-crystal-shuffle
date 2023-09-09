@@ -1,0 +1,91 @@
+constant: DRAGONITE
+name: DRAGONITE
+types:
+- Dragon
+- Flying
+base-stats:
+  hp: 91
+  attack: 134
+  defense: 95
+  speed: 80
+  special-attack: 100
+  special-defense: 100
+growth-rate: Slow
+catch-rate: 45
+base-experience: 218
+held-items:
+- 'DRAGON_SCALE '
+female-ratio: '50'
+egg-cycle: 40
+egg-groups:
+- Dragon
+- Water 1
+evolutions: []
+moves:
+  level-up:
+  - 1: WRAP
+  - 1: LEER
+  - 1: THUNDER_WAVE
+  - 1: TWISTER
+  - 8: THUNDER_WAVE
+  - 15: TWISTER
+  - 22: DRAGON_RAGE
+  - 29: SLAM
+  - 38: AGILITY
+  - 47: SAFEGUARD
+  - 55: WING_ATTACK
+  - 61: OUTRAGE
+  - 75: HYPER_BEAM
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - SWIFT
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - STEEL_WING
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - FLY
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - WATERFALL
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: DRAGON
+height: 703
+weight: 4630
+pokedex-entries: "It is said that\nsomewhere in the\fisland where these\ngather. Only\
+  \ they\nlive there."
+icon: DragoniteIcon
+icon-palettes:
+- RED
+- GRAY

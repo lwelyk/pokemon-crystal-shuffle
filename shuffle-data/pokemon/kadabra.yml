@@ -1,0 +1,75 @@
+constant: KADABRA
+name: KADABRA
+types:
+- Psychic
+base-stats:
+  hp: 40
+  attack: 35
+  defense: 30
+  speed: 105
+  special-attack: 120
+  special-defense: 70
+growth-rate: Medium-Slow
+catch-rate: 100
+base-experience: 145
+held-items: []
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Humanshape
+evolutions:
+- Method: Trade
+  Held Item: '-1'
+  Species: ALAKAZAM
+moves:
+  level-up:
+  - 1: TELEPORT
+  - 1: KINESIS
+  - 1: CONFUSION
+  - 16: CONFUSION
+  - 18: DISABLE
+  - 21: PSYBEAM
+  - 26: RECOVER
+  - 31: FUTURE_SIGHT
+  - 38: PSYCHIC_M
+  - 45: REFLECT
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DIG
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - FLASH
+  egg: []
+species: PSI
+height: 403
+weight: 1250
+pokedex-entries: "When it closes its\neyes, twice as\fcles come out of\nthe surface\
+  \ of its\nbody."
+icon: KadabraIcon
+icon-palettes:
+- BROWN
+- PURPLE

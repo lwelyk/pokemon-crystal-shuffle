@@ -1,0 +1,86 @@
+constant: SNUBBULL
+name: SNUBBULL
+types:
+- Fairy
+base-stats:
+  hp: 60
+  attack: 80
+  defense: 50
+  speed: 30
+  special-attack: 40
+  special-defense: 40
+growth-rate: Fast
+catch-rate: 190
+base-experience: 63
+held-items: []
+female-ratio: '75'
+egg-cycle: 20
+egg-groups:
+- Fairy
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '23'
+  Species: GRANBULL
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: SCARY_FACE
+  - 4: TAIL_WHIP
+  - 8: CHARM
+  - 13: BITE
+  - 19: LICK
+  - 26: ROAR
+  - 34: RAGE
+  - 43: TAKE_DOWN
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  - THUNDERBOLT
+  egg:
+  - METRONOME
+  - FAINT_ATTACK
+  - REFLECT
+  - PRESENT
+  - CRUNCH
+  - HEAL_BELL
+  - LICK
+  - LEER
+species: FAIRY
+height: 200
+weight: 170
+pokedex-entries: "In truth, it is a\ncowardly #MON.\fin order to hide\nits fear from\
+  \ its\nopponent."
+icon: SnubbullIcon
+icon-palettes:
+- PINK
+- BLUE

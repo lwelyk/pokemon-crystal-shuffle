@@ -1,0 +1,75 @@
+constant: HOOTHOOT
+name: HOOTHOOT
+types:
+- Flying
+- Normal
+base-stats:
+  hp: 60
+  attack: 30
+  defense: 30
+  speed: 50
+  special-attack: 36
+  special-defense: 56
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 58
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Flying
+evolutions:
+- Method: Level-Up
+  Level: '20'
+  Species: NOCTOWL
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 6: FORESIGHT
+  - 11: PECK
+  - 16: HYPNOSIS
+  - 22: REFLECT
+  - 28: TAKE_DOWN
+  - 34: CONFUSION
+  - 48: DREAM_EATER
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - NIGHTMARE
+  - FLY
+  - FLASH
+  egg:
+  - MIRROR_MOVE
+  - SUPERSONIC
+  - FAINT_ATTACK
+  - WING_ATTACK
+  - WHIRLWIND
+  - SKY_ATTACK
+species: OWL
+height: 204
+weight: 470
+pokedex-entries: "It begins to hoot\nat the same time\ftrainers use them\nin place\
+  \ of\nclocks."
+icon: HoothootIcon
+icon-palettes:
+- BROWN
+- BROWN

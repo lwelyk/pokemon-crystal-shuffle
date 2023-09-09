@@ -1,0 +1,78 @@
+constant: FERALIGATR
+name: FERALIGATR
+types:
+- Water
+base-stats:
+  hp: 85
+  attack: 105
+  defense: 100
+  speed: 78
+  special-attack: 79
+  special-defense: 83
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 210
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: LEER
+  - 1: RAGE
+  - 1: WATER_GUN
+  - 7: RAGE
+  - 13: WATER_GUN
+  - 21: BITE
+  - 28: SCARY_FACE
+  - 38: SLASH
+  - 47: SCREECH
+  - 58: HYDRO_PUMP
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - DETECT
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: BIG JAW
+height: 707
+weight: 1960
+pokedex-entries: "Although it has a\nmassive body, its\fenable it to move\nquickly,\
+  \ even on\nthe ground."
+icon: FeraligatrIcon
+icon-palettes:
+- BLUE
+- GREEN

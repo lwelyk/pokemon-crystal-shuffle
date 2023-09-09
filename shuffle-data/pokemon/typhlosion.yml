@@ -1,0 +1,77 @@
+constant: TYPHLOSION
+name: TYPHLOSION
+types:
+- Fire
+base-stats:
+  hp: 78
+  attack: 84
+  defense: 78
+  speed: 100
+  special-attack: 109
+  special-defense: 85
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 209
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: LEER
+  - 1: SMOKESCREEN
+  - 1: EMBER
+  - 6: SMOKESCREEN
+  - 12: EMBER
+  - 21: QUICK_ATTACK
+  - 31: FLAME_WHEEL
+  - 45: SWIFT
+  - 60: FLAMETHROWER
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: VOLCANO
+height: 507
+weight: 1750
+pokedex-entries: "When heat from its\nbody causes the\fshimmer, this is a\nsign that\
+  \ it is\nready to battle."
+icon: TyphlosionIcon
+icon-palettes:
+- PINK
+- PURPLE

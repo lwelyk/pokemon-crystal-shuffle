@@ -1,0 +1,77 @@
+constant: DUNSPARCE
+name: DUNSPARCE
+types:
+- Normal
+base-stats:
+  hp: 100
+  attack: 70
+  defense: 70
+  speed: 45
+  special-attack: 65
+  special-defense: 65
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 75
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: RAGE
+  - 5: DEFENSE_CURL
+  - 13: GLARE
+  - 18: SPITE
+  - 26: PURSUIT
+  - 30: SCREECH
+  - 38: TAKE_DOWN
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  egg:
+  - BIDE
+  - ANCIENTPOWER
+  - ROCK_SLIDE
+  - BITE
+  - RAGE
+species: LAND SNAKE
+height: 411
+weight: 310
+pokedex-entries: "It hides deep\ninside caves where\freaches it and\nremains virtually\n\
+  motionless there."
+icon: DunsparceIcon
+icon-palettes:
+- BLUE
+- PURPLE

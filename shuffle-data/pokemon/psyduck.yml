@@ -1,0 +1,84 @@
+constant: PSYDUCK
+name: PSYDUCK
+types:
+- Water
+base-stats:
+  hp: 50
+  attack: 52
+  defense: 48
+  speed: 55
+  special-attack: 65
+  special-defense: 50
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 80
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '33'
+  Species: GOLDUCK
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 5: TAIL_WHIP
+  - 10: DISABLE
+  - 16: CONFUSION
+  - 23: SCREECH
+  - 31: PSYCH_UP
+  - 40: FURY_SWIPES
+  - 50: HYDRO_PUMP
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - SURF
+  - STRENGTH
+  - FLASH
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg:
+  - ICE_BEAM
+  - HYPNOSIS
+  - PSYBEAM
+  - FORESIGHT
+  - LIGHT_SCREEN
+  - FUTURE_SIGHT
+  - PSYCHIC_M
+  - CROSS_CHOP
+species: DUCK
+height: 207
+weight: 430
+pokedex-entries: "The only time it\ncan use its psy-\fits sleeping brain\ncells happen\
+  \ to\nwake."
+icon: PsyduckIcon
+icon-palettes:
+- BROWN
+- BLUE

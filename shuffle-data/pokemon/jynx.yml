@@ -1,0 +1,77 @@
+constant: JYNX
+name: JYNX
+types:
+- Ice
+- Psychic
+base-stats:
+  hp: 65
+  attack: 50
+  defense: 35
+  speed: 95
+  special-attack: 115
+  special-defense: 95
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 137
+held-items:
+- ICE_BERRY
+- 'ICE_BERRY '
+female-ratio: '100'
+egg-cycle: 25
+egg-groups:
+- Humanshape
+evolutions: []
+moves:
+  level-up:
+  - 1: POUND
+  - 1: LICK
+  - 1: LOVELY_KISS
+  - 1: POWDER_SNOW
+  - 9: LOVELY_KISS
+  - 13: POWDER_SNOW
+  - 21: DOUBLESLAP
+  - 25: ICE_PUNCH
+  - 35: MEAN_LOOK
+  - 41: BODY_SLAM
+  - 51: PERISH_SONG
+  - 57: BLIZZARD
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SWEET_SCENT
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - ICE_BEAM
+  egg: []
+species: HUMANSHAPE
+height: 407
+weight: 900
+pokedex-entries: "It has several\ndifferent cry pat-\fwhich seems to\nhave its own\n\
+  meaning."
+icon: JynxIcon
+icon-palettes:
+- PURPLE
+- PURPLE

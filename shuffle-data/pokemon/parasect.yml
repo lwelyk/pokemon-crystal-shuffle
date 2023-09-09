@@ -1,0 +1,72 @@
+constant: PARASECT
+name: PARASECT
+types:
+- Grass
+- Bug
+base-stats:
+  hp: 60
+  attack: 95
+  defense: 80
+  speed: 30
+  special-attack: 60
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 128
+held-items:
+- TINYMUSHROOM
+- 'BIG_MUSHROOM '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: STUN_SPORE
+  - 1: POISONPOWDER
+  - 7: STUN_SPORE
+  - 13: POISONPOWDER
+  - 19: LEECH_LIFE
+  - 28: SPORE
+  - 37: SLASH
+  - 46: GROWTH
+  - 55: GIGA_DRAIN
+  taught:
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DIG
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - FLASH
+  egg: []
+species: MUSHROOM
+height: 303
+weight: 650
+pokedex-entries: "When nothing's\nleft to extract\fmushrooms on its\nback leave spores\n\
+  on the bug's egg."
+icon: ParasectIcon
+icon-palettes:
+- RED
+- BROWN

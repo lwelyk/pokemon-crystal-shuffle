@@ -1,0 +1,70 @@
+constant: SUDOWOODO
+name: SUDOWOODO
+types:
+- Rock
+base-stats:
+  hp: 70
+  attack: 100
+  defense: 115
+  speed: 30
+  special-attack: 30
+  special-defense: 65
+growth-rate: Medium-Fast
+catch-rate: 65
+base-experience: 135
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Mineral
+evolutions: []
+moves:
+  level-up:
+  - 1: ROCK_THROW
+  - 1: MIMIC
+  - 10: FLAIL
+  - 19: LOW_KICK
+  - 28: ROCK_SLIDE
+  - 37: FAINT_ATTACK
+  - 46: SLAM
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  egg:
+  - SELFDESTRUCT
+species: IMITATION
+height: 311
+weight: 840
+pokedex-entries: "If a tree branch\nshakes when there\fSUDOWOODO, not a\ntree. It\
+  \ hides\nfrom the rain."
+icon: SudowoodoIcon
+icon-palettes:
+- GREEN
+- RED

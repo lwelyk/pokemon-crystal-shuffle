@@ -1,0 +1,90 @@
+constant: SLOWPOKE
+name: SLOWPOKE
+types:
+- Psychic
+- Water
+base-stats:
+  hp: 90
+  attack: 65
+  defense: 65
+  speed: 15
+  special-attack: 40
+  special-defense: 40
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 99
+held-items:
+- 'KINGS_ROCK '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '37'
+  Species: SLOWBRO
+- Method: Trade
+  Held Item: KINGS_ROCK
+  Species: SLOWKING
+moves:
+  level-up:
+  - 1: CURSE
+  - 1: TACKLE
+  - 6: GROWL
+  - 15: WATER_GUN
+  - 20: CONFUSION
+  - 29: DISABLE
+  - 34: HEADBUTT
+  - 43: AMNESIA
+  - 48: PSYCHIC_M
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - NIGHTMARE
+  - SURF
+  - STRENGTH
+  - FLASH
+  - FLAMETHROWER
+  - ICE_BEAM
+  egg:
+  - SAFEGUARD
+  - BELLY_DRUM
+  - FUTURE_SIGHT
+  - STOMP
+species: DOPEY
+height: 311
+weight: 790
+pokedex-entries: "It is always so\nabsent-minded that\feven if its\nflavorful tail\
+  \ is\nbitten."
+icon: SlowpokeIcon
+icon-palettes:
+- PINK
+- PURPLE

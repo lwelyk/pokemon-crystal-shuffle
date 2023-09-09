@@ -1,0 +1,59 @@
+constant: VICTREEBEL
+name: VICTREEBEL
+types:
+- Grass
+- Poison
+base-stats:
+  hp: 80
+  attack: 105
+  defense: 65
+  speed: 70
+  special-attack: 100
+  special-defense: 60
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 191
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions: []
+moves:
+  level-up:
+  - 1: VINE_WHIP
+  - 1: SLEEP_POWDER
+  - 1: SWEET_SCENT
+  - 1: RAZOR_LEAF
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: FLYCATCHER
+height: 507
+weight: 340
+pokedex-entries: "Once ingested into\nthis #MON's\fhardest object\nwill melt into\n\
+  nothing."
+icon: VictreebelIcon
+icon-palettes:
+- GREEN
+- GREEN

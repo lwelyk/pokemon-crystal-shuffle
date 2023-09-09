@@ -1,0 +1,76 @@
+constant: EXEGGCUTE
+name: EXEGGCUTE
+types:
+- Grass
+- Psychic
+base-stats:
+  hp: 60
+  attack: 40
+  defense: 80
+  speed: 40
+  special-attack: 60
+  special-defense: 45
+growth-rate: Slow
+catch-rate: 90
+base-experience: 98
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions:
+- Method: Item
+  Used Item: LEAF_STONE
+  Species: EXEGGUTOR
+moves:
+  level-up:
+  - 1: BARRAGE
+  - 1: HYPNOSIS
+  - 7: REFLECT
+  - 13: LEECH_SEED
+  - 19: CONFUSION
+  - 25: STUN_SPORE
+  - 31: POISONPOWDER
+  - 37: SLEEP_POWDER
+  - 43: SOLARBEAM
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - STRENGTH
+  - FLASH
+  egg:
+  - SYNTHESIS
+  - MOONLIGHT
+  - REFLECT
+  - MEGA_DRAIN
+  - ANCIENTPOWER
+species: EGG
+height: 104
+weight: 60
+pokedex-entries: "If even one is\nseparated from the\fbond between the\nsix will make\
+  \ them\nrejoin instantly."
+icon: ExeggcuteIcon
+icon-palettes:
+- PINK
+- GREEN

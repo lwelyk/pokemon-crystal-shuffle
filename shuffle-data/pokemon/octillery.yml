@@ -1,0 +1,66 @@
+constant: OCTILLERY
+name: OCTILLERY
+types:
+- Water
+base-stats:
+  hp: 75
+  attack: 105
+  defense: 75
+  speed: 45
+  special-attack: 105
+  special-defense: 75
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 164
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Water 2
+evolutions: []
+moves:
+  level-up:
+  - 1: WATER_GUN
+  - 11: CONSTRICT
+  - 22: PSYBEAM
+  - 22: AURORA_BEAM
+  - 22: BUBBLEBEAM
+  - 25: OCTAZOOKA
+  - 38: FOCUS_ENERGY
+  - 54: ICE_BEAM
+  - 70: HYPER_BEAM
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - THIEF
+  - SURF
+  - WHIRLPOOL
+  - FLAMETHROWER
+  - ICE_BEAM
+  egg: []
+species: JET
+height: 211
+weight: 630
+pokedex-entries: "Its instinct is to\nbury itself in\fsteals the nesting\nholes of\
+  \ others to\nsleep in them."
+icon: OctilleryIcon
+icon-palettes:
+- RED
+- BROWN

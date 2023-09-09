@@ -1,0 +1,72 @@
+constant: KOFFING
+name: KOFFING
+types:
+- Poison
+base-stats:
+  hp: 40
+  attack: 65
+  defense: 95
+  speed: 35
+  special-attack: 60
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 114
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions:
+- Method: Level-Up
+  Level: '35'
+  Species: WEEZING
+moves:
+  level-up:
+  - 1: POISON_GAS
+  - 1: TACKLE
+  - 9: SMOG
+  - 17: SELFDESTRUCT
+  - 21: SLUDGE
+  - 25: SMOKESCREEN
+  - 33: HAZE
+  - 41: EXPLOSION
+  - 45: DESTINY_BOND
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - FIRE_BLAST
+  - REST
+  - ATTRACT
+  - THIEF
+  - FLAMETHROWER
+  - THUNDERBOLT
+  egg:
+  - SCREECH
+  - PSYWAVE
+  - PSYBEAM
+  - DESTINY_BOND
+  - PAIN_SPLIT
+species: POISON GAS
+height: 200
+weight: 20
+pokedex-entries: "If one gets close\nenough to it when\fous gas, the gas\nswirling\
+  \ inside it\ncan be seen."
+icon: KoffingIcon
+icon-palettes:
+- PURPLE
+- BLUE

@@ -1,0 +1,88 @@
+constant: CLEFAIRY
+name: CLEFAIRY
+types:
+- Fairy
+base-stats:
+  hp: 70
+  attack: 45
+  defense: 48
+  speed: 35
+  special-attack: 60
+  special-defense: 65
+growth-rate: Fast
+catch-rate: 150
+base-experience: 68
+held-items:
+- MYSTERYBERRY
+- 'MOON_STONE '
+female-ratio: '75'
+egg-cycle: 10
+egg-groups:
+- Fairy
+evolutions:
+- Method: Item
+  Used Item: MOON_STONE
+  Species: CLEFABLE
+moves:
+  level-up:
+  - 1: POUND
+  - 1: GROWL
+  - 4: ENCORE
+  - 8: SING
+  - 13: DOUBLESLAP
+  - 19: MINIMIZE
+  - 26: DEFENSE_CURL
+  - 34: METRONOME
+  - 43: MOONLIGHT
+  - 53: LIGHT_SCREEN
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - STRENGTH
+  - FLASH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: FAIRY
+height: 200
+weight: 170
+pokedex-entries: "Though rarely\nseen, it becomes\ffor some reason,\non the night\
+  \ of a\nfull moon."
+icon: ClefairyIcon
+icon-palettes:
+- BROWN
+- GREEN

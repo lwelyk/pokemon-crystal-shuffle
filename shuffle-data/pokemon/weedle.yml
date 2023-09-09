@@ -1,0 +1,40 @@
+constant: WEEDLE
+name: WEEDLE
+types:
+- Poison
+- Bug
+base-stats:
+  hp: 40
+  attack: 35
+  defense: 30
+  speed: 50
+  special-attack: 20
+  special-defense: 20
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 52
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '7'
+  Species: KAKUNA
+moves:
+  level-up:
+  - 1: POISON_STING
+  - 1: STRING_SHOT
+  taught:
+  - ''
+  egg: []
+species: HAIRY BUG
+height: 100
+weight: 70
+pokedex-entries: "The barb on top of\nits head secretes\fIt uses this toxic\nbarb\
+  \ to protect\nitself."
+icon: WeedleIcon
+icon-palettes:
+- RED
+- GREEN

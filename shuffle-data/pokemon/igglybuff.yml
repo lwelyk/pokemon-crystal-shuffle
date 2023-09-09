@@ -1,0 +1,76 @@
+constant: IGGLYBUFF
+name: IGGLYBUFF
+types:
+- Fairy
+- Normal
+base-stats:
+  hp: 90
+  attack: 30
+  defense: 15
+  speed: 15
+  special-attack: 40
+  special-defense: 20
+growth-rate: Fast
+catch-rate: 170
+base-experience: 39
+held-items: []
+female-ratio: '75'
+egg-cycle: 10
+egg-groups:
+- None
+evolutions:
+- Method: Happiness
+  Time: TR_ANYTIME
+  Species: JIGGLYPUFF
+moves:
+  level-up:
+  - 1: SING
+  - 1: CHARM
+  - 4: DEFENSE_CURL
+  - 9: POUND
+  - 14: SWEET_KISS
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - NIGHTMARE
+  - FLASH
+  - FLAMETHROWER
+  egg:
+  - PERISH_SONG
+  - PRESENT
+  - FAINT_ATTACK
+species: BALLOON
+height: 100
+weight: 20
+pokedex-entries: "Instead of walking\nwith its short\faround by bouncing\non its soft,\n\
+  tender body."
+icon: IgglybuffIcon
+icon-palettes:
+- PINK
+- GREEN

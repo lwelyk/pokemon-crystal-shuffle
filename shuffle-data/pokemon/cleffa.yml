@@ -1,0 +1,81 @@
+constant: CLEFFA
+name: CLEFFA
+types:
+- Fairy
+base-stats:
+  hp: 50
+  attack: 25
+  defense: 28
+  speed: 15
+  special-attack: 45
+  special-defense: 55
+growth-rate: Fast
+catch-rate: 150
+base-experience: 37
+held-items:
+- MYSTERYBERRY
+- 'MOON_STONE '
+female-ratio: '75'
+egg-cycle: 10
+egg-groups:
+- None
+evolutions:
+- Method: Happiness
+  Time: TR_ANYTIME
+  Species: CLEFAIRY
+moves:
+  level-up:
+  - 1: POUND
+  - 1: CHARM
+  - 4: ENCORE
+  - 8: SING
+  - 13: SWEET_KISS
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - NIGHTMARE
+  - FLASH
+  - FLAMETHROWER
+  egg:
+  - PRESENT
+  - METRONOME
+  - AMNESIA
+  - BELLY_DRUM
+  - SPLASH
+  - MIMIC
+species: STARSHAPE
+height: 100
+weight: 70
+pokedex-entries: "If the impact site\nof a meteorite is\f#MON is certain\nto be within\
+  \ the\nimmediate area."
+icon: CleffaIcon
+icon-palettes:
+- PINK
+- GREEN

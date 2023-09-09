@@ -1,0 +1,66 @@
+constant: FEAROW
+name: FEAROW
+types:
+- Flying
+- Normal
+base-stats:
+  hp: 65
+  attack: 90
+  defense: 65
+  speed: 100
+  special-attack: 61
+  special-defense: 61
+growth-rate: Medium-Fast
+catch-rate: 90
+base-experience: 162
+held-items:
+- 'SHARP_BEAK '
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Flying
+evolutions: []
+moves:
+  level-up:
+  - 1: PECK
+  - 1: GROWL
+  - 1: LEER
+  - 1: FURY_ATTACK
+  - 7: LEER
+  - 13: FURY_ATTACK
+  - 26: PURSUIT
+  - 32: MIRROR_MOVE
+  - 40: DRILL_PECK
+  - 47: AGILITY
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - FLY
+  egg: []
+species: BEAK
+height: 311
+weight: 840
+pokedex-entries: "It uses its long\nbeak to attack. It\flong reach, so it\nmust be\
+  \ treated\nwith caution."
+icon: FearowIcon
+icon-palettes:
+- BROWN
+- GRAY

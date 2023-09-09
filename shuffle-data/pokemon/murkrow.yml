@@ -1,0 +1,71 @@
+constant: MURKROW
+name: MURKROW
+types:
+- Dark
+- Flying
+base-stats:
+  hp: 60
+  attack: 85
+  defense: 42
+  speed: 91
+  special-attack: 85
+  special-defense: 42
+growth-rate: Medium-Slow
+catch-rate: 30
+base-experience: 107
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Flying
+evolutions: []
+moves:
+  level-up:
+  - 1: PECK
+  - 11: PURSUIT
+  - 16: HAZE
+  - 26: NIGHT_SHADE
+  - 31: FAINT_ATTACK
+  - 41: MEAN_LOOK
+  taught:
+  - CURSE
+  - TOXIC
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - ICY_WIND
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - NIGHTMARE
+  - FLY
+  egg:
+  - WHIRLWIND
+  - DRILL_PECK
+  - QUICK_ATTACK
+  - MIRROR_MOVE
+  - WING_ATTACK
+  - SKY_ATTACK
+species: DARKNESS
+height: 108
+weight: 50
+pokedex-entries: "It hides any shiny\nobject it finds in\fMURKROW and\nMEOWTH loot\
+  \ one\nanother's stashes."
+icon: MurkrowIcon
+icon-palettes:
+- BLUE
+- PURPLE

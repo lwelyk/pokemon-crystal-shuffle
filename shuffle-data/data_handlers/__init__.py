@@ -1,1 +1,1 @@
-import pokemon_data
+from . import pokemon_data

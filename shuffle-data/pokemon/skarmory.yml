@@ -1,0 +1,67 @@
+constant: SKARMORY
+name: SKARMORY
+types:
+- Steel
+- Flying
+base-stats:
+  hp: 65
+  attack: 80
+  defense: 140
+  speed: 70
+  special-attack: 40
+  special-defense: 70
+growth-rate: Slow
+catch-rate: 25
+base-experience: 168
+held-items: []
+female-ratio: '50'
+egg-cycle: 25
+egg-groups:
+- Flying
+evolutions: []
+moves:
+  level-up:
+  - 1: LEER
+  - 1: PECK
+  - 13: SAND_ATTACK
+  - 19: SWIFT
+  - 25: AGILITY
+  - 37: FURY_ATTACK
+  - 49: STEEL_WING
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - CUT
+  - FLY
+  egg:
+  - DRILL_PECK
+  - PURSUIT
+  - WHIRLWIND
+  - SKY_ATTACK
+species: ARMOR BIRD
+height: 507
+weight: 1110
+pokedex-entries: "The feathers that\nit sheds are very\fthat people once\nused the\
+  \ feathers\nas swords."
+icon: SkarmoryIcon
+icon-palettes:
+- RED
+- GREEN

@@ -1,0 +1,83 @@
+constant: RHYDON
+name: RHYDON
+types:
+- Ground
+- Rock
+base-stats:
+  hp: 105
+  attack: 130
+  defense: 120
+  speed: 40
+  special-attack: 45
+  special-defense: 45
+growth-rate: Slow
+catch-rate: 60
+base-experience: 204
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: HORN_ATTACK
+  - 1: TAIL_WHIP
+  - 1: STOMP
+  - 1: FURY_ATTACK
+  - 13: STOMP
+  - 19: FURY_ATTACK
+  - 31: SCARY_FACE
+  - 37: HORN_DRILL
+  - 54: TAKE_DOWN
+  - 65: EARTHQUAKE
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - SURF
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: DRILL
+height: 603
+weight: 2650
+pokedex-entries: "By lightly spin-\nning its drill-\feasily shatter\neven a diamond\
+  \ in\nthe rough."
+icon: RhydonIcon
+icon-palettes:
+- GRAY
+- GRAY

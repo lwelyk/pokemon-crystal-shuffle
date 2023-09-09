@@ -1,0 +1,69 @@
+constant: FLAREON
+name: FLAREON
+types:
+- Fire
+base-stats:
+  hp: 65
+  attack: 130
+  defense: 60
+  speed: 65
+  special-attack: 95
+  special-defense: 110
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 198
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 35
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: TAIL_WHIP
+  - 8: SAND_ATTACK
+  - 16: EMBER
+  - 23: QUICK_ATTACK
+  - 30: BITE
+  - 36: FIRE_SPIN
+  - 42: SMOG
+  - 47: LEER
+  - 52: FLAMETHROWER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg: []
+species: FLAME
+height: 211
+weight: 550
+pokedex-entries: "Once it has stored\nup enough heat,\fbody temperature\ncan reach\
+  \ up to\n1700 degrees."
+icon: FlareonIcon
+icon-palettes:
+- RED
+- RED

@@ -1,0 +1,70 @@
+constant: ONIX
+name: ONIX
+types:
+- Ground
+- Rock
+base-stats:
+  hp: 35
+  attack: 45
+  defense: 160
+  speed: 70
+  special-attack: 30
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 108
+held-items: []
+female-ratio: '50'
+egg-cycle: 25
+egg-groups:
+- Mineral
+evolutions:
+- Method: Trade
+  Held Item: METAL_COAT
+  Species: STEELIX
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: SCREECH
+  - 10: BIND
+  - 14: ROCK_THROW
+  - 23: HARDEN
+  - 27: RAGE
+  - 36: SANDSTORM
+  - 40: SLAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - REST
+  - ATTRACT
+  - STRENGTH
+  egg:
+  - ROCK_SLIDE
+  - FLAIL
+species: ROCK SNAKE
+height: 2810
+weight: 4630
+pokedex-entries: "As it digs through\nthe ground, it\fobjects. This is\nwhat makes\
+  \ its\nbody so solid."
+icon: OnixIcon
+icon-palettes:
+- GRAY
+- GREEN

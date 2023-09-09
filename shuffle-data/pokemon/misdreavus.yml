@@ -1,0 +1,72 @@
+constant: MISDREAVUS
+name: MISDREAVUS
+types:
+- Ghost
+base-stats:
+  hp: 60
+  attack: 60
+  defense: 60
+  speed: 85
+  special-attack: 85
+  special-defense: 85
+growth-rate: Fast
+catch-rate: 45
+base-experience: 147
+held-items:
+- 'SPELL_TAG '
+female-ratio: '50'
+egg-cycle: 25
+egg-groups:
+- Indeterminate
+evolutions: []
+moves:
+  level-up:
+  - 1: GROWL
+  - 1: PSYWAVE
+  - 6: SPITE
+  - 12: CONFUSE_RAY
+  - 19: MEAN_LOOK
+  - 27: PSYBEAM
+  - 36: PAIN_SPLIT
+  - 46: PERISH_SONG
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - FLASH
+  - THUNDERBOLT
+  egg:
+  - SCREECH
+  - DESTINY_BOND
+species: SCREECH
+height: 204
+weight: 20
+pokedex-entries: "It loves to watch\npeople it's scar-\fthem by screaming\nloudly\
+  \ or appear-\ning suddenly."
+icon: MisdreavusIcon
+icon-palettes:
+- PURPLE
+- BROWN

@@ -1,0 +1,75 @@
+constant: CYNDAQUIL
+name: CYNDAQUIL
+types:
+- Fire
+base-stats:
+  hp: 39
+  attack: 52
+  defense: 43
+  speed: 65
+  special-attack: 60
+  special-defense: 50
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 65
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '14'
+  Species: QUILAVA
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: LEER
+  - 6: SMOKESCREEN
+  - 12: EMBER
+  - 19: QUICK_ATTACK
+  - 27: FLAME_WHEEL
+  - 36: SWIFT
+  - 46: FLAMETHROWER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - CUT
+  - FLAMETHROWER
+  egg:
+  - FURY_SWIPES
+  - QUICK_ATTACK
+  - REVERSAL
+  - THRASH
+  - FORESIGHT
+  - SUBMISSION
+species: FIRE MOUSE
+height: 108
+weight: 170
+pokedex-entries: "The fire that\nspouts from its\fwhen it is angry.\nThe flaring flames\n\
+  intimidate foes."
+icon: CyndaquilIcon
+icon-palettes:
+- PINK
+- PURPLE

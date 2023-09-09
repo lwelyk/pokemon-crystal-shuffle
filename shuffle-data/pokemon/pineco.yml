@@ -1,0 +1,71 @@
+constant: PINECO
+name: PINECO
+types:
+- Bug
+base-stats:
+  hp: 50
+  attack: 65
+  defense: 90
+  speed: 15
+  special-attack: 35
+  special-defense: 35
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 60
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '31'
+  Species: FORRETRESS
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: PROTECT
+  - 8: SELFDESTRUCT
+  - 15: TAKE_DOWN
+  - 22: RAPID_SPIN
+  - 29: BIDE
+  - 36: EXPLOSION
+  - 43: SPIKES
+  - 50: DOUBLE_EDGE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STRENGTH
+  egg:
+  - REFLECT
+  - PIN_MISSILE
+  - FLAIL
+  - SWIFT
+species: BAGWORM
+height: 200
+weight: 160
+pokedex-entries: "It spits out a\nfluid that it uses\fto its body. The\nfluid hardens\
+  \ when\nit touches air."
+icon: PinecoIcon
+icon-palettes:
+- TEAL
+- PINK

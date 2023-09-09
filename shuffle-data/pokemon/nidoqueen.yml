@@ -1,0 +1,80 @@
+constant: NIDOQUEEN
+name: NIDOQUEEN
+types:
+- Poison
+- Ground
+base-stats:
+  hp: 90
+  attack: 82
+  defense: 87
+  speed: 76
+  special-attack: 75
+  special-defense: 85
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 194
+held-items: []
+female-ratio: '100'
+egg-cycle: 20
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: SCRATCH
+  - 1: DOUBLE_KICK
+  - 1: TAIL_WHIP
+  - 23: BODY_SLAM
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - SURF
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: DRILL
+height: 403
+weight: 1320
+pokedex-entries: "The hard scales\nthat cover its\fas excellent\nprotection from\n\
+  any attack."
+icon: NidoqueenIcon
+icon-palettes:
+- BLUE
+- GRAY

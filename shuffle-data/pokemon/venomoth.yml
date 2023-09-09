@@ -1,0 +1,70 @@
+constant: VENOMOTH
+name: VENOMOTH
+types:
+- Poison
+- Bug
+base-stats:
+  hp: 70
+  attack: 65
+  defense: 60
+  speed: 90
+  special-attack: 90
+  special-defense: 75
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 138
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: DISABLE
+  - 1: FORESIGHT
+  - 1: SUPERSONIC
+  - 9: SUPERSONIC
+  - 17: CONFUSION
+  - 20: POISONPOWDER
+  - 25: LEECH_LIFE
+  - 28: STUN_SPORE
+  - 31: GUST
+  - 36: PSYBEAM
+  - 42: SLEEP_POWDER
+  - 52: PSYCHIC_M
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - SWIFT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FLASH
+  egg: []
+species: POISONMOTH
+height: 411
+weight: 280
+pokedex-entries: "The scales it\nscatters will\fwho touches them,\nmaking that person\n\
+  unable to stand."
+icon: VenomothIcon
+icon-palettes:
+- PURPLE
+- BLUE

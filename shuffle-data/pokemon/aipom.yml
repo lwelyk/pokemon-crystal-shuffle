@@ -1,0 +1,84 @@
+constant: AIPOM
+name: AIPOM
+types:
+- Normal
+base-stats:
+  hp: 55
+  attack: 70
+  defense: 55
+  speed: 85
+  special-attack: 40
+  special-defense: 55
+growth-rate: Fast
+catch-rate: 45
+base-experience: 94
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: TAIL_WHIP
+  - 6: SAND_ATTACK
+  - 12: BATON_PASS
+  - 19: FURY_SWIPES
+  - 27: SWIFT
+  - 36: SCREECH
+  - 46: AGILITY
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - NIGHTMARE
+  - CUT
+  - STRENGTH
+  - THUNDERBOLT
+  egg:
+  - COUNTER
+  - SCREECH
+  - PURSUIT
+  - AGILITY
+  - SPITE
+  - SLAM
+  - DOUBLESLAP
+  - BEAT_UP
+species: LONG TAIL
+height: 207
+weight: 250
+pokedex-entries: "It uses its tail\nto hang on to tree\fits momentum to\nswing from\
+  \ one\nbranch to another."
+icon: AipomIcon
+icon-palettes:
+- PURPLE
+- PURPLE

@@ -1,0 +1,83 @@
+constant: CHARIZARD
+name: CHARIZARD
+types:
+- Fire
+- Flying
+base-stats:
+  hp: 78
+  attack: 84
+  defense: 78
+  speed: 100
+  special-attack: 109
+  special-defense: 85
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 209
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Dragon
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: GROWL
+  - 1: EMBER
+  - 1: SMOKESCREEN
+  - 7: EMBER
+  - 13: SMOKESCREEN
+  - 20: RAGE
+  - 27: SCARY_FACE
+  - 34: FLAMETHROWER
+  - 36: WING_ATTACK
+  - 44: SLASH
+  - 54: DRAGON_RAGE
+  - 64: FIRE_SPIN
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STEEL_WING
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - FLY
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: FLAME
+height: 507
+weight: 2000
+pokedex-entries: "It uses its wings\nto fly high. The\ffire increases as\nit gains\
+  \ exper-\nience in battle."
+icon: CharizardIcon
+icon-palettes:
+- RED
+- PURPLE

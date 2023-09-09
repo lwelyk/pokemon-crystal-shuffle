@@ -1,0 +1,75 @@
+constant: MACHOKE
+name: MACHOKE
+types:
+- Fighting
+base-stats:
+  hp: 80
+  attack: 100
+  defense: 70
+  speed: 45
+  special-attack: 50
+  special-defense: 60
+growth-rate: Medium-Slow
+catch-rate: 90
+base-experience: 146
+held-items: []
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Humanshape
+evolutions:
+- Method: Trade
+  Held Item: '-1'
+  Species: MACHAMP
+moves:
+  level-up:
+  - 1: LOW_KICK
+  - 1: LEER
+  - 1: FOCUS_ENERGY
+  - 8: FOCUS_ENERGY
+  - 15: KARATE_CHOP
+  - 19: SEISMIC_TOSS
+  - 25: FORESIGHT
+  - 34: VITAL_THROW
+  - 43: CROSS_CHOP
+  - 52: SCARY_FACE
+  - 61: SUBMISSION
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: SUPERPOWER
+height: 411
+weight: 1550
+pokedex-entries: "This tough #MON\nalways stays in\fmuscles become\nthicker after\n\
+  every battle."
+icon: MachokeIcon
+icon-palettes:
+- GRAY
+- GRAY

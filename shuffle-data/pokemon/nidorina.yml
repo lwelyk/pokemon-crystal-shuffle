@@ -1,0 +1,71 @@
+constant: NIDORINA
+name: NIDORINA
+types:
+- Poison
+base-stats:
+  hp: 70
+  attack: 62
+  defense: 67
+  speed: 56
+  special-attack: 55
+  special-defense: 55
+growth-rate: Medium-Slow
+catch-rate: 120
+base-experience: 117
+held-items: []
+female-ratio: '100'
+egg-cycle: 20
+egg-groups:
+- None
+evolutions:
+- Method: Item
+  Used Item: MOON_STONE
+  Species: NIDOQUEEN
+moves:
+  level-up:
+  - 1: GROWL
+  - 1: TACKLE
+  - 8: SCRATCH
+  - 12: DOUBLE_KICK
+  - 19: POISON_STING
+  - 27: TAIL_WHIP
+  - 36: BITE
+  - 46: FURY_SWIPES
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STRENGTH
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: POISON PIN
+height: 207
+weight: 440
+pokedex-entries: "It has a docile\nnature. If it is\fattack, it raises\nthe barbs\
+  \ that are\nall over its body."
+icon: NidorinaIcon
+icon-palettes:
+- BLUE
+- PURPLE

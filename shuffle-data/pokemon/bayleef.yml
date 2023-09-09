@@ -1,0 +1,75 @@
+constant: BAYLEEF
+name: BAYLEEF
+types:
+- Grass
+base-stats:
+  hp: 60
+  attack: 62
+  defense: 80
+  speed: 60
+  special-attack: 63
+  special-defense: 80
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 141
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Plant
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '32'
+  Species: MEGANIUM
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 1: RAZOR_LEAF
+  - 1: REFLECT
+  - 8: RAZOR_LEAF
+  - 12: REFLECT
+  - 15: POISONPOWDER
+  - 23: SYNTHESIS
+  - 31: BODY_SLAM
+  - 39: LIGHT_SCREEN
+  - 47: SAFEGUARD
+  - 55: SOLARBEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DETECT
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  - FLASH
+  egg: []
+species: LEAF
+height: 311
+weight: 350
+pokedex-entries: "The scent that\nwafts from the\fcauses anyone who\nsmells it to\n\
+  become energetic."
+icon: BayleefIcon
+icon-palettes:
+- GREEN
+- BROWN

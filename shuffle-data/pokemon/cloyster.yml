@@ -1,0 +1,63 @@
+constant: CLOYSTER
+name: CLOYSTER
+types:
+- Ice
+- Water
+base-stats:
+  hp: 50
+  attack: 95
+  defense: 180
+  speed: 70
+  special-attack: 85
+  special-defense: 45
+growth-rate: Slow
+catch-rate: 60
+base-experience: 203
+held-items:
+- PEARL
+- 'BIG_PEARL '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: WITHDRAW
+  - 1: SUPERSONIC
+  - 1: AURORA_BEAM
+  - 1: PROTECT
+  - 33: SPIKES
+  - 41: SPIKE_CANNON
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - SURF
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg: []
+species: BIVALVE
+height: 411
+weight: 2920
+pokedex-entries: "Even a missile\ncan't break the\fstab opponents.\nThey're even hard-\n\
+  er than its shell."
+icon: CloysterIcon
+icon-palettes:
+- PURPLE
+- BLUE

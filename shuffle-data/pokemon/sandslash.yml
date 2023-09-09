@@ -1,0 +1,74 @@
+constant: SANDSLASH
+name: SANDSLASH
+types:
+- Ground
+base-stats:
+  hp: 75
+  attack: 100
+  defense: 110
+  speed: 65
+  special-attack: 45
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 90
+base-experience: 163
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: DEFENSE_CURL
+  - 1: SAND_ATTACK
+  - 6: DEFENSE_CURL
+  - 11: SAND_ATTACK
+  - 17: POISON_STING
+  - 24: SLASH
+  - 33: SWIFT
+  - 42: FURY_SWIPES
+  - 52: SANDSTORM
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - SWIFT
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  egg: []
+species: MOUSE
+height: 303
+weight: 650
+pokedex-entries: "Adept at climbing\ntrees, it rolls\fthen attacks its\nenemies from\n\
+  above."
+icon: SandslashIcon
+icon-palettes:
+- BROWN
+- GRAY

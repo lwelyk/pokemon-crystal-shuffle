@@ -1,0 +1,71 @@
+constant: STARMIE
+name: STARMIE
+types:
+- Psychic
+- Water
+base-stats:
+  hp: 60
+  attack: 75
+  defense: 85
+  speed: 115
+  special-attack: 100
+  special-defense: 85
+growth-rate: Slow
+catch-rate: 60
+base-experience: 207
+held-items:
+- STARDUST
+- 'STAR_PIECE '
+female-ratio: Unknown
+egg-cycle: 20
+egg-groups:
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: RAPID_SPIN
+  - 1: RECOVER
+  - 1: BUBBLEBEAM
+  - 37: CONFUSE_RAY
+  taught:
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - NIGHTMARE
+  - SURF
+  - FLASH
+  - WHIRLPOOL
+  - WATERFALL
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: MYSTERIOUS
+height: 307
+weight: 1760
+pokedex-entries: "It is said that it\nuses the seven-\fits body to send\nelectric\
+  \ waves\ninto outer space."
+icon: StarmieIcon
+icon-palettes:
+- PURPLE
+- BLUE

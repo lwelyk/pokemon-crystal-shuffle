@@ -1,0 +1,67 @@
+constant: MAGCARGO
+name: MAGCARGO
+types:
+- Fire
+- Rock
+base-stats:
+  hp: 50
+  attack: 50
+  defense: 120
+  speed: 30
+  special-attack: 80
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 154
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions: []
+moves:
+  level-up:
+  - 1: SMOG
+  - 1: EMBER
+  - 1: ROCK_THROW
+  - 8: EMBER
+  - 15: ROCK_THROW
+  - 22: HARDEN
+  - 29: AMNESIA
+  - 36: FLAMETHROWER
+  - 48: ROCK_SLIDE
+  - 60: BODY_SLAM
+  taught:
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: LAVA
+height: 207
+weight: 1210
+pokedex-entries: "Its body is as hot\nas lava and is\fFlames will\noccasionally burst\n\
+  from its shell."
+icon: MagcargoIcon
+icon-palettes:
+- RED
+- BLUE

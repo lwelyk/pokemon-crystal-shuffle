@@ -1,0 +1,72 @@
+constant: HAUNTER
+name: HAUNTER
+types:
+- Poison
+- Ghost
+base-stats:
+  hp: 45
+  attack: 50
+  defense: 45
+  speed: 95
+  special-attack: 115
+  special-defense: 55
+growth-rate: Medium-Slow
+catch-rate: 90
+base-experience: 126
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions:
+- Method: Trade
+  Held Item: '-1'
+  Species: GENGAR
+moves:
+  level-up:
+  - 1: HYPNOSIS
+  - 1: LICK
+  - 1: SPITE
+  - 8: SPITE
+  - 13: MEAN_LOOK
+  - 16: CURSE
+  - 21: NIGHT_SHADE
+  - 31: CONFUSE_RAY
+  - 39: DREAM_EATER
+  - 48: DESTINY_BOND
+  taught:
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - THUNDERBOLT
+  egg: []
+species: GAS
+height: 503
+weight: 2
+pokedex-entries: "It hides in the\ndark, planning to\fthe next living\nthing that\
+  \ wanders\nclose by."
+icon: HaunterIcon
+icon-palettes:
+- RED
+- BLUE

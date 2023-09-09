@@ -1,0 +1,71 @@
+constant: GLIGAR
+name: GLIGAR
+types:
+- Ground
+- Flying
+base-stats:
+  hp: 65
+  attack: 75
+  defense: 105
+  speed: 85
+  special-attack: 35
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 60
+base-experience: 108
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: POISON_STING
+  - 6: SAND_ATTACK
+  - 13: HARDEN
+  - 20: QUICK_ATTACK
+  - 28: FAINT_ATTACK
+  - 36: SLASH
+  - 44: SCREECH
+  - 52: GUILLOTINE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - SANDSTORM
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  egg:
+  - METAL_CLAW
+  - WING_ATTACK
+  - RAZOR_WIND
+  - COUNTER
+species: FLYSCORPIO
+height: 307
+weight: 1430
+pokedex-entries: "It builds its nest\non a steep cliff.\fgliding, it hops\nalong the\
+  \ ground\nback to its nest."
+icon: GligarIcon
+icon-palettes:
+- PURPLE
+- GRAY

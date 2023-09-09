@@ -1,0 +1,68 @@
+constant: FORRETRESS
+name: FORRETRESS
+types:
+- Steel
+- Bug
+base-stats:
+  hp: 75
+  attack: 90
+  defense: 140
+  speed: 40
+  special-attack: 60
+  special-defense: 60
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 118
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Bug
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: PROTECT
+  - 1: SELFDESTRUCT
+  - 8: SELFDESTRUCT
+  - 15: TAKE_DOWN
+  - 22: RAPID_SPIN
+  - 29: BIDE
+  - 39: EXPLOSION
+  - 49: SPIKES
+  - 59: DOUBLE_EDGE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STRENGTH
+  egg: []
+species: BAGWORM
+height: 311
+weight: 2770
+pokedex-entries: "Usually found\nhanging on to a\fshoots out bits of\nits shell when\
+  \ it\nsees action."
+icon: ForretressIcon
+icon-palettes:
+- RED
+- BROWN

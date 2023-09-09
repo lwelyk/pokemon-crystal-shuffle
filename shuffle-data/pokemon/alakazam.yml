@@ -1,0 +1,73 @@
+constant: ALAKAZAM
+name: ALAKAZAM
+types:
+- Psychic
+base-stats:
+  hp: 55
+  attack: 50
+  defense: 45
+  speed: 120
+  special-attack: 135
+  special-defense: 85
+growth-rate: Medium-Slow
+catch-rate: 50
+base-experience: 186
+held-items: []
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Humanshape
+evolutions: []
+moves:
+  level-up:
+  - 1: TELEPORT
+  - 1: KINESIS
+  - 1: CONFUSION
+  - 16: CONFUSION
+  - 18: DISABLE
+  - 21: PSYBEAM
+  - 26: RECOVER
+  - 31: FUTURE_SIGHT
+  - 38: PSYCHIC_M
+  - 45: REFLECT
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - DIG
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - THUNDERPUNCH
+  - DREAM_EATER
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - NIGHTMARE
+  - FLASH
+  egg: []
+species: PSI
+height: 411
+weight: 1060
+pokedex-entries: "It has an IQ of\n5000. It calcu-\fin order to gain\nthe edge in\
+  \ every\nbattle."
+icon: AlakazamIcon
+icon-palettes:
+- BROWN
+- PURPLE

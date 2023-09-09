@@ -1,0 +1,61 @@
+constant: SUNFLORA
+name: SUNFLORA
+types:
+- Grass
+base-stats:
+  hp: 75
+  attack: 75
+  defense: 55
+  speed: 30
+  special-attack: 105
+  special-defense: 85
+growth-rate: Medium-Slow
+catch-rate: 120
+base-experience: 146
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions: []
+moves:
+  level-up:
+  - 1: ABSORB
+  - 1: POUND
+  - 4: GROWTH
+  - 10: RAZOR_LEAF
+  - 19: SUNNY_DAY
+  - 31: PETAL_DANCE
+  - 46: SOLARBEAM
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: SUN
+height: 207
+weight: 190
+pokedex-entries: "As the hot season\napproaches, the\f#MON's face\nbecome more vivid\n\
+  and lively."
+icon: SunfloraIcon
+icon-palettes:
+- GREEN
+- BROWN

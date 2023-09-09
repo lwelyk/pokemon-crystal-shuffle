@@ -1,0 +1,73 @@
+constant: FARFETCH_D
+name: FARFETCH'D
+types:
+- Flying
+- Normal
+base-stats:
+  hp: 52
+  attack: 65
+  defense: 55
+  speed: 60
+  special-attack: 58
+  special-defense: 62
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 94
+held-items:
+- 'STICK '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+- Flying
+evolutions: []
+moves:
+  level-up:
+  - 1: PECK
+  - 7: SAND_ATTACK
+  - 13: LEER
+  - 19: FURY_ATTACK
+  - 25: SWORDS_DANCE
+  - 31: AGILITY
+  - 37: SLASH
+  - 44: FALSE_SWIPE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - CUT
+  - FLY
+  egg:
+  - FORESIGHT
+  - MIRROR_MOVE
+  - GUST
+  - QUICK_ATTACK
+  - FLAIL
+species: WILD DUCK
+height: 207
+weight: 330
+pokedex-entries: "In order to pre-\nvent their\fpeople have made\nan effort to breed\n\
+  these #MON."
+icon: FarfetchdIcon
+icon-palettes:
+- BROWN
+- BROWN

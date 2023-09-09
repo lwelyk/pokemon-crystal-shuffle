@@ -1,0 +1,74 @@
+constant: GROWLITHE
+name: GROWLITHE
+types:
+- Fire
+base-stats:
+  hp: 55
+  attack: 70
+  defense: 45
+  speed: 60
+  special-attack: 70
+  special-defense: 50
+growth-rate: Slow
+catch-rate: 190
+base-experience: 91
+held-items:
+- BURNT_BERRY
+- 'BURNT_BERRY '
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Item
+  Used Item: FIRE_STONE
+  Species: ARCANINE
+moves:
+  level-up:
+  - 1: BITE
+  - 1: ROAR
+  - 9: EMBER
+  - 18: LEER
+  - 26: TAKE_DOWN
+  - 34: FLAME_WHEEL
+  - 42: AGILITY
+  - 50: FLAMETHROWER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - RETURN
+  - DIG
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg:
+  - BODY_SLAM
+  - SAFEGUARD
+  - CRUNCH
+  - THRASH
+  - FIRE_SPIN
+species: PUPPY
+height: 204
+weight: 420
+pokedex-entries: "It controls a big\nterritory. If it\fsmell, it roars\nloudly to\
+  \ force\nout the intruder."
+icon: GrowlitheIcon
+icon-palettes:
+- RED
+- BROWN

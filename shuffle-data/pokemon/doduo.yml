@@ -1,0 +1,69 @@
+constant: DODUO
+name: DODUO
+types:
+- Flying
+- Normal
+base-stats:
+  hp: 35
+  attack: 85
+  defense: 45
+  speed: 75
+  special-attack: 35
+  special-defense: 35
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 96
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Flying
+evolutions:
+- Method: Level-Up
+  Level: '31'
+  Species: DODRIO
+moves:
+  level-up:
+  - 1: PECK
+  - 1: GROWL
+  - 9: PURSUIT
+  - 13: FURY_ATTACK
+  - 21: TRI_ATTACK
+  - 25: RAGE
+  - 33: DRILL_PECK
+  - 37: AGILITY
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STEEL_WING
+  - FLY
+  egg:
+  - QUICK_ATTACK
+  - SUPERSONIC
+  - HAZE
+  - FAINT_ATTACK
+  - FLAIL
+species: TWIN BIRD
+height: 407
+weight: 860
+pokedex-entries: "It lives on a\ngrassy plain where\fway. If it sees an\nenemy, it\
+  \ runs\naway at 60 mph."
+icon: DoduoIcon
+icon-palettes:
+- BROWN
+- BROWN

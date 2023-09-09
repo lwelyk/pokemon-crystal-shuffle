@@ -1,0 +1,66 @@
+constant: MOLTRES
+name: MOLTRES
+types:
+- Fire
+- Flying
+base-stats:
+  hp: 90
+  attack: 100
+  defense: 90
+  speed: 90
+  special-attack: 125
+  special-defense: 85
+growth-rate: Slow
+catch-rate: 3
+base-experience: 217
+held-items: []
+female-ratio: Unknown
+egg-cycle: 80
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: WING_ATTACK
+  - 1: EMBER
+  - 13: FIRE_SPIN
+  - 25: AGILITY
+  - 37: ENDURE
+  - 49: FLAMETHROWER
+  - 61: SAFEGUARD
+  - 73: SKY_ATTACK
+  taught:
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - SWIFT
+  - DETECT
+  - REST
+  - STEEL_WING
+  - FLY
+  - FLAMETHROWER
+  egg: []
+species: FLAME
+height: 607
+weight: 1320
+pokedex-entries: "Legendary bird\n#MON. It is\ffrom the south\nalong with the\nspring."
+icon: MoltresIcon
+icon-palettes:
+- RED
+- RED

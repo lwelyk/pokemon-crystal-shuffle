@@ -1,0 +1,72 @@
+constant: MUK
+name: MUK
+types:
+- Poison
+base-stats:
+  hp: 105
+  attack: 105
+  defense: 75
+  speed: 50
+  special-attack: 65
+  special-defense: 100
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 157
+held-items:
+- 'NUGGET '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Indeterminate
+evolutions: []
+moves:
+  level-up:
+  - 1: POISON_GAS
+  - 1: POUND
+  - 1: HARDEN
+  - 33: HARDEN
+  - 37: DISABLE
+  - 45: SLUDGE
+  - 23: MINIMIZE
+  - 31: SCREECH
+  - 45: ACID_ARMOR
+  - 60: SLUDGE_BOMB
+  taught:
+  - DYNAMICPUNCH
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  egg: []
+species: SLUDGE
+height: 311
+weight: 660
+pokedex-entries: "As it moves, a\nvery strong poison\fmaking the ground\nthere barren\
+  \ for\nthree years."
+icon: MukIcon
+icon-palettes:
+- PURPLE
+- GREEN

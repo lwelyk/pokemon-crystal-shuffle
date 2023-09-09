@@ -1,0 +1,69 @@
+constant: WEEPINBELL
+name: WEEPINBELL
+types:
+- Grass
+- Poison
+base-stats:
+  hp: 65
+  attack: 90
+  defense: 50
+  speed: 55
+  special-attack: 85
+  special-defense: 45
+growth-rate: Medium-Slow
+catch-rate: 120
+base-experience: 151
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions:
+- Method: Item
+  Used Item: LEAF_STONE
+  Species: VICTREEBEL
+moves:
+  level-up:
+  - 1: VINE_WHIP
+  - 1: GROWTH
+  - 1: WRAP
+  - 6: GROWTH
+  - 11: WRAP
+  - 15: SLEEP_POWDER
+  - 17: POISONPOWDER
+  - 19: STUN_SPORE
+  - 24: ACID
+  - 33: SWEET_SCENT
+  - 42: RAZOR_LEAF
+  - 54: SLAM
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: FLYCATCHER
+height: 303
+weight: 140
+pokedex-entries: "When it's hungry,\nit swings its\fleaves, slicing up\nany unlucky\
+  \ object\nnearby for food."
+icon: WeepinbellIcon
+icon-palettes:
+- GREEN
+- PURPLE

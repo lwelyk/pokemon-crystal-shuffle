@@ -1,0 +1,73 @@
+constant: SPINARAK
+name: SPINARAK
+types:
+- Poison
+- Bug
+base-stats:
+  hp: 40
+  attack: 60
+  defense: 40
+  speed: 30
+  special-attack: 40
+  special-defense: 40
+growth-rate: Fast
+catch-rate: 255
+base-experience: 54
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '22'
+  Species: ARIADOS
+moves:
+  level-up:
+  - 1: POISON_STING
+  - 1: STRING_SHOT
+  - 6: SCARY_FACE
+  - 11: CONSTRICT
+  - 17: NIGHT_SHADE
+  - 23: LEECH_LIFE
+  - 30: FURY_SWIPES
+  - 37: SPIDER_WEB
+  - 45: AGILITY
+  - 53: PSYCHIC_M
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DIG
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - THIEF
+  - FLASH
+  egg:
+  - PSYBEAM
+  - DISABLE
+  - SONICBOOM
+  - BATON_PASS
+  - PURSUIT
+species: STRINGSPIT
+height: 108
+weight: 190
+pokedex-entries: "If prey becomes\nensnared in its\fstring, it waits\nmotionlessly\
+  \ until\nit becomes dark."
+icon: SpinarakIcon
+icon-palettes:
+- GREEN
+- PURPLE

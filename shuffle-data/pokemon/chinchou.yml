@@ -1,0 +1,71 @@
+constant: CHINCHOU
+name: CHINCHOU
+types:
+- Electric
+- Water
+base-stats:
+  hp: 75
+  attack: 38
+  defense: 38
+  speed: 67
+  special-attack: 56
+  special-defense: 56
+growth-rate: Slow
+catch-rate: 190
+base-experience: 90
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 2
+evolutions:
+- Method: Level-Up
+  Level: '27'
+  Species: LANTURN
+moves:
+  level-up:
+  - 1: BUBBLE
+  - 1: THUNDER_WAVE
+  - 5: SUPERSONIC
+  - 13: FLAIL
+  - 17: WATER_GUN
+  - 25: SPARK
+  - 29: CONFUSE_RAY
+  - 37: TAKE_DOWN
+  - 41: HYDRO_PUMP
+  taught:
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - REST
+  - ATTRACT
+  - SURF
+  - FLASH
+  - WHIRLPOOL
+  - WATERFALL
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg:
+  - FLAIL
+  - SUPERSONIC
+  - SCREECH
+species: ANGLER
+height: 108
+weight: 260
+pokedex-entries: "Its antennae, whi-\nch evolved from a\fsitive and neg-\native charges\
+  \ flo-\nwing through them."
+icon: ChinchouIcon
+icon-palettes:
+- BLUE
+- GRAY

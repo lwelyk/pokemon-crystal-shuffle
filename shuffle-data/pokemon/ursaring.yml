@@ -1,0 +1,77 @@
+constant: URSARING
+name: URSARING
+types:
+- Normal
+base-stats:
+  hp: 90
+  attack: 130
+  defense: 75
+  speed: 55
+  special-attack: 75
+  special-defense: 75
+growth-rate: Medium-Fast
+catch-rate: 60
+base-experience: 189
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: LEER
+  - 1: LICK
+  - 1: FURY_SWIPES
+  - 8: LICK
+  - 15: FURY_SWIPES
+  - 22: FAINT_ATTACK
+  - 29: REST
+  - 39: SLASH
+  - 49: SNORE
+  - 59: THRASH
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  egg: []
+species: HIBERNANT
+height: 511
+weight: 2770
+pokedex-entries: "Although it has a\nlarge body, it is\fclimbing trees. It\neats and\
+  \ sleeps in\nthe treetops."
+icon: UrsaringIcon
+icon-palettes:
+- BROWN
+- GREEN

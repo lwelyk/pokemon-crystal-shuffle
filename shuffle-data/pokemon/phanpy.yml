@@ -1,0 +1,71 @@
+constant: PHANPY
+name: PHANPY
+types:
+- Ground
+base-stats:
+  hp: 90
+  attack: 60
+  defense: 60
+  speed: 40
+  special-attack: 40
+  special-defense: 40
+growth-rate: Medium-Fast
+catch-rate: 120
+base-experience: 124
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '25'
+  Species: DONPHAN
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 9: DEFENSE_CURL
+  - 17: FLAIL
+  - 25: TAKE_DOWN
+  - 33: ROLLOUT
+  - 41: ENDURE
+  - 49: DOUBLE_EDGE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - STRENGTH
+  egg:
+  - FOCUS_ENERGY
+  - BODY_SLAM
+  - ANCIENTPOWER
+  - WATER_GUN
+species: LONG NOSE
+height: 108
+weight: 740
+pokedex-entries: "During the desert-\ned morning hours,\fwhere it deftly\nuses its\
+  \ trunk to\ntake a shower."
+icon: PhanpyIcon
+icon-palettes:
+- BLUE
+- TEAL

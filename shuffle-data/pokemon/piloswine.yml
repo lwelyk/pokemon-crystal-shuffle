@@ -1,0 +1,70 @@
+constant: PILOSWINE
+name: PILOSWINE
+types:
+- Ice
+- Ground
+base-stats:
+  hp: 100
+  attack: 100
+  defense: 80
+  speed: 50
+  special-attack: 60
+  special-defense: 60
+growth-rate: Slow
+catch-rate: 75
+base-experience: 160
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: HORN_ATTACK
+  - 1: POWDER_SNOW
+  - 1: ENDURE
+  - 10: POWDER_SNOW
+  - 19: ENDURE
+  - 28: TAKE_DOWN
+  - 33: FURY_ATTACK
+  - 42: MIST
+  - 56: BLIZZARD
+  - 70: AMNESIA
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - STRENGTH
+  - ICE_BEAM
+  egg: []
+species: SWINE
+height: 307
+weight: 1230
+pokedex-entries: "Although its legs\nare short, its\fprevent it from\nslipping, even\
+  \ on\nicy ground."
+icon: Piloswine
+icon-palettes:
+- BROWN
+- BROWN

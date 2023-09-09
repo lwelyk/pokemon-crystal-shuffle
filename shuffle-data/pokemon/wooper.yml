@@ -1,0 +1,79 @@
+constant: WOOPER
+name: WOOPER
+types:
+- Ground
+- Water
+base-stats:
+  hp: 55
+  attack: 45
+  defense: 45
+  speed: 15
+  special-attack: 25
+  special-defense: 25
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 52
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '20'
+  Species: QUAGSIRE
+moves:
+  level-up:
+  - 1: WATER_GUN
+  - 1: TAIL_WHIP
+  - 11: SLAM
+  - 21: AMNESIA
+  - 31: EARTHQUAKE
+  - 41: RAIN_DANCE
+  - 51: MIST
+  - 51: HAZE
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - SANDSTORM
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - SURF
+  - FLASH
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg:
+  - BODY_SLAM
+  - ANCIENTPOWER
+  - SAFEGUARD
+species: WATER FISH
+height: 104
+weight: 190
+pokedex-entries: "A mucous\nmembrane covers\fit barehanded will\ncause a shooting\n\
+  pain."
+icon: WooperIcon
+icon-palettes:
+- BLUE
+- PURPLE

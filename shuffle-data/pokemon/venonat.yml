@@ -1,0 +1,72 @@
+constant: VENONAT
+name: VENONAT
+types:
+- Poison
+- Bug
+base-stats:
+  hp: 60
+  attack: 55
+  defense: 50
+  speed: 45
+  special-attack: 40
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 75
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '31'
+  Species: VENOMOTH
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: DISABLE
+  - 1: FORESIGHT
+  - 9: SUPERSONIC
+  - 17: CONFUSION
+  - 20: POISONPOWDER
+  - 25: LEECH_LIFE
+  - 28: STUN_SPORE
+  - 33: PSYBEAM
+  - 36: SLEEP_POWDER
+  - 41: PSYCHIC_M
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - SWIFT
+  - REST
+  - ATTRACT
+  - THIEF
+  egg:
+  - BATON_PASS
+  - SCREECH
+  - GIGA_DRAIN
+species: INSECT
+height: 303
+weight: 660
+pokedex-entries: "The small bugs it\neats appear only\fsleeps in a hole\nin a tree\
+  \ until\nnight falls."
+icon: VenonatIcon
+icon-palettes:
+- RED
+- BLUE

@@ -1,0 +1,79 @@
+constant: DRAGONAIR
+name: DRAGONAIR
+types:
+- Dragon
+base-stats:
+  hp: 61
+  attack: 84
+  defense: 65
+  speed: 70
+  special-attack: 70
+  special-defense: 70
+growth-rate: Slow
+catch-rate: 45
+base-experience: 144
+held-items:
+- 'DRAGON_SCALE '
+female-ratio: '50'
+egg-cycle: 40
+egg-groups:
+- Dragon
+- Water 1
+evolutions:
+- Method: Level-Up
+  Level: '55'
+  Species: DRAGONITE
+moves:
+  level-up:
+  - 1: WRAP
+  - 1: LEER
+  - 1: THUNDER_WAVE
+  - 1: TWISTER
+  - 8: THUNDER_WAVE
+  - 15: TWISTER
+  - 22: DRAGON_RAGE
+  - 29: SLAM
+  - 38: AGILITY
+  - 47: SAFEGUARD
+  - 56: OUTRAGE
+  - 65: HYPER_BEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - SURF
+  - WATERFALL
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg: []
+species: DRAGON
+height: 1301
+weight: 360
+pokedex-entries: "It is called the\ndivine #MON.\fbody brightens\nslightly, the\n\
+  weather changes."
+icon: DragonairIcon
+icon-palettes:
+- BLUE
+- PURPLE

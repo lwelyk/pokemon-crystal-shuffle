@@ -1,0 +1,74 @@
+constant: QUILAVA
+name: QUILAVA
+types:
+- Fire
+base-stats:
+  hp: 58
+  attack: 64
+  defense: 58
+  speed: 80
+  special-attack: 80
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 142
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '36'
+  Species: TYPHLOSION
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: LEER
+  - 1: SMOKESCREEN
+  - 6: SMOKESCREEN
+  - 12: EMBER
+  - 21: QUICK_ATTACK
+  - 31: FLAME_WHEEL
+  - 42: SWIFT
+  - 54: FLAMETHROWER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: VOLCANO
+height: 211
+weight: 420
+pokedex-entries: "Before battle, it\nturns its back on\fdemonstrate how\nferociously\
+  \ its\nfire blazes."
+icon: QuilavaIcon
+icon-palettes:
+- PINK
+- PURPLE

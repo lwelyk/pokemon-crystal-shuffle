@@ -1,0 +1,73 @@
+constant: ENTEI
+name: ENTEI
+types:
+- Fire
+base-stats:
+  hp: 115
+  attack: 115
+  defense: 85
+  speed: 100
+  special-attack: 90
+  special-defense: 75
+growth-rate: Slow
+catch-rate: 3
+base-experience: 217
+held-items: []
+female-ratio: Unknown
+egg-cycle: 80
+egg-groups:
+- None
+evolutions: []
+moves:
+  level-up:
+  - 1: BITE
+  - 1: LEER
+  - 11: EMBER
+  - 21: ROAR
+  - 31: FIRE_SPIN
+  - 41: STOMP
+  - 51: FLAMETHROWER
+  - 61: SWAGGER
+  - 71: FIRE_BLAST
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - SWIFT
+  - DETECT
+  - REST
+  - CUT
+  - STRENGTH
+  - FLASH
+  - FLAMETHROWER
+  egg: []
+species: VOLCANO
+height: 607
+weight: 4370
+pokedex-entries: "This brawny\n#MON courses\fspouting flames\nhotter than a\nvolcano's\
+  \ magma."
+icon: EnteiIcon
+icon-palettes:
+- RED
+- BROWN

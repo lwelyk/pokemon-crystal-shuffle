@@ -1,0 +1,85 @@
+constant: SNEASEL
+name: SNEASEL
+types:
+- Dark
+- Ice
+base-stats:
+  hp: 55
+  attack: 95
+  defense: 55
+  speed: 115
+  special-attack: 35
+  special-defense: 75
+growth-rate: Medium-Slow
+catch-rate: 60
+base-experience: 132
+held-items:
+- 'QUICK_CLAW '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: LEER
+  - 9: QUICK_ATTACK
+  - 17: SCREECH
+  - 25: FAINT_ATTACK
+  - 33: FURY_SWIPES
+  - 41: AGILITY
+  - 49: SLASH
+  - 57: BEAT_UP
+  - 65: METAL_CLAW
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DIG
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FURY_CUTTER
+  - NIGHTMARE
+  - CUT
+  - SURF
+  - STRENGTH
+  - ICE_BEAM
+  egg:
+  - COUNTER
+  - SPITE
+  - FORESIGHT
+  - REFLECT
+  - BITE
+species: SHARP CLAW
+height: 211
+weight: 620
+pokedex-entries: "This cunning\n#MON hides\fof darkness,\nwaiting to attack\nits prey."
+icon: SneaselIcon
+icon-palettes:
+- RED
+- PURPLE

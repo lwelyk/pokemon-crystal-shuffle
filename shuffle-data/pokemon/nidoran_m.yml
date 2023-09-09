@@ -1,0 +1,76 @@
+constant: NIDORAN_M
+name: "NIDORAN\u2642"
+types:
+- Poison
+base-stats:
+  hp: 46
+  attack: 57
+  defense: 40
+  speed: 50
+  special-attack: 40
+  special-defense: 40
+growth-rate: Medium-Slow
+catch-rate: 235
+base-experience: 60
+held-items: []
+female-ratio: '0'
+egg-cycle: 20
+egg-groups:
+- Ground
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '16'
+  Species: NIDORINO
+moves:
+  level-up:
+  - 1: LEER
+  - 1: TACKLE
+  - 8: HORN_ATTACK
+  - 12: DOUBLE_KICK
+  - 17: POISON_STING
+  - 23: FOCUS_ENERGY
+  - 30: FURY_ATTACK
+  - 38: HORN_DRILL
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - THUNDERBOLT
+  egg:
+  - SUPERSONIC
+  - DISABLE
+  - TAKE_DOWN
+  - CONFUSION
+  - AMNESIA
+  - COUNTER
+  - BEAT_UP
+species: POISON PIN
+height: 108
+weight: 200
+pokedex-entries: "It constantly\nmoves its large\fdirections in\norder to detect\n\
+  danger right away."
+icon: NidoranMIcon
+icon-palettes:
+- PURPLE
+- BLUE

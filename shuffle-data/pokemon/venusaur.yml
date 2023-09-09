@@ -1,0 +1,74 @@
+constant: VENUSAUR
+name: VENUSAUR
+types:
+- Grass
+- Poison
+base-stats:
+  hp: 80
+  attack: 82
+  defense: 83
+  speed: 80
+  special-attack: 100
+  special-defense: 100
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 208
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Plant
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 1: LEECH_SEED
+  - 1: VINE_WHIP
+  - 4: GROWL
+  - 7: LEECH_SEED
+  - 10: VINE_WHIP
+  - 15: POISONPOWDER
+  - 15: SLEEP_POWDER
+  - 22: RAZOR_LEAF
+  - 29: SWEET_SCENT
+  - 41: GROWTH
+  - 53: SYNTHESIS
+  - 65: SOLARBEAM
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FURY_CUTTER
+  - CUT
+  - FLASH
+  egg: []
+species: SEED
+height: 607
+weight: 2210
+pokedex-entries: "As it warms it-\nself and absorbs\fflower petals\nrelease a pleasant\n\
+  fragrance."
+icon: VenusaurIcon
+icon-palettes:
+- TEAL
+- GREEN

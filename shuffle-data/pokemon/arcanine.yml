@@ -1,0 +1,64 @@
+constant: ARCANINE
+name: ARCANINE
+types:
+- Fire
+base-stats:
+  hp: 90
+  attack: 110
+  defense: 80
+  speed: 95
+  special-attack: 100
+  special-defense: 80
+growth-rate: Slow
+catch-rate: 75
+base-experience: 213
+held-items:
+- BURNT_BERRY
+- 'BURNT_BERRY '
+female-ratio: '25'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: ROAR
+  - 1: LEER
+  - 1: TAKE_DOWN
+  - 1: FLAME_WHEEL
+  - 50: EXTREMESPEED
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROAR
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - RETURN
+  - DIG
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg: []
+species: LEGENDARY
+height: 603
+weight: 3420
+pokedex-entries: "An ancient picture\nscroll shows that\fattracted to its\nmovement\
+  \ as it ran\nthrough prairies."
+icon: ArcanineIcon
+icon-palettes:
+- RED
+- BROWN

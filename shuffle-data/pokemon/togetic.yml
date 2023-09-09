@@ -1,0 +1,76 @@
+constant: TOGETIC
+name: TOGETIC
+types:
+- Fairy
+- Flying
+base-stats:
+  hp: 55
+  attack: 40
+  defense: 85
+  speed: 40
+  special-attack: 80
+  special-defense: 105
+growth-rate: Fast
+catch-rate: 75
+base-experience: 114
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 10
+egg-groups:
+- Fairy
+- Flying
+evolutions: []
+moves:
+  level-up:
+  - 1: GROWL
+  - 1: CHARM
+  - 7: METRONOME
+  - 18: SWEET_KISS
+  - 25: ENCORE
+  - 31: SAFEGUARD
+  - 38: DOUBLE_EDGE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - STEEL_WING
+  - FLY
+  - FLASH
+  - FLAMETHROWER
+  egg: []
+species: HAPPINESS
+height: 200
+weight: 70
+pokedex-entries: "Although it does\nnot flap its wings\fstay up in the air\nas it\
+  \ tags along\nafter its trainer."
+icon: TogeticIcon
+icon-palettes:
+- RED
+- BLUE

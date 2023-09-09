@@ -1,0 +1,75 @@
+constant: CORSOLA
+name: CORSOLA
+types:
+- Rock
+- Water
+base-stats:
+  hp: 55
+  attack: 55
+  defense: 85
+  speed: 35
+  special-attack: 65
+  special-defense: 85
+growth-rate: Fast
+catch-rate: 60
+base-experience: 113
+held-items: []
+female-ratio: '75'
+egg-cycle: 20
+egg-groups:
+- Water 1
+- Water 3
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 7: HARDEN
+  - 13: BUBBLE
+  - 19: RECOVER
+  - 25: BUBBLEBEAM
+  - 31: SPIKE_CANNON
+  - 37: MIRROR_COAT
+  - 43: ANCIENTPOWER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - PSYCHIC_M
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - SURF
+  - STRENGTH
+  - WHIRLPOOL
+  - ICE_BEAM
+  egg:
+  - ROCK_SLIDE
+  - SAFEGUARD
+  - SCREECH
+  - MIST
+  - AMNESIA
+species: CORAL
+height: 200
+weight: 110
+pokedex-entries: "The points on its\nhead absorb\fclean water. They\ncannot survive\
+  \ in\npolluted water."
+icon: CorsolaIcon
+icon-palettes:
+- PINK
+- TEAL

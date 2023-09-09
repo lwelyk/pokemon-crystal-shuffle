@@ -1,0 +1,62 @@
+constant: SUNKERN
+name: SUNKERN
+types:
+- Grass
+base-stats:
+  hp: 30
+  attack: 30
+  defense: 30
+  speed: 30
+  special-attack: 30
+  special-defense: 30
+growth-rate: Medium-Slow
+catch-rate: 235
+base-experience: 52
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Plant
+evolutions:
+- Method: Item
+  Used Item: SUN_STONE
+  Species: SUNFLORA
+moves:
+  level-up:
+  - 1: ABSORB
+  - 4: GROWTH
+  - 10: MEGA_DRAIN
+  - 19: SUNNY_DAY
+  - 31: SYNTHESIS
+  - 46: GIGA_DRAIN
+  taught:
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SWEET_SCENT
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - CUT
+  - FLASH
+  egg: []
+species: SEED
+height: 100
+weight: 40
+pokedex-entries: "It is very weak.\nIts only means of\fshake its leaves\ndesperately\
+  \ at its\nattacker."
+icon: SunkernIcon
+icon-palettes:
+- GREEN
+- GREEN

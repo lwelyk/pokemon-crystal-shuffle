@@ -1,0 +1,78 @@
+constant: PRIMEAPE
+name: PRIMEAPE
+types:
+- Fighting
+base-stats:
+  hp: 65
+  attack: 105
+  defense: 60
+  speed: 95
+  special-attack: 60
+  special-defense: 70
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 149
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions: []
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: LEER
+  - 1: LOW_KICK
+  - 1: RAGE
+  - 9: LOW_KICK
+  - 15: KARATE_CHOP
+  - 21: FURY_SWIPES
+  - 27: FOCUS_ENERGY
+  - 28: RAGE
+  - 36: SEISMIC_TOSS
+  - 45: CROSS_CHOP
+  - 54: SCREECH
+  - 63: THRASH
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - HYPER_BEAM
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  - THUNDERBOLT
+  egg: []
+species: PIG MONKEY
+height: 303
+weight: 710
+pokedex-entries: "It will beat up\nanyone who makes\fhas to chase them\nuntil the\
+  \ end of\nthe world."
+icon: PrimeapeIcon
+icon-palettes:
+- BROWN
+- BROWN

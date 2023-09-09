@@ -1,0 +1,73 @@
+constant: NATU
+name: NATU
+types:
+- Flying
+- Psychic
+base-stats:
+  hp: 40
+  attack: 50
+  defense: 45
+  speed: 70
+  special-attack: 70
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 73
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Flying
+evolutions:
+- Method: Level-Up
+  Level: '25'
+  Species: XATU
+moves:
+  level-up:
+  - 1: PECK
+  - 1: LEER
+  - 10: NIGHT_SHADE
+  - 20: TELEPORT
+  - 30: FUTURE_SIGHT
+  - 40: CONFUSE_RAY
+  - 50: PSYCHIC_M
+  taught:
+  - CURSE
+  - TOXIC
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - GIGA_DRAIN
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - RETURN
+  - PSYCHIC_M
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DREAM_EATER
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - NIGHTMARE
+  - FLASH
+  egg:
+  - HAZE
+  - DRILL_PECK
+  - QUICK_ATTACK
+  - FAINT_ATTACK
+  - STEEL_WING
+species: LITTLE BIRD
+height: 8
+weight: 40
+pokedex-entries: "It is extremely\ngood at climbing\flikes to eat the\nnew sprouts\
+  \ on\nthe trees."
+icon: NatuIcon
+icon-palettes:
+- TEAL
+- TEAL

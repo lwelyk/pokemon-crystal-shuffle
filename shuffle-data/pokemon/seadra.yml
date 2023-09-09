@@ -1,0 +1,72 @@
+constant: SEADRA
+name: SEADRA
+types:
+- Water
+base-stats:
+  hp: 55
+  attack: 65
+  defense: 95
+  speed: 85
+  special-attack: 95
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 155
+held-items:
+- 'DRAGON_SCALE '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Dragon
+- Water 1
+evolutions:
+- Method: Trade
+  Held Item: DRAGON_SCALE
+  Species: KINGDRA
+moves:
+  level-up:
+  - 1: BUBBLE
+  - 1: SMOKESCREEN
+  - 1: LEER
+  - 1: WATER_GUN
+  - 8: SMOKESCREEN
+  - 15: LEER
+  - 22: WATER_GUN
+  - 29: TWISTER
+  - 40: AGILITY
+  - 51: HYDRO_PUMP
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - DRAGONBREATH
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - SURF
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg: []
+species: DRAGON
+height: 311
+weight: 550
+pokedex-entries: "The male raises\nthe young. If it\fuses its toxic\nspikes to fend\
+  \ off\nthe intruder."
+icon: SeadraIcon
+icon-palettes:
+- BLUE
+- BLUE

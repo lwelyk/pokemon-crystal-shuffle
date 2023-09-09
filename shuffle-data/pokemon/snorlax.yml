@@ -1,0 +1,87 @@
+constant: SNORLAX
+name: SNORLAX
+types:
+- Normal
+base-stats:
+  hp: 160
+  attack: 110
+  defense: 65
+  speed: 30
+  special-attack: 65
+  special-defense: 110
+growth-rate: Slow
+catch-rate: 25
+base-experience: 154
+held-items:
+- LEFTOVERS
+- 'LEFTOVERS '
+female-ratio: '12.5'
+egg-cycle: 40
+egg-groups:
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: TACKLE
+  - 8: AMNESIA
+  - 15: DEFENSE_CURL
+  - 22: BELLY_DRUM
+  - 29: HEADBUTT
+  - 36: SNORE
+  - 36: REST
+  - 43: BODY_SLAM
+  - 50: ROLLOUT
+  - 57: HYPER_BEAM
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - ROLLOUT
+  - TOXIC
+  - ZAP_CANNON
+  - ROCK_SMASH
+  - PSYCH_UP
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - SOLARBEAM
+  - THUNDER
+  - EARTHQUAKE
+  - RETURN
+  - PSYCHIC_M
+  - SHADOW_BALL
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - DEFENSE_CURL
+  - THUNDERPUNCH
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - SURF
+  - STRENGTH
+  - FLAMETHROWER
+  - THUNDERBOLT
+  - ICE_BEAM
+  egg:
+  - LICK
+species: SLEEPING
+height: 611
+weight: 10140
+pokedex-entries: "This #MON's\nstomach is so\feating moldy or\nrotten food will\n\
+  not affect it."
+icon: SnorlaxIcon
+icon-palettes:
+- BROWN
+- BLUE

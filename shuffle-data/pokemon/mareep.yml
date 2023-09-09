@@ -1,0 +1,72 @@
+constant: MAREEP
+name: MAREEP
+types:
+- Electric
+base-stats:
+  hp: 55
+  attack: 40
+  defense: 40
+  speed: 35
+  special-attack: 65
+  special-defense: 45
+growth-rate: Medium-Slow
+catch-rate: 235
+base-experience: 59
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '15'
+  Species: FLAAFFY
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: GROWL
+  - 9: THUNDERSHOCK
+  - 16: THUNDER_WAVE
+  - 23: COTTON_SPORE
+  - 30: LIGHT_SCREEN
+  - 37: THUNDER
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - THUNDER
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FLASH
+  - THUNDERBOLT
+  egg:
+  - THUNDERBOLT
+  - TAKE_DOWN
+  - BODY_SLAM
+  - SAFEGUARD
+  - SCREECH
+  - REFLECT
+species: WOOL
+height: 200
+weight: 170
+pokedex-entries: "It stores lots of\nair in its soft\fto stay cool in\nsummer and\
+  \ warm\nin winter."
+icon: MareepIcon
+icon-palettes:
+- BLUE
+- PURPLE

@@ -1,0 +1,81 @@
+constant: MAROWAK
+name: MAROWAK
+types:
+- Ground
+base-stats:
+  hp: 60
+  attack: 80
+  defense: 110
+  speed: 45
+  special-attack: 50
+  special-defense: 80
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 124
+held-items:
+- 'THICK_CLUB '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Monster
+evolutions: []
+moves:
+  level-up:
+  - 1: GROWL
+  - 1: TAIL_WHIP
+  - 1: BONE_CLUB
+  - 1: HEADBUTT
+  - 5: TAIL_WHIP
+  - 9: BONE_CLUB
+  - 13: HEADBUTT
+  - 17: LEER
+  - 21: FOCUS_ENERGY
+  - 25: BONEMERANG
+  - 32: RAGE
+  - 39: FALSE_SWIPE
+  - 46: THRASH
+  - 53: BONE_RUSH
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SANDSTORM
+  - FIRE_BLAST
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - STRENGTH
+  - FLAMETHROWER
+  - ICE_BEAM
+  egg: []
+species: BONEKEEPER
+height: 303
+weight: 990
+pokedex-entries: "Somewhere in the\nworld is a ceme-\fMAROWAK. It gets\nits bones\
+  \ from\nthose graves."
+icon: MarowakIcon
+icon-palettes:
+- BROWN
+- GRAY

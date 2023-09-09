@@ -1,0 +1,70 @@
+constant: DIGLETT
+name: DIGLETT
+types:
+- Ground
+base-stats:
+  hp: 10
+  attack: 55
+  defense: 25
+  speed: 95
+  special-attack: 35
+  special-defense: 45
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 81
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '26'
+  Species: DUGTRIO
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 5: GROWL
+  - 9: MAGNITUDE
+  - 17: DIG
+  - 25: SAND_ATTACK
+  - 33: SLASH
+  - 41: EARTHQUAKE
+  - 49: FISSURE
+  taught:
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - EARTHQUAKE
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SLUDGE_BOMB
+  - REST
+  - ATTRACT
+  - THIEF
+  - CUT
+  egg:
+  - FAINT_ATTACK
+  - SCREECH
+  - ANCIENTPOWER
+  - PURSUIT
+  - BEAT_UP
+species: MOLE
+height: 8
+weight: 20
+pokedex-entries: "It digs under-\nground and chews\fsticking its head\nout only when\
+  \ the\nsun isn't bright."
+icon: DiglettIcon
+icon-palettes:
+- BROWN
+- BLUE

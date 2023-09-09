@@ -1,0 +1,39 @@
+constant: CATERPIE
+name: CATERPIE
+types:
+- Bug
+base-stats:
+  hp: 45
+  attack: 30
+  defense: 35
+  speed: 45
+  special-attack: 20
+  special-defense: 20
+growth-rate: Medium-Fast
+catch-rate: 255
+base-experience: 53
+held-items: []
+female-ratio: '50'
+egg-cycle: 15
+egg-groups:
+- Bug
+evolutions:
+- Method: Level-Up
+  Level: '7'
+  Species: METAPOD
+moves:
+  level-up:
+  - 1: TACKLE
+  - 1: STRING_SHOT
+  taught:
+  - ''
+  egg: []
+species: WORM
+height: 100
+weight: 60
+pokedex-entries: "It crawls into\nfoliage where it\famong leaves that\nare the same\
+  \ color\nas its body."
+icon: CaterpieIcon
+icon-palettes:
+- GREEN
+- BROWN

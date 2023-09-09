@@ -1,0 +1,70 @@
+constant: KINGDRA
+name: KINGDRA
+types:
+- Dragon
+- Water
+base-stats:
+  hp: 75
+  attack: 95
+  defense: 95
+  speed: 85
+  special-attack: 95
+  special-defense: 95
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 207
+held-items:
+- 'DRAGON_SCALE '
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Dragon
+- Water 1
+evolutions: []
+moves:
+  level-up:
+  - 1: BUBBLE
+  - 1: SMOKESCREEN
+  - 1: LEER
+  - 1: WATER_GUN
+  - 8: SMOKESCREEN
+  - 15: LEER
+  - 22: WATER_GUN
+  - 29: TWISTER
+  - 40: AGILITY
+  - 51: HYDRO_PUMP
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SNORE
+  - BLIZZARD
+  - HYPER_BEAM
+  - ICY_WIND
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - DRAGONBREATH
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - REST
+  - ATTRACT
+  - SURF
+  - WHIRLPOOL
+  - WATERFALL
+  - ICE_BEAM
+  egg: []
+species: DRAGON
+height: 511
+weight: 3350
+pokedex-entries: "It stores energy\nby sleeping at\fat which no other\nlife forms\
+  \ can\nsurvive."
+icon: KingdraIcon
+icon-palettes:
+- BLUE
+- PURPLE

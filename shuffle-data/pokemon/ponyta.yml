@@ -1,0 +1,70 @@
+constant: PONYTA
+name: PONYTA
+types:
+- Fire
+base-stats:
+  hp: 50
+  attack: 85
+  defense: 55
+  speed: 90
+  special-attack: 65
+  special-defense: 65
+growth-rate: Medium-Fast
+catch-rate: 190
+base-experience: 152
+held-items: []
+female-ratio: '50'
+egg-cycle: 20
+egg-groups:
+- Ground
+evolutions:
+- Method: Level-Up
+  Level: '40'
+  Species: RAPIDASH
+moves:
+  level-up:
+  - 1: TACKLE
+  - 4: GROWL
+  - 8: TAIL_WHIP
+  - 13: EMBER
+  - 19: STOMP
+  - 26: FIRE_SPIN
+  - 34: TAKE_DOWN
+  - 43: AGILITY
+  - 53: FIRE_BLAST
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - RETURN
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - REST
+  - ATTRACT
+  - FLAMETHROWER
+  egg:
+  - FLAME_WHEEL
+  - THRASH
+  - DOUBLE_KICK
+  - HYPNOSIS
+  - CHARM
+  - QUICK_ATTACK
+species: FIRE HORSE
+height: 303
+weight: 660
+pokedex-entries: "Training by\njumping over grass\fevery day has made\nit a world-class\n\
+  jumper."
+icon: PonytaIcon
+icon-palettes:
+- RED
+- BROWN

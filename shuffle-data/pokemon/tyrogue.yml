@@ -1,0 +1,71 @@
+constant: TYROGUE
+name: TYROGUE
+types:
+- Fighting
+base-stats:
+  hp: 35
+  attack: 35
+  defense: 35
+  speed: 35
+  special-attack: 35
+  special-defense: 35
+growth-rate: Medium-Fast
+catch-rate: 75
+base-experience: 91
+held-items: []
+female-ratio: '0'
+egg-cycle: 25
+egg-groups:
+- None
+evolutions:
+- Method: Stat
+  Level: '20'
+  Stat Relationship: ATK_LT_DEF
+  Species: HITMONCHAN
+- Method: Stat
+  Level: '20'
+  Stat Relationship: ATK_GT_DEF
+  Species: HITMONLEE
+- Method: Stat
+  Level: '20'
+  Stat Relationship: ATK_EQ_DEF
+  Species: HITMONTOP
+moves:
+  level-up:
+  - 1: TACKLE
+  taught:
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - RETURN
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - STRENGTH
+  egg:
+  - RAPID_SPIN
+  - HI_JUMP_KICK
+  - MACH_PUNCH
+  - MIND_READER
+species: SCUFFLE
+height: 204
+weight: 460
+pokedex-entries: "To brush up on its\nfighting skills,\fanyone. It has a\nvery strong\
+  \ com-\npetitive spirit."
+icon: TyrogueIcon
+icon-palettes:
+- BROWN
+- BLUE

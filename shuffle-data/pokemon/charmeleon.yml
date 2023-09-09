@@ -1,0 +1,77 @@
+constant: CHARMELEON
+name: CHARMELEON
+types:
+- Fire
+base-stats:
+  hp: 58
+  attack: 64
+  defense: 58
+  speed: 80
+  special-attack: 80
+  special-defense: 65
+growth-rate: Medium-Slow
+catch-rate: 45
+base-experience: 142
+held-items: []
+female-ratio: '12.5'
+egg-cycle: 20
+egg-groups:
+- Dragon
+- Monster
+evolutions:
+- Method: Level-Up
+  Level: '36'
+  Species: CHARIZARD
+moves:
+  level-up:
+  - 1: SCRATCH
+  - 1: GROWL
+  - 1: EMBER
+  - 7: EMBER
+  - 13: SMOKESCREEN
+  - 20: RAGE
+  - 27: SCARY_FACE
+  - 34: FLAMETHROWER
+  - 41: SLASH
+  - 48: DRAGON_RAGE
+  - 55: FIRE_SPIN
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ROCK_SMASH
+  - HIDDEN_POWER
+  - SUNNY_DAY
+  - SNORE
+  - PROTECT
+  - ENDURE
+  - FRUSTRATION
+  - IRON_TAIL
+  - DRAGONBREATH
+  - RETURN
+  - DIG
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - SWAGGER
+  - SLEEP_TALK
+  - FIRE_BLAST
+  - SWIFT
+  - DEFENSE_CURL
+  - REST
+  - ATTRACT
+  - FIRE_PUNCH
+  - FURY_CUTTER
+  - CUT
+  - STRENGTH
+  - FLAMETHROWER
+  egg: []
+species: FLAME
+height: 307
+weight: 420
+pokedex-entries: "If it becomes\nagitated during\fintense flames,\nincinerating its\n\
+  surroundings."
+icon: CharmeleonIcon
+icon-palettes:
+- RED
+- BROWN

@@ -1,0 +1,77 @@
+constant: ELEKID
+name: ELEKID
+types:
+- Electric
+base-stats:
+  hp: 45
+  attack: 63
+  defense: 37
+  speed: 95
+  special-attack: 65
+  special-defense: 55
+growth-rate: Medium-Fast
+catch-rate: 45
+base-experience: 106
+held-items: []
+female-ratio: '25'
+egg-cycle: 25
+egg-groups:
+- None
+evolutions:
+- Method: Level-Up
+  Level: '30'
+  Species: ELECTABUZZ
+moves:
+  level-up:
+  - 1: QUICK_ATTACK
+  - 1: LEER
+  - 9: THUNDERPUNCH
+  - 17: LIGHT_SCREEN
+  - 25: SWIFT
+  - 33: SCREECH
+  - 41: THUNDERBOLT
+  - 49: THUNDER
+  taught:
+  - DYNAMICPUNCH
+  - HEADBUTT
+  - CURSE
+  - TOXIC
+  - ZAP_CANNON
+  - HIDDEN_POWER
+  - SNORE
+  - PROTECT
+  - RAIN_DANCE
+  - ENDURE
+  - FRUSTRATION
+  - THUNDER
+  - RETURN
+  - PSYCHIC_M
+  - MUD_SLAP
+  - DOUBLE_TEAM
+  - ICE_PUNCH
+  - SWAGGER
+  - SLEEP_TALK
+  - SWIFT
+  - THUNDERPUNCH
+  - DETECT
+  - REST
+  - ATTRACT
+  - THIEF
+  - FIRE_PUNCH
+  - FLASH
+  - THUNDERBOLT
+  egg:
+  - KARATE_CHOP
+  - BARRIER
+  - ROLLING_KICK
+  - MEDITATE
+  - CROSS_CHOP
+species: ELECTRIC
+height: 200
+weight: 520
+pokedex-entries: "It loves violent\nthunder. The space\fflickers bluish-\nwhite when\
+  \ it is\ncharging energy."
+icon: ElekidIcon
+icon-palettes:
+- BROWN
+- PINK
