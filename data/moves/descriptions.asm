@@ -256,6 +256,8 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw NastyPlotDescription
+	dw HexDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1264,3 +1266,11 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+NastyPlotDescription:
+	db   "Sharply increases"
+	next "user's SPCL.ATK.@"
+
+HexDescription:
+	db   "2x damage to foes"
+	next "w/ a status cond.@"

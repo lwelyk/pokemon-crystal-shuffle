@@ -279,6 +279,8 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_NastyPlot
+	dw BattleAnim_Hex
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3331,6 +3333,7 @@ BattleAnim_Reversal:
 	anim_wait 24
 	anim_ret
 
+BattleAnim_Hex:
 BattleAnim_Spite:
 	anim_1gfx ANIM_GFX_ANGELS
 	anim_obj ANIM_OBJ_SPITE, 132, 16, $0
@@ -4421,6 +4424,7 @@ BattleAnim_MirrorCoat:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_NastyPlot:
 BattleAnim_PsychUp:
 	anim_1gfx ANIM_GFX_STATUS
 	anim_call BattleAnim_TargetObj_1Row

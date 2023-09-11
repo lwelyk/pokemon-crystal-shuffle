@@ -269,4 +269,6 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   40, FIGHTING, PHYSICAL, 100, 15,  50 ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,    SPECIAL,   70, 15,   0 ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,     PHYSICAL, 100, 10,   0 ;BEAT_UP
-.IndirectEnd::
+	move EFFECT_SP_ATK_UP_2,         0, DARK,     STATUS,   100, 20,   0 ;NASTY_PLOT
+	move EFFECT_HEX,                65, GHOST,    SPECIAL,  100, 10,   0 ;HEX
+	.IndirectEnd::
