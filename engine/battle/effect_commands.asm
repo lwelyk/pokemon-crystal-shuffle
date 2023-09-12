@@ -1075,8 +1075,7 @@ BattleCommand_DoTurn:
 
 .mimic
 	ld hl, wWildMonPP
-	call .consume_pp
-	ret
+	jr .consume_pp
 
 .out_of_pp
 	call BattleCommand_MoveDelay
@@ -2842,8 +2841,7 @@ DoubleStatIfSpeciesHoldingItem:
 
 ; Double the stat
 ; BUG: Thick Club and Light Ball can make (Special) Attack wrap around above 1024 (see docs/bugs_and_glitches.md)
-	sla l
-	rl h
+	add hl, hl
 	ret
 
 EnemyAttackDamage:
@@ -5698,10 +5696,6 @@ BattleCommand_Charge:
 	text_far _BattleDugText
 	text_end
 
-BattleCommand_Unused3C:
-; effect0x3c
-	ret
-
 BattleCommand_TrapTarget:
 	ld a, [wAttackMissed]
 	and a
@@ -6448,10 +6442,6 @@ INCLUDE "engine/battle/move_effects/perish_song.asm"
 INCLUDE "engine/battle/move_effects/sandstorm.asm"
 
 INCLUDE "engine/battle/move_effects/rollout.asm"
-
-BattleCommand_Unused5D:
-; effect0x5d
-	ret
 
 INCLUDE "engine/battle/move_effects/fury_cutter.asm"
 
