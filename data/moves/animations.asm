@@ -281,6 +281,12 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Hex
+	dw BattleAnim_FairyWind
+	dw BattleAnim_DsrmngVoice
+	dw BattleAnim_DrainKiss
+	dw BattleAnim_DazzleGleam
+	dw BattleAnim_PlayRough
+	dw BattleAnim_Moonblast
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1411,6 +1417,7 @@ BattleAnim_RockSlide:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_DsrmngVoice:
 BattleAnim_Sing:
 	anim_1gfx ANIM_GFX_NOISE
 	anim_sound 16, 2, SFX_SING
@@ -1463,6 +1470,7 @@ BattleAnim_HyperBeam:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_DazzleGleam:
 BattleAnim_AuroraBeam:
 	anim_1gfx ANIM_GFX_BEAM
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -2117,6 +2125,7 @@ BattleAnim_DoubleEdge:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_PlayRough:
 BattleAnim_Submission:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_UserObj_1Row
@@ -2381,6 +2390,7 @@ BattleAnim_Mimic:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_DrainKiss:
 BattleAnim_LovelyKiss:
 	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -2846,6 +2856,7 @@ BattleAnim_DefenseCurl:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_Moonblast:
 BattleAnim_SeismicToss:
 	anim_2gfx ANIM_GFX_GLOBE, ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $10, $1, $20
@@ -3577,6 +3588,7 @@ BattleAnim_PerishSong:
 	anim_wait 112
 	anim_ret
 
+BattleAnim_FairyWind:
 BattleAnim_IcyWind:
 	anim_1gfx ANIM_GFX_SPEED
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0

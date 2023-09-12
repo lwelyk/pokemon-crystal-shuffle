@@ -14,7 +14,8 @@ ENDM
 Moves::
 ; entries correspond to constants/move_constants.asm
 	indirect_table MOVE_LENGTH - 1, 1
-	indirect_entries NUM_ATTACKS, Moves1
+	indirect_entries BEAT_UP, Moves1
+	indirect_entries NUM_ATTACKS, Moves2
 	indirect_table_end
 
 Moves1:
@@ -269,6 +270,16 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   40, FIGHTING, PHYSICAL, 100, 15,  50 ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,    SPECIAL,   70, 15,   0 ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,     PHYSICAL, 100, 10,   0 ;BEAT_UP
+.IndirectEnd::
+
+Moves2:
 	move EFFECT_SP_ATK_UP_2,         0, DARK,     STATUS,   100, 20,   0 ;NASTY_PLOT
 	move EFFECT_HEX,                65, GHOST,    SPECIAL,  100, 10,   0 ;HEX
-	.IndirectEnd::
+	move EFFECT_NORMAL_HIT,         40, FAIRY,    SPECIAL,  100, 30,   0 ;FAIRY WIND
+	move EFFECT_ALWAYS_HIT,         40, FAIRY,    SPECIAL,  100, 15,   0 ;DSRMNG_VOICE
+	move EFFECT_LEECH_HIT,          50, FAIRY,    SPECIAL,  100, 10,   0 ;DRAIN_KISS --TODO: new effect with 75% leech.
+	move EFFECT_NORMAL_HIT,         80, FAIRY,    SPECIAL,  100, 10,   0 ;DAZZLE_GLEAM
+	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,    PHYSICAL,  90, 10,  10 ;PLAY_ROUGH
+	move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,    SPECIAL,  100, 15,  30 ;MOONBLAST
+
+.IndirectEnd::

@@ -259,6 +259,12 @@
 	const BEAT_UP      ; fb
 	const NASTY_PLOT   ; fc
 	const HEX          ; fd
+	const FAIRY_WIND   ; fe
+	const DSRMNG_VOICE ; 100
+	const DRAIN_KISS   ; 101
+	const DAZZLE_GLEAM ; 102
+	const PLAY_ROUGH   ; 103
+	const MOONBLAST    ; 104
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

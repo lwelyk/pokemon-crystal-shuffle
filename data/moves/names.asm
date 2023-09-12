@@ -253,4 +253,10 @@ MoveNames::
 	li "BEAT UP"
 	li "NASTY PLOT"
 	li "HEX"
+	li "FAIRY WIND"
+	li "DSRMNG VOICE"
+	li "DRAIN KISS"
+	li "DAZZLE GLEAM"
+	li "PLAY ROUGH"
+	li "MOONBLAST"
 	assert_list_length NUM_ATTACKS

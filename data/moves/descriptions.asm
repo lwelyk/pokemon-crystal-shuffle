@@ -258,6 +258,13 @@ MoveDescriptions1:
 	dw BeatUpDescription
 	dw NastyPlotDescription
 	dw HexDescription
+	dw FairyWindDescription
+	dw DsrmngVoiceDescription
+	dw DrainKissDescription
+	dw DazzleGleamDescription
+	dw PlayRoughDescription
+	dw MoonblastDescription
+
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1274,3 +1281,27 @@ NastyPlotDescription:
 HexDescription:
 	db   "2x damage to foes"
 	next "w/ a status cond.@"
+
+FairyWindDescription:
+	db   "Stir up a wind to"
+	next "strike a target.@"
+
+DsrmngVoiceDescription:
+	db   "An attack that"
+	next "never misses.@"
+
+DrainKissDescription:
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
+
+DazzleGleamDescription:
+	db   "Damage the foe by"
+	next "a flash of light.@"
+
+PlayRoughDescription:
+	db   "An attack that may"
+	next "lower ATTACK.@"
+
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower SP. ATTACK.@"
