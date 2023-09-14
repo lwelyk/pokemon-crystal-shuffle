@@ -9,8 +9,7 @@ BattleCommand_Spikes:
 ; Fails if spikes are already down!
 
 	bit SCREENS_SPIKES, [hl]
-	jr nz, .failed
-
+	jp nz, FailMove
 ; Nothing else stops it from working.
 
 	set SCREENS_SPIKES, [hl]
@@ -19,6 +18,3 @@ BattleCommand_Spikes:
 
 	ld hl, SpikesText
 	jp StdBattleTextbox
-
-.failed
-	jp FailMove
