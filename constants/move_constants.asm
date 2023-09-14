@@ -265,6 +265,71 @@
 	const DAZZLE_GLEAM ; 102
 	const PLAY_ROUGH   ; 103
 	const MOONBLAST    ; 104
+	const SILVER_WIND  ; 105
+	const OMINOUS_WIND ; 106
+	const ROCK_BLAST   ; 107
+	const STONE_EDGE   ; 108
+	const FLASH_CANNON ; 109
+	const BUG_BUZZ     ; 110
+	const ENERGY_BALL  ; 111
+	const EARTH_POWER  ; 112
+	const WOOD_HAMMER  ; 113
+	const WAVE_CRASH   ; 114
+	const DRAGON_CLAW  ; 115
+	const SEED_BOMB    ; 116
+	const X_SCISSOR    ; 117
+	const POWER_GEM    ; 118
+	const HOLD_BACK    ; 119
+	const SIGNAL_BEAM  ; 11a
+	const STRUGGLE_BUG ; 11b
+	const POUNCE       ; 11c
+	const CHILLNG_WTER ; 11d
+	const DRAIN_PUNCH  ; 11e
+	const BLAST_BURN   ; 11f
+	const HYDRO_CANNON ; 120
+	const FRENZY_PLANT ; 121
+	const GIGA_IMPACT  ; 122
+	const ZEN_HEADBUTT ; 123
+	const MUD_SHOT     ; 124
+	const ELECTROWEB   ; 125
+	const SNARL        ; 126
+	const DRAGON_RUSH  ; 127
+	const POISON_TAIL  ; 128
+	const LEAF_BLADE   ; 129
+	const POWER_WHIP   ; 12a
+	const LEAFAGE      ; 12b
+	const AQUA_JET     ; 12c
+	const VACUUM_WAVE  ; 12d
+	const BULLET_PUNCH ; 12e
+	const ICE_SHARD    ; 12f
+	const SHADOW_SNEAK ; 130
+	const ICE_BALL     ; 131
+	const NIGHT_SLASH  ; 132
+	const SHADOW_CLAW  ; 133
+	const PSYCHO_CUT   ; 134
+	const CROSS_POISON ; 135
+	const HYPER_VOICE  ; 136
+	const PETALBLIZZRD ; 137
+	const SHADOW_PUNCH ; 138
+	const AERIAL_ACE   ; 139
+	const MAGICAL_LEAF ; 13a
+	const SHOCK_WAVE   ; 13b
+	const MAGNET_BOMB  ; 13c
+	const COVET        ; 13d
+	const EXTRASENSORY ; 13e
+	const POISON_JAB   ; 13f
+	const DARK_PULSE   ; 140
+	const IRON_HEAD    ; 141
+	const SCALD        ; 142
+	const FEATHERDANCE ; 143
+	const FAKE_TEARS   ; 144
+	const EERIEIMPULSE ; 145
+	const AROMATHERAPY ; 146
+	const HOWL         ; 147
+	const METAL_SOUND  ; 148
+	const GRASSWHISTLE ; 149
+	const IRON_DEFENSE ; 14a
+	const ROCK_POLISH  ; 14b
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -6,4 +6,10 @@ CriticalHitMoves:
 	dw SLASH
 	dw AEROBLAST
 	dw CROSS_CHOP
+	dw POISON_TAIL
+	dw LEAF_BLADE
+	dw NIGHT_SLASH
+	dw SHADOW_CLAW
+	dw PSYCHO_CUT
+	dw CROSS_POISON
 	dw -1
