@@ -154,6 +154,9 @@ ENDM
 	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
 	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
+	map_const VIRIDIAN_FOREST,                             17, 27 ; 92
+	map_const VIRIDIAN_FOREST_GATE_SOUTH,                   5,  4 ; 93
+	map_const VIRIDIAN_FOREST_GATE_NORTH,                   5,  4 ; 94
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4
@@ -438,7 +441,7 @@ ENDM
 	endgroup
 
 	newgroup VIRIDIAN                                             ; 23
-	map_const ROUTE_2,                                     10, 27 ;  1
+	map_const ROUTE_2,                                     10, 36 ;  1
 	map_const ROUTE_22,                                    20,  9 ;  2
 	map_const VIRIDIAN_CITY,                               20, 18 ;  3
 	map_const VIRIDIAN_GYM,                                 5,  9 ;  4

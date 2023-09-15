@@ -176,6 +176,8 @@ Route40BattleTowerGate_Blocks:
 Route2Gate_Blocks:
 Route29Route46Gate_Blocks:
 Route5SaffronGate_Blocks:
+ViridianForestGateSouth_Blocks:
+ViridianForestGateNorth_Blocks:	
 	INCBIN "maps/NorthSouthGate.ablk"
 
 CinnabarIsland_Blocks:
@@ -898,3 +900,9 @@ BattleTowerOutside_Blocks:
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.ablk"
+
+
+SECTION "Map Blocks 4", ROMX
+
+ViridianForest_Blocks:
+	INCBIN "maps/ViridianForest.ablk"

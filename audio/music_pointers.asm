@@ -107,4 +107,6 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
+; new music
+	dba Music_ViridianForest ; FroggiestSpirit
 	assert_table_length NUM_MUSIC_SONGS

@@ -226,6 +226,34 @@ KantoGrassWildMons:
 	dbw 4, NOCTOWL
 	end_grass_wildmons
 
+	def_grass_wildmons VIRIDIAN_FOREST
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw 38, BUTTERFREE
+	dbw 36, LEDIAN
+	dbw 35, PIDGEOTTO
+	dbw 37, BEEDRILL
+	dbw 37, LEDIAN
+	dbw 38, PIKACHU
+	dbw 41, PIKACHU
+	; day
+	dbw 38, BUTTERFREE
+	dbw 36, PIDGEOTTO
+	dbw 35, PIDGEOTTO
+	dbw 37, BEEDRILL
+	dbw 37, VENOMOTH
+	dbw 38, PIKACHU
+	dbw 41, PIKACHU
+	; nite
+	dbw 38, ARIADOS
+	dbw 36, NOCTOWL
+	dbw 35, NOCTOWL
+	dbw 37, ARIADOS
+	dbw 37, VENOMOTH
+	dbw 38, PARASECT
+	dbw 41, PIKACHU
+	end_grass_wildmons
+
 	def_grass_wildmons ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

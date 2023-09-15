@@ -2464,6 +2464,38 @@ BugCatcherGroup:
 	dw PARAS
 	db -1 ; end
 
+	next_list_item ; BUG_CATCHER (20)
+	db "SAMMY@", TRAINERTYPE_NORMAL
+	db 42
+	dw BEEDRILL
+	db 45
+	dw BUTTERFREE
+	db 43
+	dw VENOMOTH
+	db -1 ; end
+
+	next_list_item ; BUG_CATCHER (21)
+	db "ROBB@", TRAINERTYPE_NORMAL
+	db 45
+	dw PARASECT
+	db 43
+	dw ARIADOS
+	db 44
+	dw LEDIAN
+	db -1 ; end
+
+	next_list_item ; BUG_CATCHER (22)
+	db "JOSE@", TRAINERTYPE_NORMAL
+	db 45
+	dw PINSIR
+	db 45
+	dw SCYTHER
+	db 45
+	dw HERACROSS
+	db 45
+	dw SCIZOR
+	db -1 ; end
+
 	end_list_items
 
 FisherGroup:
