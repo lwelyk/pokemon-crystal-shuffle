@@ -890,6 +890,7 @@ MankeyEvosAttacks:
 	db 0 ; no more level-up moves
 
 PrimeapeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, ANNIHILAPE
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER

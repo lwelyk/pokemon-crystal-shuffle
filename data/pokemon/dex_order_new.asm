@@ -137,6 +137,7 @@ NewPokedexOrder:
 	dw DUGTRIO
 	dw MANKEY
 	dw PRIMEAPE
+	dw ANNIHILAPE
 	dw MEOWTH
 	dw PERSIAN
 	dw PSYDUCK

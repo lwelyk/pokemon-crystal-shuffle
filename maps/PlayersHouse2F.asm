@@ -71,7 +71,9 @@ PlayersHouseRadioScript:
 	end
 
 PlayersHouseBookshelfScript:
-	jumpstd PictureBookshelfScript
+	giveitem RARE_CANDY, 99
+	givepoke MANKEY, 21
+	end
 
 PlayersHousePCScript:
 	opentext

@@ -101,6 +101,7 @@ EvosAttacksPointers2::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+	dw AnnihilapeEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1402,4 +1403,20 @@ CelebiEvosAttacks:
 	dbw 30, FUTURE_SIGHT
 	dbw 40, BATON_PASS
 	dbw 50, PERISH_SONG
+	db 0 ; no more level-up moves
+
+AnnihilapeEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, FURY_SWIPES
+	dbw 8, LOW_KICK
+	dbw 12, SEISMIC_TOSS
+	dbw 22, CROSS_CHOP
+	dbw 26, FAINT_ATTACK ; Assurance
+	dbw 30, THRASH
+	dbw 36, SHADOW_BALL ; Rage Fist, 35
+	dbw 39, DYNAMICPUNCH ; CLose COmbat
+	dbw 44, SCREECH
+	dbw 48, BONE_CLUB ; Stomping Tantrum
+	dbw 53, OUTRAGE
+	dbw 57, EXPLOSION ; Final Gambit
 	db 0 ; no more level-up moves
