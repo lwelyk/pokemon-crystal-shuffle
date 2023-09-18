@@ -145,5 +145,19 @@
 	tilecoll WATERFALL, WATERFALL, WATER, WATER ; 90
 	tilecoll WALL, WALL, FLOOR, WALL ; 91
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 92
-	tilecoll , , ,  ; 93
-	tilecoll , , ,  ; 94
+	tilecoll WATER, WATER, BUOY, BUOY ; 93
+	tilecoll WATER, WATER, BUOY, BUOY ; 94
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 95
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 96
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 97
+	tilecoll WALL, UP_WALL, WALL, FLOOR ; 98
+	tilecoll UP_WALL, UP_WALL, FLOOR, FLOOR ; 99
+	tilecoll UP_WALL, WALL, FLOOR, WALL ; 9a
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 9b
+	tilecoll WALL, FLOOR, WALL, WALL ; 9c
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 9d
+	tilecoll FLOOR, WALL, WALL, WALL ; 9e
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 9f
+	tilecoll WALL, WALL, WALL, WALL ; a0
+	tilecoll FLOOR, UP_WALL, FLOOR, UP_WALL ; a1
+	tilecoll LEFT_WALL, RIGHT_WALL, LEFT_WALL, RIGHT_WALL ; a2
