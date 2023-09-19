@@ -1,0 +1,124 @@
+CONSTANT: BEAUTY
+Name: BEAUTY
+Gender: Female
+Items:
+Encounter Music: Beauty
+Battle Sprite: beauty.png
+Overworld Sprite: BEAUTY
+Base Reward: 22
+AI:
+  - Basic
+  - Types
+  - Opportunist
+  - Cautious
+  - Status
+Item Use:
+  - Context
+Switch:
+  - Sometimes
+DVs:
+  Attack: 6
+  Defense: 9
+  Speed: 12
+  Special: 8
+Party Archetypes:
+  Cute:
+    Types:
+      - Normal
+      - Fairy
+      - Dark
+    Tags:
+      - Cute
+      - Beautiful
+      - Cat
+  Water:
+    Types:
+      - Water
+      - Ice
+    Tags:
+      - Cute
+      - Beautiful
+  Grass:
+    Types:
+      - Grass
+    Tags:
+      - Cute
+      - Beautiful
+Names:
+  - Cassie
+  - Julia
+  - Olivia
+  - Samantha
+  - Valerie
+  - Victoria
+  - Bridget
+  - Connie
+  - Jessica
+  - Johanna
+  - Melissa
+  - Sheila
+  - Shirley
+  - Tiffany
+  - Thalia
+  - Grace
+  - Lola
+  - Lori
+  - Maura
+  - Tamia
+  - Cyndy
+  - Devon
+  - Gabriella
+  - Harley
+  - Linjdsay
+  - Nicola
+  - Callie
+  - Charlotte
+  - Kassandra
+  - December
+  - Fleming
+  - Nikola
+  - Aimee
+  - Anais
+  - Brigitte
+  - Cassandra
+  - Andrea
+  - Brittney
+  - Carolyn
+  - Krystal
+  - Alexis
+  - Alice
+  - Aina
+  - Anya
+  - Arianna
+  - Aubrey
+  - Beverly
+  - Camille
+  - Daisy
+  - Evette
+  - Hansol
+  - Haruka
+  - Jill
+  - Jo
+  - Lana
+  - Lily
+  - Lois
+  - Lucy
+  - Mai
+  - Nickie
+  - Nicole
+  - Prita
+  - Rose
+  - Shelly
+  - Tessa
+  - Violet
+  - Anita
+  - Nocola
+  - Alissa
+  - Rita
+  - Cudsy
+  - Eloff
+  - Miru
+  - Minot
+  - Nevah
+  - Niven
+  - Ogoin
