@@ -102,3 +102,17 @@
 	tilecoll FLOOR, WALL, WALL, WALL ; 65
 	tilecoll WALL, WATER, WALL, WALL ; 66
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 67
+	tilecoll FLOOR, FLOOR, LEFT_WALL, RIGHT_WALL ; 68
+	tilecoll LEFT_WALL, RIGHT_WALL, LEFT_WALL, RIGHT_WALL ; 69
+	tilecoll LEFT_WALL, RIGHT_WALL, FLOOR, FLOOR ; 6a
+	tilecoll WATER, WATER, WATER, WATER ; 6b
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 6c
+	tilecoll WATER, WATER, WATER, WATER ; 6d
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 6e
+	tilecoll WALL, WALL, WALL, WALL ; 6f
+	tilecoll UP_WALL, UP_WALL, DOWN_WALL, DOWN_WALL ; 70
+	tilecoll WATER, WATER, WATER, WATER ; 71
+	tilecoll WALL, WALL, WALL, WALL ; 72
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 73
+	tilecoll , , ,  ; 74
+	tilecoll WATER, WATER, WATER , WATER ; 75
