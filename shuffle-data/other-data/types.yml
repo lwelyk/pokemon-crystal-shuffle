@@ -1,0 +1,204 @@
+---
+constant: NORMAL
+name: Normal
+not-very-effective:
+  - Rock
+  - Steel
+---
+constant: FIRE
+name: Fire
+not-very-effective:
+  - Fire
+  - Water
+  - Rock
+  - Dragon
+super-effective:
+  - Grass
+  - Ice
+  - Bug
+  - Steel
+---
+constant: WATER
+name: Water
+not-very-effective:
+  - Water
+  - Grass
+  - Dragon
+super-effective:
+  - Fire
+  - Ground
+  - Rock
+---
+constant: ELECTRIC
+name: Electric
+not-very-effective:
+  - Electric
+  - Grass
+  - Dragon
+super-effective: 
+  - Water
+  - Flying
+no-effect:
+  - Ground
+---
+constant: GRASS
+name: Grass
+not-very-effective:
+  - Fire
+  - Grass
+  - Poison
+  - Flying
+  - Bug
+  - Dragon
+  - Steel
+super-effective:
+  - Water
+  - Ground
+  - Rock
+---
+constant: ICE
+name: Ice
+not-very-effective:
+  - Water
+  - Ice
+  - Steel
+  - Fire
+super-effective:
+  - Grass
+  - Ground
+  - Flying
+  - Dragon
+---
+constant: FIGHTING
+name: Fighting
+super-effective:
+  - Normal
+  - Ice
+  - Rock
+  - Dark
+  - Steel
+not-very-effective:
+  - Poison
+  - Flying
+  - Psychic
+  - Bug
+  - Fairy
+---
+constant: POISON
+name: Poison
+not-very-effective:
+  - Poison
+  - Ground
+  - Rock
+  - Ghost
+super-effective:
+  - Grass
+  - Fairy
+no-effect:
+  - Steel
+---
+constant: GROUND
+name: Ground
+not-very-effective:
+  - Grass
+  - Bug
+super-effective:
+  - Fire
+  - Electric
+  - Poison
+  - Rock
+  - Steel
+no-effect:
+  - Flying
+---
+constant: FLYING
+name: Flying
+not-very-effective:
+  - Electric
+  - Rock
+  - Steel
+super-effective:
+  - Grass
+  - Fighting
+  - Bug
+---
+constant: PSYCHIC_TYPE
+name: Psychic
+not-very-effective:
+  - Psychic
+  - Steel
+super-effective:
+  - Fighting
+  - Poison
+no-effect:
+  - Dark
+---
+constant: BUG
+name: Bug
+not-very-effective:
+  - Fire
+  - Fighting
+  - Poison
+  - Flying
+  - Ghost
+  - Steel
+  - Fairy
+super-effective:
+  - Grass
+  - Psychic
+  - Dark
+---
+constant: ROCK
+name: Rock
+not-very-effective:
+  - Fighting
+  - Ground
+  - Steel
+super-effective:
+  - Fire
+  - Ice
+  - Flying
+  - Bug
+---
+constant: GHOST
+name: Ghost
+not-very-effective:
+  - Dark
+  - Steel
+super-effective:
+  - Psychic
+  - Ghost
+no-effect:
+  - Normal
+---
+constant: DRAGON
+name: Dragon
+not-very-effective:
+  - Steel
+super-effective:
+  - Dragon
+no-effect:
+  - Fairy
+---
+constant: STEEL
+name: Steel
+not-very-effective:
+  - Fire
+  - Water
+  - Electric
+  - Steel
+super-effective:
+  - Ice
+  - Rock
+  - Fairy
+---
+constant: FAIRY
+name: Fairy
+not-very-effective:
+  - Fire
+  - Poison
+  - Steel
+super-effective:
+  - Fighting
+  - Dragon
+  - Dark
