@@ -245,6 +245,17 @@ StubbedTrainerRankings_StepCount:
 	ld hl, sTrainerRankingStepCount
 	jp StubbedTrainerRankings_Increment4Byte
 
+StubbedTrainerRankings_BattleTowerWins: ; unreferenced
+	ret
+	ld a, BANK(s5_aa8d)
+	call OpenSRAM
+	ld a, [s5_aa8d]
+	and a
+	call CloseSRAM
+	ret nz
+	ld hl, sTrainerRankingBattleTowerWins
+	jp StubbedTrainerRankings_Increment2Byte
+
 StubbedTrainerRankings_TMsHMsTaught:
 	ret
 	ld hl, sTrainerRankingTMsHMsTaught
@@ -269,6 +280,11 @@ StubbedTrainerRankings_WildBattles:
 StubbedTrainerRankings_TrainerBattles:
 	ret
 	ld hl, sTrainerRankingTrainerBattles
+	jp StubbedTrainerRankings_Increment3Byte
+
+StubbedTrainerRankings_Unused1: ; unreferenced
+	ret
+	ld hl, sTrainerRankingUnused1
 	jp StubbedTrainerRankings_Increment3Byte
 
 StubbedTrainerRankings_HallOfFame::
@@ -346,6 +362,11 @@ StubbedTrainerRankings_PhoneCalls:
 	ld hl, sTrainerRankingPhoneCalls
 	jr StubbedTrainerRankings_Increment3Byte
 
+StubbedTrainerRankings_Unused2: ; unreferenced
+	ret
+	ld hl, sTrainerRankingUnused2
+	jr StubbedTrainerRankings_Increment3Byte
+
 StubbedTrainerRankings_LinkBattles:
 	ret
 	ld hl, sTrainerRankingLinkBattles
@@ -363,6 +384,11 @@ StubbedTrainerRankings_Splash:
 StubbedTrainerRankings_TreeEncounters:
 	ret
 	ld hl, sTrainerRankingTreeEncounters
+	jr StubbedTrainerRankings_Increment3Byte
+
+StubbedTrainerRankings_Unused3: ; unreferenced
+	ret
+	ld hl, sTrainerRankingUnused3
 	jr StubbedTrainerRankings_Increment3Byte
 
 StubbedTrainerRankings_ColosseumWins:
@@ -404,6 +430,10 @@ StubbedTrainerRankings_Increment2Byte:
 	push bc
 	ld bc, 1
 	jr StubbedTrainerRankings_Increment
+
+StubbedTrainerRankings_Increment1Byte: ; unreferenced
+	push bc
+	ld bc, 0
 
 ; Increments a big-endian value of bc + 1 bytes at hl
 StubbedTrainerRankings_Increment:
@@ -482,36 +512,67 @@ CalculateTrainerRankingsChecksum:
 	pop bc
 	ret
 
-BackupMobileEventIndex:
-	ld a, BANK(sMobileEventIndex)
+BackupGSBallFlag:
+	ld a, BANK(sGSBallFlag)
 	call OpenSRAM
-	ld a, [sMobileEventIndex]
+	ld a, [sGSBallFlag]
 	push af
-	ld a, BANK(sMobileEventIndexBackup)
+	ld a, BANK(sGSBallFlagBackup)
 	call OpenSRAM
 	pop af
-	ld [sMobileEventIndexBackup], a
+	ld [sGSBallFlagBackup], a
 	call CloseSRAM
 	ret
 
-RestoreMobileEventIndex:
-	ld a, BANK(sMobileEventIndexBackup)
+RestoreGSBallFlag:
+	ld a, BANK(sGSBallFlagBackup)
 	call OpenSRAM
-	ld a, [sMobileEventIndexBackup]
+	ld a, [sGSBallFlagBackup]
 	push af
-	ld a, BANK(sMobileEventIndex)
+	ld a, BANK(sGSBallFlag)
 	call OpenSRAM
 	pop af
-	ld [sMobileEventIndex], a
+	ld [sGSBallFlag], a
 	call CloseSRAM
 	ret
 
-DeleteMobileEventIndex:
-	ld a, BANK(sMobileEventIndex)
+VerifyTrainerRankingsChecksum: ; unreferenced
+	call CalculateTrainerRankingsChecksum
+	ld hl, sTrainerRankingsChecksum
+	ld a, d
+	cp [hl]
+	ret nz
+	inc hl
+	ld a, e
+	cp [hl]
+	ret
+
+ClearGSBallFlag:
+	ld a, BANK(sGSBallFlag)
 	call OpenSRAM
 	xor a
-	ld [sMobileEventIndex], a
+	ld [sGSBallFlag], a
 	call CloseSRAM
+	ret
+
+InitializeTrainerRankings: ; unreferenced
+; Initializes Trainer Rankings data for a new save file in JP Crystal.
+	ld hl, sTrainerRankings
+	ld bc, sTrainerRankingsEnd - sTrainerRankings
+	xor a
+	call ByteFill
+
+	; Initialize the shortest Magikarp to 100.0 cm
+	ld hl, sTrainerRankingShortestMagikarp
+	ld a, $3
+	ld [hli], a
+	ld [hl], $e8
+
+	call UpdateTrainerRankingsChecksum
+	ld hl, sTrainerRankings
+	ld de, sTrainerRankingsBackup
+	ld bc, sTrainerRankingsEnd - sTrainerRankings
+	call CopyBytes
 	ret
 
 _MobilePrintNum::
@@ -728,28 +789,66 @@ endr
 
 ; functions related to the cable club and various NPC scripts referencing communications
 
-Mobile_DummyReturnFalse:
+CheckMobileAdapterStatusSpecial: ; unused
+	; this routine calls CheckMobileAdapterStatus
+	; in the Japanese version
 	xor a
 	ld [wScriptVar], a
 	ret
 
-Stubbed_Function106314:
+SetMobileAdapterStatus: ; unused
 	ret
-	ld a, BANK(s4_b000)
+	; the instructions below are the
+	; original Japanese version code
+	ld a, BANK(sMobileAdapterStatus)
 	call OpenSRAM
 	ld a, c
 	cpl
-	ld [s4_b000], a
+	ld [sMobileAdapterStatus], a
 	call CloseSRAM
-	ld a, BANK(s7_a800)
+	ld a, BANK(sMobileAdapterStatus2)
 	call OpenSRAM
 	ld a, c
-	ld [s7_a800], a
+	ld [sMobileAdapterStatus2], a
 	call CloseSRAM
 	ret
 
-Mobile_AlwaysReturnNotCarry:
+CheckMobileAdapterStatus: ; unused
 	or a
+	ret
+	; the instructions below are the
+	; original Japanese version code
+	ld a, BANK(sMobileAdapterStatus)
+	call OpenSRAM
+	ld a, [sMobileAdapterStatus]
+	cpl
+	ld b, a
+	call CloseSRAM
+	ld a, BANK(sMobileAdapterStatus2)
+	call OpenSRAM
+	ld a, [sMobileAdapterStatus2]
+	ld c, a
+	call CloseSRAM
+	ld a, c
+	cp b
+	jr nz, .nope
+
+	; check [sMobileAdapterStatus2] != 0
+	and a
+	jr z, .nope
+
+	; check !([sMobileAdapterStatus2] & %01110000)
+	and %10001111
+	cp c
+	jr nz, .nope
+
+	ld c, a
+	scf
+	ret
+
+.nope
+	xor a
+	ld c, a
 	ret
 
 Function10635c:
@@ -794,7 +893,7 @@ Function106392:
 	ret
 
 .asm_1063a2
-	call Mobile_AlwaysReturnNotCarry
+	call CheckMobileAdapterStatus
 	ld a, c
 	and a
 	jr nz, .asm_1063b4
@@ -869,14 +968,14 @@ Function106403:
 	or c
 	inc a
 	ld c, a
-	call Stubbed_Function106314
+	call SetMobileAdapterStatus
 	ld a, [wMobileCommsJumptableIndex]
 	inc a
 	ld [wMobileCommsJumptableIndex], a
 	ret
 
 .asm_106426
-	call Mobile_AlwaysReturnNotCarry
+	call CheckMobileAdapterStatus
 	ld a, c
 	and a
 	jr z, .asm_106435
@@ -887,7 +986,7 @@ Function106403:
 
 .asm_106435
 	ld c, $0
-	call Stubbed_Function106314
+	call SetMobileAdapterStatus
 	ld a, [wMobileCommsJumptableIndex]
 	inc a
 	ld [wMobileCommsJumptableIndex], a
@@ -917,8 +1016,16 @@ Stubbed_Function106462:
 	ret
 
 Function106464::
+	ld de, FontsExtra_SolidBlackGFX
+	ld hl, vTiles2 tile "■" ; $60
+	lb bc, BANK(FontsExtra_SolidBlackGFX), 1
+	call Get2bpp
+	ld de, FontsExtra2_UpArrowGFX
+	ld hl, vTiles2 tile "▲" ; $61
+	lb bc, BANK(FontsExtra2_UpArrowGFX), 1
+	call Get2bpp
 	ld de, MobileDialingFrameGFX
-	ld hl, vTiles2 tile $62
+	ld hl, vTiles2 tile "☎" ; $62
 	ld c, 9
 	ld b, BANK(MobileDialingFrameGFX)
 	call Get2bpp
@@ -929,6 +1036,25 @@ Function106464::
 	farcall LoadFrame
 	ret
 
+Function10649b: ; unreferenced
+	ld a, [wTextboxFrame]
+	maskbits NUM_FRAMES
+	ld bc, TEXTBOX_FRAME_TILES * LEN_1BPP_TILE
+	ld hl, Frames
+	call AddNTimes
+	ld d, h
+	ld e, l
+	ld hl, vTiles2 tile "┌" ; $79
+	ld c, TEXTBOX_FRAME_TILES ; "┌" to "┘"
+	ld b, BANK(Frames)
+	call Function1064c3
+	ld hl, vTiles2 tile " " ; $7f
+	ld de, TextboxSpaceGFX
+	ld c, 1
+	ld b, BANK(TextboxSpaceGFX)
+	call Function1064c3
+	ret
+
 Function1064c3:
 	ldh a, [rSVBK]
 	push af
@@ -937,6 +1063,22 @@ Function1064c3:
 	push bc
 	push hl
 	ld hl, Function3f88
+	ld a, b
+	rst FarCall
+	pop hl
+	pop bc
+	pop af
+	ldh [rSVBK], a
+	jr asm_1064ed
+
+Function1064d8: ; unreferenced
+	ldh a, [rSVBK]
+	push af
+	ld a, $6
+	ldh [rSVBK], a
+	push bc
+	push hl
+	ld hl, Function3f9f
 	ld a, b
 	rst FarCall
 	pop hl
@@ -961,6 +1103,12 @@ asm_1064ed:
 	ldh [rVBK], a
 	pop af
 	ldh [rSVBK], a
+	ret
+
+Function10650a: ; unreferenced
+	ld de, MobilePhoneTilesGFX
+	lb bc, BANK(MobilePhoneTilesGFX), 17
+	call Get2bpp
 	ret
 
 MobileDialingFrameGFX:

@@ -15,6 +15,7 @@ LoadMobileTradeBorderTilemap:
 	call CopyBytes
 	ret
 
+
 MobileTradeBorderTilemap:
 INCBIN "gfx/trade/border_mobile.tilemap"
 
