@@ -1008,7 +1008,7 @@ FastBallMultiplier:
 	ld b, a
 	and c
 	inc a
-	jr z, .loop
+	jr z, .next_list
 	ld a, b
 	cp d
 	jr nz, .loop
