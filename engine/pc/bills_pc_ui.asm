@@ -137,18 +137,18 @@ BillsPC_LoadUI:
 
 	; Cursor sprite OAM
 	lb de, -18, 0 ; fixed up by the animseq code
-	ld a, SPRITE_ANIM_INDEX_PC_CURSOR
+	ld a, SPRITE_ANIM_OBJ_PC_CURSOR
 	call InitSpriteAnimStruct
 	ld a, PCANIM_ANIMATE
 	ld [wBillsPC_CursorAnimFlag], a
 
 	; Cursor mode icon
 	lb de, $98, $10
-	ld a, SPRITE_ANIM_INDEX_PC_MODE
+	ld a, SPRITE_ANIM_OBJ_PC_MODE
 	push de
 	call InitSpriteAnimStruct
 	pop af
-	ld a, SPRITE_ANIM_INDEX_PC_MODE2
+	ld a, SPRITE_ANIM_OBJ_PC_MODE2
 	call InitSpriteAnimStruct
 
 	; Pack icon.
@@ -158,7 +158,7 @@ BillsPC_LoadUI:
 	inc [hl]
 	push hl
 	lb de, $58, $30
-	ld a, SPRITE_ANIM_INDEX_PC_PACK
+	ld a, SPRITE_ANIM_OBJ_PC_PACK
 	call InitSpriteAnimStruct
 	pop hl
 	dec [hl]
@@ -1874,7 +1874,7 @@ BillsPC_PrepareQuickAnim:
 	ld [wBillsPC_QuickFrames], a
 
 	lb de, 0, 0
-	ld a, SPRITE_ANIM_INDEX_PC_QUICK
+	ld a, SPRITE_ANIM_OBJ_PC_QUICK
 	call InitSpriteAnimStruct
 
 	call BillsPC_UpdateCursorLocation

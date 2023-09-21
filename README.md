@@ -21,6 +21,8 @@ For further documentation, check out the [wiki].
 
 ## Branches
 
+Last PC16 rebase: **2023-09-18**
+
 * `master`: (status: **stable**, last update: **2023-07-18**) Base branch. This branch contains a slightly modified
   version of Pokémon Crystal, with some quality-of-life improvements intended to make development easier. These
   improvements have been taken from the documentation in the [main disassembly repository][pokecrystal]. This branch
@@ -31,7 +33,7 @@ For further documentation, check out the [wiki].
   `master`.
 * `expand-mon-ID`: (status: **stable**, last update: **2023-07-18**) This branch implements 16-bit indexes for Pokémon
   species, thus allowing more than 253 species to be included in a single game.
-* `expand-move-ID`: (status: **stable**, last update: **2023-07-18**) This branch implements 16-bit indexes for moves,
+* `expand-move-ID`: (status: **stable**, last update: **2023-09-18**) This branch implements 16-bit indexes for moves,
   on top of the existing 16-bit support for Pokémon species from the previous branch. (Interaction between the
   branches is kept to a minimum, though.)
 * `newbox`: (status: **experimental**, last update: **2023-07-18**) This branch ports Rangi & FIQ's "newbox" from
