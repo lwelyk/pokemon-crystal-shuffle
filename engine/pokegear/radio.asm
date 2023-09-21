@@ -144,6 +144,21 @@ PrintRadioLine:
 	ld [wRadioTextDelay], a
 	ret
 
+ReplacePeriodsWithSpaces: ; unreferenced
+	push hl
+	ld b, SCREEN_WIDTH * 2
+.loop
+	ld a, [hl]
+	cp "."
+	jr nz, .next
+	ld [hl], " "
+.next
+	inc hl
+	dec b
+	jr nz, .loop
+	pop hl
+	ret
+
 RadioScroll:
 	ld hl, wRadioTextDelay
 	ld a, [hl]
@@ -873,7 +888,7 @@ BenFernText3B:
 LuckyNumberShow1:
 	call StartRadioStation
 	callfar CheckLuckyNumberShowFlag
-	jr nz, .dontreset
+	jr nc, .dontreset
 	callfar ResetLuckyNumberShowFlag
 .dontreset
 	ld hl, LC_Text1
@@ -1505,8 +1520,8 @@ GetBuenasPassword:
 	ld h, [hl]
 	ld l, a
 	call GetPokemonIDFromIndex
-	call GetPokemonName
 	ld [wNamedObjectIndex], a
+	call GetPokemonName
 	ret
 
 .Item:
@@ -1527,8 +1542,8 @@ GetBuenasPassword:
 	ld h, [hl]
 	ld l, a
 	call GetMoveIDFromIndex
-	call GetMoveName
 	ld [wNamedObjectIndex], a
+	call GetMoveName
 	ret
 
 .RawString:

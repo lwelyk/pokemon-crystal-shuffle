@@ -8,14 +8,14 @@ CelebiShrineEvent:
 	ld [wVramState], a
 	call LoadCelebiGFX
 	depixel 0, 10, 7, 0
-	ld a, SPRITE_ANIM_INDEX_CELEBI
+	ld a, SPRITE_ANIM_OBJ_CELEBI
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_TILE_ID
 	add hl, bc
 	ld [hl], SPECIALCELEBIEVENT_CELEBI
 	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
 	add hl, bc
-	ld [hl], SPRITE_ANIM_SEQ_CELEBI
+	ld [hl], SPRITE_ANIM_FUNC_CELEBI
 	ld hl, SPRITEANIMSTRUCT_VAR4
 	add hl, bc
 	ld a, $80
