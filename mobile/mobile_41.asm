@@ -245,6 +245,7 @@ StubbedTrainerRankings_StepCount:
 	ld hl, sTrainerRankingStepCount
 	jp StubbedTrainerRankings_Increment4Byte
 
+
 StubbedTrainerRankings_TMsHMsTaught:
 	ret
 	ld hl, sTrainerRankingTMsHMsTaught
@@ -365,6 +366,7 @@ StubbedTrainerRankings_TreeEncounters:
 	ld hl, sTrainerRankingTreeEncounters
 	jr StubbedTrainerRankings_Increment3Byte
 
+
 StubbedTrainerRankings_ColosseumWins:
 	ret
 	ld hl, sTrainerRankingColosseumWins
@@ -404,6 +406,7 @@ StubbedTrainerRankings_Increment2Byte:
 	push bc
 	ld bc, 1
 	jr StubbedTrainerRankings_Increment
+
 
 ; Increments a big-endian value of bc + 1 bytes at hl
 StubbedTrainerRankings_Increment:
@@ -482,37 +485,39 @@ CalculateTrainerRankingsChecksum:
 	pop bc
 	ret
 
-BackupMobileEventIndex:
-	ld a, BANK(sMobileEventIndex)
+BackupGSBallFlag:
+	ld a, BANK(sGSBallFlag)
 	call OpenSRAM
-	ld a, [sMobileEventIndex]
+	ld a, [sGSBallFlag]
 	push af
-	ld a, BANK(sMobileEventIndexBackup)
+	ld a, BANK(sGSBallFlagBackup)
 	call OpenSRAM
 	pop af
-	ld [sMobileEventIndexBackup], a
+	ld [sGSBallFlagBackup], a
 	call CloseSRAM
 	ret
 
-RestoreMobileEventIndex:
-	ld a, BANK(sMobileEventIndexBackup)
+RestoreGSBallFlag:
+	ld a, BANK(sGSBallFlagBackup)
 	call OpenSRAM
-	ld a, [sMobileEventIndexBackup]
+	ld a, [sGSBallFlagBackup]
 	push af
-	ld a, BANK(sMobileEventIndex)
+	ld a, BANK(sGSBallFlag)
 	call OpenSRAM
 	pop af
-	ld [sMobileEventIndex], a
+	ld [sGSBallFlag], a
 	call CloseSRAM
 	ret
 
-DeleteMobileEventIndex:
-	ld a, BANK(sMobileEventIndex)
+
+ClearGSBallFlag:
+	ld a, BANK(sGSBallFlag)
 	call OpenSRAM
 	xor a
-	ld [sMobileEventIndex], a
+	ld [sGSBallFlag], a
 	call CloseSRAM
 	ret
+
 
 _MobilePrintNum::
 ; Supports signed 31-bit integers (up to 10 digits)
@@ -728,28 +733,66 @@ endr
 
 ; functions related to the cable club and various NPC scripts referencing communications
 
-Mobile_DummyReturnFalse:
+CheckMobileAdapterStatusSpecial: ; unused
+	; this routine calls CheckMobileAdapterStatus
+	; in the Japanese version
 	xor a
 	ld [wScriptVar], a
 	ret
 
-Stubbed_Function106314:
+SetMobileAdapterStatus: ; unused
 	ret
-	ld a, BANK(s4_b000)
+	; the instructions below are the
+	; original Japanese version code
+	ld a, BANK(sMobileAdapterStatus)
 	call OpenSRAM
 	ld a, c
 	cpl
-	ld [s4_b000], a
+	ld [sMobileAdapterStatus], a
 	call CloseSRAM
-	ld a, BANK(s7_a800)
+	ld a, BANK(sMobileAdapterStatus2)
 	call OpenSRAM
 	ld a, c
-	ld [s7_a800], a
+	ld [sMobileAdapterStatus2], a
 	call CloseSRAM
 	ret
 
-Mobile_AlwaysReturnNotCarry:
+CheckMobileAdapterStatus: ; unused
 	or a
+	ret
+	; the instructions below are the
+	; original Japanese version code
+	ld a, BANK(sMobileAdapterStatus)
+	call OpenSRAM
+	ld a, [sMobileAdapterStatus]
+	cpl
+	ld b, a
+	call CloseSRAM
+	ld a, BANK(sMobileAdapterStatus2)
+	call OpenSRAM
+	ld a, [sMobileAdapterStatus2]
+	ld c, a
+	call CloseSRAM
+	ld a, c
+	cp b
+	jr nz, .nope
+
+	; check [sMobileAdapterStatus2] != 0
+	and a
+	jr z, .nope
+
+	; check !([sMobileAdapterStatus2] & %01110000)
+	and %10001111
+	cp c
+	jr nz, .nope
+
+	ld c, a
+	scf
+	ret
+
+.nope
+	xor a
+	ld c, a
 	ret
 
 Function10635c:
@@ -794,7 +837,7 @@ Function106392:
 	ret
 
 .asm_1063a2
-	call Mobile_AlwaysReturnNotCarry
+	call CheckMobileAdapterStatus
 	ld a, c
 	and a
 	jr nz, .asm_1063b4
@@ -869,14 +912,14 @@ Function106403:
 	or c
 	inc a
 	ld c, a
-	call Stubbed_Function106314
+	call SetMobileAdapterStatus
 	ld a, [wMobileCommsJumptableIndex]
 	inc a
 	ld [wMobileCommsJumptableIndex], a
 	ret
 
 .asm_106426
-	call Mobile_AlwaysReturnNotCarry
+	call CheckMobileAdapterStatus
 	ld a, c
 	and a
 	jr z, .asm_106435
@@ -887,7 +930,7 @@ Function106403:
 
 .asm_106435
 	ld c, $0
-	call Stubbed_Function106314
+	call SetMobileAdapterStatus
 	ld a, [wMobileCommsJumptableIndex]
 	inc a
 	ld [wMobileCommsJumptableIndex], a
@@ -962,6 +1005,7 @@ asm_1064ed:
 	pop af
 	ldh [rSVBK], a
 	ret
+
 
 MobileDialingFrameGFX:
 INCBIN "gfx/mobile/dialing_frame.2bpp"
