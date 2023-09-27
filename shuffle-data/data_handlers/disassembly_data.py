@@ -18,3 +18,5 @@ class DisassemblyData:
             return "polishedcrystal"
         else:
             return "pokecrystal"
+
+    
