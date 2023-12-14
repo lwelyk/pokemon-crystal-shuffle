@@ -39,7 +39,12 @@ Last PC16 rebase: **2023-09-18**
 * `newbox`: (status: **experimental**, last update: **2023-07-18**) This branch ports Rangi & FIQ's "newbox" from
   Polished Crystal. Newbox is a complete overhaul to Bill's PC, and this branch ports the functionality on
   top of the previous branches.
-* `pokecrystal`: (status: **N/A**, last update **2023-07-18**) This branch contains pret's vanilla pokecrystal and
+
+* `expand-item-ID`: (status: **very experimental - use at on RISK!**, last update: **2023-10-22**) This branch implements 16-bit
+  indexes for items, on top of the existing 16-bit support for Pokémon moves from the `expand-move-ID` branch.
+* `item-newbox` : (status: **very experimental - use at on RISK!**, last update: **2023-1022**) This branch is the same
+  as the `newbox` branch, but it builds on top of `expand-item-ID`.
+* `pokecrystal`: (status: **N/A**, last update **2023-09-17**) This branch contains pret's vanilla pokecrystal and
   should only be used to compare with the previous branches to view pokecrystal16 changes. **DO NOT USE THIS BRANCH!**
 
 To view the differences between any two branches (or any two commits in the repository), you can use GitHub's [tree
