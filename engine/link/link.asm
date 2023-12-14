@@ -2502,6 +2502,8 @@ CheckTimeCapsuleCompatibility:
 
 .move_too_new
 	push bc
+	dec hl
+	ld a, [hl]
 	ld [wNamedObjectIndex], a
 	call GetMoveName
 	call CopyName1
