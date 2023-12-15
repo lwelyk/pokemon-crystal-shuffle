@@ -168,3 +168,11 @@
 	tilecoll WALL, WALL, WALL, WALL ; a7
 	tilecoll WALL, WALL, WALL, WALL ; a8
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; a9
+	tilecoll WALL, WALL, WALL, WALL ; aa
+	tilecoll UP_WALL, UP_WALL, FLOOR, FLOOR ; ab
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; ac
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; ad
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ae
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; af
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; b0
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; b1
