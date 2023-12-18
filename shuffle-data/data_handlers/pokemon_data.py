@@ -1,6 +1,7 @@
 import operator
 import re
 import yaml
+from . import common
 
 # Be a file or something later, just here for testing and setup
 flags = {
@@ -77,12 +78,7 @@ class Pokemon:
     def constant(self, const):
         if not const: 
             raise Exception ("Pokemon need a constant.")
-        if bool(re.search(r'^\w*$', const)) is False:
-            raise Exception("Pokemon Constants can only have letters, numbers, and '_'s, failed with '" + const + "'.")
-        if const.upper() != const:
-            print("Converting constant to uppercase, please use uppercase for constants. Warned on '" + const + "'.")
-            const = const.upper()
-        self._constant = const
+        self._constant = common.check_constant(const)
 
     name = property(operator.attrgetter('_name'))
     
@@ -90,9 +86,7 @@ class Pokemon:
     def name(self, name):
         if not name:
             raise Exception("Pokemon need a name.")
-        if len(name) > 10:
-            raise Exception("Pokemon names can only be 10 characters. Failed with '" + name + "'.")
-        self._name = name
+        self._name = common.check_string(name, 10, "Pokemon Names")
 
     stats = property(operator.attrgetter('_stats'))
 
@@ -108,12 +102,7 @@ class Pokemon:
             if stat_name not in stats:
                 raise Exception("Pokemon stats missing " + stat_name)
         for stat, value in stats.items():
-            if type(value) != int:
-                if value.isnumeric() is False:
-                    raise Exception("Pokemon stats must be numbers.")
-                value = int(value)
-            if value > 255 or value < 1:
-                raise Exception("Pokemon Stats must be higher than 0 or lower than 255, value was " + stat)
+            value = common.check_number(value, 1, 255, "Pokemon Stat")
         self.hp = int(stats["hp"])
         self.attack = int(stats["attack"])
         self.defense = int(stats["defense"])
@@ -128,16 +117,12 @@ class Pokemon:
         # Temporarily just having a list here, will pull from types.yml later
         type_list = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"]
         if not types:
-            raise Exception("Pokemon need stats.")
+            raise Exception("Pokemon need types.")
         if type(types) != list:
-            if types in type_list:
-                print("You should pass types as a list, but the string was a type, so accepting.")
-                types = [types]
-            else:
-                raise Exception("Pokemon type " + poke_type + " not found. Also, please pass as a list.")
+            print("You should pass types as a list.")
+            types = [types]
         for poke_type in types:
-            if poke_type not in type_list:
-                raise Exception("Pokemon type " + poke_type + " not found.")
+            common.validate_type(poke_type)
         self._types = types
         
     growth_rate = property(operator.attrgetter('_growth_rate'))
@@ -160,13 +145,7 @@ class Pokemon:
     def catch_rate(self, catch_rate):
         if not catch_rate:
             raise Exception("Pokemon need a catch rate.")
-        if type(catch_rate) != int:
-            if catch_rate.isnumeric() is False:
-                raise Exception("Catch rate must be a number.")
-            catch_rate = int(catch_rate)
-        if catch_rate > 255 or catch_rate < 1:
-            raise Exception("Catch Rates must be greater than 0 and less than 255.")
-        self._catch_rate = catch_rate
+        self._catch_rate = common.check_number(catch_rate, 1, 255, "Catch Rate")
     
     base_xp = property(operator.attrgetter('_base_xp'))
     
@@ -174,13 +153,7 @@ class Pokemon:
     def base_xp(self, base_xp):
         if not base_xp:
             raise Exception("Pokemon need a base xp.")
-        if type(base_xp) != int:
-            if base_xp.isnumeric() is False:
-                raise Exception("Base XP must be a number.")
-            base_xp = int(base_xp)
-        if base_xp > 255 or base_xp < 1:
-            raise Exception("Base XP must be greater than 0 and less than 255.")
-        self._base_xp = base_xp
+        self._base_xp = common.check_number(base_xp, 1, 255, "Base XP")
 
     egg_step_cycle = property(operator.attrgetter('_egg_step_cycle'))
     
@@ -188,13 +161,7 @@ class Pokemon:
     def egg_step_cycle(self, egg_step_cycle):
         if not egg_step_cycle:
             raise Exception("Pokemon need an egg_step_cycle.")
-        if type(egg_step_cycle) != int:
-            if egg_step_cycle.isnumeric() is False:
-                raise Exception("Egg Step Cycles must be a number.")
-            egg_step_cycle = int(egg_step_cycle)
-        if egg_step_cycle > 255 or egg_step_cycle < 1:
-            raise Exception("Egg Step Cycles must be greater than 0 and less than 255.")
-        self._egg_step_cycle = egg_step_cycle
+        self._egg_step_cycle = common.check_number(egg_step_cycle, 1, 255, "Egg Step Cycle")
     
     gender_ratio = property(operator.attrgetter('_gender_ratio'))
     
