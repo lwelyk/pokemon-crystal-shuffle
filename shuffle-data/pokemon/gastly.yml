@@ -1,8 +1,8 @@
 constant: GASTLY
 name: GASTLY
 types:
-- Poison
 - Ghost
+- Poison
 base-stats:
   hp: 30
   attack: 35

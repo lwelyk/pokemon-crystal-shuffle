@@ -1,8 +1,8 @@
 constant: MANTINE
 name: MANTINE
 types:
-- Flying
 - Water
+- Flying
 base-stats:
   hp: 65
   attack: 40

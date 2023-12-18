@@ -1,8 +1,8 @@
 constant: POLIWRATH
 name: POLIWRATH
 types:
-- Fighting
 - Water
+- Fighting
 base-stats:
   hp: 90
   attack: 85

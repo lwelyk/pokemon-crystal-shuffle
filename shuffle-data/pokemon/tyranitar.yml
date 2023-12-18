@@ -1,8 +1,8 @@
 constant: TYRANITAR
 name: TYRANITAR
 types:
-- Dark
 - Rock
+- Dark
 base-stats:
   hp: 100
   attack: 134

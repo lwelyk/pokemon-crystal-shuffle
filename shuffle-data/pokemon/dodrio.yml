@@ -1,8 +1,8 @@
 constant: DODRIO
 name: DODRIO
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 60
   attack: 110

@@ -1,8 +1,8 @@
 constant: PUPITAR
 name: PUPITAR
 types:
-- Ground
 - Rock
+- Ground
 base-stats:
   hp: 70
   attack: 84

@@ -1,8 +1,8 @@
 constant: HOOTHOOT
 name: HOOTHOOT
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 60
   attack: 30

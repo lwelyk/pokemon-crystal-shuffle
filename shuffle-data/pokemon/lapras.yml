@@ -1,8 +1,8 @@
 constant: LAPRAS
 name: LAPRAS
 types:
-- Ice
 - Water
+- Ice
 base-stats:
   hp: 130
   attack: 85
@@ -17,8 +17,8 @@ held-items: []
 female-ratio: '50'
 egg-cycle: 40
 egg-groups:
-- Water 1
 - Monster
+- Water 1
 evolutions: []
 moves:
   level-up:

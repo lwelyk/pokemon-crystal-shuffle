@@ -1,8 +1,8 @@
 constant: WEEDLE
 name: WEEDLE
 types:
-- Poison
 - Bug
+- Poison
 base-stats:
   hp: 40
   attack: 35

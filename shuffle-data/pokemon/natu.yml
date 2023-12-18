@@ -1,8 +1,8 @@
 constant: NATU
 name: NATU
 types:
-- Flying
 - Psychic
+- Flying
 base-stats:
   hp: 40
   attack: 50

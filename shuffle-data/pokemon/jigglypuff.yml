@@ -1,8 +1,8 @@
 constant: JIGGLYPUFF
 name: JIGGLYPUFF
 types:
-- Fairy
 - Normal
+- Fairy
 base-stats:
   hp: 115
   attack: 45

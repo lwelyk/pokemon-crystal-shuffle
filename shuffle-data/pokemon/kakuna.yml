@@ -1,8 +1,8 @@
 constant: KAKUNA
 name: KAKUNA
 types:
-- Poison
 - Bug
+- Poison
 base-stats:
   hp: 45
   attack: 25

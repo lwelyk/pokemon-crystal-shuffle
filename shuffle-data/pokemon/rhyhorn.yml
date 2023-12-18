@@ -17,8 +17,8 @@ held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Ground
 - Monster
+- Ground
 evolutions:
 - Method: Level-Up
   Level: '42'

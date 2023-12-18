@@ -1,8 +1,8 @@
 constant: KINGDRA
 name: KINGDRA
 types:
-- Dragon
 - Water
+- Dragon
 base-stats:
   hp: 75
   attack: 95
@@ -18,8 +18,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Dragon
 - Water 1
+- Dragon
 evolutions: []
 moves:
   level-up:

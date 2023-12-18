@@ -1,8 +1,8 @@
 constant: GEODUDE
 name: GEODUDE
 types:
-- Ground
 - Rock
+- Ground
 base-stats:
   hp: 40
   attack: 80

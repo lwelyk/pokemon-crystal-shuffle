@@ -1,8 +1,8 @@
 constant: AZUMARILL
 name: AZUMARILL
 types:
-- Fairy
 - Water
+- Fairy
 base-stats:
   hp: 100
   attack: 50
@@ -17,8 +17,8 @@ held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Fairy
 - Water 1
+- Fairy
 evolutions: []
 moves:
   level-up:

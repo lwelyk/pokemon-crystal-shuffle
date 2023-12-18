@@ -1,8 +1,8 @@
 constant: SLOWPOKE
 name: SLOWPOKE
 types:
-- Psychic
 - Water
+- Psychic
 base-stats:
   hp: 90
   attack: 65
@@ -18,8 +18,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Water 1
 - Monster
+- Water 1
 evolutions:
 - Method: Level-Up
   Level: '37'

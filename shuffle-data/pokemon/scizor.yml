@@ -1,8 +1,8 @@
 constant: SCIZOR
 name: SCIZOR
 types:
-- Steel
 - Bug
+- Steel
 base-stats:
   hp: 70
   attack: 130

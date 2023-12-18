@@ -1,8 +1,8 @@
 constant: WOOPER
 name: WOOPER
 types:
-- Ground
 - Water
+- Ground
 base-stats:
   hp: 55
   attack: 45

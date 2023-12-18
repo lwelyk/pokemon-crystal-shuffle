@@ -17,8 +17,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 10
 egg-groups:
-- Fairy
 - Ground
+- Fairy
 evolutions:
 - Method: Item
   Used Item: THUNDERSTONE

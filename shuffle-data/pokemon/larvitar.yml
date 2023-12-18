@@ -1,8 +1,8 @@
 constant: LARVITAR
 name: LARVITAR
 types:
-- Ground
 - Rock
+- Ground
 base-stats:
   hp: 50
   attack: 64

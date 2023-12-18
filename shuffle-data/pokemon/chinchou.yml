@@ -1,8 +1,8 @@
 constant: CHINCHOU
 name: CHINCHOU
 types:
-- Electric
 - Water
+- Electric
 base-stats:
   hp: 75
   attack: 38

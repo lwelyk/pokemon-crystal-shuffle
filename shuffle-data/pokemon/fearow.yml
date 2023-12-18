@@ -1,8 +1,8 @@
 constant: FEAROW
 name: FEAROW
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 65
   attack: 90

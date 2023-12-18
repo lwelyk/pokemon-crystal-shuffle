@@ -1,8 +1,8 @@
 constant: FORRETRESS
 name: FORRETRESS
 types:
-- Steel
 - Bug
+- Steel
 base-stats:
   hp: 75
   attack: 90

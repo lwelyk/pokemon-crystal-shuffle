@@ -1,8 +1,8 @@
 constant: CELEBI
 name: CELEBI
 types:
-- Grass
 - Psychic
+- Grass
 base-stats:
   hp: 100
   attack: 100

@@ -16,8 +16,8 @@ held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
-- Water 1
 - Monster
+- Water 1
 evolutions:
 - Method: Level-Up
   Level: '36'

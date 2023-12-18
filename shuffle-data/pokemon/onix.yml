@@ -1,8 +1,8 @@
 constant: ONIX
 name: ONIX
 types:
-- Ground
 - Rock
+- Ground
 base-stats:
   hp: 35
   attack: 45

@@ -1,8 +1,8 @@
 constant: DODUO
 name: DODUO
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 35
   attack: 85

@@ -1,8 +1,8 @@
 constant: FARFETCH_D
 name: FARFETCH'D
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 52
   attack: 65
@@ -18,8 +18,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Ground
 - Flying
+- Ground
 evolutions: []
 moves:
   level-up:

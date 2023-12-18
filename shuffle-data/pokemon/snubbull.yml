@@ -16,8 +16,8 @@ held-items: []
 female-ratio: '75'
 egg-cycle: 20
 egg-groups:
-- Fairy
 - Ground
+- Fairy
 evolutions:
 - Method: Level-Up
   Level: '23'

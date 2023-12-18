@@ -1,8 +1,8 @@
 constant: CLOYSTER
 name: CLOYSTER
 types:
-- Ice
 - Water
+- Ice
 base-stats:
   hp: 50
   attack: 95

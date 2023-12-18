@@ -1,8 +1,8 @@
 constant: MAGNETON
 name: MAGNETON
 types:
-- Steel
 - Electric
+- Steel
 base-stats:
   hp: 50
   attack: 60

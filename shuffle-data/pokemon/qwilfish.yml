@@ -1,8 +1,8 @@
 constant: QWILFISH
 name: QWILFISH
 types:
-- Poison
 - Water
+- Poison
 base-stats:
   hp: 65
   attack: 95

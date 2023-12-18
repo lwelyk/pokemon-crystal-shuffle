@@ -1,8 +1,8 @@
 constant: DEWGONG
 name: DEWGONG
 types:
-- Ice
 - Water
+- Ice
 base-stats:
   hp: 90
   attack: 70

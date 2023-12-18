@@ -1,8 +1,8 @@
 constant: BUTTERFREE
 name: BUTTERFREE
 types:
-- Flying
 - Bug
+- Flying
 base-stats:
   hp: 60
   attack: 45

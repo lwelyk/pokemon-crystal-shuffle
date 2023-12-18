@@ -1,8 +1,8 @@
 constant: BEEDRILL
 name: BEEDRILL
 types:
-- Poison
 - Bug
+- Poison
 base-stats:
   hp: 65
   attack: 80

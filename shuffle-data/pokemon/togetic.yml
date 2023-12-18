@@ -17,8 +17,8 @@ held-items: []
 female-ratio: '12.5'
 egg-cycle: 10
 egg-groups:
-- Fairy
 - Flying
+- Fairy
 evolutions: []
 moves:
   level-up:

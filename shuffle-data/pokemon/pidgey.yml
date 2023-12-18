@@ -1,8 +1,8 @@
 constant: PIDGEY
 name: PIDGEY
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 40
   attack: 45

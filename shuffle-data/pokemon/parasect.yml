@@ -1,8 +1,8 @@
 constant: PARASECT
 name: PARASECT
 types:
-- Grass
 - Bug
+- Grass
 base-stats:
   hp: 60
   attack: 95
@@ -19,8 +19,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Plant
 - Bug
+- Plant
 evolutions: []
 moves:
   level-up:

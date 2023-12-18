@@ -1,8 +1,8 @@
 constant: SLOWKING
 name: SLOWKING
 types:
-- Psychic
 - Water
+- Psychic
 base-stats:
   hp: 95
   attack: 75
@@ -18,8 +18,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Water 1
 - Monster
+- Water 1
 evolutions: []
 moves:
   level-up:

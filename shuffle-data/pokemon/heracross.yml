@@ -1,8 +1,8 @@
 constant: HERACROSS
 name: HERACROSS
 types:
-- Fighting
 - Bug
+- Fighting
 base-stats:
   hp: 80
   attack: 125

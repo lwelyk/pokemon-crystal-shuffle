@@ -1043,15 +1043,15 @@ for poke in pokemon.pokemonData:
         'sp_defense': poke["Stats"]["SDF"],
         'speed': poke['Stats']["SPD"]
     }
-    poke['Types'] = list(set([
-        poke['Types'][0].title().replace("_Type",""),
-        poke['Types'][1].title().replace("_Type","")
-    ]))
+    poke['Types'][0] = poke['Types'][0].title().replace("_Type", "")
+    poke['Types'][1] = poke['Types'][1].title().replace("_Type", "")
+    if poke['Types'][0] == poke['Types'][1]:
+        poke['Types'].pop(1)
     eggs = []
     for group in poke["Egg Groups"]:
         group = group.replace("EGG_", "").replace("_"," ")
         eggs.append(group.title())
-    eggs = list(set(eggs))
+    eggs =  list(dict.fromkeys(eggs))
     if "Egg Moves" not in poke:
         poke["Egg Moves"] = []
     level_ups = []

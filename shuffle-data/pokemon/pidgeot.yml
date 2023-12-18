@@ -1,8 +1,8 @@
 constant: PIDGEOT
 name: PIDGEOT
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 83
   attack: 80

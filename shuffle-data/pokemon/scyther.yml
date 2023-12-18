@@ -1,8 +1,8 @@
 constant: SCYTHER
 name: SCYTHER
 types:
-- Flying
 - Bug
+- Flying
 base-stats:
   hp: 70
   attack: 110

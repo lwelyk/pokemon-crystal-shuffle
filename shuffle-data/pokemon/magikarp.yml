@@ -16,8 +16,8 @@ held-items: []
 female-ratio: '50'
 egg-cycle: 5
 egg-groups:
-- Dragon
 - Water 2
+- Dragon
 evolutions:
 - Method: Level-Up
   Level: '20'

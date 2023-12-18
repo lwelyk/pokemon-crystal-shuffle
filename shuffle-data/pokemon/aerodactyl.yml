@@ -1,8 +1,8 @@
 constant: AERODACTYL
 name: AERODACTYL
 types:
-- Flying
 - Rock
+- Flying
 base-stats:
   hp: 80
   attack: 105

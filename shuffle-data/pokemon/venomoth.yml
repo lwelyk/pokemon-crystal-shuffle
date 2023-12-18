@@ -1,8 +1,8 @@
 constant: VENOMOTH
 name: VENOMOTH
 types:
-- Poison
 - Bug
+- Poison
 base-stats:
   hp: 70
   attack: 65

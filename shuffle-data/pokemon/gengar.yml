@@ -1,8 +1,8 @@
 constant: GENGAR
 name: GENGAR
 types:
-- Poison
 - Ghost
+- Poison
 base-stats:
   hp: 60
   attack: 65

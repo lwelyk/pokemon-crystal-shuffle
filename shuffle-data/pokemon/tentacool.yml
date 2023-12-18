@@ -1,8 +1,8 @@
 constant: TENTACOOL
 name: TENTACOOL
 types:
-- Poison
 - Water
+- Poison
 base-stats:
   hp: 40
   attack: 40

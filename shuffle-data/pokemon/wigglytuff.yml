@@ -1,8 +1,8 @@
 constant: WIGGLYTUFF
 name: WIGGLYTUFF
 types:
-- Fairy
 - Normal
+- Fairy
 base-stats:
   hp: 140
   attack: 70

@@ -1,8 +1,8 @@
 constant: GIRAFARIG
 name: GIRAFARIG
 types:
-- Psychic
 - Normal
+- Psychic
 base-stats:
   hp: 70
   attack: 80

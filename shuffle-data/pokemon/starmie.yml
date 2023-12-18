@@ -1,8 +1,8 @@
 constant: STARMIE
 name: STARMIE
 types:
-- Psychic
 - Water
+- Psychic
 base-stats:
   hp: 60
   attack: 75

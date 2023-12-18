@@ -1,8 +1,8 @@
 constant: PARAS
 name: PARAS
 types:
-- Grass
 - Bug
+- Grass
 base-stats:
   hp: 35
   attack: 70
@@ -19,8 +19,8 @@ held-items:
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
-- Plant
 - Bug
+- Plant
 evolutions:
 - Method: Level-Up
   Level: '24'

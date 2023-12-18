@@ -1,8 +1,8 @@
 constant: LANTURN
 name: LANTURN
 types:
-- Electric
 - Water
+- Electric
 base-stats:
   hp: 125
   attack: 58

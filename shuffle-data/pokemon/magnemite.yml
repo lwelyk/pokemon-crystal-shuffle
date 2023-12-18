@@ -1,8 +1,8 @@
 constant: MAGNEMITE
 name: MAGNEMITE
 types:
-- Steel
 - Electric
+- Steel
 base-stats:
   hp: 25
   attack: 35

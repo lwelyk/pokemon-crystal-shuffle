@@ -1,8 +1,8 @@
 constant: QUAGSIRE
 name: QUAGSIRE
 types:
-- Ground
 - Water
+- Ground
 base-stats:
   hp: 95
   attack: 85

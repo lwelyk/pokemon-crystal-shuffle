@@ -1,8 +1,8 @@
 constant: LEDYBA
 name: LEDYBA
 types:
-- Flying
 - Bug
+- Flying
 base-stats:
   hp: 40
   attack: 20

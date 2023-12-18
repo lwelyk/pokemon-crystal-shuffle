@@ -1,8 +1,8 @@
 constant: VENONAT
 name: VENONAT
 types:
-- Poison
 - Bug
+- Poison
 base-stats:
   hp: 60
   attack: 55

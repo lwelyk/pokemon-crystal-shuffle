@@ -1,8 +1,8 @@
 constant: PIDGEOTTO
 name: PIDGEOTTO
 types:
-- Flying
 - Normal
+- Flying
 base-stats:
   hp: 63
   attack: 60

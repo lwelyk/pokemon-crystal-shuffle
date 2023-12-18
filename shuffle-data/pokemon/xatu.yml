@@ -1,8 +1,8 @@
 constant: XATU
 name: XATU
 types:
-- Flying
 - Psychic
+- Flying
 base-stats:
   hp: 65
   attack: 75

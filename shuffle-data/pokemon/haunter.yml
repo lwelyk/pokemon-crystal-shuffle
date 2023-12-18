@@ -1,8 +1,8 @@
 constant: HAUNTER
 name: HAUNTER
 types:
-- Poison
 - Ghost
+- Poison
 base-stats:
   hp: 45
   attack: 50

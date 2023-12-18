@@ -1,8 +1,8 @@
 constant: IGGLYBUFF
 name: IGGLYBUFF
 types:
-- Fairy
 - Normal
+- Fairy
 base-stats:
   hp: 90
   attack: 30

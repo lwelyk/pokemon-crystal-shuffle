@@ -1,8 +1,8 @@
 constant: YANMA
 name: YANMA
 types:
-- Flying
 - Bug
+- Flying
 base-stats:
   hp: 65
   attack: 65

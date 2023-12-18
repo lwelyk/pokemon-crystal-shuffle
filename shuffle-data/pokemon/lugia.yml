@@ -1,8 +1,8 @@
 constant: LUGIA
 name: LUGIA
 types:
-- Flying
 - Psychic
+- Flying
 base-stats:
   hp: 106
   attack: 90

@@ -1,8 +1,8 @@
 constant: SPINARAK
 name: SPINARAK
 types:
-- Poison
 - Bug
+- Poison
 base-stats:
   hp: 40
   attack: 60
