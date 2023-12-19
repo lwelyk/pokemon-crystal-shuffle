@@ -1,0 +1,11 @@
+constant: BUBBLE
+name: BUBBLE
+type: Water
+category: Special
+description: An attack that may reduce SPEED.
+power: 40
+accuracy: 100
+effect: EFFECT_SPEED_DOWN_HIT
+effect-chance: 10
+pp: 30
+animation: BattleAnim_Bubble

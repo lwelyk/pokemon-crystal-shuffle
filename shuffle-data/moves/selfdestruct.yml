@@ -1,0 +1,11 @@
+constant: SELFDESTRUCT
+name: SELFDESTRUCT
+type: Normal
+category: Physical
+description: Powerful but makes the user faint.
+power: 200
+accuracy: 100
+effect: EFFECT_SELFDESTRUCT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Selfdestruct

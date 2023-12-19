@@ -1,0 +1,11 @@
+constant: BUBBLEBEAM
+name: BUBBLEBEAM
+type: Water
+category: Special
+description: An attack that may lower SPEED.
+power: 65
+accuracy: 100
+effect: EFFECT_SPEED_DOWN_HIT
+effect-chance: 10
+pp: 20
+animation: BattleAnim_Bubblebeam

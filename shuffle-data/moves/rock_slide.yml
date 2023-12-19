@@ -1,0 +1,11 @@
+constant: ROCK_SLIDE
+name: ROCK SLIDE
+type: Rock
+category: Physical
+description: An attack that may cause flinching.
+power: 75
+accuracy: 90
+effect: EFFECT_FLINCH_HIT
+effect-chance: 30
+pp: 10
+animation: BattleAnim_RockSlide

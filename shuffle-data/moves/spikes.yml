@@ -1,0 +1,11 @@
+constant: SPIKES
+name: SPIKES
+type: Ground
+category: Status
+description: Hurts foes when they switch out.
+power: 0
+accuracy: 100
+effect: EFFECT_SPIKES
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Spikes

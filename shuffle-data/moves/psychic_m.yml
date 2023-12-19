@@ -1,0 +1,11 @@
+constant: PSYCHIC_M
+name: PSYCHIC
+type: Psychic
+category: Special
+description: An attack that may lower SPCL.DEF.
+power: 90
+accuracy: 100
+effect: EFFECT_SP_DEF_DOWN_HIT
+effect-chance: 10
+pp: 10
+animation: BattleAnim_PsychicM

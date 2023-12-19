@@ -1,0 +1,11 @@
+constant: BONEMERANG
+name: BONEMERANG
+type: Ground
+category: Physical
+description: An attack that strikes twice.
+power: 50
+accuracy: 90
+effect: EFFECT_DOUBLE_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Bonemerang

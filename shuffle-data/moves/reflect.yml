@@ -1,0 +1,11 @@
+constant: REFLECT
+name: REFLECT
+type: Psychic
+category: Status
+description: Raises DEFENSE with a barrier.
+power: 0
+accuracy: 100
+effect: EFFECT_REFLECT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Reflect

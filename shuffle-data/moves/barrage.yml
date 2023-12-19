@@ -1,0 +1,11 @@
+constant: BARRAGE
+name: BARRAGE
+type: Normal
+category: Physical
+description: Throws orbs to hit 2-5 times.
+power: 15
+accuracy: 85
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Barrage

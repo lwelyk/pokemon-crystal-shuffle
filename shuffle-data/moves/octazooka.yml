@@ -1,0 +1,11 @@
+constant: OCTAZOOKA
+name: OCTAZOOKA
+type: Water
+category: Special
+description: An attack that may reduce accuracy.
+power: 65
+accuracy: 85
+effect: EFFECT_ACCURACY_DOWN_HIT
+effect-chance: 50
+pp: 10
+animation: BattleAnim_Octazooka

@@ -1,0 +1,11 @@
+constant: ATTRACT
+name: ATTRACT
+type: Normal
+category: Status
+description: Makes the opposite gender infatuated.
+power: 0
+accuracy: 100
+effect: EFFECT_ATTRACT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Attract

@@ -1,4 +1,5 @@
 from data_handlers import pokemon_data
+from data_handlers import move_data
 import yaml
 
 pokeDataFiles = {
@@ -32,7 +33,7 @@ moveDataFiles = {
     "descriptionPointers"   : '../data/moves/descriptions.asm',
     "descriptions"          : '../data/moves/descriptions.asm',
     "animations"            : '../data/moves/animations.asm',
-    "effectConstants"       : '../data/constants/move_effect_constants.asm',
+    "effectConstants"       : '../constants/move_effect_constants.asm',
 }
 
 itemDataFiles = {
@@ -348,6 +349,7 @@ class MoveDataBuilder:
         self.getAttributes()
         self.getDescriptionPointers()
         self.getDescriptions()
+        self.getAnimations()
 
     def getConstants(self):
         with open(moveDataFiles["constants"], "r") as f:
@@ -356,7 +358,7 @@ class MoveDataBuilder:
                     break
                 if line[0] == ";":
                     continue
-                if "const" in line:
+                if "const " in line:
                     move = line.split("const")
                     move = move[1]
                     move = move.split(";")
@@ -366,7 +368,7 @@ class MoveDataBuilder:
 
     def getNames(self):
         with open(moveDataFiles["names"], "r") as f:
-            i = 1  # skip NO_MOVE
+            i = 1 # Skip NO_MOVE
             for line in f:
                 if "li " in line:
                     curMove = line.split("li")
@@ -385,7 +387,6 @@ class MoveDataBuilder:
         #     "Effect Chance"
         # ]
         attributes = [
-            "Animation",
             "Effect",
             "Power",
             "Type",
@@ -396,7 +397,7 @@ class MoveDataBuilder:
         ]
         with open(moveDataFiles["characteristics"], "r") as f:
             ready = False
-            i = 1  # skip NO_MOVE
+            i = 1 # Skip NO_MOVE
             for line in f:
                 if ready:
                     if line[0] == ";":
@@ -405,18 +406,18 @@ class MoveDataBuilder:
                         curMove = line.split("move")
                         curMove = curMove[1].split(",")
                         for j, attr in enumerate(curMove):
-                            self.moveData[i][attributes[j]] = attr.strip()
+                            self.moveData[i][attributes[j]] = attr.split(";")[0].strip()
                         i += 1
-                    elif "Moves1:" in line:
-                        ready = True
+                elif "Moves1:" in line:
+                    ready = True
 
     def getDescriptionPointers(self):
         with open(moveDataFiles["descriptionPointers"], "r") as f:
-            i = 1  # skip NO_MOVE
+            i = 1 # Skip NO_MOVE
             for line in f:
                 if line[0] == ";":
                     continue
-                if "assert_table_length NUM_ATTACKS" in line:
+                if ".IndirectEnd" in line:
                     break
                 elif "dw " in line:
                     pointer = line.split("dw ")
@@ -458,6 +459,24 @@ class MoveDataBuilder:
                 if move["Description Pointer"] in descriptions:
                     moveDescription = descriptions[move["Description Pointer"]]
                     self.moveData[i]["Description"] = moveDescription
+    
+    def getAnimations(self):
+        with open(moveDataFiles["animations"], "r") as f:
+            ready = False
+            i = 0
+            for line in f:
+                if ready:
+                    if line[0] == ";":
+                        continue
+                    if "dw" in line:
+                        curAnim = line.split("dw")
+                        curAnim = curAnim[1]
+                        self.moveData[i]["Animation"] = curAnim.split(";")[0].strip()
+                        i += 1
+                    if "assert_table_length NUM_ATTACKS" in line:
+                        ready = False
+                elif "BattleAnimations" in line:
+                    ready = True
 
 
 class PokemonDataBuilder:
@@ -1034,62 +1053,81 @@ moves.buildMoveData()
 items = ItemDataBuilder()
 items.buildItemData()
 
-for poke in pokemon.pokemonData:
-    poke["Stats"]  = {
-        'hp': poke["Stats"]["HP"],
-        'attack': poke["Stats"]["ATK"],
-        'defense': poke["Stats"]["DEF"],
-        'sp_attack': poke["Stats"]["SAT"],
-        'sp_defense': poke["Stats"]["SDF"],
-        'speed': poke['Stats']["SPD"]
-    }
-    poke['Types'][0] = poke['Types'][0].title().replace("_Type", "")
-    poke['Types'][1] = poke['Types'][1].title().replace("_Type", "")
-    if poke['Types'][0] == poke['Types'][1]:
-        poke['Types'].pop(1)
-    eggs = []
-    for group in poke["Egg Groups"]:
-        group = group.replace("EGG_", "").replace("_"," ")
-        eggs.append(group.title())
-    eggs =  list(dict.fromkeys(eggs))
-    if "Egg Moves" not in poke:
-        poke["Egg Moves"] = []
-    level_ups = []
-    for move in poke["Level Up Moves"]:
-        level_ups.append((move["Level"], move["Move"]))
-    evolutions = []
-    if "Evolutions" in poke:
-        for evolu in poke["Evolutions"]:
-            evo = evolu
-            method = evo["Method"].replace("EVOLVE_","").title()
-            method = method.replace("Level", "Level-Up")
-            evo["Method"] = method
-            evolutions.append(evo)
-            # print(evo)
-        
-    mon = pokemon_data.Pokemon(
-        constant = poke["Constant"],
-        name = poke['Name'],
-        stats = poke["Stats"],
-        types = poke["Types"],
-        catch_rate = poke["Catch Rate"],
-        base_xp = poke["Base XP"],
-        growth_rate = poke["Growth Rate"][7:].replace("_","-").title(),
-        egg_step_cycle = poke["Step Cycle"],
-        gender_ratio = poke["Gender Ratio"].replace("GENDER_","").replace("F","").replace("_",".").title(),
-        egg_groups = eggs,
-        held_items = poke["Held Items"],
-        level_up_moves = level_ups,
-        egg_moves = poke["Egg Moves"],
-        evolutions = poke["Evolutions"],
-        taught_moves = poke["TM HM List"],
-        species = poke["Species Name"],
-        height = poke["Height"],
-        weight = poke["Weight"],
-        icon = poke["Menu Icon"],
-        icon_pals = poke["Menu Icon Palettes"],
-        flavor_text = poke["Pokedex Entry"],
-        normal_palette = poke["Normal Palette"],
-        shiny_palette = poke["Shiny Palette"]
+for move in moves.moveData:
+    if move["Constant"] == "NO_MOVE":
+        continue
+    move['Type'] = move['Type'].title().replace('_Type', '')
+    move = move_data.Move(
+        constant = move['Constant'],
+        name = move['Name'],
+        animation = move['Animation'],
+        effect = move['Effect'],
+        power = move['Power'],
+        move_type = move['Type'],
+        category = move['Category'],
+        accuracy = move["Accuracy"],
+        pp = move["PP"],
+        effect_chance = move["Effect Chance"],
+        description = move["Description"],
     )
-    mon.generate_yaml()
+    move.generate_yaml()
+
+# for poke in pokemon.pokemonData:
+#     poke["Stats"]  = {
+#         'hp': poke["Stats"]["HP"],
+#         'attack': poke["Stats"]["ATK"],
+#         'defense': poke["Stats"]["DEF"],
+#         'sp_attack': poke["Stats"]["SAT"],
+#         'sp_defense': poke["Stats"]["SDF"],
+#         'speed': poke['Stats']["SPD"]
+#     }
+#     poke['Types'][0] = poke['Types'][0].title().replace("_Type", "")
+#     poke['Types'][1] = poke['Types'][1].title().replace("_Type", "")
+#     if poke['Types'][0] == poke['Types'][1]:
+#         poke['Types'].pop(1)
+#     eggs = []
+#     for group in poke["Egg Groups"]:
+#         group = group.replace("EGG_", "").replace("_"," ")
+#         eggs.append(group.title())
+#     eggs =  list(dict.fromkeys(eggs))
+#     if "Egg Moves" not in poke:
+#         poke["Egg Moves"] = []
+#     level_ups = []
+#     for move in poke["Level Up Moves"]:
+#         level_ups.append((move["Level"], move["Move"]))
+#     evolutions = []
+#     if "Evolutions" in poke:
+#         for evolu in poke["Evolutions"]:
+#             evo = evolu
+#             method = evo["Method"].replace("EVOLVE_","").title()
+#             method = method.replace("Level", "Level-Up")
+#             evo["Method"] = method
+#             evolutions.append(evo)
+#             # print(evo)
+        
+#     mon = pokemon_data.Pokemon(
+#         constant = poke["Constant"],
+#         name = poke['Name'],
+#         stats = poke["Stats"],
+#         types = poke["Types"],
+#         catch_rate = poke["Catch Rate"],
+#         base_xp = poke["Base XP"],
+#         growth_rate = poke["Growth Rate"][7:].replace("_","-").title(),
+#         egg_step_cycle = poke["Step Cycle"],
+#         gender_ratio = poke["Gender Ratio"].replace("GENDER_","").replace("F","").replace("_",".").title(),
+#         egg_groups = eggs,
+#         held_items = poke["Held Items"],
+#         level_up_moves = level_ups,
+#         egg_moves = poke["Egg Moves"],
+#         evolutions = poke["Evolutions"],
+#         taught_moves = poke["TM HM List"],
+#         species = poke["Species Name"],
+#         height = poke["Height"],
+#         weight = poke["Weight"],
+#         icon = poke["Menu Icon"],
+#         icon_pals = poke["Menu Icon Palettes"],
+#         flavor_text = poke["Pokedex Entry"],
+#         normal_palette = poke["Normal Palette"],
+#         shiny_palette = poke["Shiny Palette"]
+#     )
+#     mon.generate_yaml()

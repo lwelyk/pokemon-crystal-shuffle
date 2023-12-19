@@ -1,0 +1,11 @@
+constant: STRUGGLE
+name: STRUGGLE
+type: Normal
+category: Physical
+description: Used only if all PP are exhausted.
+power: 50
+accuracy: 100
+effect: EFFECT_RECOIL_HIT
+effect-chance: 0
+pp: 1
+animation: BattleAnim_Struggle

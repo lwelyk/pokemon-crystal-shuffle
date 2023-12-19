@@ -1,0 +1,11 @@
+constant: LEECH_SEED
+name: LEECH SEED
+type: Grass
+category: Status
+description: Steals HP from the foe on every turn.
+power: 0
+accuracy: 90
+effect: EFFECT_LEECH_SEED
+effect-chance: 0
+pp: 10
+animation: BattleAnim_LeechSeed

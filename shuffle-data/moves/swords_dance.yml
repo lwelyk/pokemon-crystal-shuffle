@@ -1,0 +1,11 @@
+constant: SWORDS_DANCE
+name: SWORDS DANCE
+type: Normal
+category: Status
+description: A dance that in creases ATTACK.
+power: 0
+accuracy: 100
+effect: EFFECT_ATTACK_UP_2
+effect-chance: 0
+pp: 30
+animation: BattleAnim_SwordsDance

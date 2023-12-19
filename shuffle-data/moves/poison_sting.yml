@@ -1,0 +1,11 @@
+constant: POISON_STING
+name: POISON STING
+type: Poison
+category: Physical
+description: An attack that may poison the target.
+power: 15
+accuracy: 100
+effect: EFFECT_POISON_HIT
+effect-chance: 30
+pp: 35
+animation: BattleAnim_PoisonSting

@@ -1,0 +1,11 @@
+constant: HORN_ATTACK
+name: HORN ATTACK
+type: Normal
+category: Physical
+description: An attack using a horn to jab.
+power: 65
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 25
+animation: BattleAnim_HornAttack

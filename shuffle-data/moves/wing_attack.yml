@@ -1,0 +1,11 @@
+constant: WING_ATTACK
+name: WING ATTACK
+type: Flying
+category: Physical
+description: Strikes the target with wings.
+power: 60
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 35
+animation: BattleAnim_WingAttack

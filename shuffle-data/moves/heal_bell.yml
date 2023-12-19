@@ -1,0 +1,11 @@
+constant: HEAL_BELL
+name: HEAL BELL
+type: Normal
+category: Status
+description: Eliminates all status problems.
+power: 0
+accuracy: 100
+effect: EFFECT_HEAL_BELL
+effect-chance: 0
+pp: 5
+animation: BattleAnim_HealBell

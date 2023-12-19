@@ -1,0 +1,11 @@
+constant: DOUBLESLAP
+name: DOUBLESLAP
+type: Fairy
+category: Physical
+description: Repeatedly slaps 2-5 times.
+power: 15
+accuracy: 85
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Doubleslap

@@ -1,0 +1,11 @@
+constant: BEAT_UP
+name: BEAT UP
+type: Dark
+category: Physical
+description: 'Party #MON join in the attack.'
+power: 10
+accuracy: 100
+effect: EFFECT_BEAT_UP
+effect-chance: 0
+pp: 10
+animation: BattleAnim_BeatUp

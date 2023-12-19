@@ -1,0 +1,11 @@
+constant: EXTREMESPEED
+name: EXTREMESPEED
+type: Normal
+category: Physical
+description: A powerful first strike move.
+power: 80
+accuracy: 100
+effect: EFFECT_PRIORITY_HIT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Extremespeed

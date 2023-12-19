@@ -1,0 +1,11 @@
+constant: PROTECT
+name: PROTECT
+type: Normal
+category: Status
+description: Foils attack that turn. It may fail.
+power: 0
+accuracy: 100
+effect: EFFECT_PROTECT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Protect

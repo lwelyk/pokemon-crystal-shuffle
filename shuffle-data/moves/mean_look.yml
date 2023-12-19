@@ -1,0 +1,11 @@
+constant: MEAN_LOOK
+name: MEAN LOOK
+type: Normal
+category: Status
+description: Prevents fleeing or switching.
+power: 0
+accuracy: 100
+effect: EFFECT_MEAN_LOOK
+effect-chance: 0
+pp: 5
+animation: BattleAnim_MeanLook

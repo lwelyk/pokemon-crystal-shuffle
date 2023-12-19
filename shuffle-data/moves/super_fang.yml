@@ -1,0 +1,11 @@
+constant: SUPER_FANG
+name: SUPER FANG
+type: Normal
+category: Physical
+description: Cuts the foe's HP by 1/2.
+power: 1
+accuracy: 90
+effect: EFFECT_SUPER_FANG
+effect-chance: 0
+pp: 10
+animation: BattleAnim_SuperFang

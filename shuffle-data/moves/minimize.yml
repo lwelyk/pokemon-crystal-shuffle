@@ -1,0 +1,11 @@
+constant: MINIMIZE
+name: MINIMIZE
+type: Normal
+category: Status
+description: Heightens evasive ness.
+power: 0
+accuracy: 100
+effect: EFFECT_EVASION_UP
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Minimize

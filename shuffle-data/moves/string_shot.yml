@@ -1,0 +1,11 @@
+constant: STRING_SHOT
+name: STRING SHOT
+type: Bug
+category: Status
+description: A move that lowers the foe's SPEED.
+power: 0
+accuracy: 95
+effect: EFFECT_SPEED_DOWN
+effect-chance: 0
+pp: 40
+animation: BattleAnim_StringShot

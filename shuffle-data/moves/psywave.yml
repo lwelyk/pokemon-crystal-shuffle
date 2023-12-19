@@ -1,0 +1,11 @@
+constant: PSYWAVE
+name: PSYWAVE
+type: Psychic
+category: Special
+description: An attack with variable power.
+power: 1
+accuracy: 80
+effect: EFFECT_PSYWAVE
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Psywave

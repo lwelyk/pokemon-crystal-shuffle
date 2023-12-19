@@ -1,0 +1,11 @@
+constant: HIDDEN_POWER
+name: HIDDEN POWER
+type: Normal
+category: Special
+description: 'The power varies with the #MON.'
+power: 1
+accuracy: 100
+effect: EFFECT_HIDDEN_POWER
+effect-chance: 0
+pp: 15
+animation: BattleAnim_HiddenPower

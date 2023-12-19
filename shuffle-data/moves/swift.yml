@@ -1,0 +1,11 @@
+constant: SWIFT
+name: SWIFT
+type: Normal
+category: Special
+description: An attack that never misses.
+power: 60
+accuracy: 100
+effect: EFFECT_ALWAYS_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Swift

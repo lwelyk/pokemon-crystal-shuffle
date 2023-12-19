@@ -1,0 +1,11 @@
+constant: SKETCH
+name: SKETCH
+type: Normal
+category: Status
+description: Copies the foe's move permanently.
+power: 0
+accuracy: 100
+effect: EFFECT_SKETCH
+effect-chance: 0
+pp: 1
+animation: BattleAnim_Sketch

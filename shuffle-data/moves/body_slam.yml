@@ -1,0 +1,11 @@
+constant: BODY_SLAM
+name: BODY SLAM
+type: Normal
+category: Physical
+description: An attack that may cause paralysis.
+power: 85
+accuracy: 100
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 30
+pp: 15
+animation: BattleAnim_BodySlam

@@ -1,0 +1,11 @@
+constant: DISABLE
+name: DISABLE
+type: Normal
+category: Status
+description: Disables the foe's most recent move.
+power: 0
+accuracy: 55
+effect: EFFECT_DISABLE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Disable

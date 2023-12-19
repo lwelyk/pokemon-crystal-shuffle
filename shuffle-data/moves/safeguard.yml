@@ -1,0 +1,11 @@
+constant: SAFEGUARD
+name: SAFEGUARD
+type: Normal
+category: Status
+description: Prevents all status problems.
+power: 0
+accuracy: 100
+effect: EFFECT_SAFEGUARD
+effect-chance: 0
+pp: 25
+animation: BattleAnim_Safeguard

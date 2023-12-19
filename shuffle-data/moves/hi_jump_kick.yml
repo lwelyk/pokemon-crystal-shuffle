@@ -1,0 +1,11 @@
+constant: HI_JUMP_KICK
+name: HI JUMP KICK
+type: Fighting
+category: Physical
+description: May miss and hurt the user.
+power: 85
+accuracy: 90
+effect: EFFECT_JUMP_KICK
+effect-chance: 0
+pp: 20
+animation: BattleAnim_HiJumpKick

@@ -1,0 +1,11 @@
+constant: TACKLE
+name: TACKLE
+type: Normal
+category: Physical
+description: A full-body charge attack.
+power: 35
+accuracy: 95
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 35
+animation: BattleAnim_Tackle

@@ -1,0 +1,11 @@
+constant: BIND
+name: BIND
+type: Normal
+category: Physical
+description: Binds the target for 2-5 turns.
+power: 15
+accuracy: 75
+effect: EFFECT_TRAP_TARGET
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Bind

@@ -1,0 +1,11 @@
+constant: SCREECH
+name: SCREECH
+type: Normal
+category: Status
+description: Sharply reduces the foe's DEFENSE.
+power: 0
+accuracy: 85
+effect: EFFECT_DEFENSE_DOWN_2
+effect-chance: 0
+pp: 40
+animation: BattleAnim_Screech

@@ -1,0 +1,11 @@
+constant: DIG
+name: DIG
+type: Ground
+category: Physical
+description: '1st turn: Burrow 2nd turn: Attack'
+power: 80
+accuracy: 100
+effect: EFFECT_FLY
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Dig

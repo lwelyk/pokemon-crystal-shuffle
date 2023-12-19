@@ -1,0 +1,11 @@
+constant: TRIPLE_KICK
+name: TRIPLE KICK
+type: Fighting
+category: Physical
+description: Hits three times with rising power.
+power: 10
+accuracy: 90
+effect: EFFECT_TRIPLE_KICK
+effect-chance: 0
+pp: 10
+animation: BattleAnim_TripleKick

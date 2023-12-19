@@ -1,0 +1,11 @@
+constant: MIST
+name: MIST
+type: Ice
+category: Status
+description: Prevents stat reduction.
+power: 0
+accuracy: 100
+effect: EFFECT_MIST
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Mist

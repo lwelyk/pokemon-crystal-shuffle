@@ -1,0 +1,11 @@
+constant: STOMP
+name: STOMP
+type: Normal
+category: Physical
+description: An attack that may cause flinching.
+power: 65
+accuracy: 100
+effect: EFFECT_STOMP
+effect-chance: 30
+pp: 20
+animation: BattleAnim_Stomp

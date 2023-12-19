@@ -1,0 +1,11 @@
+constant: WRAP
+name: WRAP
+type: Normal
+category: Physical
+description: Squeezes the foe for 2-5 turns.
+power: 15
+accuracy: 85
+effect: EFFECT_TRAP_TARGET
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Wrap

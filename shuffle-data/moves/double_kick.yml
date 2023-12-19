@@ -1,0 +1,11 @@
+constant: DOUBLE_KICK
+name: DOUBLE KICK
+type: Fighting
+category: Physical
+description: A double kicking attack.
+power: 30
+accuracy: 100
+effect: EFFECT_DOUBLE_HIT
+effect-chance: 0
+pp: 30
+animation: BattleAnim_DoubleKick

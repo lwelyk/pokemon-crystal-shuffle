@@ -1,0 +1,11 @@
+constant: ACID_ARMOR
+name: ACID ARMOR
+type: Poison
+category: Status
+description: Sharply raises the user's DEFENSE.
+power: 0
+accuracy: 100
+effect: EFFECT_DEFENSE_UP_2
+effect-chance: 0
+pp: 40
+animation: BattleAnim_AcidArmor

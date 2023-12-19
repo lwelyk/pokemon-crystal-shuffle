@@ -1,0 +1,11 @@
+constant: TWISTER
+name: TWISTER
+type: Dragon
+category: Special
+description: Whips up a tornado to attack.
+power: 40
+accuracy: 100
+effect: EFFECT_TWISTER
+effect-chance: 20
+pp: 20
+animation: BattleAnim_Twister

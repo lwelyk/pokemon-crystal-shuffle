@@ -1,0 +1,11 @@
+constant: LOCK_ON
+name: LOCK-ON
+type: Normal
+category: Status
+description: Ensures the next attack will hit.
+power: 0
+accuracy: 100
+effect: EFFECT_LOCK_ON
+effect-chance: 0
+pp: 5
+animation: BattleAnim_LockOn

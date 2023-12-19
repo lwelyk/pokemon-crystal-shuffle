@@ -1,0 +1,11 @@
+constant: FAINT_ATTACK
+name: FAINT ATTACK
+type: Dark
+category: Physical
+description: An attack that never misses.
+power: 60
+accuracy: 100
+effect: EFFECT_ALWAYS_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_FaintAttack

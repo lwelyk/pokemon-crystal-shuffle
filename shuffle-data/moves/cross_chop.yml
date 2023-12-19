@@ -1,0 +1,11 @@
+constant: CROSS_CHOP
+name: CROSS CHOP
+type: Fighting
+category: Physical
+description: Has a high criti cal hit ratio.
+power: 100
+accuracy: 80
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_CrossChop

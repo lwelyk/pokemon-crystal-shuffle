@@ -1,0 +1,11 @@
+constant: WHIRLWIND
+name: WHIRLWIND
+type: Normal
+category: Status
+description: Blows away the foe & ends battle.
+power: 0
+accuracy: 100
+effect: EFFECT_FORCE_SWITCH
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Whirlwind

@@ -1,0 +1,11 @@
+constant: DIZZY_PUNCH
+name: DIZZY PUNCH
+type: Normal
+category: Physical
+description: An attack that may cause confusion.
+power: 70
+accuracy: 100
+effect: EFFECT_CONFUSE_HIT
+effect-chance: 20
+pp: 10
+animation: BattleAnim_DizzyPunch

@@ -1,0 +1,11 @@
+constant: SPIKE_CANNON
+name: SPIKE CANNON
+type: Normal
+category: Physical
+description: Fires spikes to hit 2-5 times.
+power: 20
+accuracy: 100
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_SpikeCannon

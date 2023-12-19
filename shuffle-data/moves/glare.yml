@@ -1,0 +1,11 @@
+constant: GLARE
+name: GLARE
+type: Normal
+category: Status
+description: A move that may cause paralysis.
+power: 0
+accuracy: 75
+effect: EFFECT_PARALYZE
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Glare

@@ -1,0 +1,11 @@
+constant: SHARPEN
+name: SHARPEN
+type: Normal
+category: Status
+description: A move that raises the user's ATTACK.
+power: 0
+accuracy: 100
+effect: EFFECT_ATTACK_UP
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Sharpen

@@ -1,0 +1,11 @@
+constant: SMOG
+name: SMOG
+type: Poison
+category: Special
+description: An attack that may poison the foe.
+power: 20
+accuracy: 70
+effect: EFFECT_POISON_HIT
+effect-chance: 40
+pp: 20
+animation: BattleAnim_Smog

@@ -1,0 +1,11 @@
+constant: SKY_ATTACK
+name: SKY ATTACK
+type: Flying
+category: Physical
+description: '1st turn: Prepare 2nd turn: Attack'
+power: 140
+accuracy: 90
+effect: EFFECT_SKY_ATTACK
+effect-chance: 0
+pp: 5
+animation: BattleAnim_SkyAttack

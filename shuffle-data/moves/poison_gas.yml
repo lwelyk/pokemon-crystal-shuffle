@@ -1,0 +1,11 @@
+constant: POISON_GAS
+name: POISON GAS
+type: Poison
+category: Status
+description: A move that may poison the foe.
+power: 0
+accuracy: 55
+effect: EFFECT_POISON
+effect-chance: 0
+pp: 40
+animation: BattleAnim_PoisonGas

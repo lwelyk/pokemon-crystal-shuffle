@@ -1,0 +1,11 @@
+constant: PECK
+name: PECK
+type: Flying
+category: Physical
+description: Jabs the foe with a beak, etc.
+power: 35
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 35
+animation: BattleAnim_Peck

@@ -1,0 +1,11 @@
+constant: CRABHAMMER
+name: CRABHAMMER
+type: Water
+category: Physical
+description: Has a high criti cal hit ratio.
+power: 100
+accuracy: 85
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Crabhammer

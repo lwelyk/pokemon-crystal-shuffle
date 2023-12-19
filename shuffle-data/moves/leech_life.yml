@@ -1,0 +1,11 @@
+constant: LEECH_LIFE
+name: LEECH LIFE
+type: Bug
+category: Physical
+description: Steals 1/2 of the damage inflicted.
+power: 80
+accuracy: 100
+effect: EFFECT_LEECH_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_LeechLife

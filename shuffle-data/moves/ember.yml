@@ -1,0 +1,11 @@
+constant: EMBER
+name: EMBER
+type: Fire
+category: Special
+description: An attack that may inflict a burn.
+power: 40
+accuracy: 100
+effect: EFFECT_BURN_HIT
+effect-chance: 10
+pp: 25
+animation: BattleAnim_Ember

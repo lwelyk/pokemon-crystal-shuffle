@@ -1,0 +1,11 @@
+constant: ROLLING_KICK
+name: ROLLING KICK
+type: Fighting
+category: Physical
+description: A fast, spinning kick.
+power: 60
+accuracy: 85
+effect: EFFECT_FLINCH_HIT
+effect-chance: 30
+pp: 15
+animation: BattleAnim_RollingKick

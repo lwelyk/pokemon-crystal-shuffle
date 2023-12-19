@@ -1,0 +1,11 @@
+constant: ANCIENTPOWER
+name: ANCIENTPOWER
+type: Rock
+category: Special
+description: An attack that may raise all stats.
+power: 60
+accuracy: 100
+effect: EFFECT_ALL_UP_HIT
+effect-chance: 10
+pp: 5
+animation: BattleAnim_Ancientpower

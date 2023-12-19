@@ -1,0 +1,11 @@
+constant: THRASH
+name: THRASH
+type: Normal
+category: Physical
+description: Works 2-3 turns and confuses user.
+power: 90
+accuracy: 100
+effect: EFFECT_RAMPAGE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Thrash

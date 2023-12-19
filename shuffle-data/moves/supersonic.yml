@@ -1,0 +1,11 @@
+constant: SUPERSONIC
+name: SUPERSONIC
+type: Normal
+category: Status
+description: Sound waves that cause confusion.
+power: 0
+accuracy: 55
+effect: EFFECT_CONFUSE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Supersonic

@@ -1,0 +1,11 @@
+constant: NO_MOVE
+name: POUND
+type: Normal
+category: Physical
+description: Pounds with fore legs or tail.
+power: 40
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 35
+animation: ''

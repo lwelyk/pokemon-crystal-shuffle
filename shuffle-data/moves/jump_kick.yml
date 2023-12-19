@@ -1,0 +1,11 @@
+constant: JUMP_KICK
+name: JUMP KICK
+type: Fighting
+category: Physical
+description: May miss, damaging the user.
+power: 70
+accuracy: 95
+effect: EFFECT_JUMP_KICK
+effect-chance: 0
+pp: 25
+animation: BattleAnim_JumpKick

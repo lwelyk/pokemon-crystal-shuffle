@@ -1,0 +1,11 @@
+constant: MEGA_KICK
+name: MEGA KICK
+type: Normal
+category: Physical
+description: A powerful kicking attack.
+power: 120
+accuracy: 75
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_MegaKick

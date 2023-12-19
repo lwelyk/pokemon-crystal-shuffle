@@ -1,0 +1,11 @@
+constant: SLAM
+name: SLAM
+type: Normal
+category: Physical
+description: Slams the foe with a tail, vine, etc.
+power: 80
+accuracy: 75
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Slam

@@ -1,0 +1,11 @@
+constant: FURY_CUTTER
+name: FURY CUTTER
+type: Bug
+category: Physical
+description: Successive hits raise power.
+power: 40
+accuracy: 95
+effect: EFFECT_FURY_CUTTER
+effect-chance: 0
+pp: 20
+animation: BattleAnim_FuryCutter

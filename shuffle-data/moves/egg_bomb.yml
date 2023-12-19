@@ -1,0 +1,11 @@
+constant: EGG_BOMB
+name: EGG BOMB
+type: Normal
+category: Physical
+description: Eggs are hurled at the foe.
+power: 100
+accuracy: 75
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_EggBomb

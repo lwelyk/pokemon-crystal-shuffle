@@ -1,0 +1,11 @@
+constant: FRUSTRATION
+name: FRUSTRATION
+type: Normal
+category: Physical
+description: An attack based on lack of loyalty.
+power: 1
+accuracy: 100
+effect: EFFECT_FRUSTRATION
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Frustration

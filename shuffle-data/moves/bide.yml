@@ -1,0 +1,11 @@
+constant: BIDE
+name: BIDE
+type: Normal
+category: Physical
+description: Waits 2-3 turns & hits back double.
+power: 0
+accuracy: 100
+effect: EFFECT_BIDE
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Bide

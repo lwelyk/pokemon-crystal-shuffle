@@ -1,0 +1,11 @@
+constant: MIRROR_MOVE
+name: MIRROR MOVE
+type: Flying
+category: Status
+description: Counters with the same move.
+power: 0
+accuracy: 100
+effect: EFFECT_MIRROR_MOVE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_MirrorMove

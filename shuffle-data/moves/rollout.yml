@@ -1,0 +1,11 @@
+constant: ROLLOUT
+name: ROLLOUT
+type: Rock
+category: Physical
+description: Attacks 5 turns with rising power.
+power: 30
+accuracy: 90
+effect: EFFECT_ROLLOUT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Rollout

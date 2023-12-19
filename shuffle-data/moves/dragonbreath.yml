@@ -1,0 +1,11 @@
+constant: DRAGONBREATH
+name: DRAGONBREATH
+type: Dragon
+category: Special
+description: A strong breath attack.
+power: 60
+accuracy: 100
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 30
+pp: 20
+animation: BattleAnim_Dragonbreath

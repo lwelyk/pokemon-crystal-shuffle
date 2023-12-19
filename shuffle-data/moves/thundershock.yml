@@ -1,0 +1,11 @@
+constant: THUNDERSHOCK
+name: THUNDERSHOCK
+type: Electric
+category: Special
+description: An attack that may cause paralysis.
+power: 40
+accuracy: 100
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 10
+pp: 30
+animation: BattleAnim_Thundershock

@@ -1,0 +1,11 @@
+constant: AURORA_BEAM
+name: AURORA BEAM
+type: Ice
+category: Special
+description: An attack that may lower ATTACK.
+power: 65
+accuracy: 100
+effect: EFFECT_ATTACK_DOWN_HIT
+effect-chance: 10
+pp: 20
+animation: BattleAnim_AuroraBeam

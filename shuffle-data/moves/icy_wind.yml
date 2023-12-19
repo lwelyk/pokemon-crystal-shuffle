@@ -1,0 +1,11 @@
+constant: ICY_WIND
+name: ICY WIND
+type: Ice
+category: Special
+description: An icy attack that lowers SPEED.
+power: 55
+accuracy: 95
+effect: EFFECT_SPEED_DOWN_HIT
+effect-chance: 100
+pp: 15
+animation: BattleAnim_IcyWind

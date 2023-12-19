@@ -1,0 +1,11 @@
+constant: SWAGGER
+name: SWAGGER
+type: Normal
+category: Status
+description: Causes confusion and raises ATTACK.
+power: 0
+accuracy: 90
+effect: EFFECT_SWAGGER
+effect-chance: 100
+pp: 15
+animation: BattleAnim_Swagger

@@ -1,0 +1,11 @@
+constant: CONFUSION
+name: CONFUSION
+type: Psychic
+category: Special
+description: An attack that may cause confusion.
+power: 50
+accuracy: 100
+effect: EFFECT_CONFUSE_HIT
+effect-chance: 10
+pp: 25
+animation: BattleAnim_Confusion

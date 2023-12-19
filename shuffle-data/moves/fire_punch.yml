@@ -1,0 +1,11 @@
+constant: FIRE_PUNCH
+name: FIRE PUNCH
+type: Fire
+category: Physical
+description: A fiery punch. May cause a burn.
+power: 75
+accuracy: 100
+effect: EFFECT_BURN_HIT
+effect-chance: 10
+pp: 15
+animation: BattleAnim_FirePunch

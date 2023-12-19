@@ -1,0 +1,11 @@
+constant: FISSURE
+name: FISSURE
+type: Ground
+category: Physical
+description: A ground-type, one-hit KO attack.
+power: 1
+accuracy: 30
+effect: EFFECT_OHKO
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Fissure

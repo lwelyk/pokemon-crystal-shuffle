@@ -1,0 +1,11 @@
+constant: THUNDERPUNCH
+name: THUNDERPUNCH
+type: Electric
+category: Physical
+description: An electric punch. It may paralyze.
+power: 75
+accuracy: 100
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 10
+pp: 15
+animation: BattleAnim_Thunderpunch

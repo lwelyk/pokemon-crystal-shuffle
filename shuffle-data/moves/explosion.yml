@@ -1,0 +1,11 @@
+constant: EXPLOSION
+name: EXPLOSION
+type: Normal
+category: Physical
+description: Very powerful but makes user faint.
+power: 250
+accuracy: 100
+effect: EFFECT_SELFDESTRUCT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Explosion

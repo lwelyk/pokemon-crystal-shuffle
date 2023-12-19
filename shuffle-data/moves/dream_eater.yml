@@ -1,0 +1,11 @@
+constant: DREAM_EATER
+name: DREAM EATER
+type: Psychic
+category: Special
+description: Steals HP from a sleeping victim.
+power: 100
+accuracy: 100
+effect: EFFECT_DREAM_EATER
+effect-chance: 0
+pp: 15
+animation: BattleAnim_DreamEater

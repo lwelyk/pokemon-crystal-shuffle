@@ -1,0 +1,11 @@
+constant: WATERFALL
+name: WATERFALL
+type: Water
+category: Physical
+description: An aquatic charge attack.
+power: 80
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Waterfall

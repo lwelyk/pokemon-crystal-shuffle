@@ -1,0 +1,11 @@
+constant: NIGHTMARE
+name: NIGHTMARE
+type: Ghost
+category: Status
+description: A sleeper loses 1/4 HP every turn.
+power: 0
+accuracy: 100
+effect: EFFECT_NIGHTMARE
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Nightmare

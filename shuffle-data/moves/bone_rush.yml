@@ -1,0 +1,11 @@
+constant: BONE_RUSH
+name: BONE RUSH
+type: Ground
+category: Physical
+description: An attack that hits 2-5 times.
+power: 25
+accuracy: 80
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_BoneRush

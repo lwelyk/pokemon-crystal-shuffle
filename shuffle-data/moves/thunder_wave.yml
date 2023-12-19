@@ -1,0 +1,11 @@
+constant: THUNDER_WAVE
+name: THUNDER WAVE
+type: Electric
+category: Status
+description: A move that may cause paralysis.
+power: 0
+accuracy: 100
+effect: EFFECT_PARALYZE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_ThunderWave

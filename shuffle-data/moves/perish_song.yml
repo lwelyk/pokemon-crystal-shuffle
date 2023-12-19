@@ -1,0 +1,11 @@
+constant: PERISH_SONG
+name: PERISH SONG
+type: Normal
+category: Status
+description: Both user and foe faint in 3 turns.
+power: 0
+accuracy: 100
+effect: EFFECT_PERISH_SONG
+effect-chance: 0
+pp: 5
+animation: BattleAnim_PerishSong

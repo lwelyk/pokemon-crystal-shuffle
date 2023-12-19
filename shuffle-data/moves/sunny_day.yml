@@ -1,0 +1,11 @@
+constant: SUNNY_DAY
+name: SUNNY DAY
+type: Fire
+category: Status
+description: Boosts fire-type moves for 5 turns.
+power: 0
+accuracy: 90
+effect: EFFECT_SUNNY_DAY
+effect-chance: 0
+pp: 5
+animation: BattleAnim_SunnyDay

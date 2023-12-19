@@ -1,0 +1,11 @@
+constant: FLAME_WHEEL
+name: FLAME WHEEL
+type: Fire
+category: Physical
+description: An attack that may cause a burn.
+power: 60
+accuracy: 100
+effect: EFFECT_FLAME_WHEEL
+effect-chance: 10
+pp: 25
+animation: BattleAnim_FlameWheel

@@ -1,0 +1,11 @@
+constant: SWEET_SCENT
+name: SWEET SCENT
+type: Normal
+category: Status
+description: Reduces the foe's evasiveness.
+power: 0
+accuracy: 100
+effect: EFFECT_EVASION_DOWN
+effect-chance: 0
+pp: 20
+animation: BattleAnim_SweetScent

@@ -1,0 +1,11 @@
+constant: DRAGON_RAGE
+name: DRAGON RAGE
+type: Dragon
+category: Special
+description: Always inflicts 40HP damage.
+power: 40
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_DragonRage

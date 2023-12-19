@@ -1,0 +1,11 @@
+constant: FLY
+name: FLY
+type: Flying
+category: Physical
+description: '1st turn: Fly 2nd turn: Attack'
+power: 70
+accuracy: 95
+effect: EFFECT_FLY
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Fly

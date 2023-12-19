@@ -1,0 +1,11 @@
+constant: BLIZZARD
+name: BLIZZARD
+type: Ice
+category: Special
+description: An attack that may freeze the foe.
+power: 120
+accuracy: 70
+effect: EFFECT_FREEZE_HIT
+effect-chance: 10
+pp: 5
+animation: BattleAnim_Blizzard

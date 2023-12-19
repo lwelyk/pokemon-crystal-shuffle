@@ -1,0 +1,11 @@
+constant: ICE_PUNCH
+name: ICE PUNCH
+type: Ice
+category: Physical
+description: An icy punch. May cause freezing.
+power: 75
+accuracy: 100
+effect: EFFECT_FREEZE_HIT
+effect-chance: 10
+pp: 15
+animation: BattleAnim_IcePunch

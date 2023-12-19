@@ -1,0 +1,11 @@
+constant: PSYBEAM
+name: PSYBEAM
+type: Psychic
+category: Special
+description: An attack that may confuse the foe.
+power: 65
+accuracy: 100
+effect: EFFECT_CONFUSE_HIT
+effect-chance: 10
+pp: 20
+animation: BattleAnim_Psybeam

@@ -1,0 +1,11 @@
+constant: RAGE
+name: RAGE
+type: Normal
+category: Physical
+description: Raises ATTACK if the user is hit.
+power: 20
+accuracy: 100
+effect: EFFECT_RAGE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Rage

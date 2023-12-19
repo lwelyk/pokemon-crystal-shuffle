@@ -1,0 +1,11 @@
+constant: STRENGTH
+name: STRENGTH
+type: Normal
+category: Physical
+description: A powerful physi cal attack.
+power: 80
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Strength

@@ -1,0 +1,11 @@
+constant: TWINEEDLE
+name: TWINEEDLE
+type: Bug
+category: Physical
+description: Jabs the foe twice using stingers.
+power: 25
+accuracy: 100
+effect: EFFECT_POISON_MULTI_HIT
+effect-chance: 20
+pp: 20
+animation: BattleAnim_Twineedle

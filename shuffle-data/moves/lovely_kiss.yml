@@ -1,0 +1,11 @@
+constant: LOVELY_KISS
+name: LOVELY KISS
+type: Normal
+category: Status
+description: May cause the foe to fall asleep.
+power: 0
+accuracy: 75
+effect: EFFECT_SLEEP
+effect-chance: 0
+pp: 10
+animation: BattleAnim_LovelyKiss

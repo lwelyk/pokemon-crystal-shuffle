@@ -1,0 +1,11 @@
+constant: WATER_GUN
+name: WATER GUN
+type: Water
+category: Special
+description: Squirts water to attack.
+power: 40
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 25
+animation: BattleAnim_WaterGun

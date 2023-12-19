@@ -1,0 +1,11 @@
+constant: SLASH
+name: SLASH
+type: Normal
+category: Physical
+description: Has a high criti cal hit ratio.
+power: 70
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Slash

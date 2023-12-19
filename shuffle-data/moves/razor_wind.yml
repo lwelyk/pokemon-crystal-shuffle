@@ -1,0 +1,11 @@
+constant: RAZOR_WIND
+name: RAZOR WIND
+type: Normal
+category: Special
+description: '1st turn: Prepare 2nd turn: Attack'
+power: 80
+accuracy: 75
+effect: EFFECT_RAZOR_WIND
+effect-chance: 0
+pp: 10
+animation: BattleAnim_RazorWind

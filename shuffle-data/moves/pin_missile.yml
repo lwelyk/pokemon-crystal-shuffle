@@ -1,0 +1,11 @@
+constant: PIN_MISSILE
+name: PIN MISSILE
+type: Bug
+category: Physical
+description: Fires pins that strike 2-5 times.
+power: 14
+accuracy: 85
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_PinMissile

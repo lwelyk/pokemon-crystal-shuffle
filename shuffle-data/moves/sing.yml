@@ -1,0 +1,11 @@
+constant: SING
+name: SING
+type: Normal
+category: Status
+description: May cause the foe to fall asleep.
+power: 0
+accuracy: 55
+effect: EFFECT_SLEEP
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Sing

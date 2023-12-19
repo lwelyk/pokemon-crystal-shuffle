@@ -1,0 +1,11 @@
+constant: THIEF
+name: THIEF
+type: Dark
+category: Physical
+description: An attack that may steal a held item.
+power: 40
+accuracy: 100
+effect: EFFECT_THIEF
+effect-chance: 100
+pp: 10
+animation: BattleAnim_Thief

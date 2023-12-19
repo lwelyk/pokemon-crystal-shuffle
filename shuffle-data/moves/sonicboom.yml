@@ -1,0 +1,11 @@
+constant: SONICBOOM
+name: SONICBOOM
+type: Normal
+category: Special
+description: Always inflicts 20HP damage.
+power: 20
+accuracy: 90
+effect: EFFECT_STATIC_DAMAGE
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Sonicboom

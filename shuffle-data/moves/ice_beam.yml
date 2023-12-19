@@ -1,0 +1,11 @@
+constant: ICE_BEAM
+name: ICE BEAM
+type: Ice
+category: Special
+description: An attack that may freeze the foe.
+power: 95
+accuracy: 100
+effect: EFFECT_FREEZE_HIT
+effect-chance: 10
+pp: 10
+animation: BattleAnim_IceBeam

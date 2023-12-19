@@ -1,0 +1,11 @@
+constant: CLAMP
+name: CLAMP
+type: Water
+category: Physical
+description: Traps the foe for 2-5 turns.
+power: 35
+accuracy: 75
+effect: EFFECT_TRAP_TARGET
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Clamp

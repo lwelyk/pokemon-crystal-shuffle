@@ -1,0 +1,11 @@
+constant: AEROBLAST
+name: AEROBLAST
+type: Flying
+category: Special
+description: Has a high criti cal hit ratio.
+power: 100
+accuracy: 95
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Aeroblast

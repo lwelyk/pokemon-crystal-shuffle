@@ -1,0 +1,11 @@
+constant: SPITE
+name: SPITE
+type: Ghost
+category: Status
+description: Cuts the PP of the foe's last move.
+power: 0
+accuracy: 100
+effect: EFFECT_SPITE
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Spite

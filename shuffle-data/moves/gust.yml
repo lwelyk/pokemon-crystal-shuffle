@@ -1,0 +1,11 @@
+constant: GUST
+name: GUST
+type: Flying
+category: Special
+description: Whips up a strong gust of wind.
+power: 40
+accuracy: 100
+effect: EFFECT_GUST
+effect-chance: 0
+pp: 35
+animation: BattleAnim_Gust

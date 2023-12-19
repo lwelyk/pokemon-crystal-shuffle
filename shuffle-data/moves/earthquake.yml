@@ -1,0 +1,11 @@
+constant: EARTHQUAKE
+name: EARTHQUAKE
+type: Ground
+category: Physical
+description: Tough but useless vs. flying foes.
+power: 100
+accuracy: 100
+effect: EFFECT_EARTHQUAKE
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Earthquake

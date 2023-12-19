@@ -1,0 +1,11 @@
+constant: RAIN_DANCE
+name: RAIN DANCE
+type: Water
+category: Status
+description: Boosts water-type moves for 5 turns.
+power: 0
+accuracy: 90
+effect: EFFECT_RAIN_DANCE
+effect-chance: 0
+pp: 5
+animation: BattleAnim_RainDance

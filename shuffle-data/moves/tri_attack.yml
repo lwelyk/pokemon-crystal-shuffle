@@ -1,0 +1,11 @@
+constant: TRI_ATTACK
+name: TRI ATTACK
+type: Normal
+category: Special
+description: Fires three kinds of beams at once.
+power: 80
+accuracy: 100
+effect: EFFECT_TRI_ATTACK
+effect-chance: 20
+pp: 10
+animation: BattleAnim_TriAttack

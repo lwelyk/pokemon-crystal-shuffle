@@ -1,0 +1,11 @@
+constant: BITE
+name: BITE
+type: Dark
+category: Physical
+description: An attack that may cause flinching.
+power: 60
+accuracy: 100
+effect: EFFECT_FLINCH_HIT
+effect-chance: 30
+pp: 25
+animation: BattleAnim_Bite

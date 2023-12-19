@@ -1,0 +1,11 @@
+constant: SNORE
+name: SNORE
+type: Normal
+category: Special
+description: An attack useable only while asleep.
+power: 40
+accuracy: 100
+effect: EFFECT_SNORE
+effect-chance: 30
+pp: 15
+animation: BattleAnim_Snore

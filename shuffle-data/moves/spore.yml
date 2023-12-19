@@ -1,0 +1,11 @@
+constant: SPORE
+name: SPORE
+type: Grass
+category: Status
+description: A move that induces sleep.
+power: 0
+accuracy: 100
+effect: EFFECT_SLEEP
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Spore

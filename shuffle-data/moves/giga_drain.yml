@@ -1,0 +1,11 @@
+constant: GIGA_DRAIN
+name: GIGA DRAIN
+type: Grass
+category: Special
+description: Steals 1/2 of the damage inflicted.
+power: 75
+accuracy: 100
+effect: EFFECT_LEECH_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_GigaDrain

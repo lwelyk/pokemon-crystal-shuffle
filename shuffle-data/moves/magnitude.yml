@@ -1,0 +1,11 @@
+constant: MAGNITUDE
+name: MAGNITUDE
+type: Ground
+category: Physical
+description: A ground attack with random power.
+power: 1
+accuracy: 100
+effect: EFFECT_MAGNITUDE
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Magnitude

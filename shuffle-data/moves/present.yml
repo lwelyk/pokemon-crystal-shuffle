@@ -1,0 +1,11 @@
+constant: PRESENT
+name: PRESENT
+type: Normal
+category: Special
+description: A bomb that may restore HP.
+power: 1
+accuracy: 90
+effect: EFFECT_PRESENT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Present

@@ -1,0 +1,11 @@
+constant: RAZOR_LEAF
+name: RAZOR LEAF
+type: Grass
+category: Physical
+description: Has a high criti cal hit ratio.
+power: 55
+accuracy: 95
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 25
+animation: BattleAnim_RazorLeaf

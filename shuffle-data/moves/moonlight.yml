@@ -1,0 +1,11 @@
+constant: MOONLIGHT
+name: MOONLIGHT
+type: Fairy
+category: Status
+description: Restores HP (varies by time).
+power: 0
+accuracy: 100
+effect: EFFECT_MOONLIGHT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Moonlight

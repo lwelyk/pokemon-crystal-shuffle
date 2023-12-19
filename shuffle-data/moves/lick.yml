@@ -1,0 +1,11 @@
+constant: LICK
+name: LICK
+type: Ghost
+category: Physical
+description: An attack that may cause paralysis.
+power: 20
+accuracy: 100
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 30
+pp: 30
+animation: BattleAnim_Lick

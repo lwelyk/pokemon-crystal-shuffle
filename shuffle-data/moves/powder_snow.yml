@@ -1,0 +1,11 @@
+constant: POWDER_SNOW
+name: POWDER SNOW
+type: Ice
+category: Special
+description: An attack that may cause freezing.
+power: 40
+accuracy: 100
+effect: EFFECT_FREEZE_HIT
+effect-chance: 10
+pp: 25
+animation: BattleAnim_PowderSnow

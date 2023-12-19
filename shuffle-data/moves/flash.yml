@@ -1,0 +1,11 @@
+constant: FLASH
+name: FLASH
+type: Normal
+category: Status
+description: Blinds the foe to reduce accuracy.
+power: 0
+accuracy: 70
+effect: EFFECT_ACCURACY_DOWN
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Flash

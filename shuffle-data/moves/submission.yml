@@ -1,0 +1,11 @@
+constant: SUBMISSION
+name: SUBMISSION
+type: Fighting
+category: Physical
+description: An attack that al so hurts the user.
+power: 80
+accuracy: 80
+effect: EFFECT_RECOIL_HIT
+effect-chance: 0
+pp: 25
+animation: BattleAnim_Submission

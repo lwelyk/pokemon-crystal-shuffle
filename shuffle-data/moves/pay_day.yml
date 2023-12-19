@@ -1,0 +1,11 @@
+constant: PAY_DAY
+name: PAY DAY
+type: Normal
+category: Physical
+description: Throws coins. Gets them back later.
+power: 40
+accuracy: 100
+effect: EFFECT_PAY_DAY
+effect-chance: 0
+pp: 20
+animation: BattleAnim_PayDay

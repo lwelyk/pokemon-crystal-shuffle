@@ -1,0 +1,11 @@
+constant: ZAP_CANNON
+name: ZAP CANNON
+type: Electric
+category: Special
+description: An attack that always paralyzes.
+power: 100
+accuracy: 50
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 100
+pp: 5
+animation: BattleAnim_ZapCannon

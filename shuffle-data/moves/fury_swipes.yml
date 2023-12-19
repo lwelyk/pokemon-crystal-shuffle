@@ -1,0 +1,11 @@
+constant: FURY_SWIPES
+name: FURY SWIPES
+type: Normal
+category: Physical
+description: Quickly scratches 2-5 times.
+power: 18
+accuracy: 80
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_FurySwipes

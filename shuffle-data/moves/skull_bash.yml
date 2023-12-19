@@ -1,0 +1,11 @@
+constant: SKULL_BASH
+name: SKULL BASH
+type: Normal
+category: Physical
+description: '1st turn: Prepare 2nd turn: Attack'
+power: 100
+accuracy: 100
+effect: EFFECT_SKULL_BASH
+effect-chance: 0
+pp: 15
+animation: BattleAnim_SkullBash

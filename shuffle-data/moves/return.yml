@@ -1,0 +1,11 @@
+constant: RETURN
+name: RETURN
+type: Normal
+category: Physical
+description: An attack that is based on loyalty.
+power: 1
+accuracy: 100
+effect: EFFECT_RETURN
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Return

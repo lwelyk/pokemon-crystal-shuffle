@@ -1,0 +1,11 @@
+constant: TAKE_DOWN
+name: TAKE DOWN
+type: Normal
+category: Physical
+description: A tackle that also hurts the user.
+power: 90
+accuracy: 85
+effect: EFFECT_RECOIL_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_TakeDown

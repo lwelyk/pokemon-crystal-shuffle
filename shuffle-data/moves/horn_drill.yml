@@ -1,0 +1,11 @@
+constant: HORN_DRILL
+name: HORN DRILL
+type: Normal
+category: Physical
+description: A one-hit KO, drill attack.
+power: 1
+accuracy: 30
+effect: EFFECT_OHKO
+effect-chance: 0
+pp: 5
+animation: BattleAnim_HornDrill

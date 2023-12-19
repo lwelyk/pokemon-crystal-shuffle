@@ -1,0 +1,11 @@
+constant: LIGHT_SCREEN
+name: LIGHT SCREEN
+type: Psychic
+category: Status
+description: Ups SPCL.DEF with a wall of light.
+power: 0
+accuracy: 100
+effect: EFFECT_LIGHT_SCREEN
+effect-chance: 0
+pp: 30
+animation: BattleAnim_LightScreen

@@ -1,0 +1,11 @@
+constant: ROCK_SMASH
+name: ROCK SMASH
+type: Fighting
+category: Physical
+description: An attack that may lower DEFENSE.
+power: 40
+accuracy: 100
+effect: EFFECT_DEFENSE_DOWN_HIT
+effect-chance: 50
+pp: 15
+animation: BattleAnim_RockSmash

@@ -1,0 +1,11 @@
+constant: HAZE
+name: HAZE
+type: Ice
+category: Status
+description: Eliminates all stat changes.
+power: 0
+accuracy: 100
+effect: EFFECT_RESET_STATS
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Haze

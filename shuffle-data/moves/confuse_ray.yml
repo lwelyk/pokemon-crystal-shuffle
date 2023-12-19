@@ -1,0 +1,11 @@
+constant: CONFUSE_RAY
+name: CONFUSE RAY
+type: Ghost
+category: Status
+description: A move that causes confusion.
+power: 0
+accuracy: 100
+effect: EFFECT_CONFUSE
+effect-chance: 0
+pp: 10
+animation: BattleAnim_ConfuseRay

@@ -1,0 +1,11 @@
+constant: SCARY_FACE
+name: SCARY FACE
+type: Normal
+category: Status
+description: Sharply reduces the foe's SPEED.
+power: 0
+accuracy: 90
+effect: EFFECT_SPEED_DOWN_2
+effect-chance: 0
+pp: 10
+animation: BattleAnim_ScaryFace

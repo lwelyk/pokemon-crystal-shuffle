@@ -1,0 +1,11 @@
+constant: AGILITY
+name: AGILITY
+type: Psychic
+category: Status
+description: Sharply increases the user's SPEED.
+power: 0
+accuracy: 100
+effect: EFFECT_SPEED_UP_2
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Agility

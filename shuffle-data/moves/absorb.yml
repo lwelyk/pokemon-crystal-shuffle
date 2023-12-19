@@ -1,0 +1,11 @@
+constant: ABSORB
+name: ABSORB
+type: Grass
+category: Special
+description: Steals 1/2 of the damage inflicted.
+power: 20
+accuracy: 100
+effect: EFFECT_LEECH_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Absorb

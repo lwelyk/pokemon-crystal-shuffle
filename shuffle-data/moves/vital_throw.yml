@@ -1,0 +1,11 @@
+constant: VITAL_THROW
+name: VITAL THROW
+type: Fighting
+category: Physical
+description: A 2nd-strike move that never misses.
+power: 70
+accuracy: 100
+effect: EFFECT_ALWAYS_HIT
+effect-chance: 0
+pp: 10
+animation: BattleAnim_VitalThrow

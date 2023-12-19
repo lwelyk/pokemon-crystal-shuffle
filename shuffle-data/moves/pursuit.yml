@@ -1,0 +1,11 @@
+constant: PURSUIT
+name: PURSUIT
+type: Dark
+category: Physical
+description: 'Heavily strikes switching #MON.'
+power: 40
+accuracy: 100
+effect: EFFECT_PURSUIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Pursuit

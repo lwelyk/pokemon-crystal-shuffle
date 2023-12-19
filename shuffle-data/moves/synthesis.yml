@@ -1,0 +1,11 @@
+constant: SYNTHESIS
+name: SYNTHESIS
+type: Grass
+category: Status
+description: Restores HP (varies by time).
+power: 0
+accuracy: 100
+effect: EFFECT_SYNTHESIS
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Synthesis

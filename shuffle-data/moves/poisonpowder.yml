@@ -1,0 +1,11 @@
+constant: POISONPOWDER
+name: POISONPOWDER
+type: Poison
+category: Status
+description: A move that may poison the foe.
+power: 0
+accuracy: 75
+effect: EFFECT_POISON
+effect-chance: 0
+pp: 35
+animation: BattleAnim_Poisonpowder

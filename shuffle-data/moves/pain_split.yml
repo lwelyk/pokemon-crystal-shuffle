@@ -1,0 +1,11 @@
+constant: PAIN_SPLIT
+name: PAIN SPLIT
+type: Normal
+category: Status
+description: Adds user & foe's HPs. Shares total.
+power: 0
+accuracy: 100
+effect: EFFECT_PAIN_SPLIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_PainSplit

@@ -1,0 +1,11 @@
+constant: MEGA_PUNCH
+name: MEGA PUNCH
+type: Normal
+category: Physical
+description: A powerful punch thrown very hard.
+power: 80
+accuracy: 85
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_MegaPunch

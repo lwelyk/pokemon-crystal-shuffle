@@ -1,0 +1,11 @@
+constant: AMNESIA
+name: AMNESIA
+type: Psychic
+category: Status
+description: Sharply raises the user's SPCL.DEF.
+power: 0
+accuracy: 100
+effect: EFFECT_SP_DEF_UP_2
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Amnesia

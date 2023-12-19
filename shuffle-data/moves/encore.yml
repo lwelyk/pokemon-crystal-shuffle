@@ -1,0 +1,11 @@
+constant: ENCORE
+name: ENCORE
+type: Normal
+category: Status
+description: Makes the foe re peat 2-6 times.
+power: 0
+accuracy: 100
+effect: EFFECT_ENCORE
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Encore

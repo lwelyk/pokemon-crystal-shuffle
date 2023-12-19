@@ -1,0 +1,11 @@
+constant: TELEPORT
+name: TELEPORT
+type: Psychic
+category: Status
+description: A move for fleeing from battle.
+power: 0
+accuracy: 100
+effect: EFFECT_TELEPORT
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Teleport

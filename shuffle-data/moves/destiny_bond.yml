@@ -1,0 +1,11 @@
+constant: DESTINY_BOND
+name: DESTINY BOND
+type: Ghost
+category: Status
+description: The foe faints if the user does.
+power: 0
+accuracy: 100
+effect: EFFECT_DESTINY_BOND
+effect-chance: 0
+pp: 5
+animation: BattleAnim_DestinyBond

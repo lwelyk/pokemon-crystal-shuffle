@@ -1,0 +1,11 @@
+constant: HEADBUTT
+name: HEADBUTT
+type: Normal
+category: Physical
+description: An attack that may make foe flinch.
+power: 70
+accuracy: 100
+effect: EFFECT_FLINCH_HIT
+effect-chance: 30
+pp: 15
+animation: BattleAnim_Headbutt

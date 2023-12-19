@@ -1,0 +1,11 @@
+constant: SUBSTITUTE
+name: SUBSTITUTE
+type: Normal
+category: Status
+description: Makes a decoy with 1/4 user's max HP.
+power: 0
+accuracy: 100
+effect: EFFECT_SUBSTITUTE
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Substitute

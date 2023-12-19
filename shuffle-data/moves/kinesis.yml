@@ -1,0 +1,11 @@
+constant: KINESIS
+name: KINESIS
+type: Psychic
+category: Status
+description: Reduces the foe's accuracy.
+power: 0
+accuracy: 80
+effect: EFFECT_ACCURACY_DOWN
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Kinesis

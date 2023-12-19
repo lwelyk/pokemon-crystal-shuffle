@@ -1,0 +1,11 @@
+constant: BONE_CLUB
+name: BONE CLUB
+type: Ground
+category: Physical
+description: An attack that may cause flinching.
+power: 65
+accuracy: 85
+effect: EFFECT_FLINCH_HIT
+effect-chance: 10
+pp: 20
+animation: BattleAnim_BoneClub

@@ -1,0 +1,11 @@
+constant: MACH_PUNCH
+name: MACH PUNCH
+type: Fighting
+category: Physical
+description: A fast punch that lands first.
+power: 40
+accuracy: 100
+effect: EFFECT_PRIORITY_HIT
+effect-chance: 0
+pp: 30
+animation: BattleAnim_MachPunch

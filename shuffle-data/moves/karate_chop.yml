@@ -1,0 +1,11 @@
+constant: KARATE_CHOP
+name: KARATE CHOP
+type: Fighting
+category: Physical
+description: Has a high criti cal hit ratio.
+power: 50
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 25
+animation: BattleAnim_KarateChop

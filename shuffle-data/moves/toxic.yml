@@ -1,0 +1,11 @@
+constant: TOXIC
+name: TOXIC
+type: Poison
+category: Status
+description: A poison move with increasing damage.
+power: 0
+accuracy: 85
+effect: EFFECT_TOXIC
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Toxic

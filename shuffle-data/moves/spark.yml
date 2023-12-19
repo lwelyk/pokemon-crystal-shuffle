@@ -1,0 +1,11 @@
+constant: SPARK
+name: SPARK
+type: Electric
+category: Physical
+description: An attack that may cause paralysis.
+power: 65
+accuracy: 100
+effect: EFFECT_PARALYZE_HIT
+effect-chance: 30
+pp: 20
+animation: BattleAnim_Spark

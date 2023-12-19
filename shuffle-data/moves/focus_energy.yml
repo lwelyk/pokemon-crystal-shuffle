@@ -1,0 +1,11 @@
+constant: FOCUS_ENERGY
+name: FOCUS ENERGY
+type: Normal
+category: Status
+description: Raises the criti cal hit ratio.
+power: 0
+accuracy: 100
+effect: EFFECT_FOCUS_ENERGY
+effect-chance: 0
+pp: 30
+animation: BattleAnim_FocusEnergy

@@ -1,0 +1,11 @@
+constant: DETECT
+name: DETECT
+type: Fighting
+category: Status
+description: Evades attack that turn. It may fail.
+power: 0
+accuracy: 100
+effect: EFFECT_PROTECT
+effect-chance: 0
+pp: 5
+animation: BattleAnim_Detect

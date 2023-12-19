@@ -1,0 +1,11 @@
+constant: CONVERSION2
+name: CONVERSION2
+type: Normal
+category: Status
+description: The user's type is made resistant.
+power: 0
+accuracy: 100
+effect: EFFECT_CONVERSION2
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Conversion2

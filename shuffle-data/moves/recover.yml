@@ -1,0 +1,11 @@
+constant: RECOVER
+name: RECOVER
+type: Normal
+category: Status
+description: Restores HP by 1/2 the max HP.
+power: 0
+accuracy: 100
+effect: EFFECT_HEAL
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Recover

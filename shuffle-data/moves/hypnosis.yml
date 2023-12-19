@@ -1,0 +1,11 @@
+constant: HYPNOSIS
+name: HYPNOSIS
+type: Psychic
+category: Status
+description: May put the foe to sleep.
+power: 0
+accuracy: 60
+effect: EFFECT_SLEEP
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Hypnosis

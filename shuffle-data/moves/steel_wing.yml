@@ -1,0 +1,11 @@
+constant: STEEL_WING
+name: STEEL WING
+type: Steel
+category: Physical
+description: Stiff wings strike the foe.
+power: 70
+accuracy: 90
+effect: EFFECT_DEFENSE_UP_HIT
+effect-chance: 10
+pp: 25
+animation: BattleAnim_SteelWing

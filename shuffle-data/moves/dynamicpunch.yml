@@ -1,0 +1,11 @@
+constant: DYNAMICPUNCH
+name: DYNAMICPUNCH
+type: Fighting
+category: Physical
+description: An attack that always confuses.
+power: 100
+accuracy: 50
+effect: EFFECT_CONFUSE_HIT
+effect-chance: 100
+pp: 5
+animation: BattleAnim_Dynamicpunch

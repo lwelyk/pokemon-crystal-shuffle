@@ -1,0 +1,11 @@
+constant: HYPER_BEAM
+name: HYPER BEAM
+type: Normal
+category: Special
+description: '1st turn: Attack 2nd turn: Rest'
+power: 150
+accuracy: 90
+effect: EFFECT_HYPER_BEAM
+effect-chance: 0
+pp: 5
+animation: BattleAnim_HyperBeam

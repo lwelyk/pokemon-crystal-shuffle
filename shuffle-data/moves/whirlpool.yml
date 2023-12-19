@@ -1,0 +1,11 @@
+constant: WHIRLPOOL
+name: WHIRLPOOL
+type: Water
+category: Special
+description: Traps the foe for 2-5 turns.
+power: 15
+accuracy: 70
+effect: EFFECT_TRAP_TARGET
+effect-chance: 0
+pp: 15
+animation: BattleAnim_Whirlpool

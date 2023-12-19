@@ -1,0 +1,11 @@
+constant: SACRED_FIRE
+name: SACRED FIRE
+type: Fire
+category: Physical
+description: An attack that may inflict a burn.
+power: 100
+accuracy: 95
+effect: EFFECT_SACRED_FIRE
+effect-chance: 50
+pp: 5
+animation: BattleAnim_SacredFire

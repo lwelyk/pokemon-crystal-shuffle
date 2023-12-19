@@ -1,0 +1,11 @@
+constant: TRANSFORM
+name: TRANSFORM
+type: Normal
+category: Status
+description: The user assumes the foe's guise.
+power: 0
+accuracy: 100
+effect: EFFECT_TRANSFORM
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Transform

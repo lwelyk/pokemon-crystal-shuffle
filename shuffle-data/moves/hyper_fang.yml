@@ -1,0 +1,11 @@
+constant: HYPER_FANG
+name: HYPER FANG
+type: Normal
+category: Physical
+description: An attack that may cause flinching.
+power: 80
+accuracy: 90
+effect: EFFECT_FLINCH_HIT
+effect-chance: 10
+pp: 15
+animation: BattleAnim_HyperFang

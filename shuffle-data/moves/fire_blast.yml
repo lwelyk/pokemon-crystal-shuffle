@@ -1,0 +1,11 @@
+constant: FIRE_BLAST
+name: FIRE BLAST
+type: Fire
+category: Special
+description: An attack that may cause a burn.
+power: 120
+accuracy: 85
+effect: EFFECT_BURN_HIT
+effect-chance: 10
+pp: 5
+animation: BattleAnim_FireBlast

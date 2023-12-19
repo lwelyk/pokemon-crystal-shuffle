@@ -1,0 +1,11 @@
+constant: LEER
+name: LEER
+type: Normal
+category: Status
+description: Reduces the foe's DEFENSE.
+power: 0
+accuracy: 100
+effect: EFFECT_DEFENSE_DOWN
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Leer

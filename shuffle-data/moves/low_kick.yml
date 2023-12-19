@@ -1,0 +1,11 @@
+constant: LOW_KICK
+name: LOW KICK
+type: Fighting
+category: Physical
+description: An attack that may cause flinching.
+power: 50
+accuracy: 90
+effect: EFFECT_FLINCH_HIT
+effect-chance: 30
+pp: 20
+animation: BattleAnim_LowKick

@@ -1,0 +1,11 @@
+constant: PSYCH_UP
+name: PSYCH UP
+type: Normal
+category: Status
+description: Copies the foe's stat changes.
+power: 0
+accuracy: 100
+effect: EFFECT_PSYCH_UP
+effect-chance: 0
+pp: 10
+animation: BattleAnim_PsychUp

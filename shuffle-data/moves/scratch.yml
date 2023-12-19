@@ -1,0 +1,11 @@
+constant: SCRATCH
+name: SCRATCH
+type: Normal
+category: Physical
+description: Scratches with sharp claws.
+power: 40
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 35
+animation: BattleAnim_Scratch

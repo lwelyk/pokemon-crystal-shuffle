@@ -1,0 +1,11 @@
+constant: CONVERSION
+name: CONVERSION
+type: Normal
+category: Status
+description: Change user's type to a move's type.
+power: 0
+accuracy: 100
+effect: EFFECT_CONVERSION
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Conversion

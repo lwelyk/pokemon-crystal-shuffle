@@ -1,0 +1,11 @@
+constant: ROCK_THROW
+name: ROCK THROW
+type: Rock
+category: Physical
+description: Drops rocks on the enemy.
+power: 50
+accuracy: 90
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_RockThrow

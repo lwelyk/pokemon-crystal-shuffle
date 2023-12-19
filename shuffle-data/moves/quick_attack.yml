@@ -1,0 +1,11 @@
+constant: QUICK_ATTACK
+name: QUICK ATTACK
+type: Normal
+category: Physical
+description: Lets the user get in the first hit.
+power: 40
+accuracy: 100
+effect: EFFECT_PRIORITY_HIT
+effect-chance: 0
+pp: 30
+animation: BattleAnim_QuickAttack

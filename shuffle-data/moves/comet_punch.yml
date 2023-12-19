@@ -1,0 +1,11 @@
+constant: COMET_PUNCH
+name: COMET PUNCH
+type: Normal
+category: Physical
+description: Repeatedly punches 2-5 times.
+power: 18
+accuracy: 85
+effect: EFFECT_MULTI_HIT
+effect-chance: 0
+pp: 15
+animation: BattleAnim_CometPunch

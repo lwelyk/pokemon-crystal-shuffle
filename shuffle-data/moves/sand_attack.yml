@@ -1,0 +1,11 @@
+constant: SAND_ATTACK
+name: SAND-ATTACK
+type: Ground
+category: Status
+description: Reduces accuracy by throwing sand.
+power: 0
+accuracy: 100
+effect: EFFECT_ACCURACY_DOWN
+effect-chance: 0
+pp: 15
+animation: BattleAnim_SandAttack

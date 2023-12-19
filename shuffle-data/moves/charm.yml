@@ -1,0 +1,11 @@
+constant: CHARM
+name: CHARM
+type: Fairy
+category: Status
+description: Sharply lowers the foe's ATTACK.
+power: 0
+accuracy: 100
+effect: EFFECT_ATTACK_DOWN_2
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Charm

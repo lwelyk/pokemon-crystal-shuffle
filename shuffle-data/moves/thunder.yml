@@ -1,0 +1,11 @@
+constant: THUNDER
+name: THUNDER
+type: Electric
+category: Special
+description: An attack that may cause paralysis.
+power: 120
+accuracy: 70
+effect: EFFECT_THUNDER
+effect-chance: 30
+pp: 10
+animation: BattleAnim_Thunder

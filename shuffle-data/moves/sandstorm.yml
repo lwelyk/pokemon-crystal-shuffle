@@ -1,0 +1,11 @@
+constant: SANDSTORM
+name: SANDSTORM
+type: Rock
+category: Status
+description: Inflicts damage every turn.
+power: 0
+accuracy: 100
+effect: EFFECT_SANDSTORM
+effect-chance: 0
+pp: 10
+animation: BattleAnim_Sandstorm

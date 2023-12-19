@@ -1,0 +1,11 @@
+constant: VINE_WHIP
+name: VINE WHIP
+type: Grass
+category: Physical
+description: Whips the foe with slender vines.
+power: 45
+accuracy: 100
+effect: EFFECT_NORMAL_HIT
+effect-chance: 0
+pp: 25
+animation: BattleAnim_VineWhip

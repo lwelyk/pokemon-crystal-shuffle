@@ -1,0 +1,11 @@
+constant: COUNTER
+name: COUNTER
+type: Fighting
+category: Physical
+description: Returns a physical blow double.
+power: 1
+accuracy: 100
+effect: EFFECT_COUNTER
+effect-chance: 0
+pp: 20
+animation: BattleAnim_Counter

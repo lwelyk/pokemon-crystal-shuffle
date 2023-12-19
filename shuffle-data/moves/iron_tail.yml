@@ -1,0 +1,11 @@
+constant: IRON_TAIL
+name: IRON TAIL
+type: Steel
+category: Physical
+description: An attack that may reduce DEFENSE.
+power: 100
+accuracy: 75
+effect: EFFECT_DEFENSE_DOWN_HIT
+effect-chance: 30
+pp: 15
+animation: BattleAnim_IronTail

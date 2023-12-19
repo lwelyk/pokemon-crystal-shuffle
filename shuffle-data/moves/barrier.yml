@@ -1,0 +1,11 @@
+constant: BARRIER
+name: BARRIER
+type: Psychic
+category: Status
+description: Sharply increases user's DEFENSE.
+power: 0
+accuracy: 100
+effect: EFFECT_DEFENSE_UP_2
+effect-chance: 0
+pp: 30
+animation: BattleAnim_Barrier
