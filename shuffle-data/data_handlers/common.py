@@ -35,7 +35,11 @@ def check_string(string, max_len, name="This String"):
 
 def validate_type(p_type):
     # Temporarily just having a list here, will pull from types.yml later
-    type_list = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"]
+    type_list = [
+        "Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", 
+        "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy",
+        "Curse",
+    ]
     if type(p_type) != str:
         raise Exception("Types should be a string")
     if p_type not in type_list:
