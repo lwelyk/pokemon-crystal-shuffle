@@ -43,6 +43,8 @@ class Move:
         if not const: 
             raise Exception ("Moves need a constant.")
         self._constant = common.check_constant(const, "Move")
+        
+    name = property(operator.attrgetter('_name'))
     
     @name.setter
     def name(self, name):
@@ -87,12 +89,14 @@ class Move:
     @category.setter
     def category(self, category=False):
         # Temporarily have this array here
-        cat_list = ['Physical', 'Special', 'Status']
-        if flags.PhysicalSpecialSplit:
+        cat_list = ['Physical', 'Special', 'Status']  
+        category = category.title()
+        if flags["PhysicalSpecialSplit"]:
             if type(category) != str:
                 raise Exception("Move categories should be a string")
             if category not in cat_list:
                 raise Exception("Move Category " + category + " not found.")
+            self._category = category
         else:
             # Temporarily live here
             type_cats = {
@@ -180,6 +184,6 @@ class Move:
             "pp": self.pp,
             "animation": self.animation,
         }
-        file_name = 'moves' + self.constant.lower() + '.yml'
+        file_name = 'moves/' + self.constant.lower() + '.yml'
         with open(file_name, 'w') as file:
             documents = yaml.dump(yml, file, sort_keys=False)
