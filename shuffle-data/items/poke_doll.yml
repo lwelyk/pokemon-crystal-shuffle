@@ -1,0 +1,11 @@
+constant: POKE_DOLL
+name: "POK\xE9 DOLL"
+description: 'Use to escape from a wild #MON.'
+price: 1000
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeDollEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

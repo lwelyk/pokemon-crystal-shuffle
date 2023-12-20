@@ -1,0 +1,11 @@
+constant: BERRY
+name: BERRY
+description: A self-restore item. (10HP, HOLD)
+price: 10
+pocket: BERRIES
+held-effect: HELD_BERRY
+parameter: 10
+effect: RestoreHPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

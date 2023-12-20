@@ -1,0 +1,11 @@
+constant: PP_UP
+name: PP UP
+description: Raises max PP of a selected move.
+price: 9800
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: RestorePPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_NOUSE

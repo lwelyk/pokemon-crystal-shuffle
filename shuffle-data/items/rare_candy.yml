@@ -1,0 +1,11 @@
+constant: RARE_CANDY
+name: RARE CANDY
+description: 'Raises level of a #MON by one.'
+price: 4800
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: RareCandyEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_NOUSE

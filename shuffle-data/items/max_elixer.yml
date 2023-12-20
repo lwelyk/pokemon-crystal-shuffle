@@ -1,0 +1,11 @@
+constant: MAX_ELIXER
+name: MAX ELIXER
+description: 'Fully restores the PP of one #MON.'
+price: 4500
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: -1
+effect: RestorePPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

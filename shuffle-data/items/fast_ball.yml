@@ -1,0 +1,11 @@
+constant: FAST_BALL
+name: FAST BALL
+description: 'A BALL for catch ing fast #MON.'
+price: 150
+pocket: BALL
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeBallEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

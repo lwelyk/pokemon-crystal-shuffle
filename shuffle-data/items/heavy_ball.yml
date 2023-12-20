@@ -1,0 +1,11 @@
+constant: HEAVY_BALL
+name: HEAVY BALL
+description: 'A BALL for catch ing heavy #MON.'
+price: 150
+pocket: BALL
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeBallEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

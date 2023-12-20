@@ -1,0 +1,11 @@
+constant: ULTRA_BALL
+name: ULTRA BALL
+description: A BALL with a high rate of success.
+price: 1200
+pocket: BALL
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeBallEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

@@ -1,0 +1,11 @@
+constant: SILVER_WING
+name: SILVER WING
+description: A strange, silver colored feather.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT | CANT_TOSS
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

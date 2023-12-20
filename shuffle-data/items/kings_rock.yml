@@ -1,0 +1,11 @@
+constant: KINGS_ROCK
+name: KING'S ROCK
+description: May make the foe flinch. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_FLINCH
+parameter: 30
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

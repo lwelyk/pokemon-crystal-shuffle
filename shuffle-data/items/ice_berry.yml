@@ -1,0 +1,11 @@
+constant: ICE_BERRY
+name: ICE BERRY
+description: A self-heal for a burn. (HOLD)
+price: 10
+pocket: BERRIES
+held-effect: HELD_HEAL_BURN
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

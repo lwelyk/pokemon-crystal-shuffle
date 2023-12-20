@@ -1,0 +1,11 @@
+constant: REPEL
+name: REPEL
+description: 'Repels weak # MON for 100 steps.'
+price: 350
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: RepelEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_CURRENT
+battle-menu: ITEMMENU_NOUSE

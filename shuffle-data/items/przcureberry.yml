@@ -1,0 +1,11 @@
+constant: PRZCUREBERRY
+name: PRZCUREBERRY
+description: A self-cure for paralysis. (HOLD)
+price: 10
+pocket: BERRIES
+held-effect: HELD_HEAL_PARALYZE
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

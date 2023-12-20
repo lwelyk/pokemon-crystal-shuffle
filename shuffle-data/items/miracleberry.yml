@@ -1,0 +1,11 @@
+constant: MIRACLEBERRY
+name: MIRACLEBERRY
+description: Cures all status problems. (HOLD)
+price: 10
+pocket: BERRIES
+held-effect: HELD_HEAL_STATUS
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

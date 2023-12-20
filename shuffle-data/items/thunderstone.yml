@@ -1,0 +1,11 @@
+constant: THUNDERSTONE
+name: THUNDERSTONE
+description: 'Evolves certain kinds of #MON.'
+price: 2100
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: EvoStoneEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_NOUSE

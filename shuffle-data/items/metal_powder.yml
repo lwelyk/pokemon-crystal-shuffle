@@ -1,0 +1,11 @@
+constant: METAL_POWDER
+name: METAL POWDER
+description: Raises DEFENSE of DITTO. (HOLD)
+price: 10
+pocket: ITEM
+held-effect: HELD_METAL_POWDER
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

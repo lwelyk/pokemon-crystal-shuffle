@@ -1,0 +1,11 @@
+constant: BRICK_PIECE
+name: BRICK PIECE
+description: A rare chunk of tile.
+price: 50
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: .health
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

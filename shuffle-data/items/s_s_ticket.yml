@@ -1,0 +1,11 @@
+constant: S_S_TICKET
+name: S.S.TICKET
+description: A ticket for the S.S.AQUA.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT | CANT_TOSS
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

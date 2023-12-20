@@ -1,0 +1,11 @@
+constant: CHARCOAL
+name: CHARCOAL
+description: Powers up fire type moves. (HOLD)
+price: 9800
+pocket: ITEM
+held-effect: HELD_FIRE_BOOST
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

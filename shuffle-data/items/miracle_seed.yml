@@ -1,0 +1,11 @@
+constant: MIRACLE_SEED
+name: MIRACLE SEED
+description: Powers up grass type moves. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_GRASS_BOOST
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

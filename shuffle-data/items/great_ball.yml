@@ -1,0 +1,11 @@
+constant: GREAT_BALL
+name: GREAT BALL
+description: A BALL with a de cent success rate.
+price: 600
+pocket: BALL
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeBallEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

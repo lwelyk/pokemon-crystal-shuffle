@@ -1,0 +1,11 @@
+constant: BLACKGLASSES
+name: BLACKGLASSES
+description: Powers up dark type moves. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_DARK_BOOST
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

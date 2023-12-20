@@ -1,0 +1,11 @@
+constant: PSNCUREBERRY
+name: PSNCUREBERRY
+description: A self-cure for poison. (HOLD)
+price: 10
+pocket: BERRIES
+held-effect: HELD_HEAL_POISON
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

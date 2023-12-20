@@ -1,0 +1,11 @@
+constant: OLD_ROD
+name: OLD ROD
+description: 'Use by water to fish for #MON.'
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: OldRodEffect
+item-property: CANT_TOSS
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

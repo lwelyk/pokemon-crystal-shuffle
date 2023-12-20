@@ -1,0 +1,11 @@
+constant: QUICK_CLAW
+name: QUICK CLAW
+description: Raises 1st strike ratio. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_QUICK_CLAW
+parameter: 60
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

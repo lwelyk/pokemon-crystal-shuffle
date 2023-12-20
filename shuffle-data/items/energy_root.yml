@@ -1,0 +1,11 @@
+constant: ENERGY_ROOT
+name: ENERGY ROOT
+description: 'Restores #MON HP by 200. Bitter.'
+price: 800
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: EnergyRootEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

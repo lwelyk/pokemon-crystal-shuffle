@@ -1,0 +1,11 @@
+constant: MAX_POTION
+name: MAX POTION
+description: 'Fully restores #MON HP.'
+price: 2500
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: -1
+effect: RestoreHPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

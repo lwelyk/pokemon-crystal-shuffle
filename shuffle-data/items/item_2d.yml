@@ -1,0 +1,11 @@
+constant: ITEM_2D
+name: TERU-SAMA
+description: '?'
+price: $9999
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: NO_LIMITS
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

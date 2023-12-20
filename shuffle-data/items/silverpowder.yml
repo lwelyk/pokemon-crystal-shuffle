@@ -1,0 +1,11 @@
+constant: SILVERPOWDER
+name: SILVERPOWDER
+description: Powers up bug-type moves. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_BUG_BOOST
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

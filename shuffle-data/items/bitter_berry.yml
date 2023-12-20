@@ -1,0 +1,11 @@
+constant: BITTER_BERRY
+name: BITTER BERRY
+description: A self-cure for confusion. (HOLD)
+price: 10
+pocket: BERRIES
+held-effect: HELD_HEAL_CONFUSION
+parameter: 0
+effect: BitterBerryEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_PARTY

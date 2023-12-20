@@ -1,0 +1,11 @@
+constant: RAINBOW_WING
+name: RAINBOW WING
+description: A mystical feather of rainbow colors.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT | CANT_TOSS
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

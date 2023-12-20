@@ -1,0 +1,11 @@
+constant: SUPER_REPEL
+name: SUPER REPEL
+description: 'Repels weak # MON for 200 steps.'
+price: 500
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: SuperRepelEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_CURRENT
+battle-menu: ITEMMENU_NOUSE

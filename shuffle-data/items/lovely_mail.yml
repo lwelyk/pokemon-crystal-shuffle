@@ -1,0 +1,11 @@
+constant: LOVELY_MAIL
+name: LOVELY MAIL
+description: Heart-print MAIL. (HOLD)
+price: 50
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: .special
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

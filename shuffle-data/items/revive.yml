@@ -1,0 +1,11 @@
+constant: REVIVE
+name: REVIVE
+description: 'Restores a fainted #MON to 1/2 HP.'
+price: 1500
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: ReviveEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

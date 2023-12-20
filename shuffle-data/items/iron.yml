@@ -1,0 +1,11 @@
+constant: IRON
+name: IRON
+description: 'Raises DEFENSE of one #MON.'
+price: 9800
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: VitaminEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_NOUSE

@@ -1,0 +1,11 @@
+constant: STAR_PIECE
+name: STAR PIECE
+description: A hunk of red gem. Sell very high.
+price: 9800
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

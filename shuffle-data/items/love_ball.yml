@@ -1,0 +1,11 @@
+constant: LOVE_BALL
+name: LOVE BALL
+description: For catching the opposite gender.
+price: 150
+pocket: BALL
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeBallEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

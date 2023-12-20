@@ -1,0 +1,11 @@
+constant: HYPER_POTION
+name: HYPER POTION
+description: 'Restores #MON HP by 200.'
+price: 1200
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 200
+effect: RestoreHPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

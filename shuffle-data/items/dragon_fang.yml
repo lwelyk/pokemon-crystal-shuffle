@@ -1,0 +1,11 @@
+constant: DRAGON_FANG
+name: DRAGON FANG
+description: Powers up dragon type moves. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

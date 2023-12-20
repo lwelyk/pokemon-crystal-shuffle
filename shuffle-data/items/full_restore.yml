@@ -1,0 +1,11 @@
+constant: FULL_RESTORE
+name: FULL RESTORE
+description: Fully restores HP & status.
+price: 3000
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: -1
+effect: FullRestoreEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

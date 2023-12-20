@@ -1,0 +1,11 @@
+constant: AMULET_COIN
+name: AMULET COIN
+description: Doubles monetary earnings. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_AMULET_COIN
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

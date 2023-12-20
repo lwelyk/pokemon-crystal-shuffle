@@ -1,0 +1,11 @@
+constant: ESCAPE_ROPE
+name: ESCAPE ROPE
+description: Use for escaping from caves, etc.
+price: 550
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: EscapeRopeEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

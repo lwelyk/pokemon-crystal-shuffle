@@ -1,0 +1,11 @@
+constant: SCOPE_LENS
+name: SCOPE LENS
+description: Raises critical hit ratio. (HOLD)
+price: 200
+pocket: ITEM
+held-effect: HELD_CRITICAL_UP
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

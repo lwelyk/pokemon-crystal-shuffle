@@ -1,0 +1,11 @@
+constant: ANTIDOTE
+name: ANTIDOTE
+description: 'Cures poisoned #MON.'
+price: 100
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

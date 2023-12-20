@@ -1,0 +1,11 @@
+constant: GORGEOUS_BOX
+name: GORGEOUS BOX
+description: Open it and see what's inside.
+price: 10
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: GorgeousBoxEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_CURRENT
+battle-menu: ITEMMENU_NOUSE

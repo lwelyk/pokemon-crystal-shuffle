@@ -1,0 +1,11 @@
+constant: PINK_BOW
+name: PINK BOW
+description: Powers up normal type moves. (HOLD)
+price: 100
+pocket: ITEM
+held-effect: HELD_NORMAL_BOOST
+parameter: 10
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

@@ -1,0 +1,11 @@
+constant: GOOD_ROD
+name: GOOD ROD
+description: 'A good ROD for catching #MON.'
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: GoodRodEffect
+item-property: CANT_TOSS
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

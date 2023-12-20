@@ -1,0 +1,11 @@
+constant: CARD_KEY
+name: CARD KEY
+description: Opens shutters in the RADIO TOWER.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: CardKeyEffect
+item-property: CANT_SELECT | CANT_TOSS
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

@@ -1,5 +1,4 @@
-from data_handlers import pokemon_data
-from data_handlers import move_data
+from data_handlers import pokemon_data, move_data, item_data
 import yaml
 
 pokeDataFiles = {
@@ -42,7 +41,12 @@ itemDataFiles = {
     "descriptionPointers"   : '../data/items/descriptions.asm',
     "descriptions"          : '../data/items/descriptions.asm',
     "attributes"            : '../data/items/attributes.asm',
-    "effects"               : '../engine/items/item_effects.asm'
+    "effects"               : '../engine/items/item_effects.asm',
+    "apricornBalls"         : '../data/items/apricorn_balls.asm',
+    "catchRateItems"        : '../data/items/catch_rate_items.asm',
+    "healHP"                : '../data/items/heal_hp.asm',
+    "healStatus"            : '../data/items/heal_status.asm',
+    "mailItems"             : '../data/items/mail_items.asm',
 }
 
 baseStatFileBaseStatOrder = [
@@ -167,7 +171,7 @@ class ItemDataBuilder:
                     name = line.split("li ")
                     name = name[1].strip()
                     name = name.replace('"', "")
-                    self.itemData[i]["Name"] = name
+                    self.itemData[i]["Name"] = name.split(";")[0].strip()
                     i += 1
 
     def getTMNames(self):
@@ -220,7 +224,7 @@ class ItemDataBuilder:
         items = False
         with open(itemDataFiles["attributes"], "r") as f:
             for line in f:
-                if "length NUM_ITEMS" in line:
+                if "assert_table_length NUM_ITEMS" in line:
                     break
                 elif line[0] == ";":
                     continue
@@ -1044,33 +1048,53 @@ class PokemonDataBuilder:
                 self.pokemonData[i]["Back Pic"] = picData[poke["Back Pic Pointer"]]
 
 
-pokemon = PokemonDataBuilder()
-pokemon.buildPokemonData()
+# pokemon = PokemonDataBuilder()
+# pokemon.buildPokemonData()
 
-moves = MoveDataBuilder()
-moves.buildMoveData()
+# moves = MoveDataBuilder()
+# moves.buildMoveData()
 
 items = ItemDataBuilder()
 items.buildItemData()
 
-for move in moves.moveData:
-    if move["Constant"] == "NO_MOVE":
+for item in items.itemData:
+    if item["Constant"] == "NO_ITEM":
         continue
-    move['Type'] = move['Type'].title().replace('_Type', '')
-    move = move_data.Move(
-        constant = move['Constant'],
-        name = move['Name'],
-        animation = move['Animation'],
-        effect = move['Effect'],
-        power = move['Power'],
-        move_type = move['Type'],
-        category = move['Category'],
-        accuracy = move["Accuracy"],
-        pp = move["PP"],
-        effect_chance = move["Effect Chance"],
-        description = move["Description"],
+    if "Effect" not in item:
+        item["Effect"] = "NoEffect"
+    item = item_data.Item(
+        constant = item["Constant"],
+        name = item["Name"],
+        price = item["Price"],
+        held_effect = item["Held Effect"],
+        parameter = item["Parameter"],
+        item_property = item["Property"],
+        pocket = item["Pocket"],
+        field_menu = item["Field Menu"],
+        battle_menu = item["Battle Menu"],
+        description = item["Description"],
+        effect = item["Effect"]
     )
-    move.generate_yaml()
+    item.generate_yaml()
+
+# for move in moves.moveData:
+#     if move["Constant"] == "NO_MOVE":
+#         continue
+#     move['Type'] = move['Type'].title().replace('_Type', '')
+#     move = move_data.Move(
+#         constant = move['Constant'],
+#         name = move['Name'],
+#         animation = move['Animation'],
+#         effect = move['Effect'],
+#         power = move['Power'],
+#         move_type = move['Type'],
+#         category = move['Category'],
+#         accuracy = move["Accuracy"],
+#         pp = move["PP"],
+#         effect_chance = move["Effect Chance"],
+#         description = move["Description"],
+#     )
+#     move.generate_yaml()
 
 # for poke in pokemon.pokemonData:
 #     poke["Stats"]  = {

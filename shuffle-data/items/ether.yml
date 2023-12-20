@@ -1,0 +1,11 @@
+constant: ETHER
+name: ETHER
+description: Restores PP of one move by 10.
+price: 1200
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 10
+effect: RestorePPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

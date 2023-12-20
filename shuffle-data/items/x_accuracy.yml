@@ -1,0 +1,11 @@
+constant: X_ACCURACY
+name: X ACCURACY
+description: Raises accuracy. (1 BTL)
+price: 950
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: XAccuracyEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

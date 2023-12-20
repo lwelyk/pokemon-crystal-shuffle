@@ -1,0 +1,11 @@
+constant: X_SPECIAL
+name: X SPECIAL
+description: Raises SPECIAL ATTACK. (1 BTL)
+price: 350
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: XItemEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

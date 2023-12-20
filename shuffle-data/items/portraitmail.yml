@@ -1,0 +1,11 @@
+constant: PORTRAITMAIL
+name: PORTRAITMAIL
+description: MAIL featuring the holder's likeness.
+price: 50
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: .speed
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

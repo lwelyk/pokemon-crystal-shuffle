@@ -1,0 +1,11 @@
+constant: SILVER_LEAF
+name: SILVER LEAF
+description: A strange, silver colored leaf.
+price: 1000
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

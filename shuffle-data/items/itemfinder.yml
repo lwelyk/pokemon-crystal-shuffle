@@ -1,0 +1,11 @@
+constant: ITEMFINDER
+name: ITEMFINDER
+description: Checks for unseen items in the area.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: ItemfinderEffect
+item-property: CANT_TOSS
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

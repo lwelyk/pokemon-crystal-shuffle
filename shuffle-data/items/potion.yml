@@ -1,0 +1,11 @@
+constant: POTION
+name: POTION
+description: 'Restores #MON HP by 20.'
+price: 300
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 20
+effect: RestoreHPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

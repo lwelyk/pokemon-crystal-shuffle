@@ -1,0 +1,11 @@
+constant: EON_MAIL
+name: EON MAIL
+description: EEVEE-print MAIL. (HOLD)
+price: 50
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: StatusHealer_ClearPalettes
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

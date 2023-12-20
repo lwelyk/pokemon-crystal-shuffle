@@ -1,0 +1,11 @@
+constant: SODA_POP
+name: SODA POP
+description: 'Restores #MON HP by 60.'
+price: 300
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 60
+effect: RestoreHPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

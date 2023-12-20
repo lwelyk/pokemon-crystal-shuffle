@@ -1,0 +1,11 @@
+constant: POKE_BALL
+name: "POK\xE9 BALL"
+description: 'An item for catch ing #MON.'
+price: 200
+pocket: BALL
+held-effect: HELD_NONE
+parameter: 0
+effect: PokeBallEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

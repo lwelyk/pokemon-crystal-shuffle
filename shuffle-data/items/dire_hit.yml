@@ -1,0 +1,11 @@
+constant: DIRE_HIT
+name: DIRE HIT
+description: Ups critical hit ratio. (1 BTL)
+price: 650
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: DireHitEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

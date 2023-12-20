@@ -1,0 +1,11 @@
+constant: CLEANSE_TAG
+name: CLEANSE TAG
+description: 'Helps repel wild #MON. (HOLD)'
+price: 200
+pocket: ITEM
+held-effect: HELD_CLEANSE_TAG
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE

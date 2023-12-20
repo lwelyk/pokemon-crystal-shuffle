@@ -1,0 +1,11 @@
+constant: MAX_REVIVE
+name: MAX REVIVE
+description: 'Fully restores a fainted #MON.'
+price: 4000
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: ReviveEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

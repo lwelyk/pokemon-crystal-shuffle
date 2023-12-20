@@ -1,0 +1,11 @@
+constant: BLUE_CARD
+name: BLUE CARD
+description: Card to save points.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: BlueCardEffect
+item-property: CANT_SELECT | CANT_TOSS
+field-menu: ITEMMENU_CURRENT
+battle-menu: ITEMMENU_NOUSE

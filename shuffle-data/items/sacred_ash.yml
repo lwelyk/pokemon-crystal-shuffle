@@ -1,0 +1,11 @@
+constant: SACRED_ASH
+name: SACRED ASH
+description: 'Fully revives all fainted #MON.'
+price: 200
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: SacredAshEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

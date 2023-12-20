@@ -1,0 +1,11 @@
+constant: SUPER_ROD
+name: SUPER ROD
+description: 'The best ROD for catching #MON.'
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: SuperRodEffect
+item-property: CANT_TOSS
+field-menu: ITEMMENU_CLOSE
+battle-menu: ITEMMENU_NOUSE

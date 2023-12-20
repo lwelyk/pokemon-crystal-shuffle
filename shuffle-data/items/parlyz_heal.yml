@@ -1,0 +1,11 @@
+constant: PARLYZ_HEAL
+name: PARLYZ HEAL
+description: 'Heals paralyzed #MON.'
+price: 200
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

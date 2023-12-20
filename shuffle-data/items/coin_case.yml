@@ -1,0 +1,11 @@
+constant: COIN_CASE
+name: COIN CASE
+description: Holds up to 9,999 game coins.
+price: 0
+pocket: KEY_ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: CoinCaseEffect
+item-property: CANT_SELECT | CANT_TOSS
+field-menu: ITEMMENU_CURRENT
+battle-menu: ITEMMENU_NOUSE

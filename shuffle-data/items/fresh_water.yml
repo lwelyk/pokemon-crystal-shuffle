@@ -1,0 +1,11 @@
+constant: FRESH_WATER
+name: FRESH WATER
+description: 'Restores #MON HP by 50.'
+price: 200
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 50
+effect: RestoreHPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

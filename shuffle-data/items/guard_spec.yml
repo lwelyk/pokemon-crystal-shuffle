@@ -1,0 +1,11 @@
+constant: GUARD_SPEC
+name: GUARD SPEC.
+description: Prevents stats reduction. (1 BTL)
+price: 700
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: GuardSpecEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_CLOSE

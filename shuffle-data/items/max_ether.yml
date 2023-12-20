@@ -1,0 +1,11 @@
+constant: MAX_ETHER
+name: MAX ETHER
+description: Fully restores PP of one move.
+price: 2000
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: -1
+effect: RestorePPEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

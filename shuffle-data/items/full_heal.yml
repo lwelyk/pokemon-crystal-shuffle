@@ -1,0 +1,11 @@
+constant: FULL_HEAL
+name: FULL HEAL
+description: Eliminates all status problems.
+price: 600
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: StatusHealingEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_PARTY
+battle-menu: ITEMMENU_PARTY

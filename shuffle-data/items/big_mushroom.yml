@@ -1,0 +1,11 @@
+constant: BIG_MUSHROOM
+name: BIG MUSHROOM
+description: A rare mushroom. Sell high.
+price: 5000
+pocket: ITEM
+held-effect: HELD_NONE
+parameter: 0
+effect: NoEffect
+item-property: CANT_SELECT
+field-menu: ITEMMENU_NOUSE
+battle-menu: ITEMMENU_NOUSE
