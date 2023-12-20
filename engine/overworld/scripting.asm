@@ -138,7 +138,6 @@ ScriptCommandTable:
 	dw Script_opentext                   ; 47
 	dw Script_refreshscreen              ; 48
 	dw Script_closetext                  ; 49
-	dw Script_writeunusedbyte            ; 4a
 	dw Script_farwritetext               ; 4b
 	dw Script_writetext                  ; 4c
 	dw Script_repeattext                 ; 4d
@@ -154,7 +153,6 @@ ScriptCommandTable:
 	dw Script_closepokepic               ; 57
 	dw Script__2dmenu                    ; 58
 	dw Script_verticalmenu               ; 59
-	dw Script_loadpikachudata            ; 5a
 	dw Script_randomwildmon              ; 5b
 	dw Script_loadtemptrainer            ; 5c
 	dw Script_loadwildmon                ; 5d
@@ -1111,14 +1109,6 @@ EarthquakeMovement:
 	step_sleep 16 ; the 16 gets overwritten with the lower 6 bits of the script byte
 	step_end
 .End
-
-Script_loadpikachudata:
-	ld hl, PIKACHU
-	call GetPokemonIDFromIndex
-	ld [wTempWildMonSpecies], a
-	ld a, 5
-	ld [wCurPartyLevel], a
-	ret
 
 Script_randomwildmon:
 	xor a
@@ -2183,11 +2173,6 @@ Script_opentext:
 Script_refreshscreen:
 	call RefreshScreen
 	call GetScriptByte
-	ret
-
-Script_writeunusedbyte:
-	call GetScriptByte
-	ld [wUnusedScriptByte], a
 	ret
 
 Script_closetext:
