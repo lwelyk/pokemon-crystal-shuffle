@@ -21,8 +21,7 @@ evolutions: []
 moves:
   level-up:
   - 1: HIDDEN_POWER
-  taught:
-  - ''
+  taught: []
   egg: []
 species: SYMBOL
 height: 108

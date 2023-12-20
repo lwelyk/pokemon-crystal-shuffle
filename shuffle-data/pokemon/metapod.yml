@@ -25,8 +25,7 @@ moves:
   level-up:
   - 1: HARDEN
   - 7: HARDEN
-  taught:
-  - ''
+  taught: []
   egg: []
 species: COCOON
 height: 204

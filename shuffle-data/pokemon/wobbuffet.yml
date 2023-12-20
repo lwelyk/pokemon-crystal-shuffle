@@ -24,8 +24,7 @@ moves:
   - 1: MIRROR_COAT
   - 1: SAFEGUARD
   - 1: DESTINY_BOND
-  taught:
-  - ''
+  taught: []
   egg: []
 species: PATIENT
 height: 403

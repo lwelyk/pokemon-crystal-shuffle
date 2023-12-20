@@ -21,8 +21,7 @@ evolutions: []
 moves:
   level-up:
   - 1: TRANSFORM
-  taught:
-  - ''
+  taught: []
   egg: []
 species: TRANSFORM
 height: 100

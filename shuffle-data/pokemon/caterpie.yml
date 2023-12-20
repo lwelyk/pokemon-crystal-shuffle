@@ -25,8 +25,7 @@ moves:
   level-up:
   - 1: TACKLE
   - 1: STRING_SHOT
-  taught:
-  - ''
+  taught: []
   egg: []
 species: WORM
 height: 100

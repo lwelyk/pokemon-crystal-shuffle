@@ -27,8 +27,7 @@ moves:
   - 1: SPLASH
   - 15: TACKLE
   - 30: FLAIL
-  taught:
-  - ''
+  taught: []
   egg: []
 species: FISH
 height: 211

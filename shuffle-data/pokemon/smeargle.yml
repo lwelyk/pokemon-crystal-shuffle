@@ -30,8 +30,7 @@ moves:
   - 71: SKETCH
   - 81: SKETCH
   - 91: SKETCH
-  taught:
-  - ''
+  taught: []
   egg: []
 species: PAINTER
 height: 311

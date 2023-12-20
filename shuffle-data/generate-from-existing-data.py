@@ -692,6 +692,9 @@ class PokemonDataBuilder:
     def bsTMHMList(self, line, i):
         tmList = []
         array = line.split("tmhm")
+        if len(array[1]) <= 1:
+            print(array)
+            return
         array = array[1]
         array = array.split(", ")
         for entry in array:
@@ -1116,6 +1119,8 @@ for poke in pokemon.pokemonData:
     eggs =  list(dict.fromkeys(eggs))
     if "Egg Moves" not in poke:
         poke["Egg Moves"] = []
+    if "TM HM List" not in poke:
+        poke["TM HM List"] = []
     level_ups = []
     for move in poke["Level Up Moves"]:
         level_ups.append((move["Level"], move["Move"]))

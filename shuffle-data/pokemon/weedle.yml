@@ -26,8 +26,7 @@ moves:
   level-up:
   - 1: POISON_STING
   - 1: STRING_SHOT
-  taught:
-  - ''
+  taught: []
   egg: []
 species: HAIRY BUG
 height: 100
