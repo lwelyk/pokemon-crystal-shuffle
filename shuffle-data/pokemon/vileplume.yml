@@ -51,8 +51,8 @@ moves:
 species: FLOWER
 height: 311
 weight: 410
-pokedex-entries: "By shaking its big\npetals, it scat-\finto the air,\nturning the\
-  \ air\nyellow."
+pokedex-entries: "By shaking its big\npetals, it scat-\nters toxic pollen\finto the\
+  \ air,\nturning the air\nyellow."
 icon: VileplumeIcon
 icon-palettes:
 - RED

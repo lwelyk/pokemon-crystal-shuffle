@@ -53,8 +53,8 @@ moves:
 species: SUN
 height: 207
 weight: 190
-pokedex-entries: "As the hot season\napproaches, the\f#MON's face\nbecome more vivid\n\
-  and lively."
+pokedex-entries: "As the hot season\napproaches, the\npetals on this\f#MON's face\n\
+  become more vivid\nand lively."
 icon: SunfloraIcon
 icon-palettes:
 - GREEN

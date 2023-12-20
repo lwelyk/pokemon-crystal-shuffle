@@ -63,8 +63,8 @@ moves:
 species: WILD BULL
 height: 407
 weight: 1950
-pokedex-entries: "These violent\n#MON fight\fbers of their herd\nin order to prove\n\
-  their strength."
+pokedex-entries: "These violent\n#MON fight\nwith other mem-\fbers of their herd\n\
+  in order to prove\ntheir strength."
 icon: TaurosIcon
 icon-palettes:
 - BROWN

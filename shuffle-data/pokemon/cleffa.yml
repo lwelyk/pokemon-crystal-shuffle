@@ -73,8 +73,8 @@ moves:
 species: STARSHAPE
 height: 100
 weight: 70
-pokedex-entries: "If the impact site\nof a meteorite is\f#MON is certain\nto be within\
-  \ the\nimmediate area."
+pokedex-entries: "If the impact site\nof a meteorite is\nfound, this\f#MON is certain\n\
+  to be within the\nimmediate area."
 icon: CleffaIcon
 icon-palettes:
 - PINK

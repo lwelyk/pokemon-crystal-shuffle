@@ -56,8 +56,8 @@ moves:
 species: HANDSTAND
 height: 407
 weight: 1060
-pokedex-entries: "After doing a\nhandstand to\fopponent's timing,\nit presents its\n\
-  fancy kick moves."
+pokedex-entries: "After doing a\nhandstand to\nthrow off the\fopponent's timing,\n\
+  it presents its\nfancy kick moves."
 icon: HitmontopIcon
 icon-palettes:
 - BROWN

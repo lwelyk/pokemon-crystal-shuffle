@@ -62,8 +62,8 @@ moves:
 species: SWINE
 height: 307
 weight: 1230
-pokedex-entries: "Although its legs\nare short, its\fprevent it from\nslipping, even\
-  \ on\nicy ground."
+pokedex-entries: "Although its legs\nare short, its\nrugged hooves\fprevent it from\n\
+  slipping, even on\nicy ground."
 icon: Piloswine
 icon-palettes:
 - BROWN

@@ -68,7 +68,8 @@ moves:
 species: SLUDGE
 height: 211
 weight: 660
-pokedex-entries: "When two of these\n#MON's bodies\ftogether, new\npoisons are\ncreated."
+pokedex-entries: "When two of these\n#MON's bodies\nare combined\ftogether, new\n\
+  poisons are\ncreated."
 icon: GrimerIcon
 icon-palettes:
 - PURPLE

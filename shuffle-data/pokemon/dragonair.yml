@@ -71,8 +71,8 @@ moves:
 species: DRAGON
 height: 1301
 weight: 360
-pokedex-entries: "It is called the\ndivine #MON.\fbody brightens\nslightly, the\n\
-  weather changes."
+pokedex-entries: "It is called the\ndivine #MON.\nWhen its entire\fbody brightens\n\
+  slightly, the\nweather changes."
 icon: DragonairIcon
 icon-palettes:
 - BLUE

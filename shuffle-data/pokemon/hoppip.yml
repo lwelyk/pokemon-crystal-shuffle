@@ -67,8 +67,8 @@ moves:
 species: COTTONWEED
 height: 104
 weight: 10
-pokedex-entries: "It can be carried\naway on even the\fIt may even float\nall the\
-  \ way to the\nnext town."
+pokedex-entries: "It can be carried\naway on even the\ngentlest breeze.\fIt may even\
+  \ float\nall the way to the\nnext town."
 icon: HoppipIcon
 icon-palettes:
 - RED

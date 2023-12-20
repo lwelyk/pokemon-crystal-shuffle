@@ -56,8 +56,8 @@ moves:
 species: GOLDFISH
 height: 403
 weight: 860
-pokedex-entries: "When autumn comes,\nthe males patrol\ftheir nests in\norder to protect\n\
-  their offspring."
+pokedex-entries: "When autumn comes,\nthe males patrol\nthe area around\ftheir nests\
+  \ in\norder to protect\ntheir offspring."
 icon: SeakingIcon
 icon-palettes:
 - RED

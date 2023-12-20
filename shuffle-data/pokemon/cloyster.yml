@@ -55,8 +55,8 @@ moves:
 species: BIVALVE
 height: 411
 weight: 2920
-pokedex-entries: "Even a missile\ncan't break the\fstab opponents.\nThey're even hard-\n\
-  er than its shell."
+pokedex-entries: "Even a missile\ncan't break the\nspikes it uses to\fstab opponents.\n\
+  They're even hard-\ner than its shell."
 icon: CloysterIcon
 icon-palettes:
 - PURPLE

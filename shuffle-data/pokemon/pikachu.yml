@@ -69,8 +69,8 @@ moves:
 species: MOUSE
 height: 104
 weight: 130
-pokedex-entries: "When it is anger-\ned, it immediately\fenergy stored in\nthe pouches\
-  \ in its\ncheeks."
+pokedex-entries: "When it is anger-\ned, it immediately\ndischarges the\fenergy stored\
+  \ in\nthe pouches in its\ncheeks."
 icon: PikachuIcon
 icon-palettes:
 - RED

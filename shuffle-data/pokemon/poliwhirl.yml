@@ -72,8 +72,8 @@ moves:
 species: TADPOLE
 height: 303
 weight: 440
-pokedex-entries: "Though it is\nskilled at walk-\flive underwater\nwhere there is\n\
-  less danger."
+pokedex-entries: "Though it is\nskilled at walk-\ning, it prefers to\flive underwater\n\
+  where there is\nless danger."
 icon: PoliwhirlIcon
 icon-palettes:
 - BLUE

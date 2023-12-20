@@ -65,8 +65,8 @@ moves:
 species: JELLYFISH
 height: 211
 weight: 1000
-pokedex-entries: "As it floats along\non the waves, it\ffeelers to stab\nanything\
-  \ it\ntouches."
+pokedex-entries: "As it floats along\non the waves, it\nuses its toxic\ffeelers to\
+  \ stab\nanything it\ntouches."
 icon: TentacoolIcon
 icon-palettes:
 - BLUE

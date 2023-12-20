@@ -73,8 +73,8 @@ moves:
 species: BONEKEEPER
 height: 303
 weight: 990
-pokedex-entries: "Somewhere in the\nworld is a ceme-\fMAROWAK. It gets\nits bones\
-  \ from\nthose graves."
+pokedex-entries: "Somewhere in the\nworld is a ceme-\ntery just for\fMAROWAK. It gets\n\
+  its bones from\nthose graves."
 icon: MarowakIcon
 icon-palettes:
 - BROWN

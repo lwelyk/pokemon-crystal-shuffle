@@ -63,8 +63,8 @@ moves:
 species: BAGWORM
 height: 200
 weight: 160
-pokedex-entries: "It spits out a\nfluid that it uses\fto its body. The\nfluid hardens\
-  \ when\nit touches air."
+pokedex-entries: "It spits out a\nfluid that it uses\nto glue tree bark\fto its body.\
+  \ The\nfluid hardens when\nit touches air."
 icon: PinecoIcon
 icon-palettes:
 - TEAL

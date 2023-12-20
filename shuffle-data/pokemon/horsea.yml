@@ -66,8 +66,8 @@ moves:
 species: DRAGON
 height: 104
 weight: 180
-pokedex-entries: "When they're in a\nsafe location,\fplayfully tangling\ntheir tails\n\
-  together."
+pokedex-entries: "When they're in a\nsafe location,\nthey can be seen\fplayfully tangling\n\
+  their tails\ntogether."
 icon: HorseaIcon
 icon-palettes:
 - BLUE

@@ -71,8 +71,8 @@ moves:
 species: BIG JAW
 height: 200
 weight: 210
-pokedex-entries: "This rough critter\nchomps at any\fsees. Turning your\nback on it\
-  \ is not\nrecommended."
+pokedex-entries: "This rough critter\nchomps at any\nmoving object it\fsees. Turning\
+  \ your\nback on it is not\nrecommended."
 icon: TotodileIcon
 icon-palettes:
 - BLUE

@@ -65,8 +65,8 @@ moves:
 species: FOSSIL
 height: 511
 weight: 1300
-pokedex-entries: "In prehistoric\ntimes, this\ffreely and\nfearlessly through\nthe\
-  \ skies."
+pokedex-entries: "In prehistoric\ntimes, this\n#MON flew\ffreely and\nfearlessly through\n\
+  the skies."
 icon: AerodactylIcon
 icon-palettes:
 - GRAY

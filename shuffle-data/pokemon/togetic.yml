@@ -68,8 +68,8 @@ moves:
 species: HAPPINESS
 height: 200
 weight: 70
-pokedex-entries: "Although it does\nnot flap its wings\fstay up in the air\nas it\
-  \ tags along\nafter its trainer."
+pokedex-entries: "Although it does\nnot flap its wings\nvery much, it can\fstay up\
+  \ in the air\nas it tags along\nafter its trainer."
 icon: TogeticIcon
 icon-palettes:
 - RED

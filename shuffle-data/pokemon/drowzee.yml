@@ -67,8 +67,8 @@ moves:
 species: HYPNOSIS
 height: 303
 weight: 710
-pokedex-entries: "When it twitches\nits nose, it can\fis sleeping and\nwhat that person\n\
-  is dreaming about."
+pokedex-entries: "When it twitches\nits nose, it can\ntell where someone\fis sleeping\
+  \ and\nwhat that person\nis dreaming about."
 icon: DrowzeeIcon
 icon-palettes:
 - BROWN

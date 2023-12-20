@@ -65,8 +65,8 @@ moves:
 species: SUPERPOWER
 height: 503
 weight: 2870
-pokedex-entries: "With four arms\nthat react more\fcan think, it can\nexecute many\n\
-  punches at once."
+pokedex-entries: "With four arms\nthat react more\nquickly than it\fcan think, it\
+  \ can\nexecute many\npunches at once."
 icon: MachampIcon
 icon-palettes:
 - BROWN

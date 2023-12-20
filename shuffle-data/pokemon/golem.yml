@@ -69,8 +69,8 @@ moves:
 species: MEGATON
 height: 407
 weight: 6620
-pokedex-entries: "Its rock-like body\nis so durable,\fdynamite blasts\nfail to scratch\n\
-  its rugged hide."
+pokedex-entries: "Its rock-like body\nis so durable,\neven high-powered\fdynamite\
+  \ blasts\nfail to scratch\nits rugged hide."
 icon: GolemIcon
 icon-palettes:
 - GRAY

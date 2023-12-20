@@ -69,8 +69,8 @@ moves:
 species: SCRATCHCAT
 height: 104
 weight: 90
-pokedex-entries: "It loves things\nthat sparkle. When\fobject, the gold\ncoin on its\
-  \ head\nshines too."
+pokedex-entries: "It loves things\nthat sparkle. When\nit sees a shiny\fobject, the\
+  \ gold\ncoin on its head\nshines too."
 icon: MeowthIcon
 icon-palettes:
 - BROWN

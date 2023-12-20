@@ -75,8 +75,8 @@ moves:
 species: FLAME
 height: 507
 weight: 2000
-pokedex-entries: "It uses its wings\nto fly high. The\ffire increases as\nit gains\
-  \ exper-\nience in battle."
+pokedex-entries: "It uses its wings\nto fly high. The\ntemperature of its\ffire increases\
+  \ as\nit gains exper-\nience in battle."
 icon: CharizardIcon
 icon-palettes:
 - RED

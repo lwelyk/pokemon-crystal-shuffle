@@ -61,8 +61,8 @@ moves:
 species: SCISSORS
 height: 511
 weight: 2600
-pokedex-entries: "This #MON's\npincers, which\fcrush any hard\nobject it gets a\n\
-  hold of into bits."
+pokedex-entries: "This #MON's\npincers, which\ncontain steel, can\fcrush any hard\n\
+  object it gets a\nhold of into bits."
 icon: ScizorIcon
 icon-palettes:
 - RED

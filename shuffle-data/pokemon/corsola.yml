@@ -67,8 +67,8 @@ moves:
 species: CORAL
 height: 200
 weight: 110
-pokedex-entries: "The points on its\nhead absorb\fclean water. They\ncannot survive\
-  \ in\npolluted water."
+pokedex-entries: "The points on its\nhead absorb\nnutrients from\fclean water. They\n\
+  cannot survive in\npolluted water."
 icon: CorsolaIcon
 icon-palettes:
 - PINK

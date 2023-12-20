@@ -64,8 +64,8 @@ moves:
 species: BALLOON
 height: 108
 weight: 90
-pokedex-entries: "When faced with a\nlarger opponent,\fmuch water as it\ncan to match\
-  \ the\nopponent's size."
+pokedex-entries: "When faced with a\nlarger opponent,\nit swallows as\fmuch water\
+  \ as it\ncan to match the\nopponent's size."
 icon: QwilfishIcon
 icon-palettes:
 - BLUE

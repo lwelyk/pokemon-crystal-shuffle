@@ -74,8 +74,8 @@ moves:
 species: LIZARD
 height: 200
 weight: 190
-pokedex-entries: "If it's healthy,\nthe flame on the\fwill burn vigor-\nously, even\
-  \ if it\ngets a bit wet."
+pokedex-entries: "If it's healthy,\nthe flame on the\ntip of its tail\fwill burn vigor-\n\
+  ously, even if it\ngets a bit wet."
 icon: CharmanderIcon
 icon-palettes:
 - RED

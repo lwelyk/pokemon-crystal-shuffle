@@ -57,8 +57,8 @@ moves:
 species: BALL
 height: 108
 weight: 230
-pokedex-entries: "During the study\nof this #MON,\fthat its compo-\nnents are not\n\
-  found in nature."
+pokedex-entries: "During the study\nof this #MON,\nit was discovered\fthat its compo-\n\
+  nents are not\nfound in nature."
 icon: VoltorbIcon
 icon-palettes:
 - RED

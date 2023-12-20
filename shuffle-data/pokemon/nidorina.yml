@@ -63,8 +63,8 @@ moves:
 species: POISON PIN
 height: 207
 weight: 440
-pokedex-entries: "It has a docile\nnature. If it is\fattack, it raises\nthe barbs\
-  \ that are\nall over its body."
+pokedex-entries: "It has a docile\nnature. If it is\nthreatened with\fattack, it raises\n\
+  the barbs that are\nall over its body."
 icon: NidorinaIcon
 icon-palettes:
 - BLUE

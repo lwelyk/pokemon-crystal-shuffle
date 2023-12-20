@@ -62,8 +62,8 @@ moves:
 species: MOLE
 height: 8
 weight: 20
-pokedex-entries: "It digs under-\nground and chews\fsticking its head\nout only when\
-  \ the\nsun isn't bright."
+pokedex-entries: "It digs under-\nground and chews\non tree roots,\fsticking its head\n\
+  out only when the\nsun isn't bright."
 icon: DiglettIcon
 icon-palettes:
 - BROWN

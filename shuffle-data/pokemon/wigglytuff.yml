@@ -70,8 +70,8 @@ moves:
 species: BALLOON
 height: 303
 weight: 260
-pokedex-entries: "The rich, fluffy\nfur that covers\fgood that anyone\nwho feels it\
-  \ can't\nstop touching it."
+pokedex-entries: "The rich, fluffy\nfur that covers\nits body feels so\fgood that\
+  \ anyone\nwho feels it can't\nstop touching it."
 icon: WigglytuffIcon
 icon-palettes:
 - RED

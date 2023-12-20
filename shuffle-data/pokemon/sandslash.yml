@@ -66,8 +66,8 @@ moves:
 species: MOUSE
 height: 303
 weight: 650
-pokedex-entries: "Adept at climbing\ntrees, it rolls\fthen attacks its\nenemies from\n\
-  above."
+pokedex-entries: "Adept at climbing\ntrees, it rolls\ninto a spiny ball,\fthen attacks\
+  \ its\nenemies from\nabove."
 icon: SandslashIcon
 icon-palettes:
 - BROWN

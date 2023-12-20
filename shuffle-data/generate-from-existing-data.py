@@ -934,7 +934,7 @@ class PokemonDataBuilder:
                             dexTextArray.append(dexText)
                         j += 1
                 dexEntryArray = [
-                    "\n".join(dexTextArray[0:2]),
+                    "\n".join(dexTextArray[0:3]),
                     "\n".join(dexTextArray[3:])
                 ]
                 dexData["Pokedex Entry"] = "\f".join(dexEntryArray)
@@ -1048,34 +1048,34 @@ class PokemonDataBuilder:
                 self.pokemonData[i]["Back Pic"] = picData[poke["Back Pic Pointer"]]
 
 
-# pokemon = PokemonDataBuilder()
-# pokemon.buildPokemonData()
+pokemon = PokemonDataBuilder()
+pokemon.buildPokemonData()
 
 # moves = MoveDataBuilder()
 # moves.buildMoveData()
 
-items = ItemDataBuilder()
-items.buildItemData()
+# items = ItemDataBuilder()
+# items.buildItemData()
 
-for item in items.itemData:
-    if item["Constant"] == "NO_ITEM":
-        continue
-    if "Effect" not in item:
-        item["Effect"] = "NoEffect"
-    item = item_data.Item(
-        constant = item["Constant"],
-        name = item["Name"],
-        price = item["Price"],
-        held_effect = item["Held Effect"],
-        parameter = item["Parameter"],
-        item_property = item["Property"],
-        pocket = item["Pocket"],
-        field_menu = item["Field Menu"],
-        battle_menu = item["Battle Menu"],
-        description = item["Description"],
-        effect = item["Effect"]
-    )
-    item.generate_yaml()
+# for item in items.itemData:
+#     if item["Constant"] == "NO_ITEM":
+#         continue
+#     if "Effect" not in item:
+#         item["Effect"] = "NoEffect"
+#     item = item_data.Item(
+#         constant = item["Constant"],
+#         name = item["Name"],
+#         price = item["Price"],
+#         held_effect = item["Held Effect"],
+#         parameter = item["Parameter"],
+#         item_property = item["Property"],
+#         pocket = item["Pocket"],
+#         field_menu = item["Field Menu"],
+#         battle_menu = item["Battle Menu"],
+#         description = item["Description"],
+#         effect = item["Effect"]
+#     )
+#     item.generate_yaml()
 
 # for move in moves.moveData:
 #     if move["Constant"] == "NO_MOVE":
@@ -1096,62 +1096,62 @@ for item in items.itemData:
 #     )
 #     move.generate_yaml()
 
-# for poke in pokemon.pokemonData:
-#     poke["Stats"]  = {
-#         'hp': poke["Stats"]["HP"],
-#         'attack': poke["Stats"]["ATK"],
-#         'defense': poke["Stats"]["DEF"],
-#         'sp_attack': poke["Stats"]["SAT"],
-#         'sp_defense': poke["Stats"]["SDF"],
-#         'speed': poke['Stats']["SPD"]
-#     }
-#     poke['Types'][0] = poke['Types'][0].title().replace("_Type", "")
-#     poke['Types'][1] = poke['Types'][1].title().replace("_Type", "")
-#     if poke['Types'][0] == poke['Types'][1]:
-#         poke['Types'].pop(1)
-#     eggs = []
-#     for group in poke["Egg Groups"]:
-#         group = group.replace("EGG_", "").replace("_"," ")
-#         eggs.append(group.title())
-#     eggs =  list(dict.fromkeys(eggs))
-#     if "Egg Moves" not in poke:
-#         poke["Egg Moves"] = []
-#     level_ups = []
-#     for move in poke["Level Up Moves"]:
-#         level_ups.append((move["Level"], move["Move"]))
-#     evolutions = []
-#     if "Evolutions" in poke:
-#         for evolu in poke["Evolutions"]:
-#             evo = evolu
-#             method = evo["Method"].replace("EVOLVE_","").title()
-#             method = method.replace("Level", "Level-Up")
-#             evo["Method"] = method
-#             evolutions.append(evo)
-#             # print(evo)
+for poke in pokemon.pokemonData:
+    poke["Stats"]  = {
+        'hp': poke["Stats"]["HP"],
+        'attack': poke["Stats"]["ATK"],
+        'defense': poke["Stats"]["DEF"],
+        'sp_attack': poke["Stats"]["SAT"],
+        'sp_defense': poke["Stats"]["SDF"],
+        'speed': poke['Stats']["SPD"]
+    }
+    poke['Types'][0] = poke['Types'][0].title().replace("_Type", "")
+    poke['Types'][1] = poke['Types'][1].title().replace("_Type", "")
+    if poke['Types'][0] == poke['Types'][1]:
+        poke['Types'].pop(1)
+    eggs = []
+    for group in poke["Egg Groups"]:
+        group = group.replace("EGG_", "").replace("_"," ")
+        eggs.append(group.title())
+    eggs =  list(dict.fromkeys(eggs))
+    if "Egg Moves" not in poke:
+        poke["Egg Moves"] = []
+    level_ups = []
+    for move in poke["Level Up Moves"]:
+        level_ups.append((move["Level"], move["Move"]))
+    evolutions = []
+    if "Evolutions" in poke:
+        for evolu in poke["Evolutions"]:
+            evo = evolu
+            method = evo["Method"].replace("EVOLVE_","").title()
+            method = method.replace("Level", "Level-Up")
+            evo["Method"] = method
+            evolutions.append(evo)
+            # print(evo)
         
-#     mon = pokemon_data.Pokemon(
-#         constant = poke["Constant"],
-#         name = poke['Name'],
-#         stats = poke["Stats"],
-#         types = poke["Types"],
-#         catch_rate = poke["Catch Rate"],
-#         base_xp = poke["Base XP"],
-#         growth_rate = poke["Growth Rate"][7:].replace("_","-").title(),
-#         egg_step_cycle = poke["Step Cycle"],
-#         gender_ratio = poke["Gender Ratio"].replace("GENDER_","").replace("F","").replace("_",".").title(),
-#         egg_groups = eggs,
-#         held_items = poke["Held Items"],
-#         level_up_moves = level_ups,
-#         egg_moves = poke["Egg Moves"],
-#         evolutions = poke["Evolutions"],
-#         taught_moves = poke["TM HM List"],
-#         species = poke["Species Name"],
-#         height = poke["Height"],
-#         weight = poke["Weight"],
-#         icon = poke["Menu Icon"],
-#         icon_pals = poke["Menu Icon Palettes"],
-#         flavor_text = poke["Pokedex Entry"],
-#         normal_palette = poke["Normal Palette"],
-#         shiny_palette = poke["Shiny Palette"]
-#     )
-#     mon.generate_yaml()
+    mon = pokemon_data.Pokemon(
+        constant = poke["Constant"],
+        name = poke['Name'],
+        stats = poke["Stats"],
+        types = poke["Types"],
+        catch_rate = poke["Catch Rate"],
+        base_xp = poke["Base XP"],
+        growth_rate = poke["Growth Rate"][7:].replace("_","-").title(),
+        egg_step_cycle = poke["Step Cycle"],
+        gender_ratio = poke["Gender Ratio"].replace("GENDER_","").replace("F","").replace("_",".").title(),
+        egg_groups = eggs,
+        held_items = poke["Held Items"],
+        level_up_moves = level_ups,
+        egg_moves = poke["Egg Moves"],
+        evolutions = poke["Evolutions"],
+        taught_moves = poke["TM HM List"],
+        species = poke["Species Name"],
+        height = poke["Height"],
+        weight = poke["Weight"],
+        icon = poke["Menu Icon"],
+        icon_pals = poke["Menu Icon Palettes"],
+        flavor_text = poke["Pokedex Entry"],
+        normal_palette = poke["Normal Palette"],
+        shiny_palette = poke["Shiny Palette"]
+    )
+    mon.generate_yaml()

@@ -59,8 +59,8 @@ moves:
 species: LIGHT
 height: 311
 weight: 500
-pokedex-entries: "This #MON uses\nthe bright part of\fchanged from a\ndorsal fin,\
-  \ to\nlure prey."
+pokedex-entries: "This #MON uses\nthe bright part of\nits body, which\fchanged from\
+  \ a\ndorsal fin, to\nlure prey."
 icon: LanturnIcon
 icon-palettes:
 - BLUE

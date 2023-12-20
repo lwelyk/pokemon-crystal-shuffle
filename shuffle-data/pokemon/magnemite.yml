@@ -58,8 +58,8 @@ moves:
 species: MAGNET
 height: 100
 weight: 130
-pokedex-entries: "The electricity\nemitted by the\fof its body cause\nit to become\
-  \ a\nstrong magnet."
+pokedex-entries: "The electricity\nemitted by the\nunits on each side\fof its body\
+  \ cause\nit to become a\nstrong magnet."
 icon: MagnemiteIcon
 icon-palettes:
 - GRAY

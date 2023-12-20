@@ -64,8 +64,8 @@ moves:
 species: WOOL
 height: 200
 weight: 170
-pokedex-entries: "It stores lots of\nair in its soft\fto stay cool in\nsummer and\
-  \ warm\nin winter."
+pokedex-entries: "It stores lots of\nair in its soft\nfur, allowing it\fto stay cool\
+  \ in\nsummer and warm\nin winter."
 icon: MareepIcon
 icon-palettes:
 - BLUE

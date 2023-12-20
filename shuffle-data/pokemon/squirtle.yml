@@ -76,8 +76,8 @@ moves:
 species: TINYTURTLE
 height: 108
 weight: 200
-pokedex-entries: "When it feels\nthreatened, it\finside its shell\nand sprays water\n\
-  from its mouth."
+pokedex-entries: "When it feels\nthreatened, it\ndraws its legs\finside its shell\n\
+  and sprays water\nfrom its mouth."
 icon: SquirtleIcon
 icon-palettes:
 - BLUE

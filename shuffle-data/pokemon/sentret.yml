@@ -72,8 +72,8 @@ moves:
 species: SCOUT
 height: 207
 weight: 130
-pokedex-entries: "When acting as a\nlookout, it warns\fby screeching and\nhitting\
-  \ the ground\nwith its tail."
+pokedex-entries: "When acting as a\nlookout, it warns\nothers of danger\fby screeching\
+  \ and\nhitting the ground\nwith its tail."
 icon: SentretIcon
 icon-palettes:
 - BROWN

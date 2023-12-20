@@ -71,8 +71,8 @@ moves:
 species: TRANSPORT
 height: 802
 weight: 4850
-pokedex-entries: "This gentle\n#MON loves to\fand provides a ve-\nry comfortable way\n\
-  to get around."
+pokedex-entries: "This gentle\n#MON loves to\ngive people rides\fand provides a ve-\n\
+  ry comfortable way\nto get around."
 icon: LaprasIcon
 icon-palettes:
 - BLUE

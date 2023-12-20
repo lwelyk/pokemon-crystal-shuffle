@@ -69,8 +69,8 @@ moves:
 species: FLAME
 height: 307
 weight: 420
-pokedex-entries: "If it becomes\nagitated during\fintense flames,\nincinerating its\n\
-  surroundings."
+pokedex-entries: "If it becomes\nagitated during\nbattle, it spouts\fintense flames,\n\
+  incinerating its\nsurroundings."
 icon: CharmeleonIcon
 icon-palettes:
 - RED

@@ -60,8 +60,8 @@ moves:
 species: PSI
 height: 211
 weight: 430
-pokedex-entries: "It hypnotizes\nitself so that it\fwhen it senses\ndanger, even\n\
-  if it is asleep."
+pokedex-entries: "It hypnotizes\nitself so that it\ncan teleport away\fwhen it senses\n\
+  danger, even\nif it is asleep."
 icon: AbraIcon
 icon-palettes:
 - BROWN

@@ -71,8 +71,8 @@ moves:
 species: MUSHROOM
 height: 100
 weight: 120
-pokedex-entries: "The tochukaso\ngrowing on this\forders it to\nextract juice from\n\
-  tree trunks."
+pokedex-entries: "The tochukaso\ngrowing on this\n#MON's back\forders it to\nextract\
+  \ juice from\ntree trunks."
 icon: ParasIcon
 icon-palettes:
 - RED

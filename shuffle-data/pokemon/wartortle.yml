@@ -72,8 +72,8 @@ moves:
 species: TURTLE
 height: 303
 weight: 500
-pokedex-entries: "Its long, furry\ntail is a symbol\fmaking it quite\npopular among\n\
-  older people."
+pokedex-entries: "Its long, furry\ntail is a symbol\nof longevity,\fmaking it quite\n\
+  popular among\nolder people."
 icon: WartortleIcon
 icon-palettes:
 - BLUE

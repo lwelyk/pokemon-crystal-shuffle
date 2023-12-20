@@ -61,8 +61,8 @@ moves:
 species: PINCER
 height: 403
 weight: 1320
-pokedex-entries: "Its oversized claw\nis very powerful,\fin battle, the\nclaw just\
-  \ gets in\nthe way."
+pokedex-entries: "Its oversized claw\nis very powerful,\nbut when it's not\fin battle,\
+  \ the\nclaw just gets in\nthe way."
 icon: KinglerIcon
 icon-palettes:
 - RED

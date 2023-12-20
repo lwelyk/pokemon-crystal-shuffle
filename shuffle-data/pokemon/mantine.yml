@@ -61,8 +61,8 @@ moves:
 species: KITE
 height: 611
 weight: 4850
-pokedex-entries: "It swims along\nfreely, eating\finto its mouth.\nIts whole body\
-  \ is\nvery coarse."
+pokedex-entries: "It swims along\nfreely, eating\nthings that swim\finto its mouth.\n\
+  Its whole body is\nvery coarse."
 icon: MantineIcon
 icon-palettes:
 - PURPLE

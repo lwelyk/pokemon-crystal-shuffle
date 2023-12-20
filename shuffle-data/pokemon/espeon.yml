@@ -64,7 +64,8 @@ moves:
 species: SUN
 height: 211
 weight: 580
-pokedex-entries: "The tip of its\nforked tail\fpredicting its\nopponent's next\nmove."
+pokedex-entries: "The tip of its\nforked tail\nquivers when it is\fpredicting its\n\
+  opponent's next\nmove."
 icon: EspeonIcon
 icon-palettes:
 - PURPLE

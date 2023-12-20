@@ -64,8 +64,8 @@ moves:
 species: SLUDGE
 height: 311
 weight: 660
-pokedex-entries: "As it moves, a\nvery strong poison\fmaking the ground\nthere barren\
-  \ for\nthree years."
+pokedex-entries: "As it moves, a\nvery strong poison\nleaks from it,\fmaking the ground\n\
+  there barren for\nthree years."
 icon: MukIcon
 icon-palettes:
 - PURPLE

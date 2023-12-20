@@ -68,8 +68,8 @@ moves:
 species: ROCK
 height: 303
 weight: 2320
-pokedex-entries: "It travels by rol-\nling on mountain\ftoo much speed, it\nstops\
-  \ by running\ninto huge rocks."
+pokedex-entries: "It travels by rol-\nling on mountain\npaths. If it gains\ftoo much\
+  \ speed, it\nstops by running\ninto huge rocks."
 icon: GravelerIcon
 icon-palettes:
 - GRAY

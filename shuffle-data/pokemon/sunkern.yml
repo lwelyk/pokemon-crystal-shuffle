@@ -54,8 +54,8 @@ moves:
 species: SEED
 height: 100
 weight: 40
-pokedex-entries: "It is very weak.\nIts only means of\fshake its leaves\ndesperately\
-  \ at its\nattacker."
+pokedex-entries: "It is very weak.\nIts only means of\ndefense is to\fshake its leaves\n\
+  desperately at its\nattacker."
 icon: SunkernIcon
 icon-palettes:
 - GREEN

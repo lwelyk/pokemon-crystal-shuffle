@@ -61,8 +61,8 @@ moves:
 species: MOUSE
 height: 207
 weight: 660
-pokedex-entries: "If its electric\npouches run empty,\fto gather electri-\ncity from\
-  \ the\natmosphere."
+pokedex-entries: "If its electric\npouches run empty,\nit raises its tail\fto gather\
+  \ electri-\ncity from the\natmosphere."
 icon: RaichuIcon
 icon-palettes:
 - RED

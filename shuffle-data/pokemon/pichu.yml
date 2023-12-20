@@ -64,8 +64,8 @@ moves:
 species: TINY MOUSE
 height: 100
 weight: 40
-pokedex-entries: "It is unskilled at\nstoring electric\fshock causes it to\ndischarge\
-  \ energy\nspontaneously."
+pokedex-entries: "It is unskilled at\nstoring electric\npower. Any kind of\fshock\
+  \ causes it to\ndischarge energy\nspontaneously."
 icon: PichuIcon
 icon-palettes:
 - RED

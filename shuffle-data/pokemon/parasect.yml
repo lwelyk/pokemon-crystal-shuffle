@@ -64,8 +64,8 @@ moves:
 species: MUSHROOM
 height: 303
 weight: 650
-pokedex-entries: "When nothing's\nleft to extract\fmushrooms on its\nback leave spores\n\
-  on the bug's egg."
+pokedex-entries: "When nothing's\nleft to extract\nfrom the bug, the\fmushrooms on\
+  \ its\nback leave spores\non the bug's egg."
 icon: ParasectIcon
 icon-palettes:
 - RED

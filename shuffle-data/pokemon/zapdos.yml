@@ -61,8 +61,8 @@ moves:
 species: ELECTRIC
 height: 503
 weight: 1160
-pokedex-entries: "Legendary bird\n#MON. They say\fby the flapping of\nits wings causes\n\
-  summer storms."
+pokedex-entries: "Legendary bird\n#MON. They say\nlightning caused\fby the flapping\
+  \ of\nits wings causes\nsummer storms."
 icon: ZapdosIcon
 icon-palettes:
 - BROWN

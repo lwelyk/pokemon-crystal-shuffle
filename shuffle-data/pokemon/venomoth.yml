@@ -62,8 +62,8 @@ moves:
 species: POISONMOTH
 height: 411
 weight: 280
-pokedex-entries: "The scales it\nscatters will\fwho touches them,\nmaking that person\n\
-  unable to stand."
+pokedex-entries: "The scales it\nscatters will\nparalyze anyone\fwho touches them,\n\
+  making that person\nunable to stand."
 icon: VenomothIcon
 icon-palettes:
 - PURPLE

@@ -63,8 +63,8 @@ moves:
 species: FOX
 height: 200
 weight: 220
-pokedex-entries: "As its body grows\nlarger, its six\fmore beautiful,\nwith a more\
-  \ luxur-\nious coat of fur."
+pokedex-entries: "As its body grows\nlarger, its six\nwarm tails become\fmore beautiful,\n\
+  with a more luxur-\nious coat of fur."
 icon: VulpixIcon
 icon-palettes:
 - RED

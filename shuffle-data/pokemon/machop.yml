@@ -70,8 +70,8 @@ moves:
 species: SUPERPOWER
 height: 207
 weight: 430
-pokedex-entries: "It trains by\nlifting rocks in\fcan even pick up a\nGRAVELER with\n\
-  ease."
+pokedex-entries: "It trains by\nlifting rocks in\nthe mountains. It\fcan even pick\
+  \ up a\nGRAVELER with\nease."
 icon: MachopIcon
 icon-palettes:
 - BROWN

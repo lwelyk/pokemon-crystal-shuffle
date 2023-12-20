@@ -64,8 +64,8 @@ moves:
 species: FLOWER
 height: 204
 weight: 90
-pokedex-entries: "If it notices\nanything that\fimmediately flings\nits vine at the\n\
-  object."
+pokedex-entries: "If it notices\nanything that\nmoves, it\fimmediately flings\nits\
+  \ vine at the\nobject."
 icon: BellsproutIcon
 icon-palettes:
 - GREEN

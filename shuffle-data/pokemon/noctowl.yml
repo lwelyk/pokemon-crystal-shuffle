@@ -61,8 +61,8 @@ moves:
 species: OWL
 height: 503
 weight: 900
-pokedex-entries: "Its extremely soft\nfeathers make no\fIt silently sneaks\nup on\
-  \ prey without\nbeing detected."
+pokedex-entries: "Its extremely soft\nfeathers make no\nsound in flight.\fIt silently\
+  \ sneaks\nup on prey without\nbeing detected."
 icon: NoctowlIcon
 icon-palettes:
 - BROWN

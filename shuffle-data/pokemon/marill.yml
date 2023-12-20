@@ -74,8 +74,8 @@ moves:
 species: AQUAMOUSE
 height: 104
 weight: 190
-pokedex-entries: "The fur on its\nbody naturally\fcan stay dry, even\nwhen it plays\
-  \ in\nthe water."
+pokedex-entries: "The fur on its\nbody naturally\nrepels water. It\fcan stay dry,\
+  \ even\nwhen it plays in\nthe water."
 icon: MarillIcon
 icon-palettes:
 - BLUE

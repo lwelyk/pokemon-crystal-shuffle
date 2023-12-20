@@ -31,8 +31,8 @@ moves:
 species: WORM
 height: 100
 weight: 60
-pokedex-entries: "It crawls into\nfoliage where it\famong leaves that\nare the same\
-  \ color\nas its body."
+pokedex-entries: "It crawls into\nfoliage where it\ncamouflages itself\famong leaves\
+  \ that\nare the same color\nas its body."
 icon: CaterpieIcon
 icon-palettes:
 - GREEN

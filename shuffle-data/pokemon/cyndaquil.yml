@@ -67,8 +67,8 @@ moves:
 species: FIRE MOUSE
 height: 108
 weight: 170
-pokedex-entries: "The fire that\nspouts from its\fwhen it is angry.\nThe flaring flames\n\
-  intimidate foes."
+pokedex-entries: "The fire that\nspouts from its\nback burns hottest\fwhen it is angry.\n\
+  The flaring flames\nintimidate foes."
 icon: CyndaquilIcon
 icon-palettes:
 - PINK

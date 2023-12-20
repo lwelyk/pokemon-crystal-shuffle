@@ -65,8 +65,8 @@ moves:
 species: TIMETRAVEL
 height: 200
 weight: 110
-pokedex-entries: "Revered as a\nguardian of the\fappears wherever\nbeautiful forests\n\
-  exist."
+pokedex-entries: "Revered as a\nguardian of the\nforest, CELEBI\fappears wherever\n\
+  beautiful forests\nexist."
 icon: CelebiIcon
 icon-palettes:
 - GREEN

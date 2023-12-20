@@ -58,8 +58,8 @@ moves:
 species: BEAK
 height: 311
 weight: 840
-pokedex-entries: "It uses its long\nbeak to attack. It\flong reach, so it\nmust be\
-  \ treated\nwith caution."
+pokedex-entries: "It uses its long\nbeak to attack. It\nhas a surprisingly\flong reach,\
+  \ so it\nmust be treated\nwith caution."
 icon: FearowIcon
 icon-palettes:
 - BROWN

@@ -61,8 +61,8 @@ moves:
 species: FLAME
 height: 211
 weight: 550
-pokedex-entries: "Once it has stored\nup enough heat,\fbody temperature\ncan reach\
-  \ up to\n1700 degrees."
+pokedex-entries: "Once it has stored\nup enough heat,\nthis #MON's\fbody temperature\n\
+  can reach up to\n1700 degrees."
 icon: FlareonIcon
 icon-palettes:
 - RED

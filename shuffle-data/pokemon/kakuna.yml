@@ -32,8 +32,8 @@ moves:
 species: COCOON
 height: 200
 weight: 220
-pokedex-entries: "Nearly incapable\nof movement, it\fstout trees while\nwaiting for\
-  \ its\nevolution."
+pokedex-entries: "Nearly incapable\nof movement, it\nleans against\fstout trees while\n\
+  waiting for its\nevolution."
 icon: KakunaIcon
 icon-palettes:
 - BROWN

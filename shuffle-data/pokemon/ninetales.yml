@@ -54,8 +54,8 @@ moves:
 species: FOX
 height: 307
 weight: 440
-pokedex-entries: "It is said to live\na thousand years,\ftails is loaded\nwith supernatural\n\
-  powers."
+pokedex-entries: "It is said to live\na thousand years,\nand each of its\ftails is\
+  \ loaded\nwith supernatural\npowers."
 icon: NinetalesIcon
 icon-palettes:
 - BROWN

@@ -56,8 +56,8 @@ moves:
 species: POISON BEE
 height: 303
 weight: 650
-pokedex-entries: "It uses sharp,\npoisonous stings\fthen takes the\nvictim back to\
-  \ its\nnest for food."
+pokedex-entries: "It uses sharp,\npoisonous stings\nto defeat prey,\fthen takes the\n\
+  victim back to its\nnest for food."
 icon: BeedrillIcon
 icon-palettes:
 - RED

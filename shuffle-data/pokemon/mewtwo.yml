@@ -78,8 +78,8 @@ moves:
 species: GENETIC
 height: 607
 weight: 2690
-pokedex-entries: "Said to rest qui-\netly in an\fthis #MON was\ncreated solely for\n\
-  battling."
+pokedex-entries: "Said to rest qui-\netly in an\nundiscovered cave,\fthis #MON was\n\
+  created solely for\nbattling."
 icon: MewtwoIcon
 icon-palettes:
 - PURPLE

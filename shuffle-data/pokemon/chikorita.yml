@@ -62,8 +62,8 @@ moves:
 species: LEAF
 height: 211
 weight: 140
-pokedex-entries: "It loves to bask\nin the sunlight.\fon its head to\nseek out warm\n\
-  places."
+pokedex-entries: "It loves to bask\nin the sunlight.\nIt uses the leaf\fon its head\
+  \ to\nseek out warm\nplaces."
 icon: ChikoritaIcon
 icon-palettes:
 - GREEN

@@ -59,8 +59,8 @@ moves:
 species: BIRD
 height: 307
 weight: 660
-pokedex-entries: "It slowly flies in\na circular pat-\fwhile keeping a\nsharp lookout\
-  \ for\nprey."
+pokedex-entries: "It slowly flies in\na circular pat-\ntern, all the\fwhile keeping\
+  \ a\nsharp lookout for\nprey."
 icon: PidgeottoIcon
 icon-palettes:
 - BROWN

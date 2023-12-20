@@ -64,8 +64,8 @@ moves:
 species: MOONLIGHT
 height: 303
 weight: 600
-pokedex-entries: "On the night of a\nfull moon, or when\fthe ring patterns\non its\
-  \ body glow\nyellow."
+pokedex-entries: "On the night of a\nfull moon, or when\nit gets excited,\fthe ring\
+  \ patterns\non its body glow\nyellow."
 icon: UmbreonIcon
 icon-palettes:
 - BROWN

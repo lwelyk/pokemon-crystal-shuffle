@@ -63,8 +63,8 @@ moves:
 species: COTTONWEED
 height: 200
 weight: 20
-pokedex-entries: "As soon as it\nrains, it closes\fhides in the shade\nof a tree to\
-  \ avoid\ngetting wet."
+pokedex-entries: "As soon as it\nrains, it closes\nits flower and\fhides in the shade\n\
+  of a tree to avoid\ngetting wet."
 icon: SkiploomIcon
 icon-palettes:
 - GREEN

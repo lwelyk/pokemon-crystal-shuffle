@@ -59,8 +59,8 @@ moves:
 species: MAGNET
 height: 303
 weight: 1320
-pokedex-entries: "When many\nMAGNETON gather\fresulting magnetic\nstorm disrupts\n\
-  radio waves."
+pokedex-entries: "When many\nMAGNETON gather\ntogether, the\fresulting magnetic\n\
+  storm disrupts\nradio waves."
 icon: MagnetonIcon
 icon-palettes:
 - GRAY

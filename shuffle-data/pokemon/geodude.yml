@@ -68,8 +68,8 @@ moves:
 species: ROCK
 height: 104
 weight: 440
-pokedex-entries: "Proud of their\nsturdy bodies,\feach other in a\ncontest to prove\n\
-  whose is harder."
+pokedex-entries: "Proud of their\nsturdy bodies,\nthey bash against\feach other in\
+  \ a\ncontest to prove\nwhose is harder."
 icon: GeodudeIcon
 icon-palettes:
 - GRAY

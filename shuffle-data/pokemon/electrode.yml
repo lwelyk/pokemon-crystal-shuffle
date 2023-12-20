@@ -58,8 +58,8 @@ moves:
 species: BALL
 height: 311
 weight: 1470
-pokedex-entries: "The more energy it\ncharges up, the\fBut this also\nmakes it more\n\
-  likely to explode."
+pokedex-entries: "The more energy it\ncharges up, the\nfaster it gets.\fBut this also\n\
+  makes it more\nlikely to explode."
 icon: ElectrodeIcon
 icon-palettes:
 - RED

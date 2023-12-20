@@ -67,8 +67,8 @@ moves:
 species: WATER FISH
 height: 407
 weight: 1650
-pokedex-entries: "Its body is always\nslimy. It often\fthe river bottom\nas it swims\
-  \ but\nseems not to care."
+pokedex-entries: "Its body is always\nslimy. It often\nbangs its head on\fthe river\
+  \ bottom\nas it swims but\nseems not to care."
 icon: QuagsireIcon
 icon-palettes:
 - BLUE

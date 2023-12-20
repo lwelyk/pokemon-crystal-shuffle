@@ -64,8 +64,8 @@ moves:
 species: SEED
 height: 204
 weight: 150
-pokedex-entries: "While it is young,\nit uses the\fstored in the\nseeds on its back\n\
-  in order to grow."
+pokedex-entries: "While it is young,\nit uses the\nnutrients that are\fstored in the\n\
+  seeds on its back\nin order to grow."
 icon: BulbasaurIcon
 icon-palettes:
 - TEAL

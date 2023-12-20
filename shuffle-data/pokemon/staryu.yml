@@ -67,8 +67,8 @@ moves:
 species: STARSHAPE
 height: 207
 weight: 760
-pokedex-entries: "When the stars\ntwinkle at night,\fthe sea floor, and\nits body's\
-  \ center\ncore flickers."
+pokedex-entries: "When the stars\ntwinkle at night,\nit floats up from\fthe sea floor,\
+  \ and\nits body's center\ncore flickers."
 icon: StaryuIcon
 icon-palettes:
 - BROWN

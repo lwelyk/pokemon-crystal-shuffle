@@ -27,8 +27,8 @@ moves:
 species: TRANSFORM
 height: 100
 weight: 90
-pokedex-entries: "When it encount-\ners another DITTO,\ffaster than normal\nto duplicate\
-  \ that\nopponent exactly."
+pokedex-entries: "When it encount-\ners another DITTO,\nit will move\ffaster than\
+  \ normal\nto duplicate that\nopponent exactly."
 icon: DittoIcon
 icon-palettes:
 - PURPLE

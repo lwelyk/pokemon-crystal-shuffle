@@ -59,7 +59,8 @@ moves:
 species: FLAME
 height: 607
 weight: 1320
-pokedex-entries: "Legendary bird\n#MON. It is\ffrom the south\nalong with the\nspring."
+pokedex-entries: "Legendary bird\n#MON. It is\nsaid to migrate\ffrom the south\nalong\
+  \ with the\nspring."
 icon: MoltresIcon
 icon-palettes:
 - RED

@@ -66,8 +66,8 @@ moves:
 species: ROCK SKIN
 height: 200
 weight: 1590
-pokedex-entries: "Born deep under-\nground, this\fpupa after eating\nenough dirt to\n\
-  make a mountain."
+pokedex-entries: "Born deep under-\nground, this\n#MON becomes a\fpupa after eating\n\
+  enough dirt to\nmake a mountain."
 icon: LarvitarIcon
 icon-palettes:
 - GREEN

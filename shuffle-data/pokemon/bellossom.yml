@@ -50,8 +50,8 @@ moves:
 species: FLOWER
 height: 104
 weight: 130
-pokedex-entries: "When these dance\ntogether, their\feach other,\nmaking pretty,\n\
-  relaxing sounds."
+pokedex-entries: "When these dance\ntogether, their\npetals rub against\feach other,\n\
+  making pretty,\nrelaxing sounds."
 icon: BellossomIcon
 icon-palettes:
 - RED

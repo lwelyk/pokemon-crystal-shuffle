@@ -66,8 +66,8 @@ moves:
 species: ELECTRIC
 height: 307
 weight: 660
-pokedex-entries: "When two\nELECTABUZZ touch,\felectric currents\nto communicate\n\
-  their feelings."
+pokedex-entries: "When two\nELECTABUZZ touch,\nthey control the\felectric currents\n\
+  to communicate\ntheir feelings."
 icon: ElectabuzzIcon
 icon-palettes:
 - BROWN

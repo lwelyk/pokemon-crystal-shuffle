@@ -57,8 +57,8 @@ moves:
 species: TRIPLEBIRD
 height: 511
 weight: 1880
-pokedex-entries: "An enemy that\ntakes its eyes off\fheads--even for a\nsecond--will\
-  \ get\npecked severely."
+pokedex-entries: "An enemy that\ntakes its eyes off\nany of the three\fheads--even\
+  \ for a\nsecond--will get\npecked severely."
 icon: DodrioIcon
 icon-palettes:
 - BROWN

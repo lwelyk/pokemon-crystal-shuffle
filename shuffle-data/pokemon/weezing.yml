@@ -59,8 +59,8 @@ moves:
 species: POISON GAS
 height: 311
 weight: 210
-pokedex-entries: "When it inhales\npoisonous gases\fbody expands, and\nits insides\
-  \ smell\nmuch worse."
+pokedex-entries: "When it inhales\npoisonous gases\nfrom garbage, its\fbody expands,\
+  \ and\nits insides smell\nmuch worse."
 icon: WeezingIcon
 icon-palettes:
 - PURPLE

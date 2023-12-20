@@ -65,8 +65,8 @@ moves:
 species: TADPOLE
 height: 403
 weight: 1190
-pokedex-entries: "It can use its\nwell-developed\frun on the surface\nof the water\
-  \ for a\nsplit second."
+pokedex-entries: "It can use its\nwell-developed\narms and legs to\frun on the surface\n\
+  of the water for a\nsplit second."
 icon: PoliwrathIcon
 icon-palettes:
 - BLUE

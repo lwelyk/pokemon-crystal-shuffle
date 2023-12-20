@@ -78,7 +78,8 @@ moves:
 species: SHARP CLAW
 height: 211
 weight: 620
-pokedex-entries: "This cunning\n#MON hides\fof darkness,\nwaiting to attack\nits prey."
+pokedex-entries: "This cunning\n#MON hides\nunder the cover\fof darkness,\nwaiting\
+  \ to attack\nits prey."
 icon: SneaselIcon
 icon-palettes:
 - RED

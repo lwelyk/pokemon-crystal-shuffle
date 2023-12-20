@@ -64,8 +64,8 @@ moves:
 species: BIG HORN
 height: 407
 weight: 1570
-pokedex-entries: "The round balls\nfound on the\fbe ground into a\npowder that aids\n\
-  in sleeping."
+pokedex-entries: "The round balls\nfound on the\nfallen antlers can\fbe ground into\
+  \ a\npowder that aids\nin sleeping."
 icon: StantlerIcon
 icon-palettes:
 - BROWN

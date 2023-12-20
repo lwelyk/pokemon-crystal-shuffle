@@ -65,8 +65,8 @@ moves:
 species: TADPOLE
 height: 200
 weight: 270
-pokedex-entries: "The swirl on its\nbelly is its\fthrough the skin.\nIt looks clearer\n\
-  after it eats."
+pokedex-entries: "The swirl on its\nbelly is its\ninsides showing\fthrough the skin.\n\
+  It looks clearer\nafter it eats."
 icon: PoliwagIcon
 icon-palettes:
 - RED

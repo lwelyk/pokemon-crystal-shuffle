@@ -75,8 +75,8 @@ moves:
 species: PIG MONKEY
 height: 108
 weight: 620
-pokedex-entries: "It lives in groups\nin the treetops.\fof its group, it\nbecomes\
-  \ infuriated\nby its loneliness."
+pokedex-entries: "It lives in groups\nin the treetops.\nIf it loses sight\fof its\
+  \ group, it\nbecomes infuriated\nby its loneliness."
 icon: MankeyIcon
 icon-palettes:
 - BROWN

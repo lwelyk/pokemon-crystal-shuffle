@@ -71,8 +71,8 @@ moves:
 species: MOUSE
 height: 200
 weight: 260
-pokedex-entries: "It prefers dry,\nsandy places\fthe sand to\nprotect itself\nwhen\
-  \ threatened."
+pokedex-entries: "It prefers dry,\nsandy places\nbecause it uses\fthe sand to\nprotect\
+  \ itself\nwhen threatened."
 icon: SandshrewIcon
 icon-palettes:
 - BROWN

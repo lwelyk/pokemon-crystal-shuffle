@@ -66,8 +66,8 @@ moves:
 species: RIVER CRAB
 height: 104
 weight: 140
-pokedex-entries: "If it is unable\nto find food, it\fnutrients by\nswallowing a\n\
-  mouthful of sand."
+pokedex-entries: "If it is unable\nto find food, it\nwill absorb\fnutrients by\nswallowing\
+  \ a\nmouthful of sand."
 icon: KrabbyIcon
 icon-palettes:
 - RED

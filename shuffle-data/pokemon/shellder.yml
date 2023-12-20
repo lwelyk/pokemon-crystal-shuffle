@@ -63,8 +63,8 @@ moves:
 species: BIVALVE
 height: 100
 weight: 90
-pokedex-entries: "Clamping on to an\nopponent reveals\fparts, so it uses\nthis move\
-  \ only as\na last resort."
+pokedex-entries: "Clamping on to an\nopponent reveals\nits vulnerable\fparts, so it\
+  \ uses\nthis move only as\na last resort."
 icon: ShellderIcon
 icon-palettes:
 - PURPLE

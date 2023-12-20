@@ -92,8 +92,8 @@ moves:
 species: NEW SPECIE
 height: 104
 weight: 90
-pokedex-entries: "Because it can\nlearn any move,\fresearch to see if\nit is the ancestor\n\
-  of all #MON."
+pokedex-entries: "Because it can\nlearn any move,\nsome people began\fresearch to\
+  \ see if\nit is the ancestor\nof all #MON."
 icon: MewIcon
 icon-palettes:
 - PINK

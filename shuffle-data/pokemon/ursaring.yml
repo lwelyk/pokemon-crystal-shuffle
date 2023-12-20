@@ -69,8 +69,8 @@ moves:
 species: HIBERNANT
 height: 511
 weight: 2770
-pokedex-entries: "Although it has a\nlarge body, it is\fclimbing trees. It\neats and\
-  \ sleeps in\nthe treetops."
+pokedex-entries: "Although it has a\nlarge body, it is\nquite skilled at\fclimbing\
+  \ trees. It\neats and sleeps in\nthe treetops."
 icon: UrsaringIcon
 icon-palettes:
 - BROWN

@@ -63,8 +63,8 @@ moves:
 species: SNAKE
 height: 607
 weight: 150
-pokedex-entries: "It flutters the\ntip of its tongue\fscent of prey,\nthen swallows\
-  \ the\nprey whole."
+pokedex-entries: "It flutters the\ntip of its tongue\nto seek out the\fscent of prey,\n\
+  then swallows the\nprey whole."
 icon: EkansIcon
 icon-palettes:
 - PURPLE

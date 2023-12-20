@@ -64,8 +64,8 @@ moves:
 species: GAS
 height: 503
 weight: 2
-pokedex-entries: "It hides in the\ndark, planning to\fthe next living\nthing that\
-  \ wanders\nclose by."
+pokedex-entries: "It hides in the\ndark, planning to\ntake the life of\fthe next living\n\
+  thing that wanders\nclose by."
 icon: HaunterIcon
 icon-palettes:
 - RED

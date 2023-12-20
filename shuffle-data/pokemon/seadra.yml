@@ -64,8 +64,8 @@ moves:
 species: DRAGON
 height: 311
 weight: 550
-pokedex-entries: "The male raises\nthe young. If it\fuses its toxic\nspikes to fend\
-  \ off\nthe intruder."
+pokedex-entries: "The male raises\nthe young. If it\nis approached, it\fuses its toxic\n\
+  spikes to fend off\nthe intruder."
 icon: SeadraIcon
 icon-palettes:
 - BLUE

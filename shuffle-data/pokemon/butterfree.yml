@@ -59,8 +59,8 @@ moves:
 species: BUTTERFLY
 height: 307
 weight: 710
-pokedex-entries: "It flits from\nflower to flower,\fIt can even\nidentify distant\n\
-  flowers in bloom."
+pokedex-entries: "It flits from\nflower to flower,\ncollecting honey.\fIt can even\n\
+  identify distant\nflowers in bloom."
 icon: ButterfreeIcon
 icon-palettes:
 - TEAL

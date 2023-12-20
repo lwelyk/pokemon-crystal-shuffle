@@ -73,8 +73,8 @@ moves:
 species: DARK
 height: 200
 weight: 240
-pokedex-entries: "Around dawn, its\nominous howl\farea to announce\nthat this is its\n\
-  territory."
+pokedex-entries: "Around dawn, its\nominous howl\nechoes through the\farea to announce\n\
+  that this is its\nterritory."
 icon: HoundourIcon
 icon-palettes:
 - RED

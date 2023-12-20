@@ -58,8 +58,8 @@ moves:
 species: COCONUT
 height: 607
 weight: 2650
-pokedex-entries: "Living in a good\nenvironment makes\fheads. A head that\ndrops off\
-  \ becomes\nan EXEGGCUTE."
+pokedex-entries: "Living in a good\nenvironment makes\nit grow lots of\fheads. A head\
+  \ that\ndrops off becomes\nan EXEGGCUTE."
 icon: ExeggutorIcon
 icon-palettes:
 - GREEN

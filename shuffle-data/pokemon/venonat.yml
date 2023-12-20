@@ -64,8 +64,8 @@ moves:
 species: INSECT
 height: 303
 weight: 660
-pokedex-entries: "The small bugs it\neats appear only\fsleeps in a hole\nin a tree\
-  \ until\nnight falls."
+pokedex-entries: "The small bugs it\neats appear only\nat night, so it\fsleeps in\
+  \ a hole\nin a tree until\nnight falls."
 icon: VenonatIcon
 icon-palettes:
 - RED

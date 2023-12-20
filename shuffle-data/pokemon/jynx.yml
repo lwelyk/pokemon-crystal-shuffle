@@ -69,8 +69,8 @@ moves:
 species: HUMANSHAPE
 height: 407
 weight: 900
-pokedex-entries: "It has several\ndifferent cry pat-\fwhich seems to\nhave its own\n\
-  meaning."
+pokedex-entries: "It has several\ndifferent cry pat-\nterns, each of\fwhich seems\
+  \ to\nhave its own\nmeaning."
 icon: JynxIcon
 icon-palettes:
 - PURPLE

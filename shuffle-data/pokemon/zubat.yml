@@ -60,8 +60,8 @@ moves:
 species: BAT
 height: 207
 weight: 170
-pokedex-entries: "During the day, it\ngathers with\ffrom the ceilings\nof old buildings\n\
-  and caves."
+pokedex-entries: "During the day, it\ngathers with\nothers and hangs\ffrom the ceilings\n\
+  of old buildings\nand caves."
 icon: ZubatIcon
 icon-palettes:
 - BLUE

@@ -65,8 +65,8 @@ moves:
 species: HYPNOSIS
 height: 503
 weight: 1670
-pokedex-entries: "The longer it\nswings its\flonger the effects\nof its hypnosis\n\
-  last."
+pokedex-entries: "The longer it\nswings its\npendulum, the\flonger the effects\nof\
+  \ its hypnosis\nlast."
 icon: HypnoIcon
 icon-palettes:
 - BROWN

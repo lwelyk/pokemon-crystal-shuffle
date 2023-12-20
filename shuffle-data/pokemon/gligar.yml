@@ -63,8 +63,8 @@ moves:
 species: FLYSCORPIO
 height: 307
 weight: 1430
-pokedex-entries: "It builds its nest\non a steep cliff.\fgliding, it hops\nalong the\
-  \ ground\nback to its nest."
+pokedex-entries: "It builds its nest\non a steep cliff.\nWhen it is done\fgliding,\
+  \ it hops\nalong the ground\nback to its nest."
 icon: GligarIcon
 icon-palettes:
 - PURPLE

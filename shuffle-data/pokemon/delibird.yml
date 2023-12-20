@@ -56,8 +56,8 @@ moves:
 species: DELIVERY
 height: 211
 weight: 350
-pokedex-entries: "It always carries\nits food with it,\fIf attacked, it\nthrows its\
-  \ food at\nthe opponent."
+pokedex-entries: "It always carries\nits food with it,\nwherever it goes.\fIf attacked,\
+  \ it\nthrows its food at\nthe opponent."
 icon: DelibirdIcon
 icon-palettes:
 - RED

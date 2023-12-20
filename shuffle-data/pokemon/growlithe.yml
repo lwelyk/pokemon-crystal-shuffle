@@ -66,8 +66,8 @@ moves:
 species: PUPPY
 height: 204
 weight: 420
-pokedex-entries: "It controls a big\nterritory. If it\fsmell, it roars\nloudly to\
-  \ force\nout the intruder."
+pokedex-entries: "It controls a big\nterritory. If it\ndetects an unknown\fsmell,\
+  \ it roars\nloudly to force\nout the intruder."
 icon: GrowlitheIcon
 icon-palettes:
 - RED

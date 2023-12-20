@@ -77,8 +77,8 @@ moves:
 species: BALLOON
 height: 108
 weight: 120
-pokedex-entries: "It rolls its cute\neyes as it sings a\fIts gentle song\nputs anyone\
-  \ who\nhears it to sleep."
+pokedex-entries: "It rolls its cute\neyes as it sings a\nsoothing lullaby.\fIts gentle\
+  \ song\nputs anyone who\nhears it to sleep."
 icon: JigglypuffIcon
 icon-palettes:
 - RED

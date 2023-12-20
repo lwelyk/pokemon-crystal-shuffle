@@ -60,8 +60,8 @@ moves:
 species: FREEZE
 height: 507
 weight: 1220
-pokedex-entries: "Legendary bird\n#MON. As it\fsky, it cools the\nair, causing snow\n\
-  to fall."
+pokedex-entries: "Legendary bird\n#MON. As it\nflies through the\fsky, it cools the\n\
+  air, causing snow\nto fall."
 icon: ArticunoIcon
 icon-palettes:
 - BLUE

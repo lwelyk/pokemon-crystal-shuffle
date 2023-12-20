@@ -62,8 +62,8 @@ moves:
 species: IMITATION
 height: 311
 weight: 840
-pokedex-entries: "If a tree branch\nshakes when there\fSUDOWOODO, not a\ntree. It\
-  \ hides\nfrom the rain."
+pokedex-entries: "If a tree branch\nshakes when there\nis no wind, it's a\fSUDOWOODO,\
+  \ not a\ntree. It hides\nfrom the rain."
 icon: SudowoodoIcon
 icon-palettes:
 - GREEN

@@ -66,8 +66,8 @@ moves:
 species: SEED
 height: 303
 weight: 290
-pokedex-entries: "The bulb on its\nback grows as it\fThe bulb gives off\na pleasant\
-  \ aroma\nwhen it blooms."
+pokedex-entries: "The bulb on its\nback grows as it\nabsorbs nutrients.\fThe bulb\
+  \ gives off\na pleasant aroma\nwhen it blooms."
 icon: IvysaurIcon
 icon-palettes:
 - TEAL

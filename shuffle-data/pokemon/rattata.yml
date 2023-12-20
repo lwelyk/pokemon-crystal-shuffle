@@ -67,8 +67,8 @@ moves:
 species: RAT
 height: 100
 weight: 80
-pokedex-entries: "This #MON's\nimpressive vital-\flive anywhere. It\nalso multiplies\n\
-  very quickly."
+pokedex-entries: "This #MON's\nimpressive vital-\nity allows it to\flive anywhere.\
+  \ It\nalso multiplies\nvery quickly."
 icon: RattataIcon
 icon-palettes:
 - PURPLE

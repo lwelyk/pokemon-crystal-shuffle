@@ -79,8 +79,8 @@ moves:
 species: LICKING
 height: 311
 weight: 1440
-pokedex-entries: "It has a tongue\nthat is over 6'6''\flong tongue to\nlick its body\n\
-  clean."
+pokedex-entries: "It has a tongue\nthat is over 6'6''\nlong. It uses this\flong tongue\
+  \ to\nlick its body\nclean."
 icon: LickitungIcon
 icon-palettes:
 - RED

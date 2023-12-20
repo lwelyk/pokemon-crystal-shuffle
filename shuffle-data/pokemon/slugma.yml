@@ -57,8 +57,8 @@ moves:
 species: LAVA
 height: 204
 weight: 770
-pokedex-entries: "These group to-\ngether in areas\fthan normal. If it\ncools off,\
-  \ its\nskin hardens."
+pokedex-entries: "These group to-\ngether in areas\nthat are hotter\fthan normal.\
+  \ If it\ncools off, its\nskin hardens."
 icon: SlugmaIcon
 icon-palettes:
 - RED

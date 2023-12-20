@@ -65,8 +65,8 @@ moves:
 species: STRINGSPIT
 height: 108
 weight: 190
-pokedex-entries: "If prey becomes\nensnared in its\fstring, it waits\nmotionlessly\
-  \ until\nit becomes dark."
+pokedex-entries: "If prey becomes\nensnared in its\nnest of spun\fstring, it waits\n\
+  motionlessly until\nit becomes dark."
 icon: SpinarakIcon
 icon-palettes:
 - GREEN

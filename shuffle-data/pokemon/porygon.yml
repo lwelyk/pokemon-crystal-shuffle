@@ -67,8 +67,8 @@ moves:
 species: VIRTUAL
 height: 207
 weight: 800
-pokedex-entries: "An artificial\n#MON created\fresearch, it can\nperform only what\n\
-  is in its program."
+pokedex-entries: "An artificial\n#MON created\ndue to extensive\fresearch, it can\n\
+  perform only what\nis in its program."
 icon: PorygonIcon
 icon-palettes:
 - TEAL

@@ -51,8 +51,8 @@ moves:
 species: FLYCATCHER
 height: 507
 weight: 340
-pokedex-entries: "Once ingested into\nthis #MON's\fhardest object\nwill melt into\n\
-  nothing."
+pokedex-entries: "Once ingested into\nthis #MON's\nbody, even the\fhardest object\n\
+  will melt into\nnothing."
 icon: VictreebelIcon
 icon-palettes:
 - GREEN

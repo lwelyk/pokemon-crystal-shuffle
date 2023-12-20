@@ -80,8 +80,8 @@ moves:
 species: FAIRY
 height: 200
 weight: 170
-pokedex-entries: "Though rarely\nseen, it becomes\ffor some reason,\non the night\
-  \ of a\nfull moon."
+pokedex-entries: "Though rarely\nseen, it becomes\neasier to spot,\ffor some reason,\n\
+  on the night of a\nfull moon."
 icon: ClefairyIcon
 icon-palettes:
 - BROWN

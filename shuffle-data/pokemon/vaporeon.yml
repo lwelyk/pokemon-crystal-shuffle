@@ -64,8 +64,8 @@ moves:
 species: BUBBLE JET
 height: 303
 weight: 640
-pokedex-entries: "As it uses the\nfins on the tip\fswim, it blends\nwith the water\n\
-  perfectly."
+pokedex-entries: "As it uses the\nfins on the tip\nof its tail to\fswim, it blends\n\
+  with the water\nperfectly."
 icon: VaporeonIcon
 icon-palettes:
 - BLUE

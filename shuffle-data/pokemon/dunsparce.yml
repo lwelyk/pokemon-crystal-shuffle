@@ -69,8 +69,8 @@ moves:
 species: LAND SNAKE
 height: 411
 weight: 310
-pokedex-entries: "It hides deep\ninside caves where\freaches it and\nremains virtually\n\
-  motionless there."
+pokedex-entries: "It hides deep\ninside caves where\nno light ever\freaches it and\n\
+  remains virtually\nmotionless there."
 icon: DunsparceIcon
 icon-palettes:
 - BLUE

@@ -64,8 +64,8 @@ moves:
 species: POISON GAS
 height: 200
 weight: 20
-pokedex-entries: "If one gets close\nenough to it when\fous gas, the gas\nswirling\
-  \ inside it\ncan be seen."
+pokedex-entries: "If one gets close\nenough to it when\nit expels poison-\fous gas,\
+  \ the gas\nswirling inside it\ncan be seen."
 icon: KoffingIcon
 icon-palettes:
 - PURPLE

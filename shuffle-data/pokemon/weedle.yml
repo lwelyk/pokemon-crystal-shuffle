@@ -32,8 +32,8 @@ moves:
 species: HAIRY BUG
 height: 100
 weight: 70
-pokedex-entries: "The barb on top of\nits head secretes\fIt uses this toxic\nbarb\
-  \ to protect\nitself."
+pokedex-entries: "The barb on top of\nits head secretes\na strong poison.\fIt uses\
+  \ this toxic\nbarb to protect\nitself."
 icon: WeedleIcon
 icon-palettes:
 - RED

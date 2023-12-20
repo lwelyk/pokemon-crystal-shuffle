@@ -63,8 +63,8 @@ moves:
 species: DARKNESS
 height: 108
 weight: 50
-pokedex-entries: "It hides any shiny\nobject it finds in\fMURKROW and\nMEOWTH loot\
-  \ one\nanother's stashes."
+pokedex-entries: "It hides any shiny\nobject it finds in\na secret location.\fMURKROW\
+  \ and\nMEOWTH loot one\nanother's stashes."
 icon: MurkrowIcon
 icon-palettes:
 - BLUE

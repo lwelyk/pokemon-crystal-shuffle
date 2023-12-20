@@ -67,8 +67,8 @@ moves:
 species: SUPERPOWER
 height: 411
 weight: 1550
-pokedex-entries: "This tough #MON\nalways stays in\fmuscles become\nthicker after\n\
-  every battle."
+pokedex-entries: "This tough #MON\nalways stays in\nthe zone. Its\fmuscles become\n\
+  thicker after\nevery battle."
 icon: MachokeIcon
 icon-palettes:
 - GRAY

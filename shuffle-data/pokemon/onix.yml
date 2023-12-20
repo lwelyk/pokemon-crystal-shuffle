@@ -62,8 +62,8 @@ moves:
 species: ROCK SNAKE
 height: 2810
 weight: 4630
-pokedex-entries: "As it digs through\nthe ground, it\fobjects. This is\nwhat makes\
-  \ its\nbody so solid."
+pokedex-entries: "As it digs through\nthe ground, it\nabsorbs many hard\fobjects.\
+  \ This is\nwhat makes its\nbody so solid."
 icon: OnixIcon
 icon-palettes:
 - GRAY

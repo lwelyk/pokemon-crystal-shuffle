@@ -64,8 +64,8 @@ moves:
 species: LIGHT
 height: 407
 weight: 1360
-pokedex-entries: "When it gets dark,\nthe light from its\fcan be seen from\nfar away\
-  \ on the\nocean's surface."
+pokedex-entries: "When it gets dark,\nthe light from its\nbright, shiny tail\fcan\
+  \ be seen from\nfar away on the\nocean's surface."
 icon: AmpharosIcon
 icon-palettes:
 - BROWN

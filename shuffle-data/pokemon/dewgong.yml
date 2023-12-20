@@ -58,8 +58,8 @@ moves:
 species: SEA LION
 height: 507
 weight: 2650
-pokedex-entries: "It sleeps under\nshallow ocean\fday, then looks\nfor food at night\n\
-  when it's cold."
+pokedex-entries: "It sleeps under\nshallow ocean\nwaters during the\fday, then looks\n\
+  for food at night\nwhen it's cold."
 icon: DewgongIcon
 icon-palettes:
 - BLUE

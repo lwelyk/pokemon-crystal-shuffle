@@ -65,8 +65,8 @@ moves:
 species: VIRTUAL
 height: 200
 weight: 720
-pokedex-entries: "This manmade\n#MON evolved\ftechnology. It\nmay have unprog-\nrammed\
-  \ reactions."
+pokedex-entries: "This manmade\n#MON evolved\nfrom the latest\ftechnology. It\nmay\
+  \ have unprog-\nrammed reactions."
 icon: Porygon2Icon
 icon-palettes:
 - BLUE

@@ -66,8 +66,8 @@ moves:
 species: PIG
 height: 104
 weight: 140
-pokedex-entries: "It uses the tip of\nits nose to dig\fis so tough that\neven frozen\
-  \ ground\nposes no problem."
+pokedex-entries: "It uses the tip of\nits nose to dig\nfor food. Its nose\fis so tough\
+  \ that\neven frozen ground\nposes no problem."
 icon: SwinubIcon
 icon-palettes:
 - BROWN

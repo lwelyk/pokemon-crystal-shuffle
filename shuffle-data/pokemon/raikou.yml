@@ -65,8 +65,8 @@ moves:
 species: THUNDER
 height: 603
 weight: 3920
-pokedex-entries: "This rough #MON\nstores energy\fthen sweeps across\nthe land, shooting\n\
-  off electricity."
+pokedex-entries: "This rough #MON\nstores energy\ninside its body,\fthen sweeps across\n\
+  the land, shooting\noff electricity."
 icon: RaikouIcon
 icon-palettes:
 - PURPLE

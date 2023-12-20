@@ -59,8 +59,8 @@ moves:
 species: LAVA
 height: 207
 weight: 1210
-pokedex-entries: "Its body is as hot\nas lava and is\fFlames will\noccasionally burst\n\
-  from its shell."
+pokedex-entries: "Its body is as hot\nas lava and is\nalways billowing.\fFlames will\n\
+  occasionally burst\nfrom its shell."
 icon: MagcargoIcon
 icon-palettes:
 - RED

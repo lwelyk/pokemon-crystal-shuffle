@@ -68,8 +68,8 @@ moves:
 species: BALLOON
 height: 100
 weight: 20
-pokedex-entries: "Instead of walking\nwith its short\faround by bouncing\non its soft,\n\
-  tender body."
+pokedex-entries: "Instead of walking\nwith its short\nlegs, it moves\faround by bouncing\n\
+  on its soft,\ntender body."
 icon: IgglybuffIcon
 icon-palettes:
 - PINK

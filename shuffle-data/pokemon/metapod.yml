@@ -31,8 +31,8 @@ moves:
 species: COCOON
 height: 204
 weight: 220
-pokedex-entries: "This is its pre-\nevolved form. At\fonly harden, so it\nremains\
-  \ motionless\nto avoid attack."
+pokedex-entries: "This is its pre-\nevolved form. At\nthis stage, it can\fonly harden,\
+  \ so it\nremains motionless\nto avoid attack."
 icon: MetapodIcon
 icon-palettes:
 - GREEN
