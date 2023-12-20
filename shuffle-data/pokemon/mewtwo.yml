@@ -74,7 +74,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: GENETIC
 height: 607
 weight: 2690

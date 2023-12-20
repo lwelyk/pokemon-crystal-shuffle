@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 45
 base-experience: 180
-held-items: []
 female-ratio: Unknown
 egg-cycle: 20
 egg-groups:
@@ -61,7 +60,6 @@ moves:
   - FLASH
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: VIRTUAL
 height: 200
 weight: 720

@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Fast
 catch-rate: 75
 base-experience: 153
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -65,7 +64,6 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg: []
 species: AQUARABBIT
 height: 207
 weight: 630

@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 143
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
@@ -68,7 +67,6 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg: []
 species: TURTLE
 height: 303
 weight: 500

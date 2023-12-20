@@ -63,7 +63,6 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - FLAMETHROWER
-  egg: []
 species: SPITFIRE
 height: 403
 weight: 980

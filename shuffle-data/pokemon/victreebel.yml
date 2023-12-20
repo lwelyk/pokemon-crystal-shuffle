@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 191
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -47,7 +46,6 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-  egg: []
 species: FLYCATCHER
 height: 507
 weight: 340

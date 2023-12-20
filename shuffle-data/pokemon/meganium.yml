@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 208
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
@@ -62,7 +61,6 @@ moves:
   - CUT
   - STRENGTH
   - FLASH
-  egg: []
 species: HERB
 height: 511
 weight: 2220

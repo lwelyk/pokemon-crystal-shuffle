@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 75
 base-experience: 160
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -58,7 +57,6 @@ moves:
   - ATTRACT
   - STRENGTH
   - ICE_BEAM
-  egg: []
 species: SWINE
 height: 307
 weight: 1230

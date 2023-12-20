@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Fast
 catch-rate: 170
 base-experience: 76
-held-items: []
 female-ratio: '75'
 egg-cycle: 10
 egg-groups:
@@ -73,7 +72,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: BALLOON
 height: 108
 weight: 120

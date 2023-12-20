@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 45
 base-experience: 156
-held-items: []
 female-ratio: '25'
 egg-cycle: 25
 egg-groups:
@@ -62,7 +61,6 @@ moves:
   - STRENGTH
   - FLASH
   - THUNDERBOLT
-  egg: []
 species: ELECTRIC
 height: 307
 weight: 660

@@ -52,7 +52,6 @@ moves:
   - ATTRACT
   - FURY_CUTTER
   - CUT
-  egg: []
 species: POISON BEE
 height: 303
 weight: 650

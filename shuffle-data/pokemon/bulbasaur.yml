@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 64
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
@@ -60,7 +59,6 @@ moves:
   - FURY_CUTTER
   - CUT
   - FLASH
-  egg: []
 species: SEED
 height: 204
 weight: 150

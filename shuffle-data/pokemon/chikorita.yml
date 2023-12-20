@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 64
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
@@ -58,7 +57,6 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-  egg: []
 species: LEAF
 height: 211
 weight: 140

@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 3
 base-experience: 216
-held-items: []
 female-ratio: Unknown
 egg-cycle: 80
 egg-groups:
@@ -61,7 +60,6 @@ moves:
   - STRENGTH
   - FLASH
   - THUNDERBOLT
-  egg: []
 species: THUNDER
 height: 603
 weight: 3920

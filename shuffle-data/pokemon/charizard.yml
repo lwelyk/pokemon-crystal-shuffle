@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 209
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
@@ -71,7 +70,6 @@ moves:
   - FLY
   - STRENGTH
   - FLAMETHROWER
-  egg: []
 species: FLAME
 height: 507
 weight: 2000

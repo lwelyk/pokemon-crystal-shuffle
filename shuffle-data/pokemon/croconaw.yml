@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 143
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 20
 egg-groups:
@@ -66,7 +65,6 @@ moves:
   - STRENGTH
   - WHIRLPOOL
   - ICE_BEAM
-  egg: []
 species: BIG JAW
 height: 307
 weight: 550

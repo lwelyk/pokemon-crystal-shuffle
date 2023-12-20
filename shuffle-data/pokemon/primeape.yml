@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 75
 base-experience: 149
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -66,7 +65,6 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - THUNDERBOLT
-  egg: []
 species: PIG MONKEY
 height: 303
 weight: 710

@@ -693,7 +693,6 @@ class PokemonDataBuilder:
         tmList = []
         array = line.split("tmhm")
         if len(array[1]) <= 1:
-            print(array)
             return
         array = array[1]
         array = array.split(", ")

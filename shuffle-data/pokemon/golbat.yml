@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 90
 base-experience: 171
-held-items: []
 female-ratio: '50'
 egg-cycle: 15
 egg-groups:
@@ -54,7 +53,6 @@ moves:
   - ATTRACT
   - THIEF
   - STEEL_WING
-  egg: []
 species: BAT
 height: 503
 weight: 1210

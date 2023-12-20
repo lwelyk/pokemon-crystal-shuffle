@@ -76,7 +76,6 @@ moves:
   - FLASH
   - FLAMETHROWER
   - ICE_BEAM
-  egg: []
 species: HERMITCRAB
 height: 503
 weight: 1730

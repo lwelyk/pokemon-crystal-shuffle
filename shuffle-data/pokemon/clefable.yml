@@ -68,7 +68,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: FAIRY
 height: 403
 weight: 880

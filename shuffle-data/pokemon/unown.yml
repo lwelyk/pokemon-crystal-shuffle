@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 225
 base-experience: 61
-held-items: []
 female-ratio: Unknown
 egg-cycle: 40
 egg-groups:
@@ -21,8 +20,6 @@ evolutions: []
 moves:
   level-up:
   - 1: HIDDEN_POWER
-  taught: []
-  egg: []
 species: SYMBOL
 height: 108
 weight: 110

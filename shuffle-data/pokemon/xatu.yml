@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 75
 base-experience: 171
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -56,7 +55,6 @@ moves:
   - NIGHTMARE
   - FLY
   - FLASH
-  egg: []
 species: MYSTIC
 height: 411
 weight: 330

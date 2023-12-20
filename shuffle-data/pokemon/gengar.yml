@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 190
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -65,7 +64,6 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - THUNDERBOLT
-  egg: []
 species: SHADOW
 height: 411
 weight: 890

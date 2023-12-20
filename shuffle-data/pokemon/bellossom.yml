@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 184
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -46,7 +45,6 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-  egg: []
 species: FLOWER
 height: 104
 weight: 130

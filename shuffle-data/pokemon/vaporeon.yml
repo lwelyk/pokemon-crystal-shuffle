@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 45
 base-experience: 196
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 35
 egg-groups:
@@ -60,7 +59,6 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg: []
 species: BUBBLE JET
 height: 303
 weight: 640

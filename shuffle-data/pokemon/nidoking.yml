@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 45
 base-experience: 195
-held-items: []
 female-ratio: '0'
 egg-cycle: 20
 egg-groups:
@@ -69,7 +68,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: DRILL
 height: 407
 weight: 1370

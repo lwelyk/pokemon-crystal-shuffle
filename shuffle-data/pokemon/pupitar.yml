@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 45
 base-experience: 144
-held-items: []
 female-ratio: '50'
 egg-cycle: 40
 egg-groups:
@@ -59,7 +58,6 @@ moves:
   - DETECT
   - REST
   - ATTRACT
-  egg: []
 species: HARD SHELL
 height: 311
 weight: 3350

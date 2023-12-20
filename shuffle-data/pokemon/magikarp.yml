@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 255
 base-experience: 20
-held-items: []
 female-ratio: '50'
 egg-cycle: 5
 egg-groups:
@@ -27,8 +26,6 @@ moves:
   - 1: SPLASH
   - 15: TACKLE
   - 30: FLAIL
-  taught: []
-  egg: []
 species: FISH
 height: 211
 weight: 220

@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 75
 base-experience: 156
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -55,7 +54,6 @@ moves:
   - WATERFALL
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: LIGHT
 height: 311
 weight: 500

@@ -60,7 +60,6 @@ moves:
   - FIRE_PUNCH
   - FLAMETHROWER
   - THUNDERBOLT
-  egg: []
 species: SLUDGE
 height: 311
 weight: 660

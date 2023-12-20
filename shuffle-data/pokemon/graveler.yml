@@ -64,7 +64,6 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - FLAMETHROWER
-  egg: []
 species: ROCK
 height: 303
 weight: 2320

@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 90
 base-experience: 148
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -61,7 +60,6 @@ moves:
   - THIEF
   - NIGHTMARE
   - THUNDERBOLT
-  egg: []
 species: CLASSY CAT
 height: 303
 weight: 710

@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 75
 base-experience: 154
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -55,7 +54,6 @@ moves:
   - ATTRACT
   - STRENGTH
   - FLAMETHROWER
-  egg: []
 species: LAVA
 height: 207
 weight: 1210

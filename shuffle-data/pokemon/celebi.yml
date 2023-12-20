@@ -61,7 +61,6 @@ moves:
   - REST
   - NIGHTMARE
   - FLASH
-  egg: []
 species: TIMETRAVEL
 height: 200
 weight: 110

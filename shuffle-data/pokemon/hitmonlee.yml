@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 45
 base-experience: 139
-held-items: []
 female-ratio: '0'
 egg-cycle: 25
 egg-groups:
@@ -54,7 +53,6 @@ moves:
   - ATTRACT
   - THIEF
   - STRENGTH
-  egg: []
 species: KICKING
 height: 411
 weight: 1100

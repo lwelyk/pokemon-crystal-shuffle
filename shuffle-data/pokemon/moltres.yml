@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 3
 base-experience: 217
-held-items: []
 female-ratio: Unknown
 egg-cycle: 80
 egg-groups:
@@ -55,7 +54,6 @@ moves:
   - STEEL_WING
   - FLY
   - FLAMETHROWER
-  egg: []
 species: FLAME
 height: 607
 weight: 1320

@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 45
 base-experience: 211
-held-items: []
 female-ratio: '0'
 egg-cycle: 20
 egg-groups:
@@ -59,7 +58,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: WILD BULL
 height: 407
 weight: 1950

@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 45
 base-experience: 212
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -54,7 +53,6 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - FLASH
-  egg: []
 species: COCONUT
 height: 607
 weight: 2650

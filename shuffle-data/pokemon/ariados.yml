@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Fast
 catch-rate: 90
 base-experience: 134
-held-items: []
 female-ratio: '50'
 egg-cycle: 15
 egg-groups:
@@ -56,7 +55,6 @@ moves:
   - ATTRACT
   - THIEF
   - FLASH
-  egg: []
 species: LONG LEG
 height: 307
 weight: 740

@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 60
 base-experience: 189
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -65,7 +64,6 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-  egg: []
 species: HIBERNANT
 height: 511
 weight: 2770

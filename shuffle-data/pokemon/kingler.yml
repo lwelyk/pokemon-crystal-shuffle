@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 60
 base-experience: 206
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -57,7 +56,6 @@ moves:
   - STRENGTH
   - WHIRLPOOL
   - ICE_BEAM
-  egg: []
 species: PINCER
 height: 403
 weight: 1320

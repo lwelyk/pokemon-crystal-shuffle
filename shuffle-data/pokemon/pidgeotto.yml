@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 120
 base-experience: 113
-held-items: []
 female-ratio: '50'
 egg-cycle: 15
 egg-groups:
@@ -55,7 +54,6 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-  egg: []
 species: BIRD
 height: 307
 weight: 660

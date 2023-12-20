@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 190
 base-experience: 96
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:

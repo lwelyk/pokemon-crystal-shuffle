@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 90
 base-experience: 137
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -63,7 +62,6 @@ moves:
   - FLASH
   - WHIRLPOOL
   - ICE_BEAM
-  egg: []
 species: WATER FISH
 height: 407
 weight: 1650

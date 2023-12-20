@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 25
 base-experience: 200
-held-items: []
 female-ratio: '50'
 egg-cycle: 25
 egg-groups:
@@ -57,7 +56,6 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-  egg: []
 species: SCISSORS
 height: 511
 weight: 2600

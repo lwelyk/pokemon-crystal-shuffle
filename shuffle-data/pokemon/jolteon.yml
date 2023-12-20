@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 45
 base-experience: 197
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 35
 egg-groups:
@@ -58,7 +57,6 @@ moves:
   - ATTRACT
   - FLASH
   - THUNDERBOLT
-  egg: []
 species: LIGHTNING
 height: 207
 weight: 540

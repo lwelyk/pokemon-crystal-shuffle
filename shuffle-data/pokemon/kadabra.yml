@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 100
 base-experience: 145
-held-items: []
 female-ratio: '25'
 egg-cycle: 20
 egg-groups:
@@ -63,7 +62,6 @@ moves:
   - FIRE_PUNCH
   - NIGHTMARE
   - FLASH
-  egg: []
 species: PSI
 height: 403
 weight: 1250

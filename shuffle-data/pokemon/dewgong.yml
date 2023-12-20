@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 75
 base-experience: 176
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -54,7 +53,6 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg: []
 species: SEA LION
 height: 507
 weight: 2650

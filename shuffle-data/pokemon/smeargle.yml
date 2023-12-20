@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Fast
 catch-rate: 45
 base-experience: 106
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -30,8 +29,6 @@ moves:
   - 71: SKETCH
   - 81: SKETCH
   - 91: SKETCH
-  taught: []
-  egg: []
 species: PAINTER
 height: 311
 weight: 1280

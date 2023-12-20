@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 120
 base-experience: 72
-held-items: []
 female-ratio: '50'
 egg-cycle: 15
 egg-groups:
@@ -25,8 +24,6 @@ moves:
   level-up:
   - 1: HARDEN
   - 7: HARDEN
-  taught: []
-  egg: []
 species: COCOON
 height: 204
 weight: 220

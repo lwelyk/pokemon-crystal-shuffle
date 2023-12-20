@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 3
 base-experience: 215
-held-items: []
 female-ratio: Unknown
 egg-cycle: 80
 egg-groups:
@@ -56,7 +55,6 @@ moves:
   - STEEL_WING
   - FLY
   - ICE_BEAM
-  egg: []
 species: FREEZE
 height: 507
 weight: 1220

@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Slow
 catch-rate: 235
 base-experience: 52
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -50,7 +49,6 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-  egg: []
 species: SEED
 height: 100
 weight: 40

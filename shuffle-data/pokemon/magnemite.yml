@@ -54,7 +54,6 @@ moves:
   - REST
   - FLASH
   - THUNDERBOLT
-  egg: []
 species: MAGNET
 height: 100
 weight: 130

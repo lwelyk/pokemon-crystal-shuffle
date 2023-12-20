@@ -70,7 +70,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: HAPPINESS
 height: 411
 weight: 1030

@@ -369,24 +369,26 @@ class Pokemon:
             },
             "growth-rate": self.growth_rate,
             "catch-rate": self.catch_rate,
-            "base-experience": self.base_xp,
-            "held-items": self.held_items,
-            "female-ratio": self.gender_ratio,
-            "egg-cycle": self.egg_step_cycle,
-            "egg-groups": self.egg_groups,
-            "evolutions": self.evolutions,
-            "moves" : {
-                "level-up": level_ups,
-                "taught": self.taught_moves,
-                "egg": self.egg_moves
-            },
-            "species": self.species,
-            "height": self.height,
-            "weight": self.weight,
-            "pokedex-entries": self.flavor_text,
-            "icon": self.icon,
-            "icon-palettes": self.icon_pals
+            "base-experience": self.base_xp
         }
+        if self.held_items:
+            yml["held-items"] = self.held_items
+        yml["female-ratio"] = self.gender_ratio
+        yml["egg-cycle"] = self.egg_step_cycle
+        yml["egg-groups"] = self.egg_groups
+        yml["evolutions"] = self.evolutions
+        yml["moves"] = {}
+        yml["moves"]["level-up"] = level_ups
+        yml["species"] = self.species
+        yml["height"] = self.height
+        yml["weight"] = self.weight
+        yml["pokedex-entries"] = self.flavor_text
+        yml["icon"] = self.icon
+        yml["icon-palettes"] = self.icon_pals
+        if self.taught_moves:
+            yml["moves"]["taught"] = self.taught_moves
+        if self.egg_moves:
+            yml["moves"]["egg"] = self.egg_moves
         file_name = 'pokemon/' + self.constant.lower() + '.yml'
         with open(file_name, 'w') as file:
             documents = yaml.dump(yml, file, sort_keys=False)

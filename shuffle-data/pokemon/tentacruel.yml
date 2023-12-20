@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 60
 base-experience: 205
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -56,7 +55,6 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-  egg: []
 species: JELLYFISH
 height: 503
 weight: 1210

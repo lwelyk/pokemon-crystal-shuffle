@@ -79,7 +79,6 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg: []
 species: DRAGON
 height: 703
 weight: 4630

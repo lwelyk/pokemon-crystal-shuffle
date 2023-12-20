@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Slow
 catch-rate: 45
 base-experience: 204
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -61,7 +60,6 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - FLAMETHROWER
-  egg: []
 species: DARK
 height: 407
 weight: 770

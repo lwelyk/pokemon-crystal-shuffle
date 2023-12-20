@@ -13,7 +13,6 @@ base-stats:
 growth-rate: Fast
 catch-rate: 75
 base-experience: 114
-held-items: []
 female-ratio: '12.5'
 egg-cycle: 10
 egg-groups:
@@ -64,7 +63,6 @@ moves:
   - FLY
   - FLASH
   - FLAMETHROWER
-  egg: []
 species: HAPPINESS
 height: 200
 weight: 70

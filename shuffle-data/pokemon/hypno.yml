@@ -12,7 +12,6 @@ base-stats:
 growth-rate: Medium-Fast
 catch-rate: 75
 base-experience: 165
-held-items: []
 female-ratio: '50'
 egg-cycle: 20
 egg-groups:
@@ -61,7 +60,6 @@ moves:
   - FIRE_PUNCH
   - NIGHTMARE
   - FLASH
-  egg: []
 species: HYPNOSIS
 height: 503
 weight: 1670
