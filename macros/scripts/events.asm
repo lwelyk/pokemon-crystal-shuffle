@@ -491,12 +491,6 @@ MACRO closetext
 	db closetext_command
 ENDM
 
-	const writeunusedbyte_command ; $4a
-MACRO writeunusedbyte
-	db writeunusedbyte_command
-	db \1 ; byte
-ENDM
-
 	const farwritetext_command ; $4b
 MACRO farwritetext
 	db farwritetext_command
@@ -579,11 +573,6 @@ ENDM
 	const verticalmenu_command ; $59
 MACRO verticalmenu
 	db verticalmenu_command
-ENDM
-
-	const loadpikachudata_command ; $5a
-MACRO loadpikachudata
-	db loadpikachudata_command
 ENDM
 
 	const randomwildmon_command ; $5b
