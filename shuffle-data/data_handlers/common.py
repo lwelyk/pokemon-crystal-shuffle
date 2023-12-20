@@ -16,8 +16,8 @@ def check_constant(const, name="This Constant"):
 
 def check_number(val, min_no=0, max_no=255, name="This Value"):
     if type(val) != int:
-        if val.isnumeric() is False:
-            raise Exception(name + " must be a number.")
+        if val.isnumeric() is False and type(int(val)) != int:
+            raise Exception(name + " must be a number, value given was " + str(val))
         val = int(val)
     if val > max_no or val < min_no:
         raise Exception(
@@ -28,7 +28,7 @@ def check_number(val, min_no=0, max_no=255, name="This Value"):
 def check_string(string, max_len, name="This String"):
     if len(string) > max_len:
         raise Exception(
-            name + " can only be " + max_len + " characters. Failed with '" + 
+            name + " can only be " + str(max_len) + " characters. Failed with '" + 
             string + "'."
         )
     return string
