@@ -346,28 +346,24 @@ class Pokemon:
 
 class Pokedex:
     def __init__(self):
-        self.pokemonList = {}
+        self.pokemon_list = {}
+        self.dex_order = []
+        self.new_dex_order = []
     
-    def addPokemon(self, pokemon):
-        self.pokemonList.append(pokemon)
-
-    def findPokemon(self, const):
-        for obj in self.pokemonList:
-            if obj.constant == const:
-                return obj
-        return False
+    def add_pokemon(self, pokemon):
+        self.pokemon_list.append(pokemon)
     
-    def loadPokedexFile(self, file):
+    def load_pokedex_file(self, file):
         f = open(file, 'r')
         reader = csv.DictReader(f)
         for row in reader:
-            self.pokemonList[row["CONSTANT"]] = row
+            self.pokemon_list[row["CONSTANT"]] = row
     
-    def createPokemonObjects(self):
-        if self.pokemonList:
+    def create_pokemon_objects(self):
+        if self.pokemon_list:
             yl = yaml_loaders.YLoader()
-            for pokemon in self.pokemonList:
+            for pokemon in self.pokemon_list:
                 poke = yl.poke_from_yml(pokemon)
                 poke.generate_yml()
                 poke.write_yml()
-                self.pokemonList[pokemon] = poke
+                self.pokemon_list[pokemon] = poke
