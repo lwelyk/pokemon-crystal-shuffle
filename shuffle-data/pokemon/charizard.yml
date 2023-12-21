@@ -3,24 +3,32 @@ name: CHARIZARD
 types:
 - Fire
 - Flying
-base-stats:
+base_stats:
   hp: 78
   attack: 84
   defense: 78
   speed: 100
-  special-attack: 109
-  special-defense: 85
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 209
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 109
+  sp_defense: 85
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 209
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Dragon
-evolutions: []
+species: FLAME
+height: 507
+weight: 2000
+pokedex_entry: "It uses its wings\nto fly high. The\ntemperature of its\ffire increases\
+  \ as\nit gains exper-\nience in battle."
+icon: CharizardIcon
+icon_pals:
+- RED
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: GROWL
   - 1: EMBER
@@ -34,7 +42,7 @@ moves:
   - 44: SLASH
   - 54: DRAGON_RAGE
   - 64: FIRE_SPIN
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -70,12 +78,3 @@ moves:
   - FLY
   - STRENGTH
   - FLAMETHROWER
-species: FLAME
-height: 507
-weight: 2000
-pokedex-entries: "It uses its wings\nto fly high. The\ntemperature of its\ffire increases\
-  \ as\nit gains exper-\nience in battle."
-icon: CharizardIcon
-icon-palettes:
-- RED
-- PURPLE

@@ -2,19 +2,19 @@ constant: EEVEE
 name: EEVEE
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 55
   attack: 55
   defense: 50
   speed: 55
-  special-attack: 45
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 92
-female-ratio: '12.5'
-egg-cycle: 35
-egg-groups:
+  sp_attack: 45
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 92
+gender_ratio: '12.5'
+egg_step_cycle: 35
+egg_groups:
 - Ground
 evolutions:
 - Method: Item
@@ -32,8 +32,17 @@ evolutions:
 - Method: Happiness
   Time: TR_NITE
   Species: UMBREON
+species: EVOLUTION
+height: 100
+weight: 140
+pokedex_entry: "Its ability to\nevolve into many\nforms allows it to\fadapt smoothly\n\
+  and perfectly to\nany environment."
+icon: EeveeIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 8: SAND_ATTACK
@@ -42,7 +51,7 @@ moves:
   - 30: BITE
   - 36: BATON_PASS
   - 42: TAKE_DOWN
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -64,15 +73,6 @@ moves:
   - DETECT
   - REST
   - ATTRACT
-  egg:
+  egg_moves:
   - FLAIL
   - CHARM
-species: EVOLUTION
-height: 100
-weight: 140
-pokedex-entries: "Its ability to\nevolve into many\nforms allows it to\fadapt smoothly\n\
-  and perfectly to\nany environment."
-icon: EeveeIcon
-icon-palettes:
-- BROWN
-- GRAY

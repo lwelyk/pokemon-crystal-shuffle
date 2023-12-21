@@ -3,23 +3,31 @@ name: SCIZOR
 types:
 - Bug
 - Steel
-base-stats:
+base_stats:
   hp: 70
   attack: 130
   defense: 100
   speed: 65
-  special-attack: 55
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 25
-base-experience: 200
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 55
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 25
+base_xp: 200
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Bug
-evolutions: []
+species: SCISSORS
+height: 511
+weight: 2600
+pokedex_entry: "This #MON's\npincers, which\ncontain steel, can\fcrush any hard\n\
+  object it gets a\nhold of into bits."
+icon: ScizorIcon
+icon_pals:
+- RED
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: QUICK_ATTACK
   - 1: LEER
   - 6: FOCUS_ENERGY
@@ -30,7 +38,7 @@ moves:
   - 36: SLASH
   - 42: SWORDS_DANCE
   - 48: DOUBLE_TEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -56,12 +64,3 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-species: SCISSORS
-height: 511
-weight: 2600
-pokedex-entries: "This #MON's\npincers, which\ncontain steel, can\fcrush any hard\n\
-  object it gets a\nhold of into bits."
-icon: ScizorIcon
-icon-palettes:
-- RED
-- GREEN

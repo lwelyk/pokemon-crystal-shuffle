@@ -3,24 +3,32 @@ name: DEWGONG
 types:
 - Water
 - Ice
-base-stats:
+base_stats:
   hp: 90
   attack: 70
   defense: 80
   speed: 70
-  special-attack: 70
-  special-defense: 95
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 176
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 70
+  sp_defense: 95
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 176
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
-evolutions: []
+species: SEA LION
+height: 507
+weight: 2650
+pokedex_entry: "It sleeps under\nshallow ocean\nwaters during the\fday, then looks\n\
+  for food at night\nwhen it's cold."
+icon: DewgongIcon
+icon_pals:
+- BLUE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: HEADBUTT
   - 1: GROWL
   - 1: AURORA_BEAM
@@ -30,7 +38,7 @@ moves:
   - 32: TAKE_DOWN
   - 43: ICE_BEAM
   - 60: SAFEGUARD
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -53,12 +61,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: SEA LION
-height: 507
-weight: 2650
-pokedex-entries: "It sleeps under\nshallow ocean\nwaters during the\fday, then looks\n\
-  for food at night\nwhen it's cold."
-icon: DewgongIcon
-icon-palettes:
-- BLUE
-- GRAY

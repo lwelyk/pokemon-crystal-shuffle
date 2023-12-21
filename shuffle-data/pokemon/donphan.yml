@@ -2,23 +2,31 @@ constant: DONPHAN
 name: DONPHAN
 types:
 - Ground
-base-stats:
+base_stats:
   hp: 90
   attack: 120
   defense: 120
   speed: 50
-  special-attack: 60
-  special-defense: 60
-growth-rate: Medium-Fast
-catch-rate: 60
-base-experience: 189
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 60
+  sp_defense: 60
+growth_rate: Medium-Fast
+catch_rate: 60
+base_xp: 189
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: ARMOR
+height: 307
+weight: 2650
+pokedex_entry: "Because this\n#MON's skin is\nso tough, a normal\fattack won't even\n\
+  leave a scratch on\nit."
+icon: DonphanIcon
+icon_pals:
+- GRAY
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: HORN_ATTACK
   - 1: GROWL
   - 9: DEFENSE_CURL
@@ -27,7 +35,7 @@ moves:
   - 33: ROLLOUT
   - 41: RAPID_SPIN
   - 49: EARTHQUAKE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -52,12 +60,3 @@ moves:
   - REST
   - ATTRACT
   - STRENGTH
-species: ARMOR
-height: 307
-weight: 2650
-pokedex-entries: "Because this\n#MON's skin is\nso tough, a normal\fattack won't even\n\
-  leave a scratch on\nit."
-icon: DonphanIcon
-icon-palettes:
-- GRAY
-- BROWN

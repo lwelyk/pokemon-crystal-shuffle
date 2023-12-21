@@ -2,23 +2,31 @@ constant: URSARING
 name: URSARING
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 90
   attack: 130
   defense: 75
   speed: 55
-  special-attack: 75
-  special-defense: 75
-growth-rate: Medium-Fast
-catch-rate: 60
-base-experience: 189
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 75
+  sp_defense: 75
+growth_rate: Medium-Fast
+catch_rate: 60
+base_xp: 189
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: HIBERNANT
+height: 511
+weight: 2770
+pokedex_entry: "Although it has a\nlarge body, it is\nquite skilled at\fclimbing trees.\
+  \ It\neats and sleeps in\nthe treetops."
+icon: UrsaringIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: LEER
   - 1: LICK
@@ -30,7 +38,7 @@ moves:
   - 39: SLASH
   - 49: SNORE
   - 59: THRASH
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -64,12 +72,3 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-species: HIBERNANT
-height: 511
-weight: 2770
-pokedex-entries: "Although it has a\nlarge body, it is\nquite skilled at\fclimbing\
-  \ trees. It\neats and sleeps in\nthe treetops."
-icon: UrsaringIcon
-icon-palettes:
-- BROWN
-- GREEN

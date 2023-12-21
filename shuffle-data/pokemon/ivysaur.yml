@@ -3,27 +3,36 @@ name: IVYSAUR
 types:
 - Grass
 - Poison
-base-stats:
+base_stats:
   hp: 60
   attack: 62
   defense: 63
   speed: 60
-  special-attack: 80
-  special-defense: 80
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 141
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 80
+  sp_defense: 80
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 141
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Plant
 evolutions:
 - Method: Level-Up
   Level: '32'
   Species: VENUSAUR
+species: SEED
+height: 303
+weight: 290
+pokedex_entry: "The bulb on its\nback grows as it\nabsorbs nutrients.\fThe bulb gives\
+  \ off\na pleasant aroma\nwhen it blooms."
+icon: IvysaurIcon
+icon_pals:
+- TEAL
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 1: LEECH_SEED
@@ -37,7 +46,7 @@ moves:
   - 38: GROWTH
   - 47: SYNTHESIS
   - 56: SOLARBEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -61,12 +70,3 @@ moves:
   - FURY_CUTTER
   - CUT
   - FLASH
-species: SEED
-height: 303
-weight: 290
-pokedex-entries: "The bulb on its\nback grows as it\nabsorbs nutrients.\fThe bulb\
-  \ gives off\na pleasant aroma\nwhen it blooms."
-icon: IvysaurIcon
-icon-palettes:
-- TEAL
-- GREEN

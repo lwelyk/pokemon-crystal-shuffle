@@ -3,23 +3,31 @@ name: TYRANITAR
 types:
 - Rock
 - Dark
-base-stats:
+base_stats:
   hp: 100
   attack: 134
   defense: 110
   speed: 61
-  special-attack: 95
-  special-defense: 100
-growth-rate: Slow
-catch-rate: 45
-base-experience: 218
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+  sp_attack: 95
+  sp_defense: 100
+growth_rate: Slow
+catch_rate: 45
+base_xp: 218
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Monster
-evolutions: []
+species: ARMOR
+height: 607
+weight: 4450
+pokedex_entry: "In just one of its\nmighty hands, it\nhas the power to\fmake the ground\n\
+  shake and moun-\ntains crumble."
+icon: TyranitarIcon
+icon_pals:
+- GREEN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: BITE
   - 1: LEER
   - 1: SANDSTORM
@@ -32,7 +40,7 @@ moves:
   - 47: CRUNCH
   - 61: EARTHQUAKE
   - 75: HYPER_BEAM
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -70,12 +78,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: ARMOR
-height: 607
-weight: 4450
-pokedex-entries: "In just one of its\nmighty hands, it\nhas the power to\fmake the\
-  \ ground\nshake and moun-\ntains crumble."
-icon: TyranitarIcon
-icon-palettes:
-- GREEN
-- BROWN

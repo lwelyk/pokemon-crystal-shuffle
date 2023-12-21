@@ -2,23 +2,31 @@ constant: AIPOM
 name: AIPOM
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 55
   attack: 70
   defense: 55
   speed: 85
-  special-attack: 40
-  special-defense: 55
-growth-rate: Fast
-catch-rate: 45
-base-experience: 94
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 40
+  sp_defense: 55
+growth_rate: Fast
+catch_rate: 45
+base_xp: 94
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: LONG TAIL
+height: 207
+weight: 250
+pokedex_entry: "It uses its tail\nto hang on to tree\nbranches. It uses\fits momentum\
+  \ to\nswing from one\nbranch to another."
+icon: AipomIcon
+icon_pals:
+- PURPLE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: TAIL_WHIP
   - 6: SAND_ATTACK
@@ -27,7 +35,7 @@ moves:
   - 27: SWIFT
   - 36: SCREECH
   - 46: AGILITY
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -63,7 +71,7 @@ moves:
   - CUT
   - STRENGTH
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - COUNTER
   - SCREECH
   - PURSUIT
@@ -72,12 +80,3 @@ moves:
   - SLAM
   - DOUBLESLAP
   - BEAT_UP
-species: LONG TAIL
-height: 207
-weight: 250
-pokedex-entries: "It uses its tail\nto hang on to tree\nbranches. It uses\fits momentum\
-  \ to\nswing from one\nbranch to another."
-icon: AipomIcon
-icon-palettes:
-- PURPLE
-- PURPLE

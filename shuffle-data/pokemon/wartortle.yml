@@ -2,27 +2,36 @@ constant: WARTORTLE
 name: WARTORTLE
 types:
 - Water
-base-stats:
+base_stats:
   hp: 59
   attack: 63
   defense: 80
   speed: 58
-  special-attack: 65
-  special-defense: 80
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 143
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 80
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 143
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Water 1
 evolutions:
 - Method: Level-Up
   Level: '36'
   Species: BLASTOISE
+species: TURTLE
+height: 303
+weight: 500
+pokedex_entry: "Its long, furry\ntail is a symbol\nof longevity,\fmaking it quite\n\
+  popular among\nolder people."
+icon: WartortleIcon
+icon_pals:
+- BLUE
+- TEAL
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 1: BUBBLE
@@ -36,7 +45,7 @@ moves:
   - 37: RAIN_DANCE
   - 45: SKULL_BASH
   - 53: HYDRO_PUMP
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -67,12 +76,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: TURTLE
-height: 303
-weight: 500
-pokedex-entries: "Its long, furry\ntail is a symbol\nof longevity,\fmaking it quite\n\
-  popular among\nolder people."
-icon: WartortleIcon
-icon-palettes:
-- BLUE
-- TEAL

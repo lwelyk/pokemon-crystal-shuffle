@@ -3,25 +3,33 @@ name: CELEBI
 types:
 - Psychic
 - Grass
-base-stats:
+base_stats:
   hp: 100
   attack: 100
   defense: 100
   speed: 100
-  special-attack: 100
-  special-defense: 100
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 64
-held-items:
+  sp_attack: 100
+  sp_defense: 100
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 64
+held_items:
 - 'MIRACLEBERRY '
-female-ratio: Unknown
-egg-cycle: 120
-egg-groups:
+gender_ratio: Unknown
+egg_step_cycle: 120
+egg_groups:
 - None
-evolutions: []
+species: TIMETRAVEL
+height: 200
+weight: 110
+pokedex_entry: "Revered as a\nguardian of the\nforest, CELEBI\fappears wherever\n\
+  beautiful forests\nexist."
+icon: CelebiIcon
+icon_pals:
+- GREEN
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: LEECH_SEED
   - 1: CONFUSION
   - 1: RECOVER
@@ -31,7 +39,7 @@ moves:
   - 30: FUTURE_SIGHT
   - 40: BATON_PASS
   - 50: PERISH_SONG
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - PSYCH_UP
@@ -61,12 +69,3 @@ moves:
   - REST
   - NIGHTMARE
   - FLASH
-species: TIMETRAVEL
-height: 200
-weight: 110
-pokedex-entries: "Revered as a\nguardian of the\nforest, CELEBI\fappears wherever\n\
-  beautiful forests\nexist."
-icon: CelebiIcon
-icon-palettes:
-- GREEN
-- PINK

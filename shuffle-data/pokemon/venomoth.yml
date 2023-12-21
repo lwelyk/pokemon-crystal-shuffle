@@ -3,23 +3,31 @@ name: VENOMOTH
 types:
 - Bug
 - Poison
-base-stats:
+base_stats:
   hp: 70
   attack: 65
   defense: 60
   speed: 90
-  special-attack: 90
-  special-defense: 75
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 138
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 90
+  sp_defense: 75
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 138
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
-evolutions: []
+species: POISONMOTH
+height: 411
+weight: 280
+pokedex_entry: "The scales it\nscatters will\nparalyze anyone\fwho touches them,\n\
+  making that person\nunable to stand."
+icon: VenomothIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: DISABLE
   - 1: FORESIGHT
@@ -33,7 +41,7 @@ moves:
   - 36: PSYBEAM
   - 42: SLEEP_POWDER
   - 52: PSYCHIC_M
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -57,12 +65,3 @@ moves:
   - ATTRACT
   - THIEF
   - FLASH
-species: POISONMOTH
-height: 411
-weight: 280
-pokedex-entries: "The scales it\nscatters will\nparalyze anyone\fwho touches them,\n\
-  making that person\nunable to stand."
-icon: VenomothIcon
-icon-palettes:
-- PURPLE
-- BLUE

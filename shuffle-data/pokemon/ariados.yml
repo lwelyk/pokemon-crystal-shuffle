@@ -3,23 +3,31 @@ name: ARIADOS
 types:
 - Bug
 - Poison
-base-stats:
+base_stats:
   hp: 70
   attack: 90
   defense: 70
   speed: 40
-  special-attack: 60
-  special-defense: 60
-growth-rate: Fast
-catch-rate: 90
-base-experience: 134
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 60
+  sp_defense: 60
+growth_rate: Fast
+catch_rate: 90
+base_xp: 134
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Bug
-evolutions: []
+species: LONG LEG
+height: 307
+weight: 740
+pokedex_entry: "Rather than mak-\ning a nest in one\nspecific spot, it\fwanders in\
+  \ search\nof food after\ndarkness falls."
+icon: AriadosIcon
+icon_pals:
+- RED
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: POISON_STING
   - 1: STRING_SHOT
   - 1: SCARY_FACE
@@ -32,7 +40,7 @@ moves:
   - 43: SPIDER_WEB
   - 53: AGILITY
   - 63: PSYCHIC_M
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -55,12 +63,3 @@ moves:
   - ATTRACT
   - THIEF
   - FLASH
-species: LONG LEG
-height: 307
-weight: 740
-pokedex-entries: "Rather than mak-\ning a nest in one\nspecific spot, it\fwanders\
-  \ in search\nof food after\ndarkness falls."
-icon: AriadosIcon
-icon-palettes:
-- RED
-- PURPLE

@@ -1136,7 +1136,7 @@ for poke in pokemon.pokemonData:
     mon = pokemon_data.Pokemon(
         constant = poke["Constant"],
         name = poke['Name'],
-        stats = poke["Stats"],
+        base_stats = poke["Stats"],
         types = poke["Types"],
         catch_rate = poke["Catch Rate"],
         base_xp = poke["Base XP"],
@@ -1154,8 +1154,9 @@ for poke in pokemon.pokemonData:
         weight = poke["Weight"],
         icon = poke["Menu Icon"],
         icon_pals = poke["Menu Icon Palettes"],
-        flavor_text = poke["Pokedex Entry"],
+        pokedex_entry = poke["Pokedex Entry"],
         normal_palette = poke["Normal Palette"],
         shiny_palette = poke["Shiny Palette"]
     )
-    mon.generate_yaml()
+    mon.generate_yml()
+    mon.write_yml()

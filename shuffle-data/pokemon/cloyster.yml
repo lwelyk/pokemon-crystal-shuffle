@@ -3,33 +3,41 @@ name: CLOYSTER
 types:
 - Water
 - Ice
-base-stats:
+base_stats:
   hp: 50
   attack: 95
   defense: 180
   speed: 70
-  special-attack: 85
-  special-defense: 45
-growth-rate: Slow
-catch-rate: 60
-base-experience: 203
-held-items:
+  sp_attack: 85
+  sp_defense: 45
+growth_rate: Slow
+catch_rate: 60
+base_xp: 203
+held_items:
 - PEARL
 - 'BIG_PEARL '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 3
-evolutions: []
+species: BIVALVE
+height: 411
+weight: 2920
+pokedex_entry: "Even a missile\ncan't break the\nspikes it uses to\fstab opponents.\n\
+  They're even hard-\ner than its shell."
+icon: CloysterIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: WITHDRAW
   - 1: SUPERSONIC
   - 1: AURORA_BEAM
   - 1: PROTECT
   - 33: SPIKES
   - 41: SPIKE_CANNON
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -51,12 +59,3 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-species: BIVALVE
-height: 411
-weight: 2920
-pokedex-entries: "Even a missile\ncan't break the\nspikes it uses to\fstab opponents.\n\
-  They're even hard-\ner than its shell."
-icon: CloysterIcon
-icon-palettes:
-- PURPLE
-- BLUE

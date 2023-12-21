@@ -2,23 +2,31 @@ constant: TANGELA
 name: TANGELA
 types:
 - Grass
-base-stats:
+base_stats:
   hp: 65
   attack: 55
   defense: 115
   speed: 60
-  special-attack: 100
-  special-defense: 40
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 166
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 100
+  sp_defense: 40
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 166
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
-evolutions: []
+species: VINE
+height: 303
+weight: 770
+pokedex_entry: "During battle, it\nconstantly moves\nthe vines that\fcover its body\
+  \ in\norder to annoy its\nopponent."
+icon: TangelaIcon
+icon_pals:
+- BLUE
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: CONSTRICT
   - 4: SLEEP_POWDER
   - 10: ABSORB
@@ -29,7 +37,7 @@ moves:
   - 34: STUN_SPORE
   - 40: SLAM
   - 46: GROWTH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -54,18 +62,9 @@ moves:
   - THIEF
   - CUT
   - FLASH
-  egg:
+  egg_moves:
   - FLAIL
   - CONFUSION
   - MEGA_DRAIN
   - REFLECT
   - AMNESIA
-species: VINE
-height: 303
-weight: 770
-pokedex-entries: "During battle, it\nconstantly moves\nthe vines that\fcover its body\
-  \ in\norder to annoy its\nopponent."
-icon: TangelaIcon
-icon-palettes:
-- BLUE
-- GREEN

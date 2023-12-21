@@ -2,23 +2,31 @@ constant: FLAREON
 name: FLAREON
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 65
   attack: 130
   defense: 60
   speed: 65
-  special-attack: 95
-  special-defense: 110
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 198
-female-ratio: '12.5'
-egg-cycle: 35
-egg-groups:
+  sp_attack: 95
+  sp_defense: 110
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 198
+gender_ratio: '12.5'
+egg_step_cycle: 35
+egg_groups:
 - Ground
-evolutions: []
+species: FLAME
+height: 211
+weight: 550
+pokedex_entry: "Once it has stored\nup enough heat,\nthis #MON's\fbody temperature\n\
+  can reach up to\n1700 degrees."
+icon: FlareonIcon
+icon_pals:
+- RED
+- RED
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 8: SAND_ATTACK
@@ -29,7 +37,7 @@ moves:
   - 42: SMOG
   - 47: LEER
   - 52: FLAMETHROWER
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -56,12 +64,3 @@ moves:
   - REST
   - ATTRACT
   - FLAMETHROWER
-species: FLAME
-height: 211
-weight: 550
-pokedex-entries: "Once it has stored\nup enough heat,\nthis #MON's\fbody temperature\n\
-  can reach up to\n1700 degrees."
-icon: FlareonIcon
-icon-palettes:
-- RED
-- RED

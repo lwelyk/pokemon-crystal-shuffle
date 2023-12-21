@@ -2,33 +2,42 @@ constant: SUNKERN
 name: SUNKERN
 types:
 - Grass
-base-stats:
+base_stats:
   hp: 30
   attack: 30
   defense: 30
   speed: 30
-  special-attack: 30
-  special-defense: 30
-growth-rate: Medium-Slow
-catch-rate: 235
-base-experience: 52
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 30
+  sp_defense: 30
+growth_rate: Medium-Slow
+catch_rate: 235
+base_xp: 52
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
 evolutions:
 - Method: Item
   Used Item: SUN_STONE
   Species: SUNFLORA
+species: SEED
+height: 100
+weight: 40
+pokedex_entry: "It is very weak.\nIts only means of\ndefense is to\fshake its leaves\n\
+  desperately at its\nattacker."
+icon: SunkernIcon
+icon_pals:
+- GREEN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: ABSORB
   - 4: GROWTH
   - 10: MEGA_DRAIN
   - 19: SUNNY_DAY
   - 31: SYNTHESIS
   - 46: GIGA_DRAIN
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -49,12 +58,3 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-species: SEED
-height: 100
-weight: 40
-pokedex-entries: "It is very weak.\nIts only means of\ndefense is to\fshake its leaves\n\
-  desperately at its\nattacker."
-icon: SunkernIcon
-icon-palettes:
-- GREEN
-- GREEN

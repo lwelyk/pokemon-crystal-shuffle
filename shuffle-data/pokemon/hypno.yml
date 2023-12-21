@@ -2,23 +2,31 @@ constant: HYPNO
 name: HYPNO
 types:
 - Psychic
-base-stats:
+base_stats:
   hp: 85
   attack: 73
   defense: 70
   speed: 67
-  special-attack: 73
-  special-defense: 115
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 165
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 73
+  sp_defense: 115
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 165
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Humanshape
-evolutions: []
+species: HYPNOSIS
+height: 503
+weight: 1670
+pokedex_entry: "The longer it\nswings its\npendulum, the\flonger the effects\nof its\
+  \ hypnosis\nlast."
+icon: HypnoIcon
+icon_pals:
+- BROWN
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 1: HYPNOSIS
   - 1: DISABLE
@@ -31,7 +39,7 @@ moves:
   - 49: PSYCHIC_M
   - 55: PSYCH_UP
   - 60: FUTURE_SIGHT
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,12 +68,3 @@ moves:
   - FIRE_PUNCH
   - NIGHTMARE
   - FLASH
-species: HYPNOSIS
-height: 503
-weight: 1670
-pokedex-entries: "The longer it\nswings its\npendulum, the\flonger the effects\nof\
-  \ its hypnosis\nlast."
-icon: HypnoIcon
-icon-palettes:
-- BROWN
-- PURPLE

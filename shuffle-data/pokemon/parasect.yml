@@ -3,27 +3,35 @@ name: PARASECT
 types:
 - Bug
 - Grass
-base-stats:
+base_stats:
   hp: 60
   attack: 95
   defense: 80
   speed: 30
-  special-attack: 60
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 128
-held-items:
+  sp_attack: 60
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 128
+held_items:
 - TINYMUSHROOM
 - 'BIG_MUSHROOM '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
 - Plant
-evolutions: []
+species: MUSHROOM
+height: 303
+weight: 650
+pokedex_entry: "When nothing's\nleft to extract\nfrom the bug, the\fmushrooms on its\n\
+  back leave spores\non the bug's egg."
+icon: ParasectIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: STUN_SPORE
   - 1: POISONPOWDER
@@ -34,7 +42,7 @@ moves:
   - 37: SLASH
   - 46: GROWTH
   - 55: GIGA_DRAIN
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ROCK_SMASH
@@ -60,12 +68,3 @@ moves:
   - FURY_CUTTER
   - CUT
   - FLASH
-species: MUSHROOM
-height: 303
-weight: 650
-pokedex-entries: "When nothing's\nleft to extract\nfrom the bug, the\fmushrooms on\
-  \ its\nback leave spores\non the bug's egg."
-icon: ParasectIcon
-icon-palettes:
-- RED
-- BROWN

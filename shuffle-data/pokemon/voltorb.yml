@@ -2,26 +2,35 @@ constant: VOLTORB
 name: VOLTORB
 types:
 - Electric
-base-stats:
+base_stats:
   hp: 40
   attack: 30
   defense: 50
   speed: 100
-  special-attack: 55
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 103
-female-ratio: Unknown
-egg-cycle: 20
-egg-groups:
+  sp_attack: 55
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 103
+gender_ratio: Unknown
+egg_step_cycle: 20
+egg_groups:
 - Mineral
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: ELECTRODE
+species: BALL
+height: 108
+weight: 230
+pokedex_entry: "During the study\nof this #MON,\nit was discovered\fthat its compo-\n\
+  nents are not\nfound in nature."
+icon: VoltorbIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 9: SCREECH
   - 17: SONICBOOM
@@ -31,7 +40,7 @@ moves:
   - 37: SWIFT
   - 39: EXPLOSION
   - 41: MIRROR_COAT
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -52,12 +61,3 @@ moves:
   - REST
   - FLASH
   - THUNDERBOLT
-species: BALL
-height: 108
-weight: 230
-pokedex-entries: "During the study\nof this #MON,\nit was discovered\fthat its compo-\n\
-  nents are not\nfound in nature."
-icon: VoltorbIcon
-icon-palettes:
-- RED
-- BLUE

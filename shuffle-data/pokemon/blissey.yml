@@ -2,25 +2,33 @@ constant: BLISSEY
 name: BLISSEY
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 255
   attack: 10
   defense: 10
   speed: 55
-  special-attack: 75
-  special-defense: 135
-growth-rate: Fast
-catch-rate: 30
-base-experience: 255
-held-items:
+  sp_attack: 75
+  sp_defense: 135
+growth_rate: Fast
+catch_rate: 30
+base_xp: 255
+held_items:
 - 'LUCKY_EGG '
-female-ratio: '100'
-egg-cycle: 40
-egg-groups:
+gender_ratio: '100'
+egg_step_cycle: 40
+egg_groups:
 - Fairy
-evolutions: []
+species: HAPPINESS
+height: 411
+weight: 1030
+pokedex_entry: "Biting into one\nof the delicious\neggs that BLISSEY\fprovides will\
+  \ make\neveryone around\nsmile with joy."
+icon: BlisseyIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 4: GROWL
   - 7: TAIL_WHIP
@@ -32,7 +40,7 @@ moves:
   - 33: DEFENSE_CURL
   - 40: LIGHT_SCREEN
   - 47: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -70,12 +78,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: HAPPINESS
-height: 411
-weight: 1030
-pokedex-entries: "Biting into one\nof the delicious\neggs that BLISSEY\fprovides will\
-  \ make\neveryone around\nsmile with joy."
-icon: BlisseyIcon
-icon-palettes:
-- RED
-- PINK

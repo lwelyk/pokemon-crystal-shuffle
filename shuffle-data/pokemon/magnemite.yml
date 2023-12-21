@@ -3,28 +3,37 @@ name: MAGNEMITE
 types:
 - Electric
 - Steel
-base-stats:
+base_stats:
   hp: 25
   attack: 35
   defense: 70
   speed: 45
-  special-attack: 95
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 89
-held-items:
+  sp_attack: 95
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 89
+held_items:
 - 'METAL_COAT '
-female-ratio: Unknown
-egg-cycle: 20
-egg-groups:
+gender_ratio: Unknown
+egg_step_cycle: 20
+egg_groups:
 - Mineral
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: MAGNETON
+species: MAGNET
+height: 100
+weight: 130
+pokedex_entry: "The electricity\nemitted by the\nunits on each side\fof its body cause\n\
+  it to become a\nstrong magnet."
+icon: MagnemiteIcon
+icon_pals:
+- GRAY
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 6: THUNDERSHOCK
   - 11: SUPERSONIC
@@ -34,7 +43,7 @@ moves:
   - 33: SWIFT
   - 39: SCREECH
   - 45: ZAP_CANNON
-  taught:
+  taught_moves:
   - CURSE
   - ROLLOUT
   - TOXIC
@@ -54,12 +63,3 @@ moves:
   - REST
   - FLASH
   - THUNDERBOLT
-species: MAGNET
-height: 100
-weight: 130
-pokedex-entries: "The electricity\nemitted by the\nunits on each side\fof its body\
-  \ cause\nit to become a\nstrong magnet."
-icon: MagnemiteIcon
-icon-palettes:
-- GRAY
-- GRAY

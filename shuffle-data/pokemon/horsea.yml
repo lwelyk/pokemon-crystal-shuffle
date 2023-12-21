@@ -2,29 +2,38 @@ constant: HORSEA
 name: HORSEA
 types:
 - Water
-base-stats:
+base_stats:
   hp: 30
   attack: 40
   defense: 70
   speed: 60
-  special-attack: 70
-  special-defense: 25
-growth-rate: Medium-Fast
-catch-rate: 225
-base-experience: 83
-held-items:
+  sp_attack: 70
+  sp_defense: 25
+growth_rate: Medium-Fast
+catch_rate: 225
+base_xp: 83
+held_items:
 - 'DRAGON_SCALE '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Dragon
 evolutions:
 - Method: Level-Up
   Level: '32'
   Species: SEADRA
+species: DRAGON
+height: 104
+weight: 180
+pokedex_entry: "When they're in a\nsafe location,\nthey can be seen\fplayfully tangling\n\
+  their tails\ntogether."
+icon: HorseaIcon
+icon_pals:
+- BLUE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: BUBBLE
   - 8: SMOKESCREEN
   - 15: LEER
@@ -32,7 +41,7 @@ moves:
   - 29: TWISTER
   - 36: AGILITY
   - 43: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -56,19 +65,10 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - FLAIL
   - AURORA_BEAM
   - OCTAZOOKA
   - DISABLE
   - SPLASH
   - DRAGON_RAGE
-species: DRAGON
-height: 104
-weight: 180
-pokedex-entries: "When they're in a\nsafe location,\nthey can be seen\fplayfully tangling\n\
-  their tails\ntogether."
-icon: HorseaIcon
-icon-palettes:
-- BLUE
-- BLUE

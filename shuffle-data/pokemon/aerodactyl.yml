@@ -3,23 +3,31 @@ name: AERODACTYL
 types:
 - Rock
 - Flying
-base-stats:
+base_stats:
   hp: 80
   attack: 105
   defense: 65
   speed: 130
-  special-attack: 60
-  special-defense: 75
-growth-rate: Slow
-catch-rate: 45
-base-experience: 202
-female-ratio: '12.5'
-egg-cycle: 35
-egg-groups:
+  sp_attack: 60
+  sp_defense: 75
+growth_rate: Slow
+catch_rate: 45
+base_xp: 202
+gender_ratio: '12.5'
+egg_step_cycle: 35
+egg_groups:
 - Flying
-evolutions: []
+species: FOSSIL
+height: 511
+weight: 1300
+pokedex_entry: "In prehistoric\ntimes, this\n#MON flew\ffreely and\nfearlessly through\n\
+  the skies."
+icon: AerodactylIcon
+icon_pals:
+- GRAY
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: WING_ATTACK
   - 8: AGILITY
   - 15: BITE
@@ -28,7 +36,7 @@ moves:
   - 36: SCARY_FACE
   - 43: TAKE_DOWN
   - 50: HYPER_BEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -57,16 +65,7 @@ moves:
   - STEEL_WING
   - FLY
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - WHIRLWIND
   - PURSUIT
   - FORESIGHT
-species: FOSSIL
-height: 511
-weight: 1300
-pokedex-entries: "In prehistoric\ntimes, this\n#MON flew\ffreely and\nfearlessly through\n\
-  the skies."
-icon: AerodactylIcon
-icon-palettes:
-- GRAY
-- PURPLE

@@ -3,26 +3,35 @@ name: TENTACOOL
 types:
 - Water
 - Poison
-base-stats:
+base_stats:
   hp: 40
   attack: 40
   defense: 35
   speed: 70
-  special-attack: 50
-  special-defense: 100
-growth-rate: Slow
-catch-rate: 190
-base-experience: 105
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 50
+  sp_defense: 100
+growth_rate: Slow
+catch_rate: 190
+base_xp: 105
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 3
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: TENTACRUEL
+species: JELLYFISH
+height: 211
+weight: 1000
+pokedex_entry: "As it floats along\non the waves, it\nuses its toxic\ffeelers to stab\n\
+  anything it\ntouches."
+icon: TentacoolIcon
+icon_pals:
+- BLUE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: POISON_STING
   - 6: SUPERSONIC
   - 12: CONSTRICT
@@ -32,7 +41,7 @@ moves:
   - 36: BARRIER
   - 43: SCREECH
   - 49: HYDRO_PUMP
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -55,18 +64,9 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - AURORA_BEAM
   - MIRROR_COAT
   - RAPID_SPIN
   - HAZE
   - SAFEGUARD
-species: JELLYFISH
-height: 211
-weight: 1000
-pokedex-entries: "As it floats along\non the waves, it\nuses its toxic\ffeelers to\
-  \ stab\nanything it\ntouches."
-icon: TentacoolIcon
-icon-palettes:
-- BLUE
-- BLUE

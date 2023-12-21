@@ -2,32 +2,40 @@ constant: POLITOED
 name: POLITOED
 types:
 - Water
-base-stats:
+base_stats:
   hp: 90
   attack: 75
   defense: 75
   speed: 70
-  special-attack: 90
-  special-defense: 100
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 185
-held-items:
+  sp_attack: 90
+  sp_defense: 100
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 185
+held_items:
 - 'KINGS_ROCK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
-evolutions: []
+species: FROG
+height: 307
+weight: 750
+pokedex_entry: "When it expands\nits throat to\ncroak out a tune,\fnearby POLIWAG\
+  \ and\nPOLIWHIRL gather\nimmediately."
+icon: PolitoedIcon
+icon_pals:
+- GREEN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: WATER_GUN
   - 1: HYPNOSIS
   - 1: DOUBLESLAP
   - 1: PERISH_SONG
   - 35: PERISH_SONG
   - 51: SWAGGER
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,12 +68,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: FROG
-height: 307
-weight: 750
-pokedex-entries: "When it expands\nits throat to\ncroak out a tune,\fnearby POLIWAG\
-  \ and\nPOLIWHIRL gather\nimmediately."
-icon: PolitoedIcon
-icon-palettes:
-- GREEN
-- GRAY

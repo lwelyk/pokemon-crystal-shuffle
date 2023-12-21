@@ -3,23 +3,31 @@ name: QWILFISH
 types:
 - Water
 - Poison
-base-stats:
+base_stats:
   hp: 65
   attack: 95
   defense: 75
   speed: 85
-  special-attack: 55
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 100
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 55
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 100
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 2
-evolutions: []
+species: BALLOON
+height: 108
+weight: 90
+pokedex_entry: "When faced with a\nlarger opponent,\nit swallows as\fmuch water as\
+  \ it\ncan to match the\nopponent's size."
+icon: QwilfishIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SPIKES
   - 1: TACKLE
   - 1: POISON_STING
@@ -29,7 +37,7 @@ moves:
   - 28: PIN_MISSILE
   - 37: TAKE_DOWN
   - 46: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -55,17 +63,8 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - FLAIL
   - HAZE
   - BUBBLEBEAM
   - SUPERSONIC
-species: BALLOON
-height: 108
-weight: 90
-pokedex-entries: "When faced with a\nlarger opponent,\nit swallows as\fmuch water\
-  \ as it\ncan to match the\nopponent's size."
-icon: QwilfishIcon
-icon-palettes:
-- BLUE
-- PURPLE

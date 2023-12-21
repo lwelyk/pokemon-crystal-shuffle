@@ -3,26 +3,34 @@ name: JYNX
 types:
 - Ice
 - Psychic
-base-stats:
+base_stats:
   hp: 65
   attack: 50
   defense: 35
   speed: 95
-  special-attack: 115
-  special-defense: 95
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 137
-held-items:
+  sp_attack: 115
+  sp_defense: 95
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 137
+held_items:
 - ICE_BERRY
 - 'ICE_BERRY '
-female-ratio: '100'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '100'
+egg_step_cycle: 25
+egg_groups:
 - Humanshape
-evolutions: []
+species: HUMANSHAPE
+height: 407
+weight: 900
+pokedex_entry: "It has several\ndifferent cry pat-\nterns, each of\fwhich seems to\n\
+  have its own\nmeaning."
+icon: JynxIcon
+icon_pals:
+- PURPLE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 1: LICK
   - 1: LOVELY_KISS
@@ -35,7 +43,7 @@ moves:
   - 41: BODY_SLAM
   - 51: PERISH_SONG
   - 57: BLIZZARD
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,12 +73,3 @@ moves:
   - THIEF
   - NIGHTMARE
   - ICE_BEAM
-species: HUMANSHAPE
-height: 407
-weight: 900
-pokedex-entries: "It has several\ndifferent cry pat-\nterns, each of\fwhich seems\
-  \ to\nhave its own\nmeaning."
-icon: JynxIcon
-icon-palettes:
-- PURPLE
-- PURPLE

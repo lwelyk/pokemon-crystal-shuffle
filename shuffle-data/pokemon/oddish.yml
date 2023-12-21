@@ -3,26 +3,35 @@ name: ODDISH
 types:
 - Grass
 - Poison
-base-stats:
+base_stats:
   hp: 45
   attack: 50
   defense: 55
   speed: 30
-  special-attack: 75
-  special-defense: 65
-growth-rate: Medium-Slow
-catch-rate: 255
-base-experience: 78
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 75
+  sp_defense: 65
+growth_rate: Medium-Slow
+catch_rate: 255
+base_xp: 78
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
 evolutions:
 - Method: Level-Up
   Level: '21'
   Species: GLOOM
+species: WEED
+height: 108
+weight: 120
+pokedex_entry: "During the day, it\nstays in the cold\nunderground to\favoid the sun.\n\
+  It grows by bath-\ning in moonlight."
+icon: OddishIcon
+icon_pals:
+- GREEN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: ABSORB
   - 7: SWEET_SCENT
   - 14: POISONPOWDER
@@ -31,7 +40,7 @@ moves:
   - 23: ACID
   - 32: MOONLIGHT
   - 39: PETAL_DANCE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -52,17 +61,8 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-  egg:
+  egg_moves:
   - SWORDS_DANCE
   - RAZOR_LEAF
   - FLAIL
   - SYNTHESIS
-species: WEED
-height: 108
-weight: 120
-pokedex-entries: "During the day, it\nstays in the cold\nunderground to\favoid the\
-  \ sun.\nIt grows by bath-\ning in moonlight."
-icon: OddishIcon
-icon-palettes:
-- GREEN
-- BROWN

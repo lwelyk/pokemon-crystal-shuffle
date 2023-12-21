@@ -2,23 +2,31 @@ constant: KANGASKHAN
 name: KANGASKHAN
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 105
   attack: 95
   defense: 80
   speed: 90
-  special-attack: 40
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 175
-female-ratio: '100'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 40
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 175
+gender_ratio: '100'
+egg_step_cycle: 20
+egg_groups:
 - Monster
-evolutions: []
+species: PARENT
+height: 703
+weight: 1760
+pokedex_entry: "To avoid\ncrushing the\nbaby it carries in\fits pouch, it\nalways\
+  \ sleeps\nstanding up."
+icon: KangaskhanIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: COMET_PUNCH
   - 7: LEER
   - 13: BITE
@@ -28,7 +36,7 @@ moves:
   - 37: ENDURE
   - 43: DIZZY_PUNCH
   - 49: REVERSAL
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -68,18 +76,9 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - STOMP
   - FORESIGHT
   - FOCUS_ENERGY
   - SAFEGUARD
   - DISABLE
-species: PARENT
-height: 703
-weight: 1760
-pokedex-entries: "To avoid\ncrushing the\nbaby it carries in\fits pouch, it\nalways\
-  \ sleeps\nstanding up."
-icon: KangaskhanIcon
-icon-palettes:
-- BROWN
-- GRAY

@@ -3,26 +3,35 @@ name: SWINUB
 types:
 - Ice
 - Ground
-base-stats:
+base_stats:
   hp: 50
   attack: 50
   defense: 40
   speed: 50
-  special-attack: 30
-  special-defense: 30
-growth-rate: Slow
-catch-rate: 225
-base-experience: 78
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 30
+  sp_defense: 30
+growth_rate: Slow
+catch_rate: 225
+base_xp: 78
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '33'
   Species: PILOSWINE
+species: PIG
+height: 104
+weight: 140
+pokedex_entry: "It uses the tip of\nits nose to dig\nfor food. Its nose\fis so tough\
+  \ that\neven frozen ground\nposes no problem."
+icon: SwinubIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 10: POWDER_SNOW
   - 19: ENDURE
@@ -30,7 +39,7 @@ moves:
   - 37: MIST
   - 46: BLIZZARD
   - 55: AMNESIA
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -56,18 +65,9 @@ moves:
   - ATTRACT
   - STRENGTH
   - ICE_BEAM
-  egg:
+  egg_moves:
   - TAKE_DOWN
   - BITE
   - BODY_SLAM
   - ROCK_SLIDE
   - ANCIENTPOWER
-species: PIG
-height: 104
-weight: 140
-pokedex-entries: "It uses the tip of\nits nose to dig\nfor food. Its nose\fis so tough\
-  \ that\neven frozen ground\nposes no problem."
-icon: SwinubIcon
-icon-palettes:
-- BROWN
-- BLUE

@@ -2,28 +2,37 @@ constant: GRIMER
 name: GRIMER
 types:
 - Poison
-base-stats:
+base_stats:
   hp: 80
   attack: 80
   defense: 50
   speed: 25
-  special-attack: 40
-  special-defense: 50
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 90
-held-items:
+  sp_attack: 40
+  sp_defense: 50
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 90
+held_items:
 - 'NUGGET '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Indeterminate
 evolutions:
 - Method: Level-Up
   Level: '38'
   Species: MUK
+species: SLUDGE
+height: 211
+weight: 660
+pokedex_entry: "When two of these\n#MON's bodies\nare combined\ftogether, new\npoisons\
+  \ are\ncreated."
+icon: GrimerIcon
+icon_pals:
+- PURPLE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: POISON_GAS
   - 1: POUND
   - 5: HARDEN
@@ -33,7 +42,7 @@ moves:
   - 31: SCREECH
   - 40: ACID_ARMOR
   - 50: SLUDGE_BOMB
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - CURSE
   - TOXIC
@@ -61,16 +70,7 @@ moves:
   - FIRE_PUNCH
   - FLAMETHROWER
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - HAZE
   - MEAN_LOOK
   - LICK
-species: SLUDGE
-height: 211
-weight: 660
-pokedex-entries: "When two of these\n#MON's bodies\nare combined\ftogether, new\n\
-  poisons are\ncreated."
-icon: GrimerIcon
-icon-palettes:
-- PURPLE
-- GRAY

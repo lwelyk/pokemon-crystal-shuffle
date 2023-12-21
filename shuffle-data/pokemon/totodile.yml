@@ -2,27 +2,36 @@ constant: TOTODILE
 name: TOTODILE
 types:
 - Water
-base-stats:
+base_stats:
   hp: 50
   attack: 65
   defense: 64
   speed: 43
-  special-attack: 44
-  special-defense: 48
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 66
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 44
+  sp_defense: 48
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 66
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Water 1
 evolutions:
 - Method: Level-Up
   Level: '18'
   Species: CROCONAW
+species: BIG JAW
+height: 200
+weight: 210
+pokedex_entry: "This rough critter\nchomps at any\nmoving object it\fsees. Turning\
+  \ your\nback on it is not\nrecommended."
+icon: TotodileIcon
+icon_pals:
+- BLUE
+- TEAL
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: LEER
   - 7: RAGE
@@ -32,7 +41,7 @@ moves:
   - 35: SLASH
   - 43: SCREECH
   - 52: HYDRO_PUMP
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,19 +69,10 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - CRUNCH
   - THRASH
   - HYDRO_PUMP
   - ANCIENTPOWER
   - RAZOR_WIND
   - ROCK_SLIDE
-species: BIG JAW
-height: 200
-weight: 210
-pokedex-entries: "This rough critter\nchomps at any\nmoving object it\fsees. Turning\
-  \ your\nback on it is not\nrecommended."
-icon: TotodileIcon
-icon-palettes:
-- BLUE
-- TEAL

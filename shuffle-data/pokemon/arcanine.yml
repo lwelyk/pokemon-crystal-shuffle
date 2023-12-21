@@ -2,32 +2,40 @@ constant: ARCANINE
 name: ARCANINE
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 90
   attack: 110
   defense: 80
   speed: 95
-  special-attack: 100
-  special-defense: 80
-growth-rate: Slow
-catch-rate: 75
-base-experience: 213
-held-items:
+  sp_attack: 100
+  sp_defense: 80
+growth_rate: Slow
+catch_rate: 75
+base_xp: 213
+held_items:
 - BURNT_BERRY
 - 'BURNT_BERRY '
-female-ratio: '25'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '25'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: LEGENDARY
+height: 603
+weight: 3420
+pokedex_entry: "An ancient picture\nscroll shows that\npeople were\fattracted to its\n\
+  movement as it ran\nthrough prairies."
+icon: ArcanineIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: ROAR
   - 1: LEER
   - 1: TAKE_DOWN
   - 1: FLAME_WHEEL
   - 50: EXTREMESPEED
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -52,12 +60,3 @@ moves:
   - REST
   - ATTRACT
   - FLAMETHROWER
-species: LEGENDARY
-height: 603
-weight: 3420
-pokedex-entries: "An ancient picture\nscroll shows that\npeople were\fattracted to\
-  \ its\nmovement as it ran\nthrough prairies."
-icon: ArcanineIcon
-icon-palettes:
-- RED
-- BROWN

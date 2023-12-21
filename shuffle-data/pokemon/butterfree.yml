@@ -3,25 +3,33 @@ name: BUTTERFREE
 types:
 - Bug
 - Flying
-base-stats:
+base_stats:
   hp: 60
   attack: 45
   defense: 50
   speed: 70
-  special-attack: 80
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 160
-held-items:
+  sp_attack: 80
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 160
+held_items:
 - 'SILVERPOWDER '
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Bug
-evolutions: []
+species: BUTTERFLY
+height: 307
+weight: 710
+pokedex_entry: "It flits from\nflower to flower,\ncollecting honey.\fIt can even\n\
+  identify distant\nflowers in bloom."
+icon: ButterfreeIcon
+icon_pals:
+- TEAL
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: CONFUSION
   - 10: CONFUSION
   - 13: POISONPOWDER
@@ -32,7 +40,7 @@ moves:
   - 28: GUST
   - 34: PSYBEAM
   - 40: SAFEGUARD
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -55,12 +63,3 @@ moves:
   - ATTRACT
   - NIGHTMARE
   - FLASH
-species: BUTTERFLY
-height: 307
-weight: 710
-pokedex-entries: "It flits from\nflower to flower,\ncollecting honey.\fIt can even\n\
-  identify distant\nflowers in bloom."
-icon: ButterfreeIcon
-icon-palettes:
-- TEAL
-- PINK

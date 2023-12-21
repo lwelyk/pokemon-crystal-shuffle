@@ -3,26 +3,35 @@ name: LEDYBA
 types:
 - Bug
 - Flying
-base-stats:
+base_stats:
   hp: 40
   attack: 20
   defense: 30
   speed: 55
-  special-attack: 40
-  special-defense: 80
-growth-rate: Fast
-catch-rate: 255
-base-experience: 54
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 40
+  sp_defense: 80
+growth_rate: Fast
+catch_rate: 255
+base_xp: 54
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Bug
 evolutions:
 - Method: Level-Up
   Level: '18'
   Species: LEDIAN
+species: FIVE STAR
+height: 303
+weight: 240
+pokedex_entry: "It is timid and\nclusters together\nwith others. The\ffluid secreted\
+  \ by\nits feet indicates\nits location."
+icon: LedybaIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 8: SUPERSONIC
   - 15: COMET_PUNCH
@@ -33,7 +42,7 @@ moves:
   - 36: SWIFT
   - 43: AGILITY
   - 50: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,16 +69,7 @@ moves:
   - ATTRACT
   - THIEF
   - FLASH
-  egg:
+  egg_moves:
   - PSYBEAM
   - BIDE
   - LIGHT_SCREEN
-species: FIVE STAR
-height: 303
-weight: 240
-pokedex-entries: "It is timid and\nclusters together\nwith others. The\ffluid secreted\
-  \ by\nits feet indicates\nits location."
-icon: LedybaIcon
-icon-palettes:
-- RED
-- PINK

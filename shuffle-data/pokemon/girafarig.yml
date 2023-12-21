@@ -3,23 +3,31 @@ name: GIRAFARIG
 types:
 - Normal
 - Psychic
-base-stats:
+base_stats:
   hp: 70
   attack: 80
   defense: 65
   speed: 85
-  special-attack: 90
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 60
-base-experience: 149
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 90
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 60
+base_xp: 149
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: LONG NECK
+height: 411
+weight: 910
+pokedex_entry: "When it is in\ndanger, its tail\nuses some sort of\fmysterious powers\n\
+  to drive away the\nenemy."
+icon: GirafarigIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 1: CONFUSION
@@ -30,7 +38,7 @@ moves:
   - 30: BATON_PASS
   - 41: PSYBEAM
   - 54: CRUNCH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -61,18 +69,9 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - TAKE_DOWN
   - AMNESIA
   - FORESIGHT
   - FUTURE_SIGHT
   - BEAT_UP
-species: LONG NECK
-height: 411
-weight: 910
-pokedex-entries: "When it is in\ndanger, its tail\nuses some sort of\fmysterious powers\n\
-  to drive away the\nenemy."
-icon: GirafarigIcon
-icon-palettes:
-- RED
-- BLUE

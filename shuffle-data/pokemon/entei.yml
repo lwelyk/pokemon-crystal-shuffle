@@ -2,23 +2,31 @@ constant: ENTEI
 name: ENTEI
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 115
   attack: 115
   defense: 85
   speed: 100
-  special-attack: 90
-  special-defense: 75
-growth-rate: Slow
-catch-rate: 3
-base-experience: 217
-female-ratio: Unknown
-egg-cycle: 80
-egg-groups:
+  sp_attack: 90
+  sp_defense: 75
+growth_rate: Slow
+catch_rate: 3
+base_xp: 217
+gender_ratio: Unknown
+egg_step_cycle: 80
+egg_groups:
 - None
-evolutions: []
+species: VOLCANO
+height: 607
+weight: 4370
+pokedex_entry: "This brawny\n#MON courses\naround the earth,\fspouting flames\nhotter\
+  \ than a\nvolcano's magma."
+icon: EnteiIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: BITE
   - 1: LEER
   - 11: EMBER
@@ -28,7 +36,7 @@ moves:
   - 51: FLAMETHROWER
   - 61: SWAGGER
   - 71: FIRE_BLAST
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -60,12 +68,3 @@ moves:
   - STRENGTH
   - FLASH
   - FLAMETHROWER
-species: VOLCANO
-height: 607
-weight: 4370
-pokedex-entries: "This brawny\n#MON courses\naround the earth,\fspouting flames\n\
-  hotter than a\nvolcano's magma."
-icon: EnteiIcon
-icon-palettes:
-- RED
-- BROWN

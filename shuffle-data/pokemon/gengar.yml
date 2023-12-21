@@ -3,23 +3,31 @@ name: GENGAR
 types:
 - Ghost
 - Poison
-base-stats:
+base_stats:
   hp: 60
   attack: 65
   defense: 60
   speed: 110
-  special-attack: 130
-  special-defense: 75
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 190
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 130
+  sp_defense: 75
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 190
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Indeterminate
-evolutions: []
+species: SHADOW
+height: 411
+weight: 890
+pokedex_entry: "Hiding in people's\nshadows at night,\nit absorbs their\fheat. The\
+  \ chill it\ncauses makes the\nvictims shake."
+icon: GengarIcon
+icon_pals:
+- RED
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: HYPNOSIS
   - 1: LICK
   - 1: SPITE
@@ -30,7 +38,7 @@ moves:
   - 31: CONFUSE_RAY
   - 39: DREAM_EATER
   - 48: DESTINY_BOND
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -64,12 +72,3 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - THUNDERBOLT
-species: SHADOW
-height: 411
-weight: 890
-pokedex-entries: "Hiding in people's\nshadows at night,\nit absorbs their\fheat. The\
-  \ chill it\ncauses makes the\nvictims shake."
-icon: GengarIcon
-icon-palettes:
-- RED
-- PURPLE

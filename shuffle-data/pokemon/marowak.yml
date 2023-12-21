@@ -2,25 +2,33 @@ constant: MAROWAK
 name: MAROWAK
 types:
 - Ground
-base-stats:
+base_stats:
   hp: 60
   attack: 80
   defense: 110
   speed: 45
-  special-attack: 50
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 124
-held-items:
+  sp_attack: 50
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 124
+held_items:
 - 'THICK_CLUB '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
-evolutions: []
+species: BONEKEEPER
+height: 303
+weight: 990
+pokedex_entry: "Somewhere in the\nworld is a ceme-\ntery just for\fMAROWAK. It gets\n\
+  its bones from\nthose graves."
+icon: MarowakIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: GROWL
   - 1: TAIL_WHIP
   - 1: BONE_CLUB
@@ -35,7 +43,7 @@ moves:
   - 39: FALSE_SWIPE
   - 46: THRASH
   - 53: BONE_RUSH
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -69,12 +77,3 @@ moves:
   - STRENGTH
   - FLAMETHROWER
   - ICE_BEAM
-species: BONEKEEPER
-height: 303
-weight: 990
-pokedex-entries: "Somewhere in the\nworld is a ceme-\ntery just for\fMAROWAK. It gets\n\
-  its bones from\nthose graves."
-icon: MarowakIcon
-icon-palettes:
-- BROWN
-- GRAY

@@ -2,26 +2,35 @@ constant: MANKEY
 name: MANKEY
 types:
 - Fighting
-base-stats:
+base_stats:
   hp: 40
   attack: 80
   defense: 35
   speed: 70
-  special-attack: 35
-  special-defense: 45
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 74
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 35
+  sp_defense: 45
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 74
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '28'
   Species: PRIMEAPE
+species: PIG MONKEY
+height: 108
+weight: 620
+pokedex_entry: "It lives in groups\nin the treetops.\nIf it loses sight\fof its group,\
+  \ it\nbecomes infuriated\nby its loneliness."
+icon: MankeyIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: LEER
   - 9: LOW_KICK
@@ -32,7 +41,7 @@ moves:
   - 39: CROSS_CHOP
   - 45: SCREECH
   - 51: THRASH
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -64,19 +73,10 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - ROCK_SLIDE
   - FORESIGHT
   - MEDITATE
   - COUNTER
   - REVERSAL
   - BEAT_UP
-species: PIG MONKEY
-height: 108
-weight: 620
-pokedex-entries: "It lives in groups\nin the treetops.\nIf it loses sight\fof its\
-  \ group, it\nbecomes infuriated\nby its loneliness."
-icon: MankeyIcon
-icon-palettes:
-- BROWN
-- GREEN

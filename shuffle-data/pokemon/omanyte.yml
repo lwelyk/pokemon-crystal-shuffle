@@ -3,27 +3,36 @@ name: OMANYTE
 types:
 - Rock
 - Water
-base-stats:
+base_stats:
   hp: 35
   attack: 40
   defense: 100
   speed: 35
-  special-attack: 90
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 120
-female-ratio: '12.5'
-egg-cycle: 30
-egg-groups:
+  sp_attack: 90
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 120
+gender_ratio: '12.5'
+egg_step_cycle: 30
+egg_groups:
 - Water 1
 - Water 3
 evolutions:
 - Method: Level-Up
   Level: '40'
   Species: OMASTAR
+species: SPIRAL
+height: 104
+weight: 170
+pokedex_entry: "In prehistoric\ntimes, it swam on\nthe sea floor,\feating plankton.\n\
+  Its fossils are\nsometimes found."
+icon: OmanyteIcon
+icon_pals:
+- BLUE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: CONSTRICT
   - 1: WITHDRAW
   - 13: BITE
@@ -32,7 +41,7 @@ moves:
   - 37: PROTECT
   - 49: ANCIENTPOWER
   - 55: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -57,18 +66,9 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - BUBBLEBEAM
   - AURORA_BEAM
   - SLAM
   - SUPERSONIC
   - HAZE
-species: SPIRAL
-height: 104
-weight: 170
-pokedex-entries: "In prehistoric\ntimes, it swam on\nthe sea floor,\feating plankton.\n\
-  Its fossils are\nsometimes found."
-icon: OmanyteIcon
-icon-palettes:
-- BLUE
-- GRAY

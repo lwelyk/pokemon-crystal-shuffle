@@ -2,29 +2,38 @@ constant: STARYU
 name: STARYU
 types:
 - Water
-base-stats:
+base_stats:
   hp: 30
   attack: 45
   defense: 55
   speed: 85
-  special-attack: 70
-  special-defense: 55
-growth-rate: Slow
-catch-rate: 225
-base-experience: 106
-held-items:
+  sp_attack: 70
+  sp_defense: 55
+growth_rate: Slow
+catch_rate: 225
+base_xp: 106
+held_items:
 - STARDUST
 - 'STAR_PIECE '
-female-ratio: Unknown
-egg-cycle: 20
-egg-groups:
+gender_ratio: Unknown
+egg_step_cycle: 20
+egg_groups:
 - Water 3
 evolutions:
 - Method: Item
   Used Item: WATER_STONE
   Species: STARMIE
+species: STARSHAPE
+height: 207
+weight: 760
+pokedex_entry: "When the stars\ntwinkle at night,\nit floats up from\fthe sea floor,\
+  \ and\nits body's center\ncore flickers."
+icon: StaryuIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: HARDEN
   - 7: WATER_GUN
@@ -35,7 +44,7 @@ moves:
   - 37: MINIMIZE
   - 43: LIGHT_SCREEN
   - 50: HYDRO_PUMP
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ZAP_CANNON
@@ -63,12 +72,3 @@ moves:
   - WATERFALL
   - THUNDERBOLT
   - ICE_BEAM
-species: STARSHAPE
-height: 207
-weight: 760
-pokedex-entries: "When the stars\ntwinkle at night,\nit floats up from\fthe sea floor,\
-  \ and\nits body's center\ncore flickers."
-icon: StaryuIcon
-icon-palettes:
-- BROWN
-- BLUE

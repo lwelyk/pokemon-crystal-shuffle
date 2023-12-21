@@ -3,32 +3,40 @@ name: POLIWRATH
 types:
 - Water
 - Fighting
-base-stats:
+base_stats:
   hp: 90
   attack: 85
   defense: 95
   speed: 70
-  special-attack: 70
-  special-defense: 90
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 185
-held-items:
+  sp_attack: 70
+  sp_defense: 90
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 185
+held_items:
 - 'KINGS_ROCK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
-evolutions: []
+species: TADPOLE
+height: 403
+weight: 1190
+pokedex_entry: "It can use its\nwell-developed\narms and legs to\frun on the surface\n\
+  of the water for a\nsplit second."
+icon: PoliwrathIcon
+icon_pals:
+- BLUE
+- TEAL
 moves:
-  level-up:
+  level_up:
   - 1: WATER_GUN
   - 1: HYPNOSIS
   - 1: DOUBLESLAP
   - 1: SUBMISSION
   - 35: SUBMISSION
   - 51: MIND_READER
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -61,12 +69,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: TADPOLE
-height: 403
-weight: 1190
-pokedex-entries: "It can use its\nwell-developed\narms and legs to\frun on the surface\n\
-  of the water for a\nsplit second."
-icon: PoliwrathIcon
-icon-palettes:
-- BLUE
-- TEAL

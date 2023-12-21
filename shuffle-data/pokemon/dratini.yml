@@ -2,29 +2,38 @@ constant: DRATINI
 name: DRATINI
 types:
 - Dragon
-base-stats:
+base_stats:
   hp: 41
   attack: 64
   defense: 45
   speed: 50
-  special-attack: 50
-  special-defense: 50
-growth-rate: Slow
-catch-rate: 45
-base-experience: 67
-held-items:
+  sp_attack: 50
+  sp_defense: 50
+growth_rate: Slow
+catch_rate: 45
+base_xp: 67
+held_items:
 - 'DRAGON_SCALE '
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Water 1
 - Dragon
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: DRAGONAIR
+species: DRAGON
+height: 511
+weight: 70
+pokedex_entry: "It sheds many lay-\ners of skin as it\ngrows larger. Dur-\fing this\
+  \ process,\nit is protected by\na rapid waterfall."
+icon: DratiniIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: WRAP
   - 1: LEER
   - 8: THUNDER_WAVE
@@ -35,7 +44,7 @@ moves:
   - 43: SAFEGUARD
   - 50: OUTRAGE
   - 57: HYPER_BEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -65,17 +74,8 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - LIGHT_SCREEN
   - MIST
   - HAZE
   - SUPERSONIC
-species: DRAGON
-height: 511
-weight: 70
-pokedex-entries: "It sheds many lay-\ners of skin as it\ngrows larger. Dur-\fing this\
-  \ process,\nit is protected by\na rapid waterfall."
-icon: DratiniIcon
-icon-palettes:
-- BLUE
-- PURPLE

@@ -3,30 +3,39 @@ name: PARAS
 types:
 - Bug
 - Grass
-base-stats:
+base_stats:
   hp: 35
   attack: 70
   defense: 55
   speed: 25
-  special-attack: 45
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 70
-held-items:
+  sp_attack: 45
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 70
+held_items:
 - TINYMUSHROOM
 - 'BIG_MUSHROOM '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
 - Plant
 evolutions:
 - Method: Level-Up
   Level: '24'
   Species: PARASECT
+species: MUSHROOM
+height: 100
+weight: 120
+pokedex_entry: "The tochukaso\ngrowing on this\n#MON's back\forders it to\nextract\
+  \ juice from\ntree trunks."
+icon: ParasIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 7: STUN_SPORE
   - 13: POISONPOWDER
@@ -35,7 +44,7 @@ moves:
   - 31: SLASH
   - 37: GROWTH
   - 43: GIGA_DRAIN
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ROCK_SMASH
@@ -60,7 +69,7 @@ moves:
   - FURY_CUTTER
   - CUT
   - FLASH
-  egg:
+  egg_moves:
   - FALSE_SWIPE
   - SCREECH
   - COUNTER
@@ -68,12 +77,3 @@ moves:
   - FLAIL
   - LIGHT_SCREEN
   - PURSUIT
-species: MUSHROOM
-height: 100
-weight: 120
-pokedex-entries: "The tochukaso\ngrowing on this\n#MON's back\forders it to\nextract\
-  \ juice from\ntree trunks."
-icon: ParasIcon
-icon-palettes:
-- RED
-- BROWN

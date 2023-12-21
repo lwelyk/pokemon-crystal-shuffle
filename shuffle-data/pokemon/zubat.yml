@@ -3,26 +3,35 @@ name: ZUBAT
 types:
 - Poison
 - Flying
-base-stats:
+base_stats:
   hp: 40
   attack: 45
   defense: 35
   speed: 55
-  special-attack: 30
-  special-defense: 40
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 54
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 30
+  sp_defense: 40
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 54
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
 evolutions:
 - Method: Level-Up
   Level: '22'
   Species: GOLBAT
+species: BAT
+height: 207
+weight: 170
+pokedex_entry: "During the day, it\ngathers with\nothers and hangs\ffrom the ceilings\n\
+  of old buildings\nand caves."
+icon: ZubatIcon
+icon_pals:
+- BLUE
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: LEECH_LIFE
   - 6: SUPERSONIC
   - 12: BITE
@@ -30,7 +39,7 @@ moves:
   - 27: WING_ATTACK
   - 36: MEAN_LOOK
   - 46: HAZE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -50,18 +59,9 @@ moves:
   - ATTRACT
   - THIEF
   - STEEL_WING
-  egg:
+  egg_moves:
   - QUICK_ATTACK
   - PURSUIT
   - FAINT_ATTACK
   - GUST
   - WHIRLWIND
-species: BAT
-height: 207
-weight: 170
-pokedex-entries: "During the day, it\ngathers with\nothers and hangs\ffrom the ceilings\n\
-  of old buildings\nand caves."
-icon: ZubatIcon
-icon-palettes:
-- BLUE
-- GREEN

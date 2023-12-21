@@ -3,23 +3,31 @@ name: MAGCARGO
 types:
 - Fire
 - Rock
-base-stats:
+base_stats:
   hp: 50
   attack: 50
   defense: 120
   speed: 30
-  special-attack: 80
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 154
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 80
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 154
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Indeterminate
-evolutions: []
+species: LAVA
+height: 207
+weight: 1210
+pokedex_entry: "Its body is as hot\nas lava and is\nalways billowing.\fFlames will\n\
+  occasionally burst\nfrom its shell."
+icon: MagcargoIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: SMOG
   - 1: EMBER
   - 1: ROCK_THROW
@@ -30,7 +38,7 @@ moves:
   - 36: FLAMETHROWER
   - 48: ROCK_SLIDE
   - 60: BODY_SLAM
-  taught:
+  taught_moves:
   - CURSE
   - ROLLOUT
   - TOXIC
@@ -54,12 +62,3 @@ moves:
   - ATTRACT
   - STRENGTH
   - FLAMETHROWER
-species: LAVA
-height: 207
-weight: 1210
-pokedex-entries: "Its body is as hot\nas lava and is\nalways billowing.\fFlames will\n\
-  occasionally burst\nfrom its shell."
-icon: MagcargoIcon
-icon-palettes:
-- RED
-- BLUE

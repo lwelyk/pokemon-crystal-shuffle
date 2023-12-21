@@ -2,26 +2,35 @@ constant: PONYTA
 name: PONYTA
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 50
   attack: 85
   defense: 55
   speed: 90
-  special-attack: 65
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 152
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 152
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '40'
   Species: RAPIDASH
+species: FIRE HORSE
+height: 303
+weight: 660
+pokedex_entry: "Training by\njumping over grass\nthat grows longer\fevery day has\
+  \ made\nit a world-class\njumper."
+icon: PonytaIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 4: GROWL
   - 8: TAIL_WHIP
@@ -31,7 +40,7 @@ moves:
   - 34: TAKE_DOWN
   - 43: AGILITY
   - 53: FIRE_BLAST
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -51,19 +60,10 @@ moves:
   - REST
   - ATTRACT
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - FLAME_WHEEL
   - THRASH
   - DOUBLE_KICK
   - HYPNOSIS
   - CHARM
   - QUICK_ATTACK
-species: FIRE HORSE
-height: 303
-weight: 660
-pokedex-entries: "Training by\njumping over grass\nthat grows longer\fevery day has\
-  \ made\nit a world-class\njumper."
-icon: PonytaIcon
-icon-palettes:
-- RED
-- BROWN

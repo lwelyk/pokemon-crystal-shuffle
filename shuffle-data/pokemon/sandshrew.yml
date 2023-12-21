@@ -2,26 +2,35 @@ constant: SANDSHREW
 name: SANDSHREW
 types:
 - Ground
-base-stats:
+base_stats:
   hp: 50
   attack: 75
   defense: 85
   speed: 40
-  special-attack: 20
-  special-defense: 30
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 93
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 20
+  sp_defense: 30
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 93
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '22'
   Species: SANDSLASH
+species: MOUSE
+height: 200
+weight: 260
+pokedex_entry: "It prefers dry,\nsandy places\nbecause it uses\fthe sand to\nprotect\
+  \ itself\nwhen threatened."
+icon: SandshrewIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 6: DEFENSE_CURL
   - 11: SAND_ATTACK
@@ -30,7 +39,7 @@ moves:
   - 30: SWIFT
   - 37: FURY_SWIPES
   - 45: SANDSTORM
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -61,18 +70,9 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-  egg:
+  egg_moves:
   - FLAIL
   - SAFEGUARD
   - COUNTER
   - RAPID_SPIN
   - METAL_CLAW
-species: MOUSE
-height: 200
-weight: 260
-pokedex-entries: "It prefers dry,\nsandy places\nbecause it uses\fthe sand to\nprotect\
-  \ itself\nwhen threatened."
-icon: SandshrewIcon
-icon-palettes:
-- BROWN
-- GRAY

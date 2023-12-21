@@ -3,26 +3,34 @@ name: DRAGONITE
 types:
 - Dragon
 - Flying
-base-stats:
+base_stats:
   hp: 91
   attack: 134
   defense: 95
   speed: 80
-  special-attack: 100
-  special-defense: 100
-growth-rate: Slow
-catch-rate: 45
-base-experience: 218
-held-items:
+  sp_attack: 100
+  sp_defense: 100
+growth_rate: Slow
+catch_rate: 45
+base_xp: 218
+held_items:
 - 'DRAGON_SCALE '
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Water 1
 - Dragon
-evolutions: []
+species: DRAGON
+height: 703
+weight: 4630
+pokedex_entry: "It is said that\nsomewhere in the\nocean lies an\fisland where these\n\
+  gather. Only they\nlive there."
+icon: DragoniteIcon
+icon_pals:
+- RED
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: WRAP
   - 1: LEER
   - 1: THUNDER_WAVE
@@ -36,7 +44,7 @@ moves:
   - 55: WING_ATTACK
   - 61: OUTRAGE
   - 75: HYPER_BEAM
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -79,12 +87,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: DRAGON
-height: 703
-weight: 4630
-pokedex-entries: "It is said that\nsomewhere in the\nocean lies an\fisland where these\n\
-  gather. Only they\nlive there."
-icon: DragoniteIcon
-icon-palettes:
-- RED
-- GRAY

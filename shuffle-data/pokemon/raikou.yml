@@ -2,23 +2,31 @@ constant: RAIKOU
 name: RAIKOU
 types:
 - Electric
-base-stats:
+base_stats:
   hp: 90
   attack: 85
   defense: 75
   speed: 115
-  special-attack: 115
-  special-defense: 100
-growth-rate: Slow
-catch-rate: 3
-base-experience: 216
-female-ratio: Unknown
-egg-cycle: 80
-egg-groups:
+  sp_attack: 115
+  sp_defense: 100
+growth_rate: Slow
+catch_rate: 3
+base_xp: 216
+gender_ratio: Unknown
+egg_step_cycle: 80
+egg_groups:
 - None
-evolutions: []
+species: THUNDER
+height: 603
+weight: 3920
+pokedex_entry: "This rough #MON\nstores energy\ninside its body,\fthen sweeps across\n\
+  the land, shooting\noff electricity."
+icon: RaikouIcon
+icon_pals:
+- PURPLE
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: BITE
   - 1: LEER
   - 11: THUNDERSHOCK
@@ -28,7 +36,7 @@ moves:
   - 51: REFLECT
   - 61: CRUNCH
   - 71: THUNDER
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -60,12 +68,3 @@ moves:
   - STRENGTH
   - FLASH
   - THUNDERBOLT
-species: THUNDER
-height: 603
-weight: 3920
-pokedex-entries: "This rough #MON\nstores energy\ninside its body,\fthen sweeps across\n\
-  the land, shooting\noff electricity."
-icon: RaikouIcon
-icon-palettes:
-- PURPLE
-- PINK

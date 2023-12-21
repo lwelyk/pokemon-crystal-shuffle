@@ -2,26 +2,35 @@ constant: KOFFING
 name: KOFFING
 types:
 - Poison
-base-stats:
+base_stats:
   hp: 40
   attack: 65
   defense: 95
   speed: 35
-  special-attack: 60
-  special-defense: 45
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 114
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 60
+  sp_defense: 45
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 114
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Indeterminate
 evolutions:
 - Method: Level-Up
   Level: '35'
   Species: WEEZING
+species: POISON GAS
+height: 200
+weight: 20
+pokedex_entry: "If one gets close\nenough to it when\nit expels poison-\fous gas,\
+  \ the gas\nswirling inside it\ncan be seen."
+icon: KoffingIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: POISON_GAS
   - 1: TACKLE
   - 9: SMOG
@@ -31,7 +40,7 @@ moves:
   - 33: HAZE
   - 41: EXPLOSION
   - 45: DESTINY_BOND
-  taught:
+  taught_moves:
   - CURSE
   - ROLLOUT
   - TOXIC
@@ -54,18 +63,9 @@ moves:
   - THIEF
   - FLAMETHROWER
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - SCREECH
   - PSYWAVE
   - PSYBEAM
   - DESTINY_BOND
   - PAIN_SPLIT
-species: POISON GAS
-height: 200
-weight: 20
-pokedex-entries: "If one gets close\nenough to it when\nit expels poison-\fous gas,\
-  \ the gas\nswirling inside it\ncan be seen."
-icon: KoffingIcon
-icon-palettes:
-- PURPLE
-- BLUE

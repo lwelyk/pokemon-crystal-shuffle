@@ -2,23 +2,31 @@ constant: MACHAMP
 name: MACHAMP
 types:
 - Fighting
-base-stats:
+base_stats:
   hp: 90
   attack: 130
   defense: 80
   speed: 55
-  special-attack: 65
-  special-defense: 85
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 193
-female-ratio: '25'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 85
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 193
+gender_ratio: '25'
+egg_step_cycle: 20
+egg_groups:
 - Humanshape
-evolutions: []
+species: SUPERPOWER
+height: 503
+weight: 2870
+pokedex_entry: "With four arms\nthat react more\nquickly than it\fcan think, it can\n\
+  execute many\npunches at once."
+icon: MachampIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: LOW_KICK
   - 1: LEER
   - 1: FOCUS_ENERGY
@@ -30,7 +38,7 @@ moves:
   - 43: CROSS_CHOP
   - 52: SCARY_FACE
   - 61: SUBMISSION
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,12 +68,3 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - FLAMETHROWER
-species: SUPERPOWER
-height: 503
-weight: 2870
-pokedex-entries: "With four arms\nthat react more\nquickly than it\fcan think, it\
-  \ can\nexecute many\npunches at once."
-icon: MachampIcon
-icon-palettes:
-- BROWN
-- GRAY

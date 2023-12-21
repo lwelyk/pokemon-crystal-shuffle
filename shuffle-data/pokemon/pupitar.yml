@@ -3,26 +3,35 @@ name: PUPITAR
 types:
 - Rock
 - Ground
-base-stats:
+base_stats:
   hp: 70
   attack: 84
   defense: 70
   speed: 51
-  special-attack: 65
-  special-defense: 70
-growth-rate: Slow
-catch-rate: 45
-base-experience: 144
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+  sp_attack: 65
+  sp_defense: 70
+growth_rate: Slow
+catch_rate: 45
+base_xp: 144
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Monster
 evolutions:
 - Method: Level-Up
   Level: '55'
   Species: TYRANITAR
+species: HARD SHELL
+height: 311
+weight: 3350
+pokedex_entry: "It will not stay\nstill, even while\nit's a pupa. It\falready has\
+  \ arms\nand legs under its\nsolid shell."
+icon: PupitarIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: BITE
   - 1: LEER
   - 1: SANDSTORM
@@ -35,7 +44,7 @@ moves:
   - 47: CRUNCH
   - 56: EARTHQUAKE
   - 65: HYPER_BEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -58,12 +67,3 @@ moves:
   - DETECT
   - REST
   - ATTRACT
-species: HARD SHELL
-height: 311
-weight: 3350
-pokedex-entries: "It will not stay\nstill, even while\nit's a pupa. It\falready has\
-  \ arms\nand legs under its\nsolid shell."
-icon: PupitarIcon
-icon-palettes:
-- BLUE
-- PURPLE

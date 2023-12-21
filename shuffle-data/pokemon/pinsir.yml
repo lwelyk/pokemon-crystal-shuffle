@@ -2,23 +2,31 @@ constant: PINSIR
 name: PINSIR
 types:
 - Bug
-base-stats:
+base_stats:
   hp: 65
   attack: 125
   defense: 100
   speed: 85
-  special-attack: 55
-  special-defense: 70
-growth-rate: Slow
-catch-rate: 45
-base-experience: 200
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 55
+  sp_defense: 70
+growth_rate: Slow
+catch_rate: 45
+base_xp: 200
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Bug
-evolutions: []
+species: STAGBEETLE
+height: 411
+weight: 1210
+pokedex_entry: "When the tempera-\nture drops at\nnight, it sleeps\fon treetops or\n\
+  among roots where\nit is well hidden."
+icon: PinsirIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: VICEGRIP
   - 7: FOCUS_ENERGY
   - 13: BIND
@@ -27,7 +35,7 @@ moves:
   - 31: GUILLOTINE
   - 37: SUBMISSION
   - 43: SWORDS_DANCE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -49,15 +57,6 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-  egg:
+  egg_moves:
   - FURY_ATTACK
   - FLAIL
-species: STAGBEETLE
-height: 411
-weight: 1210
-pokedex-entries: "When the tempera-\nture drops at\nnight, it sleeps\fon treetops\
-  \ or\namong roots where\nit is well hidden."
-icon: PinsirIcon
-icon-palettes:
-- BROWN
-- GRAY

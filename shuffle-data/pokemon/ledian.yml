@@ -3,23 +3,31 @@ name: LEDIAN
 types:
 - Bug
 - Flying
-base-stats:
+base_stats:
   hp: 55
   attack: 35
   defense: 50
   speed: 85
-  special-attack: 55
-  special-defense: 110
-growth-rate: Fast
-catch-rate: 90
-base-experience: 134
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 55
+  sp_defense: 110
+growth_rate: Fast
+catch_rate: 90
+base_xp: 134
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Bug
-evolutions: []
+species: FIVE STAR
+height: 407
+weight: 780
+pokedex_entry: "In the daytime\nwhen it gets warm,\nit curls up inside\fa big leaf\
+  \ and\ndrifts off into\na deep slumber."
+icon: LedianIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: SUPERSONIC
   - 8: SUPERSONIC
@@ -31,7 +39,7 @@ moves:
   - 42: SWIFT
   - 51: AGILITY
   - 60: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -59,12 +67,3 @@ moves:
   - ATTRACT
   - THIEF
   - FLASH
-species: FIVE STAR
-height: 407
-weight: 780
-pokedex-entries: "In the daytime\nwhen it gets warm,\nit curls up inside\fa big leaf\
-  \ and\ndrifts off into\na deep slumber."
-icon: LedianIcon
-icon-palettes:
-- RED
-- PINK

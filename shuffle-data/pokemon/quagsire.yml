@@ -3,24 +3,32 @@ name: QUAGSIRE
 types:
 - Water
 - Ground
-base-stats:
+base_stats:
   hp: 95
   attack: 85
   defense: 85
   speed: 35
-  special-attack: 65
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 137
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 137
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
-evolutions: []
+species: WATER FISH
+height: 407
+weight: 1650
+pokedex_entry: "Its body is always\nslimy. It often\nbangs its head on\fthe river\
+  \ bottom\nas it swims but\nseems not to care."
+icon: QuagsireIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: WATER_GUN
   - 1: TAIL_WHIP
   - 11: SLAM
@@ -29,7 +37,7 @@ moves:
   - 47: RAIN_DANCE
   - 59: MIST
   - 59: HAZE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -62,12 +70,3 @@ moves:
   - FLASH
   - WHIRLPOOL
   - ICE_BEAM
-species: WATER FISH
-height: 407
-weight: 1650
-pokedex-entries: "Its body is always\nslimy. It often\nbangs its head on\fthe river\
-  \ bottom\nas it swims but\nseems not to care."
-icon: QuagsireIcon
-icon-palettes:
-- BLUE
-- PURPLE

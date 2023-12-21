@@ -3,26 +3,35 @@ name: SPEAROW
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 40
   attack: 60
   defense: 30
   speed: 70
-  special-attack: 31
-  special-defense: 31
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 58
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 31
+  sp_defense: 31
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 58
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
 evolutions:
 - Method: Level-Up
   Level: '20'
   Species: FEAROW
+species: TINY BIRD
+height: 100
+weight: 40
+pokedex_entry: "To protect its\nterritory, it\nflies around\fceaselessly,\nmaking\
+  \ high-\npitched cries."
+icon: SpearowIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: GROWL
   - 7: LEER
@@ -31,7 +40,7 @@ moves:
   - 31: MIRROR_MOVE
   - 37: DRILL_PECK
   - 43: AGILITY
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -52,18 +61,9 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-  egg:
+  egg_moves:
   - FAINT_ATTACK
   - FALSE_SWIPE
   - SCARY_FACE
   - QUICK_ATTACK
   - TRI_ATTACK
-species: TINY BIRD
-height: 100
-weight: 40
-pokedex-entries: "To protect its\nterritory, it\nflies around\fceaselessly,\nmaking\
-  \ high-\npitched cries."
-icon: SpearowIcon
-icon-palettes:
-- BROWN
-- BROWN

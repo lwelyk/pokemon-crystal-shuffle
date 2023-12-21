@@ -2,23 +2,31 @@ constant: UMBREON
 name: UMBREON
 types:
 - Dark
-base-stats:
+base_stats:
   hp: 95
   attack: 65
   defense: 110
   speed: 65
-  special-attack: 60
-  special-defense: 130
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 197
-female-ratio: '12.5'
-egg-cycle: 35
-egg-groups:
+  sp_attack: 60
+  sp_defense: 130
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 197
+gender_ratio: '12.5'
+egg_step_cycle: 35
+egg_groups:
 - Ground
-evolutions: []
+species: MOONLIGHT
+height: 303
+weight: 600
+pokedex_entry: "On the night of a\nfull moon, or when\nit gets excited,\fthe ring\
+  \ patterns\non its body glow\nyellow."
+icon: UmbreonIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 8: SAND_ATTACK
@@ -29,7 +37,7 @@ moves:
   - 42: MEAN_LOOK
   - 47: SCREECH
   - 52: MOONLIGHT
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -59,12 +67,3 @@ moves:
   - NIGHTMARE
   - CUT
   - FLASH
-species: MOONLIGHT
-height: 303
-weight: 600
-pokedex-entries: "On the night of a\nfull moon, or when\nit gets excited,\fthe ring\
-  \ patterns\non its body glow\nyellow."
-icon: UmbreonIcon
-icon-palettes:
-- BROWN
-- BLUE

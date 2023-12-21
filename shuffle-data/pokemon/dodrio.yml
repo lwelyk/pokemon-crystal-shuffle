@@ -3,25 +3,33 @@ name: DODRIO
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 60
   attack: 110
   defense: 70
   speed: 100
-  special-attack: 60
-  special-defense: 60
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 158
-held-items:
+  sp_attack: 60
+  sp_defense: 60
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 158
+held_items:
 - 'SHARP_BEAK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Flying
-evolutions: []
+species: TRIPLEBIRD
+height: 511
+weight: 1880
+pokedex_entry: "An enemy that\ntakes its eyes off\nany of the three\fheads--even for\
+  \ a\nsecond--will get\npecked severely."
+icon: DodrioIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: GROWL
   - 1: PURSUIT
@@ -32,7 +40,7 @@ moves:
   - 25: RAGE
   - 38: DRILL_PECK
   - 47: AGILITY
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -53,12 +61,3 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-species: TRIPLEBIRD
-height: 511
-weight: 1880
-pokedex-entries: "An enemy that\ntakes its eyes off\nany of the three\fheads--even\
-  \ for a\nsecond--will get\npecked severely."
-icon: DodrioIcon
-icon-palettes:
-- BROWN
-- BROWN

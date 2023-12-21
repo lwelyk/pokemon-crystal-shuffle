@@ -2,23 +2,31 @@ constant: PERSIAN
 name: PERSIAN
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 65
   attack: 70
   defense: 60
   speed: 115
-  special-attack: 65
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 148
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 148
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: CLASSY CAT
+height: 303
+weight: 710
+pokedex_entry: "Behind its lithe,\nelegant appearance\nlies a barbaric\fside. It will\
+  \ tear\napart its prey on\na mere whim."
+icon: PersianIcon
+icon_pals:
+- BROWN
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: GROWL
   - 1: BITE
@@ -28,7 +36,7 @@ moves:
   - 38: SCREECH
   - 46: FURY_SWIPES
   - 53: SLASH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -60,12 +68,3 @@ moves:
   - THIEF
   - NIGHTMARE
   - THUNDERBOLT
-species: CLASSY CAT
-height: 303
-weight: 710
-pokedex-entries: "Behind its lithe,\nelegant appearance\nlies a barbaric\fside. It\
-  \ will tear\napart its prey on\na mere whim."
-icon: PersianIcon
-icon-palettes:
-- BROWN
-- PURPLE

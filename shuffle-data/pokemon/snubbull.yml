@@ -2,27 +2,36 @@ constant: SNUBBULL
 name: SNUBBULL
 types:
 - Fairy
-base-stats:
+base_stats:
   hp: 60
   attack: 80
   defense: 50
   speed: 30
-  special-attack: 40
-  special-defense: 40
-growth-rate: Fast
-catch-rate: 190
-base-experience: 63
-female-ratio: '75'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 40
+  sp_defense: 40
+growth_rate: Fast
+catch_rate: 190
+base_xp: 63
+gender_ratio: '75'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 - Fairy
 evolutions:
 - Method: Level-Up
   Level: '23'
   Species: GRANBULL
+species: FAIRY
+height: 200
+weight: 170
+pokedex_entry: "In truth, it is a\ncowardly #MON.\nIt growls eagerly\fin order to\
+  \ hide\nits fear from its\nopponent."
+icon: SnubbullIcon
+icon_pals:
+- PINK
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: SCARY_FACE
   - 4: TAIL_WHIP
@@ -32,7 +41,7 @@ moves:
   - 26: ROAR
   - 34: RAGE
   - 43: TAKE_DOWN
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,7 +74,7 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - METRONOME
   - FAINT_ATTACK
   - REFLECT
@@ -74,12 +83,3 @@ moves:
   - HEAL_BELL
   - LICK
   - LEER
-species: FAIRY
-height: 200
-weight: 170
-pokedex-entries: "In truth, it is a\ncowardly #MON.\nIt growls eagerly\fin order to\
-  \ hide\nits fear from its\nopponent."
-icon: SnubbullIcon
-icon-palettes:
-- PINK
-- BLUE

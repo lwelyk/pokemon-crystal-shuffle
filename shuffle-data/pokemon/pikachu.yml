@@ -2,29 +2,38 @@ constant: PIKACHU
 name: PIKACHU
 types:
 - Electric
-base-stats:
+base_stats:
   hp: 35
   attack: 55
   defense: 30
   speed: 90
-  special-attack: 50
-  special-defense: 40
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 82
-held-items:
+  sp_attack: 50
+  sp_defense: 40
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 82
+held_items:
 - 'BERRY '
-female-ratio: '50'
-egg-cycle: 10
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 10
+egg_groups:
 - Ground
 - Fairy
 evolutions:
 - Method: Item
   Used Item: THUNDERSTONE
   Species: RAICHU
+species: MOUSE
+height: 104
+weight: 130
+pokedex_entry: "When it is anger-\ned, it immediately\ndischarges the\fenergy stored\
+  \ in\nthe pouches in its\ncheeks."
+icon: PikachuIcon
+icon_pals:
+- RED
+- RED
 moves:
-  level-up:
+  level_up:
   - 1: THUNDERSHOCK
   - 1: GROWL
   - 6: TAIL_WHIP
@@ -36,7 +45,7 @@ moves:
   - 33: AGILITY
   - 41: THUNDER
   - 50: LIGHT_SCREEN
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,12 +74,3 @@ moves:
   - STRENGTH
   - FLASH
   - THUNDERBOLT
-species: MOUSE
-height: 104
-weight: 130
-pokedex-entries: "When it is anger-\ned, it immediately\ndischarges the\fenergy stored\
-  \ in\nthe pouches in its\ncheeks."
-icon: PikachuIcon
-icon-palettes:
-- RED
-- RED

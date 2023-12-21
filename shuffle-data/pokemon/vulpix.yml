@@ -2,29 +2,38 @@ constant: VULPIX
 name: VULPIX
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 38
   attack: 41
   defense: 40
   speed: 65
-  special-attack: 50
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 63
-held-items:
+  sp_attack: 50
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 63
+held_items:
 - BURNT_BERRY
 - 'BURNT_BERRY '
-female-ratio: '75'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '75'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Item
   Used Item: FIRE_STONE
   Species: NINETALES
+species: FOX
+height: 200
+weight: 220
+pokedex_entry: "As its body grows\nlarger, its six\nwarm tails become\fmore beautiful,\n\
+  with a more luxur-\nious coat of fur."
+icon: VulpixIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: EMBER
   - 1: TAIL_WHIP
   - 7: QUICK_ATTACK
@@ -33,7 +42,7 @@ moves:
   - 25: SAFEGUARD
   - 31: FLAMETHROWER
   - 37: FIRE_SPIN
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -54,18 +63,9 @@ moves:
   - REST
   - ATTRACT
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - FAINT_ATTACK
   - HYPNOSIS
   - FLAIL
   - SPITE
   - DISABLE
-species: FOX
-height: 200
-weight: 220
-pokedex-entries: "As its body grows\nlarger, its six\nwarm tails become\fmore beautiful,\n\
-  with a more luxur-\nious coat of fur."
-icon: VulpixIcon
-icon-palettes:
-- RED
-- BROWN

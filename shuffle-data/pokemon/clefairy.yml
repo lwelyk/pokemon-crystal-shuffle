@@ -2,29 +2,38 @@ constant: CLEFAIRY
 name: CLEFAIRY
 types:
 - Fairy
-base-stats:
+base_stats:
   hp: 70
   attack: 45
   defense: 48
   speed: 35
-  special-attack: 60
-  special-defense: 65
-growth-rate: Fast
-catch-rate: 150
-base-experience: 68
-held-items:
+  sp_attack: 60
+  sp_defense: 65
+growth_rate: Fast
+catch_rate: 150
+base_xp: 68
+held_items:
 - MYSTERYBERRY
 - 'MOON_STONE '
-female-ratio: '75'
-egg-cycle: 10
-egg-groups:
+gender_ratio: '75'
+egg_step_cycle: 10
+egg_groups:
 - Fairy
 evolutions:
 - Method: Item
   Used Item: MOON_STONE
   Species: CLEFABLE
+species: FAIRY
+height: 200
+weight: 170
+pokedex_entry: "Though rarely\nseen, it becomes\neasier to spot,\ffor some reason,\n\
+  on the night of a\nfull moon."
+icon: ClefairyIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 1: GROWL
   - 4: ENCORE
@@ -35,7 +44,7 @@ moves:
   - 34: METRONOME
   - 43: MOONLIGHT
   - 53: LIGHT_SCREEN
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -76,12 +85,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: FAIRY
-height: 200
-weight: 170
-pokedex-entries: "Though rarely\nseen, it becomes\neasier to spot,\ffor some reason,\n\
-  on the night of a\nfull moon."
-icon: ClefairyIcon
-icon-palettes:
-- BROWN
-- GREEN

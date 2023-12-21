@@ -3,26 +3,35 @@ name: NATU
 types:
 - Psychic
 - Flying
-base-stats:
+base_stats:
   hp: 40
   attack: 50
   defense: 45
   speed: 70
-  special-attack: 70
-  special-defense: 45
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 73
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 70
+  sp_defense: 45
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 73
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Flying
 evolutions:
 - Method: Level-Up
   Level: '25'
   Species: XATU
+species: LITTLE BIRD
+height: 8
+weight: 40
+pokedex_entry: "It is extremely\ngood at climbing\ntree trunks and\flikes to eat the\n\
+  new sprouts on\nthe trees."
+icon: NatuIcon
+icon_pals:
+- TEAL
+- TEAL
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: LEER
   - 10: NIGHT_SHADE
@@ -30,7 +39,7 @@ moves:
   - 30: FUTURE_SIGHT
   - 40: CONFUSE_RAY
   - 50: PSYCHIC_M
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - PSYCH_UP
@@ -55,18 +64,9 @@ moves:
   - THIEF
   - NIGHTMARE
   - FLASH
-  egg:
+  egg_moves:
   - HAZE
   - DRILL_PECK
   - QUICK_ATTACK
   - FAINT_ATTACK
   - STEEL_WING
-species: LITTLE BIRD
-height: 8
-weight: 40
-pokedex-entries: "It is extremely\ngood at climbing\ntree trunks and\flikes to eat\
-  \ the\nnew sprouts on\nthe trees."
-icon: NatuIcon
-icon-palettes:
-- TEAL
-- TEAL

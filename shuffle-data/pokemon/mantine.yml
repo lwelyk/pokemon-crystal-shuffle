@@ -3,23 +3,31 @@ name: MANTINE
 types:
 - Water
 - Flying
-base-stats:
+base_stats:
   hp: 65
   attack: 40
   defense: 70
   speed: 70
-  special-attack: 80
-  special-defense: 140
-growth-rate: Slow
-catch-rate: 25
-base-experience: 168
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 80
+  sp_defense: 140
+growth_rate: Slow
+catch_rate: 25
+base_xp: 168
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Water 1
-evolutions: []
+species: KITE
+height: 611
+weight: 4850
+pokedex_entry: "It swims along\nfreely, eating\nthings that swim\finto its mouth.\n\
+  Its whole body is\nvery coarse."
+icon: MantineIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: BUBBLE
   - 10: SUPERSONIC
@@ -28,7 +36,7 @@ moves:
   - 32: AGILITY
   - 40: WING_ATTACK
   - 49: CONFUSE_RAY
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -52,17 +60,8 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - TWISTER
   - HYDRO_PUMP
   - HAZE
   - SLAM
-species: KITE
-height: 611
-weight: 4850
-pokedex-entries: "It swims along\nfreely, eating\nthings that swim\finto its mouth.\n\
-  Its whole body is\nvery coarse."
-icon: MantineIcon
-icon-palettes:
-- PURPLE
-- BLUE

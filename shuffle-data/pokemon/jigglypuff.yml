@@ -3,26 +3,35 @@ name: JIGGLYPUFF
 types:
 - Normal
 - Fairy
-base-stats:
+base_stats:
   hp: 115
   attack: 45
   defense: 20
   speed: 20
-  special-attack: 45
-  special-defense: 25
-growth-rate: Fast
-catch-rate: 170
-base-experience: 76
-female-ratio: '75'
-egg-cycle: 10
-egg-groups:
+  sp_attack: 45
+  sp_defense: 25
+growth_rate: Fast
+catch_rate: 170
+base_xp: 76
+gender_ratio: '75'
+egg_step_cycle: 10
+egg_groups:
 - Fairy
 evolutions:
 - Method: Item
   Used Item: MOON_STONE
   Species: WIGGLYTUFF
+species: BALLOON
+height: 108
+weight: 120
+pokedex_entry: "It rolls its cute\neyes as it sings a\nsoothing lullaby.\fIts gentle\
+  \ song\nputs anyone who\nhears it to sleep."
+icon: JigglypuffIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: SING
   - 4: DEFENSE_CURL
   - 9: POUND
@@ -32,7 +41,7 @@ moves:
   - 29: REST
   - 34: BODY_SLAM
   - 39: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -72,12 +81,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: BALLOON
-height: 108
-weight: 120
-pokedex-entries: "It rolls its cute\neyes as it sings a\nsoothing lullaby.\fIts gentle\
-  \ song\nputs anyone who\nhears it to sleep."
-icon: JigglypuffIcon
-icon-palettes:
-- RED
-- PINK

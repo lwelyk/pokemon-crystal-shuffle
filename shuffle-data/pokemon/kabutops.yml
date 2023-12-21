@@ -3,24 +3,32 @@ name: KABUTOPS
 types:
 - Rock
 - Water
-base-stats:
+base_stats:
   hp: 60
   attack: 115
   defense: 105
   speed: 80
-  special-attack: 65
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 201
-female-ratio: '12.5'
-egg-cycle: 30
-egg-groups:
+  sp_attack: 65
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 201
+gender_ratio: '12.5'
+egg_step_cycle: 30
+egg_groups:
 - Water 1
 - Water 3
-evolutions: []
+species: SHELLFISH
+height: 403
+weight: 890
+pokedex_entry: "It was able to\nswim quickly thro-\nugh the water by\fcompactly folding\n\
+  up its razor-sharp\nsickles."
+icon: KabutopsIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: HARDEN
   - 1: ABSORB
@@ -31,7 +39,7 @@ moves:
   - 40: SLASH
   - 51: MEGA_DRAIN
   - 65: ANCIENTPOWER
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -60,12 +68,3 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-species: SHELLFISH
-height: 403
-weight: 890
-pokedex-entries: "It was able to\nswim quickly thro-\nugh the water by\fcompactly\
-  \ folding\nup its razor-sharp\nsickles."
-icon: KabutopsIcon
-icon-palettes:
-- BROWN
-- GRAY

@@ -2,26 +2,34 @@ constant: FURRET
 name: FURRET
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 85
   attack: 76
   defense: 64
   speed: 90
-  special-attack: 45
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 116
-held-items:
+  sp_attack: 45
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 116
+held_items:
 - BERRY
 - 'GOLD_BERRY '
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Ground
-evolutions: []
+species: LONG BODY
+height: 511
+weight: 720
+pokedex_entry: "It lives in narrow\nburrows that fit\nits slim body. The\fdeeper the\
+  \ nests\ngo, the more maze-\nlike they become."
+icon: FurretIcon
+icon_pals:
+- BROWN
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: DEFENSE_CURL
   - 1: QUICK_ATTACK
@@ -31,7 +39,7 @@ moves:
   - 28: SLAM
   - 38: REST
   - 48: AMNESIA
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,12 +73,3 @@ moves:
   - CUT
   - SURF
   - STRENGTH
-species: LONG BODY
-height: 511
-weight: 720
-pokedex-entries: "It lives in narrow\nburrows that fit\nits slim body. The\fdeeper\
-  \ the nests\ngo, the more maze-\nlike they become."
-icon: FurretIcon
-icon-palettes:
-- BROWN
-- PURPLE

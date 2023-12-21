@@ -2,36 +2,36 @@ constant: MAGIKARP
 name: MAGIKARP
 types:
 - Water
-base-stats:
+base_stats:
   hp: 20
   attack: 10
   defense: 55
   speed: 80
-  special-attack: 15
-  special-defense: 20
-growth-rate: Slow
-catch-rate: 255
-base-experience: 20
-female-ratio: '50'
-egg-cycle: 5
-egg-groups:
+  sp_attack: 15
+  sp_defense: 20
+growth_rate: Slow
+catch_rate: 255
+base_xp: 20
+gender_ratio: '50'
+egg_step_cycle: 5
+egg_groups:
 - Water 2
 - Dragon
 evolutions:
 - Method: Level-Up
   Level: '20'
   Species: GYARADOS
-moves:
-  level-up:
-  - 1: SPLASH
-  - 15: TACKLE
-  - 30: FLAIL
 species: FISH
 height: 211
 weight: 220
-pokedex-entries: "This weak and\npathetic #MON\ngets easily pushed\falong rivers when\n\
+pokedex_entry: "This weak and\npathetic #MON\ngets easily pushed\falong rivers when\n\
   there are strong\ncurrents."
 icon: MagikarpIcon
-icon-palettes:
+icon_pals:
 - RED
 - BROWN
+moves:
+  level_up:
+  - 1: SPLASH
+  - 15: TACKLE
+  - 30: FLAIL

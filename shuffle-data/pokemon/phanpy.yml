@@ -2,26 +2,35 @@ constant: PHANPY
 name: PHANPY
 types:
 - Ground
-base-stats:
+base_stats:
   hp: 90
   attack: 60
   defense: 60
   speed: 40
-  special-attack: 40
-  special-defense: 40
-growth-rate: Medium-Fast
-catch-rate: 120
-base-experience: 124
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 40
+  sp_defense: 40
+growth_rate: Medium-Fast
+catch_rate: 120
+base_xp: 124
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '25'
   Species: DONPHAN
+species: LONG NOSE
+height: 108
+weight: 740
+pokedex_entry: "During the desert-\ned morning hours,\nit comes ashore\fwhere it deftly\n\
+  uses its trunk to\ntake a shower."
+icon: PhanpyIcon
+icon_pals:
+- BLUE
+- TEAL
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 9: DEFENSE_CURL
@@ -30,7 +39,7 @@ moves:
   - 33: ROLLOUT
   - 41: ENDURE
   - 49: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -54,17 +63,8 @@ moves:
   - REST
   - ATTRACT
   - STRENGTH
-  egg:
+  egg_moves:
   - FOCUS_ENERGY
   - BODY_SLAM
   - ANCIENTPOWER
   - WATER_GUN
-species: LONG NOSE
-height: 108
-weight: 740
-pokedex-entries: "During the desert-\ned morning hours,\nit comes ashore\fwhere it\
-  \ deftly\nuses its trunk to\ntake a shower."
-icon: PhanpyIcon
-icon-palettes:
-- BLUE
-- TEAL

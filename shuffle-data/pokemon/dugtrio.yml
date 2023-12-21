@@ -2,23 +2,31 @@ constant: DUGTRIO
 name: DUGTRIO
 types:
 - Ground
-base-stats:
+base_stats:
   hp: 35
   attack: 80
   defense: 50
   speed: 120
-  special-attack: 50
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 50
-base-experience: 153
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 50
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 50
+base_xp: 153
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: MOLE
+height: 204
+weight: 730
+pokedex_entry: "These DIGLETT\ntriplets dig over\n60 miles below sea\flevel. No one\n\
+  knows what it's\nlike underground."
+icon: DugtrioIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TRI_ATTACK
   - 1: SCRATCH
   - 1: GROWL
@@ -30,7 +38,7 @@ moves:
   - 37: SLASH
   - 49: EARTHQUAKE
   - 61: FISSURE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ROCK_SMASH
@@ -53,12 +61,3 @@ moves:
   - ATTRACT
   - THIEF
   - CUT
-species: MOLE
-height: 204
-weight: 730
-pokedex-entries: "These DIGLETT\ntriplets dig over\n60 miles below sea\flevel. No\
-  \ one\nknows what it's\nlike underground."
-icon: DugtrioIcon
-icon-palettes:
-- BROWN
-- BLUE

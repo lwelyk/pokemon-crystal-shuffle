@@ -2,25 +2,33 @@ constant: MR__MIME
 name: MR.MIME
 types:
 - Psychic
-base-stats:
+base_stats:
   hp: 40
   attack: 45
   defense: 65
   speed: 90
-  special-attack: 100
-  special-defense: 120
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 136
-held-items:
+  sp_attack: 100
+  sp_defense: 120
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 136
+held_items:
 - 'MYSTERYBERRY '
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Humanshape
-evolutions: []
+species: BARRIER
+height: 403
+weight: 1200
+pokedex_entry: "It uses the\nmysterious\npower it has in\fits fingers to\nsolidify\
+  \ air into\nan invisible wall."
+icon: MrMimeIcon
+icon_pals:
+- PINK
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: BARRIER
   - 6: CONFUSION
   - 11: SUBSTITUTE
@@ -32,7 +40,7 @@ moves:
   - 36: PSYBEAM
   - 41: BATON_PASS
   - 46: SAFEGUARD
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,16 +73,7 @@ moves:
   - NIGHTMARE
   - FLASH
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - FUTURE_SIGHT
   - HYPNOSIS
   - MIMIC
-species: BARRIER
-height: 403
-weight: 1200
-pokedex-entries: "It uses the\nmysterious\npower it has in\fits fingers to\nsolidify\
-  \ air into\nan invisible wall."
-icon: MrMimeIcon
-icon-palettes:
-- PINK
-- GREEN

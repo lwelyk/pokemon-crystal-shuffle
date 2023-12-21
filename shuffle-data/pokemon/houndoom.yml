@@ -3,23 +3,31 @@ name: HOUNDOOM
 types:
 - Dark
 - Fire
-base-stats:
+base_stats:
   hp: 75
   attack: 90
   defense: 50
   speed: 95
-  special-attack: 110
-  special-defense: 80
-growth-rate: Slow
-catch-rate: 45
-base-experience: 204
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 110
+  sp_defense: 80
+growth_rate: Slow
+catch_rate: 45
+base_xp: 204
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: DARK
+height: 407
+weight: 770
+pokedex_entry: "The pungent-\nsmelling flame\nthat shoots from\fits mouth results\n\
+  from toxins burn-\ning in its body."
+icon: HoundoomIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: LEER
   - 1: EMBER
   - 7: ROAR
@@ -28,7 +36,7 @@ moves:
   - 30: FAINT_ATTACK
   - 41: FLAMETHROWER
   - 52: CRUNCH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -60,12 +68,3 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - FLAMETHROWER
-species: DARK
-height: 407
-weight: 770
-pokedex-entries: "The pungent-\nsmelling flame\nthat shoots from\fits mouth results\n\
-  from toxins burn-\ning in its body."
-icon: HoundoomIcon
-icon-palettes:
-- RED
-- BLUE

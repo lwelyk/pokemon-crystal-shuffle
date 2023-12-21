@@ -3,26 +3,35 @@ name: HOUNDOUR
 types:
 - Dark
 - Fire
-base-stats:
+base_stats:
   hp: 45
   attack: 60
   defense: 30
   speed: 65
-  special-attack: 80
-  special-defense: 50
-growth-rate: Slow
-catch-rate: 120
-base-experience: 114
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 80
+  sp_defense: 50
+growth_rate: Slow
+catch_rate: 120
+base_xp: 114
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '24'
   Species: HOUNDOOM
+species: DARK
+height: 200
+weight: 240
+pokedex_entry: "Around dawn, its\nominous howl\nechoes through the\farea to announce\n\
+  that this is its\nterritory."
+icon: HoundourIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: LEER
   - 1: EMBER
   - 7: ROAR
@@ -31,7 +40,7 @@ moves:
   - 27: FAINT_ATTACK
   - 35: FLAMETHROWER
   - 43: CRUNCH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -61,7 +70,7 @@ moves:
   - THIEF
   - NIGHTMARE
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - FIRE_SPIN
   - RAGE
   - PURSUIT
@@ -69,12 +78,3 @@ moves:
   - SPITE
   - REVERSAL
   - BEAT_UP
-species: DARK
-height: 200
-weight: 240
-pokedex-entries: "Around dawn, its\nominous howl\nechoes through the\farea to announce\n\
-  that this is its\nterritory."
-icon: HoundourIcon
-icon-palettes:
-- RED
-- BLUE

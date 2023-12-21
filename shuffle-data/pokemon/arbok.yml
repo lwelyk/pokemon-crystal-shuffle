@@ -2,24 +2,32 @@ constant: ARBOK
 name: ARBOK
 types:
 - Poison
-base-stats:
+base_stats:
   hp: 60
   attack: 85
   defense: 69
   speed: 80
-  special-attack: 65
-  special-defense: 79
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 147
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 79
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 147
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 - Dragon
-evolutions: []
+species: COBRA
+height: 1106
+weight: 1430
+pokedex_entry: "To intimidate\nfoes, it spreads\nits chest wide and\fmakes eerie sounds\n\
+  by expelling air\nfrom its mouth."
+icon: ArbokIcon
+icon_pals:
+- PURPLE
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: WRAP
   - 1: LEER
   - 1: POISON_STING
@@ -30,7 +38,7 @@ moves:
   - 33: SCREECH
   - 43: ACID
   - 51: HAZE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -53,12 +61,3 @@ moves:
   - ATTRACT
   - THIEF
   - STRENGTH
-species: COBRA
-height: 1106
-weight: 1430
-pokedex-entries: "To intimidate\nfoes, it spreads\nits chest wide and\fmakes eerie\
-  \ sounds\nby expelling air\nfrom its mouth."
-icon: ArbokIcon
-icon-palettes:
-- PURPLE
-- GREEN

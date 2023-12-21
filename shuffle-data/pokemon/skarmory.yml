@@ -3,23 +3,31 @@ name: SKARMORY
 types:
 - Steel
 - Flying
-base-stats:
+base_stats:
   hp: 65
   attack: 80
   defense: 140
   speed: 70
-  special-attack: 40
-  special-defense: 70
-growth-rate: Slow
-catch-rate: 25
-base-experience: 168
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 40
+  sp_defense: 70
+growth_rate: Slow
+catch_rate: 25
+base_xp: 168
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Flying
-evolutions: []
+species: ARMOR BIRD
+height: 507
+weight: 1110
+pokedex_entry: "The feathers that\nit sheds are very\nsharp. It is said\fthat people\
+  \ once\nused the feathers\nas swords."
+icon: SkarmoryIcon
+icon_pals:
+- RED
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: LEER
   - 1: PECK
   - 13: SAND_ATTACK
@@ -27,7 +35,7 @@ moves:
   - 25: AGILITY
   - 37: FURY_ATTACK
   - 49: STEEL_WING
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -50,17 +58,8 @@ moves:
   - STEEL_WING
   - CUT
   - FLY
-  egg:
+  egg_moves:
   - DRILL_PECK
   - PURSUIT
   - WHIRLWIND
   - SKY_ATTACK
-species: ARMOR BIRD
-height: 507
-weight: 1110
-pokedex-entries: "The feathers that\nit sheds are very\nsharp. It is said\fthat people\
-  \ once\nused the feathers\nas swords."
-icon: SkarmoryIcon
-icon-palettes:
-- RED
-- GREEN

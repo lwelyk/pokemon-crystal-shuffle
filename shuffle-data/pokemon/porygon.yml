@@ -2,26 +2,35 @@ constant: PORYGON
 name: PORYGON
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 65
   attack: 60
   defense: 70
   speed: 40
-  special-attack: 85
-  special-defense: 75
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 130
-female-ratio: Unknown
-egg-cycle: 20
-egg-groups:
+  sp_attack: 85
+  sp_defense: 75
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 130
+gender_ratio: Unknown
+egg_step_cycle: 20
+egg_groups:
 - Mineral
 evolutions:
 - Method: Trade
   Held Item: UP_GRADE
   Species: PORYGON2
+species: VIRTUAL
+height: 207
+weight: 800
+pokedex_entry: "An artificial\n#MON created\ndue to extensive\fresearch, it can\n\
+  perform only what\nis in its program."
+icon: PorygonIcon
+icon_pals:
+- TEAL
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: CONVERSION2
   - 1: TACKLE
   - 1: CONVERSION
@@ -32,7 +41,7 @@ moves:
   - 32: LOCK_ON
   - 36: TRI_ATTACK
   - 44: ZAP_CANNON
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ZAP_CANNON
@@ -62,12 +71,3 @@ moves:
   - FLASH
   - THUNDERBOLT
   - ICE_BEAM
-species: VIRTUAL
-height: 207
-weight: 800
-pokedex-entries: "An artificial\n#MON created\ndue to extensive\fresearch, it can\n\
-  perform only what\nis in its program."
-icon: PorygonIcon
-icon-palettes:
-- TEAL
-- BLUE

@@ -3,23 +3,31 @@ name: CROBAT
 types:
 - Poison
 - Flying
-base-stats:
+base_stats:
   hp: 85
   attack: 90
   defense: 80
   speed: 130
-  special-attack: 70
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 204
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 70
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 204
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
-evolutions: []
+species: BAT
+height: 511
+weight: 1650
+pokedex_entry: "As a result of its\npursuit of faster,\nyet more silent\fflight, a\
+  \ new set\nof wings grew on\nits hind legs."
+icon: CrobatIcon
+icon_pals:
+- PURPLE
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: SCREECH
   - 1: LEECH_LIFE
   - 1: SUPERSONIC
@@ -29,7 +37,7 @@ moves:
   - 30: WING_ATTACK
   - 42: MEAN_LOOK
   - 55: HAZE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -51,12 +59,3 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-species: BAT
-height: 511
-weight: 1650
-pokedex-entries: "As a result of its\npursuit of faster,\nyet more silent\fflight,\
-  \ a new set\nof wings grew on\nits hind legs."
-icon: CrobatIcon
-icon-palettes:
-- PURPLE
-- PINK

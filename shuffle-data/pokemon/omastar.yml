@@ -3,24 +3,32 @@ name: OMASTAR
 types:
 - Rock
 - Water
-base-stats:
+base_stats:
   hp: 70
   attack: 60
   defense: 125
   speed: 55
-  special-attack: 115
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 199
-female-ratio: '12.5'
-egg-cycle: 30
-egg-groups:
+  sp_attack: 115
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 199
+gender_ratio: '12.5'
+egg_step_cycle: 30
+egg_groups:
 - Water 1
 - Water 3
-evolutions: []
+species: SPIRAL
+height: 303
+weight: 770
+pokedex_entry: "Its heavy shell\nallowed it to\nreach only nearby\ffood. This could\n\
+  be the reason it\nis extinct."
+icon: OmastarIcon
+icon_pals:
+- BLUE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: CONSTRICT
   - 1: WITHDRAW
   - 1: BITE
@@ -31,7 +39,7 @@ moves:
   - 40: SPIKE_CANNON
   - 54: ANCIENTPOWER
   - 65: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -57,12 +65,3 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-species: SPIRAL
-height: 303
-weight: 770
-pokedex-entries: "Its heavy shell\nallowed it to\nreach only nearby\ffood. This could\n\
-  be the reason it\nis extinct."
-icon: OmastarIcon
-icon-palettes:
-- BLUE
-- GRAY

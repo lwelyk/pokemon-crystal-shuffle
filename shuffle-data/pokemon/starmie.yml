@@ -3,32 +3,40 @@ name: STARMIE
 types:
 - Water
 - Psychic
-base-stats:
+base_stats:
   hp: 60
   attack: 75
   defense: 85
   speed: 115
-  special-attack: 100
-  special-defense: 85
-growth-rate: Slow
-catch-rate: 60
-base-experience: 207
-held-items:
+  sp_attack: 100
+  sp_defense: 85
+growth_rate: Slow
+catch_rate: 60
+base_xp: 207
+held_items:
 - STARDUST
 - 'STAR_PIECE '
-female-ratio: Unknown
-egg-cycle: 20
-egg-groups:
+gender_ratio: Unknown
+egg_step_cycle: 20
+egg_groups:
 - Water 3
-evolutions: []
+species: MYSTERIOUS
+height: 307
+weight: 1760
+pokedex_entry: "It is said that it\nuses the seven-\ncolored core of\fits body to\
+  \ send\nelectric waves\ninto outer space."
+icon: StarmieIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: RAPID_SPIN
   - 1: RECOVER
   - 1: BUBBLEBEAM
   - 37: CONFUSE_RAY
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ZAP_CANNON
@@ -59,12 +67,3 @@ moves:
   - WATERFALL
   - THUNDERBOLT
   - ICE_BEAM
-species: MYSTERIOUS
-height: 307
-weight: 1760
-pokedex-entries: "It is said that it\nuses the seven-\ncolored core of\fits body to\
-  \ send\nelectric waves\ninto outer space."
-icon: StarmieIcon
-icon-palettes:
-- PURPLE
-- BLUE

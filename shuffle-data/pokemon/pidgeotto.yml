@@ -3,26 +3,35 @@ name: PIDGEOTTO
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 63
   attack: 60
   defense: 55
   speed: 71
-  special-attack: 50
-  special-defense: 50
-growth-rate: Medium-Slow
-catch-rate: 120
-base-experience: 113
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 50
+  sp_defense: 50
+growth_rate: Medium-Slow
+catch_rate: 120
+base_xp: 113
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
 evolutions:
 - Method: Level-Up
   Level: '36'
   Species: PIDGEOT
+species: BIRD
+height: 307
+weight: 660
+pokedex_entry: "It slowly flies in\na circular pat-\ntern, all the\fwhile keeping\
+  \ a\nsharp lookout for\nprey."
+icon: PidgeottoIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: SAND_ATTACK
   - 1: GUST
@@ -33,7 +42,7 @@ moves:
   - 33: WING_ATTACK
   - 43: AGILITY
   - 55: MIRROR_MOVE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -54,12 +63,3 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-species: BIRD
-height: 307
-weight: 660
-pokedex-entries: "It slowly flies in\na circular pat-\ntern, all the\fwhile keeping\
-  \ a\nsharp lookout for\nprey."
-icon: PidgeottoIcon
-icon-palettes:
-- BROWN
-- BROWN

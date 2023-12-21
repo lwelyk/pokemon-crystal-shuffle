@@ -3,27 +3,36 @@ name: KABUTO
 types:
 - Rock
 - Water
-base-stats:
+base_stats:
   hp: 30
   attack: 80
   defense: 90
   speed: 55
-  special-attack: 55
-  special-defense: 45
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 119
-female-ratio: '12.5'
-egg-cycle: 30
-egg-groups:
+  sp_attack: 55
+  sp_defense: 45
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 119
+gender_ratio: '12.5'
+egg_step_cycle: 30
+egg_groups:
 - Water 1
 - Water 3
 evolutions:
 - Method: Level-Up
   Level: '40'
   Species: KABUTOPS
+species: SHELLFISH
+height: 108
+weight: 250
+pokedex_entry: "Three hundred\nmillion years ago,\nit hid on the sea\ffloor. It also\
+  \ has\neyes on its back\nthat glow."
+icon: KabutoIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: HARDEN
   - 10: ABSORB
@@ -32,7 +41,7 @@ moves:
   - 37: ENDURE
   - 46: MEGA_DRAIN
   - 55: ANCIENTPOWER
-  taught:
+  taught_moves:
   - CURSE
   - ROLLOUT
   - TOXIC
@@ -55,18 +64,9 @@ moves:
   - ATTRACT
   - THIEF
   - ICE_BEAM
-  egg:
+  egg_moves:
   - BUBBLEBEAM
   - AURORA_BEAM
   - RAPID_SPIN
   - DIG
   - FLAIL
-species: SHELLFISH
-height: 108
-weight: 250
-pokedex-entries: "Three hundred\nmillion years ago,\nit hid on the sea\ffloor. It\
-  \ also has\neyes on its back\nthat glow."
-icon: KabutoIcon
-icon-palettes:
-- BROWN
-- GRAY

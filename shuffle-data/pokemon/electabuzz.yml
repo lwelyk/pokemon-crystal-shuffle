@@ -2,23 +2,31 @@ constant: ELECTABUZZ
 name: ELECTABUZZ
 types:
 - Electric
-base-stats:
+base_stats:
   hp: 65
   attack: 83
   defense: 57
   speed: 105
-  special-attack: 95
-  special-defense: 85
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 156
-female-ratio: '25'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 95
+  sp_defense: 85
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 156
+gender_ratio: '25'
+egg_step_cycle: 25
+egg_groups:
 - Humanshape
-evolutions: []
+species: ELECTRIC
+height: 307
+weight: 660
+pokedex_entry: "When two\nELECTABUZZ touch,\nthey control the\felectric currents\n\
+  to communicate\ntheir feelings."
+icon: ElectabuzzIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: QUICK_ATTACK
   - 1: LEER
   - 1: THUNDERPUNCH
@@ -28,7 +36,7 @@ moves:
   - 36: SCREECH
   - 47: THUNDERBOLT
   - 58: THUNDER
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -61,12 +69,3 @@ moves:
   - STRENGTH
   - FLASH
   - THUNDERBOLT
-species: ELECTRIC
-height: 307
-weight: 660
-pokedex-entries: "When two\nELECTABUZZ touch,\nthey control the\felectric currents\n\
-  to communicate\ntheir feelings."
-icon: ElectabuzzIcon
-icon-palettes:
-- BROWN
-- GRAY

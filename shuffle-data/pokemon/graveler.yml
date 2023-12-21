@@ -3,28 +3,37 @@ name: GRAVELER
 types:
 - Rock
 - Ground
-base-stats:
+base_stats:
   hp: 55
   attack: 95
   defense: 115
   speed: 35
-  special-attack: 45
-  special-defense: 45
-growth-rate: Medium-Slow
-catch-rate: 120
-base-experience: 134
-held-items:
+  sp_attack: 45
+  sp_defense: 45
+growth_rate: Medium-Slow
+catch_rate: 120
+base_xp: 134
+held_items:
 - 'EVERSTONE '
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Mineral
 evolutions:
 - Method: Trade
   Held Item: '-1'
   Species: GOLEM
+species: ROCK
+height: 303
+weight: 2320
+pokedex_entry: "It travels by rol-\nling on mountain\npaths. If it gains\ftoo much\
+  \ speed, it\nstops by running\ninto huge rocks."
+icon: GravelerIcon
+icon_pals:
+- GRAY
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: DEFENSE_CURL
   - 1: ROCK_THROW
@@ -36,7 +45,7 @@ moves:
   - 34: ROLLOUT
   - 41: EARTHQUAKE
   - 48: EXPLOSION
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -64,12 +73,3 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - FLAMETHROWER
-species: ROCK
-height: 303
-weight: 2320
-pokedex-entries: "It travels by rol-\nling on mountain\npaths. If it gains\ftoo much\
-  \ speed, it\nstops by running\ninto huge rocks."
-icon: GravelerIcon
-icon-palettes:
-- GRAY
-- BROWN

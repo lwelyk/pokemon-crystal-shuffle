@@ -2,25 +2,33 @@ constant: MISDREAVUS
 name: MISDREAVUS
 types:
 - Ghost
-base-stats:
+base_stats:
   hp: 60
   attack: 60
   defense: 60
   speed: 85
-  special-attack: 85
-  special-defense: 85
-growth-rate: Fast
-catch-rate: 45
-base-experience: 147
-held-items:
+  sp_attack: 85
+  sp_defense: 85
+growth_rate: Fast
+catch_rate: 45
+base_xp: 147
+held_items:
 - 'SPELL_TAG '
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Indeterminate
-evolutions: []
+species: SCREECH
+height: 204
+weight: 20
+pokedex_entry: "It loves to watch\npeople it's scar-\ned. It frightens\fthem by screaming\n\
+  loudly or appear-\ning suddenly."
+icon: MisdreavusIcon
+icon_pals:
+- PURPLE
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: GROWL
   - 1: PSYWAVE
   - 6: SPITE
@@ -29,7 +37,7 @@ moves:
   - 27: PSYBEAM
   - 36: PAIN_SPLIT
   - 46: PERISH_SONG
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -58,15 +66,6 @@ moves:
   - NIGHTMARE
   - FLASH
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - SCREECH
   - DESTINY_BOND
-species: SCREECH
-height: 204
-weight: 20
-pokedex-entries: "It loves to watch\npeople it's scar-\ned. It frightens\fthem by\
-  \ screaming\nloudly or appear-\ning suddenly."
-icon: MisdreavusIcon
-icon-palettes:
-- PURPLE
-- BROWN

@@ -3,26 +3,34 @@ name: HO-OH
 types:
 - Fire
 - Flying
-base-stats:
+base_stats:
   hp: 106
   attack: 130
   defense: 90
   speed: 90
-  special-attack: 110
-  special-defense: 154
-growth-rate: Slow
-catch-rate: 3
-base-experience: 220
-held-items:
+  sp_attack: 110
+  sp_defense: 154
+growth_rate: Slow
+catch_rate: 3
+base_xp: 220
+held_items:
 - SACRED_ASH
 - 'SACRED_ASH '
-female-ratio: Unknown
-egg-cycle: 120
-egg-groups:
+gender_ratio: Unknown
+egg_step_cycle: 120
+egg_groups:
 - None
-evolutions: []
+species: RAINBOW
+height: 1206
+weight: 4390
+pokedex_entry: "It will reveal\nitself before a\npure-hearted\ftrainer by shining\n\
+  its bright rain-\nbow-colored wings."
+icon: HoOhIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: SACRED_FIRE
   - 11: SAFEGUARD
   - 22: GUST
@@ -33,7 +41,7 @@ moves:
   - 77: WHIRLWIND
   - 88: ANCIENTPOWER
   - 99: FUTURE_SIGHT
-  taught:
+  taught_moves:
   - CURSE
   - ROAR
   - TOXIC
@@ -73,12 +81,3 @@ moves:
   - FLASH
   - FLAMETHROWER
   - THUNDERBOLT
-species: RAINBOW
-height: 1206
-weight: 4390
-pokedex-entries: "It will reveal\nitself before a\npure-hearted\ftrainer by shining\n\
-  its bright rain-\nbow-colored wings."
-icon: HoOhIcon
-icon-palettes:
-- RED
-- BROWN

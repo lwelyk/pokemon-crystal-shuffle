@@ -2,29 +2,37 @@ constant: BELLOSSOM
 name: BELLOSSOM
 types:
 - Grass
-base-stats:
+base_stats:
   hp: 75
   attack: 80
   defense: 85
   speed: 50
-  special-attack: 90
-  special-defense: 100
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 184
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 90
+  sp_defense: 100
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 184
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
-evolutions: []
+species: FLOWER
+height: 104
+weight: 130
+pokedex_entry: "When these dance\ntogether, their\npetals rub against\feach other,\n\
+  making pretty,\nrelaxing sounds."
+icon: BellossomIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: ABSORB
   - 1: SWEET_SCENT
   - 1: STUN_SPORE
   - 1: PETAL_DANCE
   - 55: SOLARBEAM
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -45,12 +53,3 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-species: FLOWER
-height: 104
-weight: 130
-pokedex-entries: "When these dance\ntogether, their\npetals rub against\feach other,\n\
-  making pretty,\nrelaxing sounds."
-icon: BellossomIcon
-icon-palettes:
-- RED
-- PINK

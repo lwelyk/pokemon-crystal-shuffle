@@ -3,23 +3,31 @@ name: YANMA
 types:
 - Bug
 - Flying
-base-stats:
+base_stats:
   hp: 65
   attack: 65
   defense: 45
   speed: 95
-  special-attack: 75
-  special-defense: 45
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 147
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 75
+  sp_defense: 45
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 147
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
-evolutions: []
+species: CLEAR WING
+height: 311
+weight: 840
+pokedex_entry: "It can see in all\ndirections without\nmoving its big\feyes, helping\
+  \ it\nspot attackers and\nfood right away."
+icon: YanmaIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: FORESIGHT
   - 7: QUICK_ATTACK
@@ -29,7 +37,7 @@ moves:
   - 31: SUPERSONIC
   - 37: WING_ATTACK
   - 43: SCREECH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -51,16 +59,7 @@ moves:
   - ATTRACT
   - THIEF
   - FLASH
-  egg:
+  egg_moves:
   - WHIRLWIND
   - REVERSAL
   - LEECH_LIFE
-species: CLEAR WING
-height: 311
-weight: 840
-pokedex-entries: "It can see in all\ndirections without\nmoving its big\feyes, helping\
-  \ it\nspot attackers and\nfood right away."
-icon: YanmaIcon
-icon-palettes:
-- RED
-- BLUE

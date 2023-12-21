@@ -3,26 +3,35 @@ name: LARVITAR
 types:
 - Rock
 - Ground
-base-stats:
+base_stats:
   hp: 50
   attack: 64
   defense: 50
   speed: 41
-  special-attack: 45
-  special-defense: 50
-growth-rate: Slow
-catch-rate: 45
-base-experience: 67
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+  sp_attack: 45
+  sp_defense: 50
+growth_rate: Slow
+catch_rate: 45
+base_xp: 67
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Monster
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: PUPITAR
+species: ROCK SKIN
+height: 200
+weight: 1590
+pokedex_entry: "Born deep under-\nground, this\n#MON becomes a\fpupa after eating\n\
+  enough dirt to\nmake a mountain."
+icon: LarvitarIcon
+icon_pals:
+- GREEN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: BITE
   - 1: LEER
   - 8: SANDSTORM
@@ -33,7 +42,7 @@ moves:
   - 43: CRUNCH
   - 50: EARTHQUAKE
   - 57: HYPER_BEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -56,18 +65,9 @@ moves:
   - DETECT
   - REST
   - ATTRACT
-  egg:
+  egg_moves:
   - PURSUIT
   - STOMP
   - OUTRAGE
   - FOCUS_ENERGY
   - ANCIENTPOWER
-species: ROCK SKIN
-height: 200
-weight: 1590
-pokedex-entries: "Born deep under-\nground, this\n#MON becomes a\fpupa after eating\n\
-  enough dirt to\nmake a mountain."
-icon: LarvitarIcon
-icon-palettes:
-- GREEN
-- BROWN

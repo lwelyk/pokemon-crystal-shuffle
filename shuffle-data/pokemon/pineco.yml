@@ -2,26 +2,35 @@ constant: PINECO
 name: PINECO
 types:
 - Bug
-base-stats:
+base_stats:
   hp: 50
   attack: 65
   defense: 90
   speed: 15
-  special-attack: 35
-  special-defense: 35
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 60
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 35
+  sp_defense: 35
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 60
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
 evolutions:
 - Method: Level-Up
   Level: '31'
   Species: FORRETRESS
+species: BAGWORM
+height: 200
+weight: 160
+pokedex_entry: "It spits out a\nfluid that it uses\nto glue tree bark\fto its body.\
+  \ The\nfluid hardens when\nit touches air."
+icon: PinecoIcon
+icon_pals:
+- TEAL
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: PROTECT
   - 8: SELFDESTRUCT
@@ -31,7 +40,7 @@ moves:
   - 36: EXPLOSION
   - 43: SPIKES
   - 50: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -54,17 +63,8 @@ moves:
   - REST
   - ATTRACT
   - STRENGTH
-  egg:
+  egg_moves:
   - REFLECT
   - PIN_MISSILE
   - FLAIL
   - SWIFT
-species: BAGWORM
-height: 200
-weight: 160
-pokedex-entries: "It spits out a\nfluid that it uses\nto glue tree bark\fto its body.\
-  \ The\nfluid hardens when\nit touches air."
-icon: PinecoIcon
-icon-palettes:
-- TEAL
-- PINK

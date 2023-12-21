@@ -2,23 +2,31 @@ constant: VAPOREON
 name: VAPOREON
 types:
 - Water
-base-stats:
+base_stats:
   hp: 130
   attack: 65
   defense: 60
   speed: 65
-  special-attack: 110
-  special-defense: 95
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 196
-female-ratio: '12.5'
-egg-cycle: 35
-egg-groups:
+  sp_attack: 110
+  sp_defense: 95
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 196
+gender_ratio: '12.5'
+egg_step_cycle: 35
+egg_groups:
 - Ground
-evolutions: []
+species: BUBBLE JET
+height: 303
+weight: 640
+pokedex_entry: "As it uses the\nfins on the tip\nof its tail to\fswim, it blends\n\
+  with the water\nperfectly."
+icon: VaporeonIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 8: SAND_ATTACK
@@ -29,7 +37,7 @@ moves:
   - 42: HAZE
   - 47: ACID_ARMOR
   - 52: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -59,12 +67,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: BUBBLE JET
-height: 303
-weight: 640
-pokedex-entries: "As it uses the\nfins on the tip\nof its tail to\fswim, it blends\n\
-  with the water\nperfectly."
-icon: VaporeonIcon
-icon-palettes:
-- BLUE
-- PURPLE

@@ -3,26 +3,35 @@ name: BELLSPROUT
 types:
 - Grass
 - Poison
-base-stats:
+base_stats:
   hp: 50
   attack: 75
   defense: 35
   speed: 40
-  special-attack: 70
-  special-defense: 30
-growth-rate: Medium-Slow
-catch-rate: 255
-base-experience: 84
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 70
+  sp_defense: 30
+growth_rate: Medium-Slow
+catch_rate: 255
+base_xp: 84
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
 evolutions:
 - Method: Level-Up
   Level: '21'
   Species: WEEPINBELL
+species: FLOWER
+height: 204
+weight: 90
+pokedex_entry: "If it notices\nanything that\nmoves, it\fimmediately flings\nits vine\
+  \ at the\nobject."
+icon: BellsproutIcon
+icon_pals:
+- GREEN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: VINE_WHIP
   - 6: GROWTH
   - 11: WRAP
@@ -33,7 +42,7 @@ moves:
   - 30: SWEET_SCENT
   - 37: RAZOR_LEAF
   - 45: SLAM
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -54,18 +63,9 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-  egg:
+  egg_moves:
   - SWORDS_DANCE
   - ENCORE
   - REFLECT
   - SYNTHESIS
   - LEECH_LIFE
-species: FLOWER
-height: 204
-weight: 90
-pokedex-entries: "If it notices\nanything that\nmoves, it\fimmediately flings\nits\
-  \ vine at the\nobject."
-icon: BellsproutIcon
-icon-palettes:
-- GREEN
-- BROWN

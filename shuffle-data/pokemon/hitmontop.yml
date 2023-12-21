@@ -2,23 +2,31 @@ constant: HITMONTOP
 name: HITMONTOP
 types:
 - Fighting
-base-stats:
+base_stats:
   hp: 50
   attack: 95
   defense: 95
   speed: 70
-  special-attack: 35
-  special-defense: 110
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 138
-female-ratio: '0'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 35
+  sp_defense: 110
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 138
+gender_ratio: '0'
+egg_step_cycle: 25
+egg_groups:
 - Humanshape
-evolutions: []
+species: HANDSTAND
+height: 407
+weight: 1060
+pokedex_entry: "After doing a\nhandstand to\nthrow off the\fopponent's timing,\nit\
+  \ presents its\nfancy kick moves."
+icon: HitmontopIcon
+icon_pals:
+- BROWN
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: ROLLING_KICK
   - 7: FOCUS_ENERGY
   - 13: PURSUIT
@@ -28,7 +36,7 @@ moves:
   - 37: AGILITY
   - 43: DETECT
   - 49: TRIPLE_KICK
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -51,12 +59,3 @@ moves:
   - ATTRACT
   - THIEF
   - STRENGTH
-species: HANDSTAND
-height: 407
-weight: 1060
-pokedex-entries: "After doing a\nhandstand to\nthrow off the\fopponent's timing,\n\
-  it presents its\nfancy kick moves."
-icon: HitmontopIcon
-icon-palettes:
-- BROWN
-- PURPLE

@@ -2,21 +2,21 @@ constant: POLIWHIRL
 name: POLIWHIRL
 types:
 - Water
-base-stats:
+base_stats:
   hp: 65
   attack: 65
   defense: 65
   speed: 90
-  special-attack: 50
-  special-defense: 50
-growth-rate: Medium-Slow
-catch-rate: 120
-base-experience: 131
-held-items:
+  sp_attack: 50
+  sp_defense: 50
+growth_rate: Medium-Slow
+catch_rate: 120
+base_xp: 131
+held_items:
 - 'KINGS_ROCK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 evolutions:
 - Method: Item
@@ -25,8 +25,17 @@ evolutions:
 - Method: Trade
   Held Item: KINGS_ROCK
   Species: POLITOED
+species: TADPOLE
+height: 303
+weight: 440
+pokedex_entry: "Though it is\nskilled at walk-\ning, it prefers to\flive underwater\n\
+  where there is\nless danger."
+icon: PoliwhirlIcon
+icon_pals:
+- BLUE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: BUBBLE
   - 1: HYPNOSIS
   - 1: WATER_GUN
@@ -37,7 +46,7 @@ moves:
   - 35: BODY_SLAM
   - 43: BELLY_DRUM
   - 51: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -68,12 +77,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: TADPOLE
-height: 303
-weight: 440
-pokedex-entries: "Though it is\nskilled at walk-\ning, it prefers to\flive underwater\n\
-  where there is\nless danger."
-icon: PoliwhirlIcon
-icon-palettes:
-- BLUE
-- BLUE

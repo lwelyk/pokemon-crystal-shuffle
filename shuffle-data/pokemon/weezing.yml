@@ -2,23 +2,31 @@ constant: WEEZING
 name: WEEZING
 types:
 - Poison
-base-stats:
+base_stats:
   hp: 65
   attack: 90
   defense: 120
   speed: 60
-  special-attack: 85
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 60
-base-experience: 173
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 85
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 60
+base_xp: 173
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Indeterminate
-evolutions: []
+species: POISON GAS
+height: 311
+weight: 210
+pokedex_entry: "When it inhales\npoisonous gases\nfrom garbage, its\fbody expands,\
+  \ and\nits insides smell\nmuch worse."
+icon: WeezingIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: POISON_GAS
   - 1: TACKLE
   - 1: SMOG
@@ -30,7 +38,7 @@ moves:
   - 33: HAZE
   - 44: EXPLOSION
   - 51: DESTINY_BOND
-  taught:
+  taught_moves:
   - CURSE
   - ROLLOUT
   - TOXIC
@@ -54,12 +62,3 @@ moves:
   - THIEF
   - FLAMETHROWER
   - THUNDERBOLT
-species: POISON GAS
-height: 311
-weight: 210
-pokedex-entries: "When it inhales\npoisonous gases\nfrom garbage, its\fbody expands,\
-  \ and\nits insides smell\nmuch worse."
-icon: WeezingIcon
-icon-palettes:
-- PURPLE
-- BLUE

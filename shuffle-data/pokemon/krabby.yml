@@ -2,26 +2,35 @@ constant: KRABBY
 name: KRABBY
 types:
 - Water
-base-stats:
+base_stats:
   hp: 30
   attack: 105
   defense: 90
   speed: 50
-  special-attack: 25
-  special-defense: 25
-growth-rate: Medium-Fast
-catch-rate: 225
-base-experience: 115
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 25
+  sp_defense: 25
+growth_rate: Medium-Fast
+catch_rate: 225
+base_xp: 115
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 3
 evolutions:
 - Method: Level-Up
   Level: '28'
   Species: KINGLER
+species: RIVER CRAB
+height: 104
+weight: 140
+pokedex_entry: "If it is unable\nto find food, it\nwill absorb\fnutrients by\nswallowing\
+  \ a\nmouthful of sand."
+icon: KrabbyIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: BUBBLE
   - 5: LEER
   - 12: VICEGRIP
@@ -30,7 +39,7 @@ moves:
   - 27: GUILLOTINE
   - 34: PROTECT
   - 41: CRABHAMMER
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ROCK_SMASH
@@ -56,18 +65,9 @@ moves:
   - STRENGTH
   - WHIRLPOOL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - DIG
   - HAZE
   - AMNESIA
   - FLAIL
   - SLAM
-species: RIVER CRAB
-height: 104
-weight: 140
-pokedex-entries: "If it is unable\nto find food, it\nwill absorb\fnutrients by\nswallowing\
-  \ a\nmouthful of sand."
-icon: KrabbyIcon
-icon-palettes:
-- RED
-- BROWN

@@ -2,29 +2,38 @@ constant: DRAGONAIR
 name: DRAGONAIR
 types:
 - Dragon
-base-stats:
+base_stats:
   hp: 61
   attack: 84
   defense: 65
   speed: 70
-  special-attack: 70
-  special-defense: 70
-growth-rate: Slow
-catch-rate: 45
-base-experience: 144
-held-items:
+  sp_attack: 70
+  sp_defense: 70
+growth_rate: Slow
+catch_rate: 45
+base_xp: 144
+held_items:
 - 'DRAGON_SCALE '
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Water 1
 - Dragon
 evolutions:
 - Method: Level-Up
   Level: '55'
   Species: DRAGONITE
+species: DRAGON
+height: 1301
+weight: 360
+pokedex_entry: "It is called the\ndivine #MON.\nWhen its entire\fbody brightens\n\
+  slightly, the\nweather changes."
+icon: DragonairIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: WRAP
   - 1: LEER
   - 1: THUNDER_WAVE
@@ -37,7 +46,7 @@ moves:
   - 47: SAFEGUARD
   - 56: OUTRAGE
   - 65: HYPER_BEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -67,12 +76,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: DRAGON
-height: 1301
-weight: 360
-pokedex-entries: "It is called the\ndivine #MON.\nWhen its entire\fbody brightens\n\
-  slightly, the\nweather changes."
-icon: DragonairIcon
-icon-palettes:
-- BLUE
-- PURPLE

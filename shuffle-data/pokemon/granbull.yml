@@ -2,24 +2,32 @@ constant: GRANBULL
 name: GRANBULL
 types:
 - Fairy
-base-stats:
+base_stats:
   hp: 90
   attack: 120
   defense: 75
   speed: 45
-  special-attack: 60
-  special-defense: 60
-growth-rate: Fast
-catch-rate: 75
-base-experience: 178
-female-ratio: '75'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 60
+  sp_defense: 60
+growth_rate: Fast
+catch_rate: 75
+base_xp: 178
+gender_ratio: '75'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 - Fairy
-evolutions: []
+species: FAIRY
+height: 407
+weight: 1070
+pokedex_entry: "It can make most\nany #MON run\naway simply by\fopening its mouth\n\
+  wide to reveal its\nbig fangs."
+icon: GranbullIcon
+icon_pals:
+- PURPLE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: SCARY_FACE
   - 4: TAIL_WHIP
@@ -29,7 +37,7 @@ moves:
   - 28: ROAR
   - 38: RAGE
   - 51: TAKE_DOWN
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -63,12 +71,3 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - THUNDERBOLT
-species: FAIRY
-height: 407
-weight: 1070
-pokedex-entries: "It can make most\nany #MON run\naway simply by\fopening its mouth\n\
-  wide to reveal its\nbig fangs."
-icon: GranbullIcon
-icon-palettes:
-- PURPLE
-- GRAY

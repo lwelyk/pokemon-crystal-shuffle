@@ -2,26 +2,34 @@ constant: MAGMAR
 name: MAGMAR
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 65
   attack: 95
   defense: 57
   speed: 93
-  special-attack: 100
-  special-defense: 85
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 167
-held-items:
+  sp_attack: 100
+  sp_defense: 85
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 167
+held_items:
 - BURNT_BERRY
 - 'BURNT_BERRY '
-female-ratio: '25'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '25'
+egg_step_cycle: 25
+egg_groups:
 - Humanshape
-evolutions: []
+species: SPITFIRE
+height: 403
+weight: 980
+pokedex_entry: "It moves more\nfrequently in hot\nareas. It can heal\fitself by dipping\n\
+  its wound into\nlava."
+icon: MagmarIcon
+icon_pals:
+- RED
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: EMBER
   - 1: LEER
   - 1: SMOG
@@ -34,7 +42,7 @@ moves:
   - 41: FLAMETHROWER
   - 49: CONFUSE_RAY
   - 57: FIRE_BLAST
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -63,12 +71,3 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - FLAMETHROWER
-species: SPITFIRE
-height: 403
-weight: 980
-pokedex-entries: "It moves more\nfrequently in hot\nareas. It can heal\fitself by\
-  \ dipping\nits wound into\nlava."
-icon: MagmarIcon
-icon-palettes:
-- RED
-- PURPLE

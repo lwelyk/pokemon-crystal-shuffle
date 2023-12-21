@@ -3,26 +3,35 @@ name: HOOTHOOT
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 60
   attack: 30
   defense: 30
   speed: 50
-  special-attack: 36
-  special-defense: 56
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 58
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 36
+  sp_defense: 56
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 58
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
 evolutions:
 - Method: Level-Up
   Level: '20'
   Species: NOCTOWL
+species: OWL
+height: 204
+weight: 470
+pokedex_entry: "It begins to hoot\nat the same time\nevery day. Some\ftrainers use\
+  \ them\nin place of\nclocks."
+icon: HoothootIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 6: FORESIGHT
@@ -32,7 +41,7 @@ moves:
   - 28: TAKE_DOWN
   - 34: CONFUSION
   - 48: DREAM_EATER
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -56,19 +65,10 @@ moves:
   - NIGHTMARE
   - FLY
   - FLASH
-  egg:
+  egg_moves:
   - MIRROR_MOVE
   - SUPERSONIC
   - FAINT_ATTACK
   - WING_ATTACK
   - WHIRLWIND
   - SKY_ATTACK
-species: OWL
-height: 204
-weight: 470
-pokedex-entries: "It begins to hoot\nat the same time\nevery day. Some\ftrainers use\
-  \ them\nin place of\nclocks."
-icon: HoothootIcon
-icon-palettes:
-- BROWN
-- BROWN

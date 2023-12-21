@@ -3,29 +3,37 @@ name: EXEGGUTOR
 types:
 - Grass
 - Psychic
-base-stats:
+base_stats:
   hp: 95
   attack: 95
   defense: 85
   speed: 55
-  special-attack: 125
-  special-defense: 65
-growth-rate: Slow
-catch-rate: 45
-base-experience: 212
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 125
+  sp_defense: 65
+growth_rate: Slow
+catch_rate: 45
+base_xp: 212
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
-evolutions: []
+species: COCONUT
+height: 607
+weight: 2650
+pokedex_entry: "Living in a good\nenvironment makes\nit grow lots of\fheads. A head\
+  \ that\ndrops off becomes\nan EXEGGCUTE."
+icon: ExeggutorIcon
+icon_pals:
+- GREEN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: BARRAGE
   - 1: HYPNOSIS
   - 1: CONFUSION
   - 19: STOMP
   - 31: EGG_BOMB
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -53,12 +61,3 @@ moves:
   - NIGHTMARE
   - STRENGTH
   - FLASH
-species: COCONUT
-height: 607
-weight: 2650
-pokedex-entries: "Living in a good\nenvironment makes\nit grow lots of\fheads. A head\
-  \ that\ndrops off becomes\nan EXEGGCUTE."
-icon: ExeggutorIcon
-icon-palettes:
-- GREEN
-- BROWN

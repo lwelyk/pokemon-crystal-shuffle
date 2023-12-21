@@ -2,23 +2,31 @@ constant: ESPEON
 name: ESPEON
 types:
 - Psychic
-base-stats:
+base_stats:
   hp: 65
   attack: 65
   defense: 60
   speed: 110
-  special-attack: 130
-  special-defense: 95
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 197
-female-ratio: '12.5'
-egg-cycle: 35
-egg-groups:
+  sp_attack: 130
+  sp_defense: 95
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 197
+gender_ratio: '12.5'
+egg_step_cycle: 35
+egg_groups:
 - Ground
-evolutions: []
+species: SUN
+height: 211
+weight: 580
+pokedex_entry: "The tip of its\nforked tail\nquivers when it is\fpredicting its\n\
+  opponent's next\nmove."
+icon: EspeonIcon
+icon_pals:
+- PURPLE
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 8: SAND_ATTACK
@@ -29,7 +37,7 @@ moves:
   - 42: PSYCH_UP
   - 47: PSYCHIC_M
   - 52: MORNING_SUN
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -59,12 +67,3 @@ moves:
   - NIGHTMARE
   - CUT
   - FLASH
-species: SUN
-height: 211
-weight: 580
-pokedex-entries: "The tip of its\nforked tail\nquivers when it is\fpredicting its\n\
-  opponent's next\nmove."
-icon: EspeonIcon
-icon-palettes:
-- PURPLE
-- GREEN

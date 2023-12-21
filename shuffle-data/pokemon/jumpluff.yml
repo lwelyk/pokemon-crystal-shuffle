@@ -3,24 +3,32 @@ name: JUMPLUFF
 types:
 - Grass
 - Flying
-base-stats:
+base_stats:
   hp: 75
   attack: 55
   defense: 70
   speed: 110
-  special-attack: 55
-  special-defense: 85
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 176
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 55
+  sp_defense: 85
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 176
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Fairy
 - Plant
-evolutions: []
+species: COTTONWEED
+height: 207
+weight: 70
+pokedex_entry: "Even in the fierc-\nest wind, it can\ncontrol its fluff\fto make its\
+  \ way to\nany place in the\nworld it wants."
+icon: JumpluffIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SPLASH
   - 1: SYNTHESIS
   - 1: TAIL_WHIP
@@ -34,7 +42,7 @@ moves:
   - 22: LEECH_SEED
   - 33: COTTON_SPORE
   - 44: MEGA_DRAIN
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -56,12 +64,3 @@ moves:
   - REST
   - ATTRACT
   - FLASH
-species: COTTONWEED
-height: 207
-weight: 70
-pokedex-entries: "Even in the fierc-\nest wind, it can\ncontrol its fluff\fto make\
-  \ its way to\nany place in the\nworld it wants."
-icon: JumpluffIcon
-icon-palettes:
-- BLUE
-- PURPLE

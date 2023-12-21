@@ -3,26 +3,35 @@ name: GASTLY
 types:
 - Ghost
 - Poison
-base-stats:
+base_stats:
   hp: 30
   attack: 35
   defense: 30
   speed: 80
-  special-attack: 100
-  special-defense: 35
-growth-rate: Medium-Slow
-catch-rate: 190
-base-experience: 95
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 100
+  sp_defense: 35
+growth_rate: Medium-Slow
+catch_rate: 190
+base_xp: 95
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Indeterminate
 evolutions:
 - Method: Level-Up
   Level: '25'
   Species: HAUNTER
+species: GAS
+height: 403
+weight: 2
+pokedex_entry: "It wraps its op-\nponent in its gas-\nlike body, slowly\fweakening\
+  \ its prey\nby poisoning it\nthrough the skin."
+icon: GastlyIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: HYPNOSIS
   - 1: LICK
   - 8: SPITE
@@ -32,7 +41,7 @@ moves:
   - 28: CONFUSE_RAY
   - 33: DREAM_EATER
   - 36: DESTINY_BOND
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ZAP_CANNON
@@ -58,16 +67,7 @@ moves:
   - THIEF
   - NIGHTMARE
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - PSYWAVE
   - PERISH_SONG
   - HAZE
-species: GAS
-height: 403
-weight: 2
-pokedex-entries: "It wraps its op-\nponent in its gas-\nlike body, slowly\fweakening\
-  \ its prey\nby poisoning it\nthrough the skin."
-icon: GastlyIcon
-icon-palettes:
-- PURPLE
-- BLUE

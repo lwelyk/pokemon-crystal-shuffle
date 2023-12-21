@@ -2,23 +2,31 @@ constant: TYPHLOSION
 name: TYPHLOSION
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 78
   attack: 84
   defense: 78
   speed: 100
-  special-attack: 109
-  special-defense: 85
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 209
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 109
+  sp_defense: 85
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 209
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: VOLCANO
+height: 507
+weight: 1750
+pokedex_entry: "When heat from its\nbody causes the\nair around it to\fshimmer, this\
+  \ is a\nsign that it is\nready to battle."
+icon: TyphlosionIcon
+icon_pals:
+- PINK
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: LEER
   - 1: SMOKESCREEN
@@ -29,7 +37,7 @@ moves:
   - 31: FLAME_WHEEL
   - 45: SWIFT
   - 60: FLAMETHROWER
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -64,12 +72,3 @@ moves:
   - CUT
   - STRENGTH
   - FLAMETHROWER
-species: VOLCANO
-height: 507
-weight: 1750
-pokedex-entries: "When heat from its\nbody causes the\nair around it to\fshimmer,\
-  \ this is a\nsign that it is\nready to battle."
-icon: TyphlosionIcon
-icon-palettes:
-- PINK
-- PURPLE

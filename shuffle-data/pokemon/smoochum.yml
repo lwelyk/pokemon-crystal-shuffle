@@ -3,29 +3,38 @@ name: SMOOCHUM
 types:
 - Ice
 - Psychic
-base-stats:
+base_stats:
   hp: 45
   attack: 30
   defense: 15
   speed: 65
-  special-attack: 85
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 87
-held-items:
+  sp_attack: 85
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 87
+held_items:
 - ICE_BERRY
 - 'ICE_BERRY '
-female-ratio: '100'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '100'
+egg_step_cycle: 25
+egg_groups:
 - None
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: JYNX
+species: KISS
+height: 104
+weight: 130
+pokedex_entry: "The sensitivity of\nits lips develops\nmost quickly.\fIt uses them\
+  \ to\ntry to identify\nunknown objects."
+icon: SmoochumIcon
+icon_pals:
+- PURPLE
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 1: LICK
   - 9: SWEET_KISS
@@ -36,7 +45,7 @@ moves:
   - 37: PSYCHIC_M
   - 45: PERISH_SONG
   - 49: BLIZZARD
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - CURSE
   - TOXIC
@@ -64,14 +73,5 @@ moves:
   - THIEF
   - NIGHTMARE
   - ICE_BEAM
-  egg:
+  egg_moves:
   - MEDITATE
-species: KISS
-height: 104
-weight: 130
-pokedex-entries: "The sensitivity of\nits lips develops\nmost quickly.\fIt uses them\
-  \ to\ntry to identify\nunknown objects."
-icon: SmoochumIcon
-icon-palettes:
-- PURPLE
-- PINK

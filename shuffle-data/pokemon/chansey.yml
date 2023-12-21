@@ -2,28 +2,37 @@ constant: CHANSEY
 name: CHANSEY
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 250
   attack: 5
   defense: 5
   speed: 50
-  special-attack: 35
-  special-defense: 105
-growth-rate: Fast
-catch-rate: 30
-base-experience: 255
-held-items:
+  sp_attack: 35
+  sp_defense: 105
+growth_rate: Fast
+catch_rate: 30
+base_xp: 255
+held_items:
 - 'LUCKY_EGG '
-female-ratio: '100'
-egg-cycle: 40
-egg-groups:
+gender_ratio: '100'
+egg_step_cycle: 40
+egg_groups:
 - Fairy
 evolutions:
 - Method: Happiness
   Time: TR_ANYTIME
   Species: BLISSEY
+species: EGG
+height: 307
+weight: 760
+pokedex_entry: "People try to\ncatch it for its\nextremely\fnutritious eggs,\nbut\
+  \ it rarely can\nbe found."
+icon: ChanseyIcon
+icon_pals:
+- PINK
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 5: GROWL
   - 9: TAIL_WHIP
@@ -35,7 +44,7 @@ moves:
   - 41: DEFENSE_CURL
   - 49: LIGHT_SCREEN
   - 57: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -75,16 +84,7 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - PRESENT
   - METRONOME
   - HEAL_BELL
-species: EGG
-height: 307
-weight: 760
-pokedex-entries: "People try to\ncatch it for its\nextremely\fnutritious eggs,\nbut\
-  \ it rarely can\nbe found."
-icon: ChanseyIcon
-icon-palettes:
-- PINK
-- GREEN

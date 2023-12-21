@@ -3,26 +3,35 @@ name: CHINCHOU
 types:
 - Water
 - Electric
-base-stats:
+base_stats:
   hp: 75
   attack: 38
   defense: 38
   speed: 67
-  special-attack: 56
-  special-defense: 56
-growth-rate: Slow
-catch-rate: 190
-base-experience: 90
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 56
+  sp_defense: 56
+growth_rate: Slow
+catch_rate: 190
+base_xp: 90
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 2
 evolutions:
 - Method: Level-Up
   Level: '27'
   Species: LANTURN
+species: ANGLER
+height: 108
+weight: 260
+pokedex_entry: "Its antennae, whi-\nch evolved from a\nfin, have both po-\fsitive\
+  \ and neg-\native charges flo-\nwing through them."
+icon: ChinchouIcon
+icon_pals:
+- BLUE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: BUBBLE
   - 1: THUNDER_WAVE
   - 5: SUPERSONIC
@@ -32,7 +41,7 @@ moves:
   - 29: CONFUSE_RAY
   - 37: TAKE_DOWN
   - 41: HYDRO_PUMP
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ZAP_CANNON
@@ -55,16 +64,7 @@ moves:
   - WATERFALL
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - FLAIL
   - SUPERSONIC
   - SCREECH
-species: ANGLER
-height: 108
-weight: 260
-pokedex-entries: "Its antennae, whi-\nch evolved from a\nfin, have both po-\fsitive\
-  \ and neg-\native charges flo-\nwing through them."
-icon: ChinchouIcon
-icon-palettes:
-- BLUE
-- GRAY

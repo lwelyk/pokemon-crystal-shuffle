@@ -1,7 +1,10 @@
 import operator
 import re
 import yaml
-from . import common
+from . import common, yaml_loaders
+import csv
+import os
+from dataclasses import dataclass
 
 # Be a file or something later, just here for testing and setup
 flags = {
@@ -16,108 +19,83 @@ flags = {
 # PhysicalSpecialSplit when false would just modify all moves to use their type's old physical or
 # special deliniation, so technically it would still be there, just every attack would be defined
 # by type instead of move.
+
+@dataclass
 class Pokemon:
-    def __init__(
-        self,
-        constant,
-        name,
-        stats,
-        types,
-        catch_rate,
-        base_xp,
-        growth_rate,
-        gender_ratio,
-        egg_step_cycle,
-        level_up_moves,
-        species,
-        height,
-        weight,
-        icon,
-        icon_pals,
-        flavor_text,
-        normal_palette,
-        shiny_palette,
-        shape="",
-        held_items=[],
-        egg_groups=[],
-        taught_moves=[],
-        egg_moves= [],
-        evolutions=[]
-        # pokedex_numbers={},
-        # front_sprite,
-        # back_sprite  
-      ):
-        self.constant = constant
-        self.name = name
-        self.stats = stats
-        self.types = types
-        self.catch_rate = catch_rate
-        self.base_xp = base_xp
-        self.growth_rate = growth_rate
-        self.gender_ratio = gender_ratio
-        self.egg_step_cycle = egg_step_cycle
-        self.level_up_moves = level_up_moves
-        self.species = species
-        self.height = height
-        self.weight = weight
-        self.icon = icon
-        self.icon_pals = icon_pals
-        self.flavor_text = flavor_text
-        self.normal_palette = normal_palette
-        self.shiny_palette = shiny_palette
-        self.shape = shape
-        self.held_items = held_items
-        self.egg_groups = egg_groups
-        self.taught_moves = taught_moves
-        self.egg_moves = egg_moves
-        self.evolutions = evolutions
+    constant: str
+    name: str
+    base_stats: dict
+    types: list
+    catch_rate: int
+    base_xp: int
+    growth_rate: str
+    gender_ratio: str
+    egg_step_cycle: str
+    level_up_moves: list
+    species: str
+    height: int
+    weight: int
+    icon: str
+    icon_pals: list
+    pokedex_entry: str
+    normal_palette: str
+    shiny_palette: str
+    held_items: list = []
+    egg_groups: list = []
+    taught_moves: list = []
+    egg_moves: list = []
+    evolutions: list = []
     
     constant = property(operator.attrgetter('_constant'))
     
     @constant.setter
     def constant(self, const):
-        if not const: 
-            raise Exception ("Pokemon need a constant.")
         self._constant = common.check_constant(const)
 
     name = property(operator.attrgetter('_name'))
     
     @name.setter
     def name(self, name):
-        if not name:
-            raise Exception("Pokemon need a name.")
         self._name = common.check_string(name, 10, "Pokemon Names")
 
-    stats = property(operator.attrgetter('_stats'))
+    base_stats = property(operator.attrgetter('_base_stats'))
 
-    @stats.setter
-    def stats(self, stats):
-        if not stats:
+    @base_stats.setter
+    def base_stats(self, base_stats):
+        if not base_stats:
             raise Exception("Pokemon need stats.")
-        if type(stats) != dict:
+        if type(base_stats) != dict:
             raise Exception("Pokemon stats should be a dictionary.")
         # Should specify this elsewhere.
         stats_list = ['hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed'] 
         for stat_name in stats_list:
-            if stat_name not in stats:
+            if stat_name not in base_stats:
                 raise Exception("Pokemon stats missing " + stat_name)
-        for stat, value in stats.items():
+        for stat, value in base_stats.items():
             value = common.check_number(value, 1, 255, "Pokemon Stat")
-        self.hp = int(stats["hp"])
-        self.attack = int(stats["attack"])
-        self.defense = int(stats["defense"])
-        self.sp_attack = int(stats["sp_attack"])
-        self.sp_defense = int(stats["sp_defense"])
-        self.speed = int(stats["speed"])
+        self.hp = int(base_stats["hp"])
+        self.attack = int(base_stats["attack"])
+        self.defense = int(base_stats["defense"])
+        self.sp_attack = int(base_stats["sp_attack"])
+        self.sp_defense = int(base_stats["sp_defense"])
+        self.speed = int(base_stats["speed"])
+    
+    @base_stats.getter
+    def base_stats(self):
+        bs = {
+            "hp" : self.hp,
+            "attack": self.attack,
+            "defense": self.defense,
+            "sp_attack": self.sp_attack,
+            "sp_defense": self.sp_defense,
+            "speed": self.speed
+        }
+        return bs
 
     types = property(operator.attrgetter('_types'))
     
     @types.setter
     def types(self, types):
-        # Temporarily just having a list here, will pull from types.yml later
-        type_list = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"]
-        if not types:
-            raise Exception("Pokemon need types.")
         if type(types) != list:
             print("You should pass types as a list.")
             types = [types]
@@ -131,8 +109,6 @@ class Pokemon:
     def growth_rate(self, growth_rate):
         # Temporary list
         growth_rates = ["Medium-Fast", "Slightly-Fast", "Slightly-Slow", "Medium-Slow", "Fast", "Slow"]
-        if not growth_rate:
-            raise Exception("Pokemon need a growth rate.")
         if type(growth_rate) != str:
             raise Exception("Growth Rate should be a string. You provided " + str(growth_rate))
         if growth_rate not in growth_rates:
@@ -143,24 +119,18 @@ class Pokemon:
     
     @catch_rate.setter
     def catch_rate(self, catch_rate):
-        if not catch_rate:
-            raise Exception("Pokemon need a catch rate.")
         self._catch_rate = common.check_number(catch_rate, 1, 255, "Catch Rate")
     
     base_xp = property(operator.attrgetter('_base_xp'))
     
     @base_xp.setter
     def base_xp(self, base_xp):
-        if not base_xp:
-            raise Exception("Pokemon need a base xp.")
         self._base_xp = common.check_number(base_xp, 1, 255, "Base XP")
 
     egg_step_cycle = property(operator.attrgetter('_egg_step_cycle'))
     
     @egg_step_cycle.setter
     def egg_step_cycle(self, egg_step_cycle):
-        if not egg_step_cycle:
-            raise Exception("Pokemon need an egg_step_cycle.")
         self._egg_step_cycle = common.check_number(egg_step_cycle, 1, 255, "Egg Step Cycle")
     
     gender_ratio = property(operator.attrgetter('_gender_ratio'))
@@ -170,8 +140,6 @@ class Pokemon:
         # Put this here for now.
         # Just making it the female percentage.
         ratios = ['0', '12.5', '25', '50', '75', '100', 'Unknown']
-        if not gender_ratio:
-            raise Exception("Sorry, the Pokemon world has not yet abolished gender. Please provide a ratio.")
         if str(gender_ratio) not in ratios:
             raise Exception("Sorry you have provided an invalid gender ratio of " + str(gender_ratio))
         self._gender_ratio = gender_ratio
@@ -187,8 +155,6 @@ class Pokemon:
             'Water 3', 'Mineral', 'Indeterminate', 
             'Water 2', 'Ditto', 'Dragon', 'None'
         ]
-        if not egg_groups:
-            raise Exception("Pokemon need to be given an egg group.")
         if type(egg_groups) != list:
             if egg_groups in egg_group_list:
                 egg_groups = [egg_groups]
@@ -212,8 +178,6 @@ class Pokemon:
     @level_up_moves.setter
     def level_up_moves(self, level_up_moves):
         # Simple for now, no moves setup yet.
-        if type(level_up_moves) is not list:
-            raise Exception("Sorry, you need to provide a list of level up moves.")
         if len(level_up_moves) < 1:
             raise Exception("Sorry, a Pokemon has to have a level up move.")
         for level_up_move in level_up_moves:
@@ -230,8 +194,6 @@ class Pokemon:
     
     @taught_moves.setter
     def taught_moves(self, taught_moves):
-        if type(taught_moves) is not list:
-            raise Exception("Sorry, taught moves needs to be a list.")
         for taught_move in taught_moves:
             if type(taught_move) is not str:
                 raise Exception("Each Taught move must be a string.")
@@ -242,8 +204,6 @@ class Pokemon:
     
     @egg_moves.setter
     def egg_moves(self, egg_moves):
-        if type(egg_moves) is not list:
-            raise Exception("Sorry, egg moves needs to be a list.")
         for egg_move in egg_moves:
             if type(egg_move) is not str:
                 raise Exception("Each egg move must be a string.")
@@ -262,8 +222,6 @@ class Pokemon:
             "Happiness": ["Time"],
             "Stat": ["Level", "Stat Relationship"]
         }
-        if type(evolutions) is not list:
-            raise Exception("Evolutions must be passed as a list.")
         for evolution in evolutions: 
             if "Method" not in evolution:
                 raise Exception("You must provide a method of evolution.")
@@ -281,21 +239,13 @@ class Pokemon:
     
     @species.setter
     def species(self, species):
-        if not(species):
-            raise Exception("Pokemon need a species name.")
-        if type(species) is not str:
-            raise Exception("Species should be provided as a string.")    
-        if len(species) > 11:
-            raise Exception("Species names must be no longer than 11 characters. You provided '" + species + "', which is " + str(len(species)) + " characters.")
-        self._species = species
+         self._species = common.check_string(species, 11, "Species Name")
         
     height = property(operator.attrgetter('_height'))
     
     @height.setter
     def height(self, height):
         # idk, I'll figure out how I want to store this later.
-        if not height:
-            raise Exception("Pokemon need a height.")
         self._height = int(height)
     
     weight = property(operator.attrgetter('_weight'))
@@ -303,8 +253,6 @@ class Pokemon:
     @weight.setter
     def weight(self, weight):
         # idk, I'll figure out how I want to store this later.
-        if not weight:
-            raise Exception("Pokemon need a weight.")
         self._weight = int(weight)
     
     icon = property(operator.attrgetter('_icon'))
@@ -320,25 +268,24 @@ class Pokemon:
     
     @icon_pals.setter
     def icon_pals(self, icon_pals):
-        if not icon_pals:
-            raise Exception("Pokemon need icon palettes")
+        # Temporary home of palettes list
+        pals = ["RED", "BLUE", "GREEN", "BROWN", "PINK", "GRAY", "TEAL", "PURPLE"]
+        for pal in icon_pals:
+            if pal not in pals:
+                raise Exception("Provided pal " + str(pal) + " is invalid")
         self._icon_pals = icon_pals
     
-    flavor_text = property(operator.attrgetter('_flavor_text'))
+    pokedex_entry = property(operator.attrgetter('_pokedex_entry'))
     
-    @flavor_text.setter
-    def flavor_text(self, flavor_text):
-        if not flavor_text:
-            raise Exception("Pokemon need flavor text.")
+    @pokedex_entry.setter
+    def pokedex_entry(self, pokedex_entry):
         # update later.
-        self._flavor_text = flavor_text
+        self._pokedex_entry = pokedex_entry
         
     normal_palette = property(operator.attrgetter('_normal_palette'))
     
     @normal_palette.setter
     def normal_palette(self, normal_palette):
-        if not normal_palette:
-            raise Exception("Pokemon need a normal palette.")
         # update later
         self._normal_palette = normal_palette
         
@@ -346,12 +293,10 @@ class Pokemon:
     
     @shiny_palette.setter
     def shiny_palette(self, shiny_palette):
-        if not shiny_palette:
-            raise Exception("Pokemon need a shiny palette.")
         # update later
         self._shiny_palette = shiny_palette
     
-    def generate_yaml(self):
+    def generate_yml(self):
         level_ups =[]
         for move in self.level_up_moves:
             level_ups.append({int(move[0]) : move[1]})
@@ -359,43 +304,49 @@ class Pokemon:
             "constant": self.constant,
             "name": self.name,
             "types": self.types,
-            "base-stats": {
+            "base_stats": {
                 "hp": self.hp,
                 "attack": self.attack,
                 "defense": self.defense,
                 "speed": self.speed,
-                "special-attack": self.sp_attack,
-                "special-defense": self.sp_defense
+                "sp_attack": self.sp_attack,
+                "sp_defense": self.sp_defense
             },
-            "growth-rate": self.growth_rate,
-            "catch-rate": self.catch_rate,
-            "base-experience": self.base_xp
+            "growth_rate": self.growth_rate,
+            "catch_rate": self.catch_rate,
+            "base_xp": self.base_xp
         }
         if self.held_items:
-            yml["held-items"] = self.held_items
-        yml["female-ratio"] = self.gender_ratio
-        yml["egg-cycle"] = self.egg_step_cycle
-        yml["egg-groups"] = self.egg_groups
-        yml["evolutions"] = self.evolutions
-        yml["moves"] = {}
-        yml["moves"]["level-up"] = level_ups
+            yml["held_items"] = self.held_items
+        yml["gender_ratio"] = self.gender_ratio
+        yml["egg_step_cycle"] = self.egg_step_cycle
+        yml["egg_groups"] = self.egg_groups
+        if len(self.evolutions) > 0:
+           yml["evolutions"] = self.evolutions
         yml["species"] = self.species
         yml["height"] = self.height
         yml["weight"] = self.weight
-        yml["pokedex-entries"] = self.flavor_text
+        yml["pokedex_entry"] = self.pokedex_entry
         yml["icon"] = self.icon
-        yml["icon-palettes"] = self.icon_pals
+        yml["icon_pals"] = self.icon_pals
+        yml["moves"] = {}
+        yml["moves"]["level_up"] = level_ups
         if self.taught_moves:
-            yml["moves"]["taught"] = self.taught_moves
+            yml["moves"]["taught_moves"] = self.taught_moves
         if self.egg_moves:
-            yml["moves"]["egg"] = self.egg_moves
+            yml["moves"]["egg_moves"] = self.egg_moves
+        self.yml = yml
+    
+    def write_yml(self):
+        if len(self.yml) < 2:
+            raise Exception("You need yml to be set before you can write the file.")
         file_name = 'pokemon/' + self.constant.lower() + '.yml'
         with open(file_name, 'w') as file:
-            documents = yaml.dump(yml, file, sort_keys=False)
+            documents = yaml.dump(self.yml, file, sort_keys=False)
 
 class Pokedex:
     def __init__(self):
-        self.pokemonList = []
+        self.pokemonList = {}
     
     def addPokemon(self, pokemon):
         self.pokemonList.append(pokemon)
@@ -405,3 +356,18 @@ class Pokedex:
             if obj.constant == const:
                 return obj
         return False
+    
+    def loadPokedexFile(self, file):
+        f = open(file, 'r')
+        reader = csv.DictReader(f)
+        for row in reader:
+            self.pokemonList[row["CONSTANT"]] = row
+    
+    def createPokemonObjects(self):
+        if self.pokemonList:
+            yl = yaml_loaders.YLoader()
+            for pokemon in self.pokemonList:
+                poke = yl.poke_from_yml(pokemon)
+                poke.generate_yml()
+                poke.write_yml()
+                self.pokemonList[pokemon] = poke

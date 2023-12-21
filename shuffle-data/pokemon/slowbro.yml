@@ -3,26 +3,34 @@ name: SLOWBRO
 types:
 - Water
 - Psychic
-base-stats:
+base_stats:
   hp: 95
   attack: 75
   defense: 110
   speed: 30
-  special-attack: 100
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 164
-held-items:
+  sp_attack: 100
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 164
+held_items:
 - 'KINGS_ROCK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Water 1
-evolutions: []
+species: HERMITCRAB
+height: 503
+weight: 1730
+pokedex_entry: "An attached\nSHELLDER won't let\ngo because of the\ftasty flavor that\n\
+  oozes out of its\ntail."
+icon: SlowbroIcon
+icon_pals:
+- PINK
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: CURSE
   - 1: TACKLE
   - 1: GROWL
@@ -35,7 +43,7 @@ moves:
   - 37: WITHDRAW
   - 46: AMNESIA
   - 54: PSYCHIC_M
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -76,12 +84,3 @@ moves:
   - FLASH
   - FLAMETHROWER
   - ICE_BEAM
-species: HERMITCRAB
-height: 503
-weight: 1730
-pokedex-entries: "An attached\nSHELLDER won't let\ngo because of the\ftasty flavor\
-  \ that\noozes out of its\ntail."
-icon: SlowbroIcon
-icon-palettes:
-- PINK
-- PURPLE

@@ -3,27 +3,36 @@ name: BULBASAUR
 types:
 - Grass
 - Poison
-base-stats:
+base_stats:
   hp: 45
   attack: 49
   defense: 49
   speed: 45
-  special-attack: 65
-  special-defense: 65
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 64
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 65
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 64
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Plant
 evolutions:
 - Method: Level-Up
   Level: '16'
   Species: IVYSAUR
+species: SEED
+height: 204
+weight: 150
+pokedex_entry: "While it is young,\nit uses the\nnutrients that are\fstored in the\n\
+  seeds on its back\nin order to grow."
+icon: BulbasaurIcon
+icon_pals:
+- TEAL
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 4: GROWL
   - 7: LEECH_SEED
@@ -35,7 +44,7 @@ moves:
   - 32: GROWTH
   - 39: SYNTHESIS
   - 46: SOLARBEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -59,12 +68,3 @@ moves:
   - FURY_CUTTER
   - CUT
   - FLASH
-species: SEED
-height: 204
-weight: 150
-pokedex-entries: "While it is young,\nit uses the\nnutrients that are\fstored in the\n\
-  seeds on its back\nin order to grow."
-icon: BulbasaurIcon
-icon-palettes:
-- TEAL
-- GREEN

@@ -2,26 +2,35 @@ constant: TOGEPI
 name: TOGEPI
 types:
 - Fairy
-base-stats:
+base_stats:
   hp: 35
   attack: 20
   defense: 65
   speed: 20
-  special-attack: 40
-  special-defense: 65
-growth-rate: Fast
-catch-rate: 190
-base-experience: 74
-female-ratio: '12.5'
-egg-cycle: 10
-egg-groups:
+  sp_attack: 40
+  sp_defense: 65
+growth_rate: Fast
+catch_rate: 190
+base_xp: 74
+gender_ratio: '12.5'
+egg_step_cycle: 10
+egg_groups:
 - None
 evolutions:
 - Method: Happiness
   Time: TR_ANYTIME
   Species: TOGETIC
+species: SPIKE BALL
+height: 100
+weight: 30
+pokedex_entry: "It is considered\nto be a symbol of\ngood luck. Its\fshell is said\
+  \ to\nbe filled with\nhappiness."
+icon: TogepiIcon
+icon_pals:
+- RED
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: GROWL
   - 1: CHARM
   - 7: METRONOME
@@ -29,7 +38,7 @@ moves:
   - 25: ENCORE
   - 31: SAFEGUARD
   - 38: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -61,18 +70,9 @@ moves:
   - ATTRACT
   - FLASH
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - PRESENT
   - MIRROR_MOVE
   - PECK
   - FORESIGHT
   - FUTURE_SIGHT
-species: SPIKE BALL
-height: 100
-weight: 30
-pokedex-entries: "It is considered\nto be a symbol of\ngood luck. Its\fshell is said\
-  \ to\nbe filled with\nhappiness."
-icon: TogepiIcon
-icon-palettes:
-- RED
-- BLUE

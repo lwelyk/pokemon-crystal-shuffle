@@ -3,26 +3,34 @@ name: DELIBIRD
 types:
 - Ice
 - Flying
-base-stats:
+base_stats:
   hp: 45
   attack: 55
   defense: 45
   speed: 75
-  special-attack: 65
-  special-defense: 45
-growth-rate: Fast
-catch-rate: 45
-base-experience: 183
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 45
+growth_rate: Fast
+catch_rate: 45
+base_xp: 183
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
-evolutions: []
+species: DELIVERY
+height: 211
+weight: 350
+pokedex_entry: "It always carries\nits food with it,\nwherever it goes.\fIf attacked,\
+  \ it\nthrows its food at\nthe opponent."
+icon: DelibirdIcon
+icon_pals:
+- RED
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: PRESENT
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -46,18 +54,9 @@ moves:
   - THIEF
   - FLY
   - ICE_BEAM
-  egg:
+  egg_moves:
   - AURORA_BEAM
   - QUICK_ATTACK
   - FUTURE_SIGHT
   - SPLASH
   - RAPID_SPIN
-species: DELIVERY
-height: 211
-weight: 350
-pokedex-entries: "It always carries\nits food with it,\nwherever it goes.\fIf attacked,\
-  \ it\nthrows its food at\nthe opponent."
-icon: DelibirdIcon
-icon-palettes:
-- RED
-- PURPLE

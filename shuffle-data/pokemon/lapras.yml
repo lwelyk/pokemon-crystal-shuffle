@@ -3,24 +3,32 @@ name: LAPRAS
 types:
 - Water
 - Ice
-base-stats:
+base_stats:
   hp: 130
   attack: 85
   defense: 80
   speed: 60
-  special-attack: 85
-  special-defense: 95
-growth-rate: Slow
-catch-rate: 45
-base-experience: 219
-female-ratio: '50'
-egg-cycle: 40
-egg-groups:
+  sp_attack: 85
+  sp_defense: 95
+growth_rate: Slow
+catch_rate: 45
+base_xp: 219
+gender_ratio: '50'
+egg_step_cycle: 40
+egg_groups:
 - Monster
 - Water 1
-evolutions: []
+species: TRANSPORT
+height: 802
+weight: 4850
+pokedex_entry: "This gentle\n#MON loves to\ngive people rides\fand provides a ve-\n\
+  ry comfortable way\nto get around."
+icon: LaprasIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: WATER_GUN
   - 1: GROWL
   - 1: SING
@@ -32,7 +40,7 @@ moves:
   - 43: RAIN_DANCE
   - 50: SAFEGUARD
   - 57: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -64,15 +72,6 @@ moves:
   - WHIRLPOOL
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - AURORA_BEAM
   - FORESIGHT
-species: TRANSPORT
-height: 802
-weight: 4850
-pokedex-entries: "This gentle\n#MON loves to\ngive people rides\fand provides a ve-\n\
-  ry comfortable way\nto get around."
-icon: LaprasIcon
-icon-palettes:
-- BLUE
-- PURPLE

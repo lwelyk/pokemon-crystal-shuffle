@@ -3,23 +3,31 @@ name: LUGIA
 types:
 - Psychic
 - Flying
-base-stats:
+base_stats:
   hp: 106
   attack: 90
   defense: 130
   speed: 110
-  special-attack: 90
-  special-defense: 154
-growth-rate: Slow
-catch-rate: 3
-base-experience: 220
-female-ratio: Unknown
-egg-cycle: 120
-egg-groups:
+  sp_attack: 90
+  sp_defense: 154
+growth_rate: Slow
+catch_rate: 3
+base_xp: 220
+gender_ratio: Unknown
+egg_step_cycle: 120
+egg_groups:
 - None
-evolutions: []
+species: DIVING
+height: 1701
+weight: 4760
+pokedex_entry: "It has an incred-\nible ability to\ncalm raging sto-\frms. It is said\n\
+  that LUGIA appears\nwhen storms start."
+icon: LugiaIcon
+icon_pals:
+- BLUE
+- TEAL
 moves:
-  level-up:
+  level_up:
   - 1: AEROBLAST
   - 11: SAFEGUARD
   - 22: GUST
@@ -30,7 +38,7 @@ moves:
   - 77: WHIRLWIND
   - 88: ANCIENTPOWER
   - 99: FUTURE_SIGHT
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -74,12 +82,3 @@ moves:
   - WATERFALL
   - THUNDERBOLT
   - ICE_BEAM
-species: DIVING
-height: 1701
-weight: 4760
-pokedex-entries: "It has an incred-\nible ability to\ncalm raging sto-\frms. It is\
-  \ said\nthat LUGIA appears\nwhen storms start."
-icon: LugiaIcon
-icon-palettes:
-- BLUE
-- TEAL

@@ -3,23 +3,31 @@ name: XATU
 types:
 - Psychic
 - Flying
-base-stats:
+base_stats:
   hp: 65
   attack: 75
   defense: 70
   speed: 95
-  special-attack: 95
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 171
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 95
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 171
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Flying
-evolutions: []
+species: MYSTIC
+height: 411
+weight: 330
+pokedex_entry: "Once it begins to\nmeditate at sun-\nrise, the entire\fday will pass\n\
+  before it will\nmove again."
+icon: XatuIcon
+icon_pals:
+- TEAL
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: LEER
   - 1: NIGHT_SHADE
@@ -28,7 +36,7 @@ moves:
   - 35: FUTURE_SIGHT
   - 50: CONFUSE_RAY
   - 65: PSYCHIC_M
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - PSYCH_UP
@@ -55,12 +63,3 @@ moves:
   - NIGHTMARE
   - FLY
   - FLASH
-species: MYSTIC
-height: 411
-weight: 330
-pokedex-entries: "Once it begins to\nmeditate at sun-\nrise, the entire\fday will\
-  \ pass\nbefore it will\nmove again."
-icon: XatuIcon
-icon-palettes:
-- TEAL
-- GREEN

@@ -2,24 +2,32 @@ constant: AMPHAROS
 name: AMPHAROS
 types:
 - Electric
-base-stats:
+base_stats:
   hp: 90
   attack: 75
   defense: 75
   speed: 55
-  special-attack: 115
-  special-defense: 90
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 194
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 115
+  sp_defense: 90
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 194
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Ground
-evolutions: []
+species: LIGHT
+height: 407
+weight: 1360
+pokedex_entry: "When it gets dark,\nthe light from its\nbright, shiny tail\fcan be\
+  \ seen from\nfar away on the\nocean's surface."
+icon: AmpharosIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 1: THUNDERSHOCK
@@ -30,7 +38,7 @@ moves:
   - 30: THUNDERPUNCH
   - 42: LIGHT_SCREEN
   - 57: THUNDER
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -59,12 +67,3 @@ moves:
   - STRENGTH
   - FLASH
   - THUNDERBOLT
-species: LIGHT
-height: 407
-weight: 1360
-pokedex-entries: "When it gets dark,\nthe light from its\nbright, shiny tail\fcan\
-  \ be seen from\nfar away on the\nocean's surface."
-icon: AmpharosIcon
-icon-palettes:
-- BROWN
-- BLUE

@@ -3,27 +3,36 @@ name: RHYHORN
 types:
 - Ground
 - Rock
-base-stats:
+base_stats:
   hp: 80
   attack: 85
   defense: 95
   speed: 25
-  special-attack: 30
-  special-defense: 30
-growth-rate: Slow
-catch-rate: 120
-base-experience: 135
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 30
+  sp_defense: 30
+growth_rate: Slow
+catch_rate: 120
+base_xp: 135
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '42'
   Species: RHYDON
+species: SPIKES
+height: 303
+weight: 2540
+pokedex_entry: "It can remember\nonly one thing at\na time. Once it\fstarts rushing,\
+  \ it\nforgets why it\nstarted."
+icon: RhyhornIcon
+icon_pals:
+- GRAY
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: HORN_ATTACK
   - 1: TAIL_WHIP
   - 13: STOMP
@@ -32,7 +41,7 @@ moves:
   - 37: HORN_DRILL
   - 49: TAKE_DOWN
   - 55: EARTHQUAKE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -65,7 +74,7 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - CRUNCH
   - REVERSAL
   - ROCK_SLIDE
@@ -73,12 +82,3 @@ moves:
   - PURSUIT
   - COUNTER
   - MAGNITUDE
-species: SPIKES
-height: 303
-weight: 2540
-pokedex-entries: "It can remember\nonly one thing at\na time. Once it\fstarts rushing,\
-  \ it\nforgets why it\nstarted."
-icon: RhyhornIcon
-icon-palettes:
-- GRAY
-- BROWN

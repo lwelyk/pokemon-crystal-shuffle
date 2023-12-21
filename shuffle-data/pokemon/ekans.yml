@@ -2,27 +2,36 @@ constant: EKANS
 name: EKANS
 types:
 - Poison
-base-stats:
+base_stats:
   hp: 35
   attack: 60
   defense: 44
   speed: 55
-  special-attack: 40
-  special-defense: 54
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 62
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 40
+  sp_defense: 54
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 62
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 - Dragon
 evolutions:
 - Method: Level-Up
   Level: '22'
   Species: ARBOK
+species: SNAKE
+height: 607
+weight: 150
+pokedex_entry: "It flutters the\ntip of its tongue\nto seek out the\fscent of prey,\n\
+  then swallows the\nprey whole."
+icon: EkansIcon
+icon_pals:
+- PURPLE
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: WRAP
   - 1: LEER
   - 9: POISON_STING
@@ -31,7 +40,7 @@ moves:
   - 29: SCREECH
   - 37: ACID
   - 43: HAZE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -53,18 +62,9 @@ moves:
   - ATTRACT
   - THIEF
   - STRENGTH
-  egg:
+  egg_moves:
   - PURSUIT
   - SLAM
   - SPITE
   - BEAT_UP
   - CRUNCH
-species: SNAKE
-height: 607
-weight: 150
-pokedex-entries: "It flutters the\ntip of its tongue\nto seek out the\fscent of prey,\n\
-  then swallows the\nprey whole."
-icon: EkansIcon
-icon-palettes:
-- PURPLE
-- GREEN

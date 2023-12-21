@@ -2,26 +2,35 @@ constant: NIDORINA
 name: NIDORINA
 types:
 - Poison
-base-stats:
+base_stats:
   hp: 70
   attack: 62
   defense: 67
   speed: 56
-  special-attack: 55
-  special-defense: 55
-growth-rate: Medium-Slow
-catch-rate: 120
-base-experience: 117
-female-ratio: '100'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 55
+  sp_defense: 55
+growth_rate: Medium-Slow
+catch_rate: 120
+base_xp: 117
+gender_ratio: '100'
+egg_step_cycle: 20
+egg_groups:
 - None
 evolutions:
 - Method: Item
   Used Item: MOON_STONE
   Species: NIDOQUEEN
+species: POISON PIN
+height: 207
+weight: 440
+pokedex_entry: "It has a docile\nnature. If it is\nthreatened with\fattack, it raises\n\
+  the barbs that are\nall over its body."
+icon: NidorinaIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: GROWL
   - 1: TACKLE
   - 8: SCRATCH
@@ -30,7 +39,7 @@ moves:
   - 27: TAIL_WHIP
   - 36: BITE
   - 46: FURY_SWIPES
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -58,12 +67,3 @@ moves:
   - STRENGTH
   - THUNDERBOLT
   - ICE_BEAM
-species: POISON PIN
-height: 207
-weight: 440
-pokedex-entries: "It has a docile\nnature. If it is\nthreatened with\fattack, it raises\n\
-  the barbs that are\nall over its body."
-icon: NidorinaIcon
-icon-palettes:
-- BLUE
-- PURPLE

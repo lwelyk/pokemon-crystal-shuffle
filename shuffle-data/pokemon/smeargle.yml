@@ -2,23 +2,31 @@ constant: SMEARGLE
 name: SMEARGLE
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 55
   attack: 20
   defense: 35
   speed: 75
-  special-attack: 20
-  special-defense: 45
-growth-rate: Fast
-catch-rate: 45
-base-experience: 106
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 20
+  sp_defense: 45
+growth_rate: Fast
+catch_rate: 45
+base_xp: 106
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: PAINTER
+height: 311
+weight: 1280
+pokedex_entry: "The color of the\nmysterious fluid\nsecreted from its\ftail is predeter-\n\
+  mined for each\nSMEARGLE."
+icon: SmeargleIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: SKETCH
   - 11: SKETCH
   - 21: SKETCH
@@ -29,12 +37,3 @@ moves:
   - 71: SKETCH
   - 81: SKETCH
   - 91: SKETCH
-species: PAINTER
-height: 311
-weight: 1280
-pokedex-entries: "The color of the\nmysterious fluid\nsecreted from its\ftail is predeter-\n\
-  mined for each\nSMEARGLE."
-icon: SmeargleIcon
-icon-palettes:
-- BROWN
-- GREEN

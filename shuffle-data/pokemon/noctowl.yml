@@ -3,23 +3,31 @@ name: NOCTOWL
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 100
   attack: 50
   defense: 50
   speed: 70
-  special-attack: 76
-  special-defense: 96
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 162
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 76
+  sp_defense: 96
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 162
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
-evolutions: []
+species: OWL
+height: 503
+weight: 900
+pokedex_entry: "Its extremely soft\nfeathers make no\nsound in flight.\fIt silently\
+  \ sneaks\nup on prey without\nbeing detected."
+icon: NoctowlIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 1: FORESIGHT
@@ -31,7 +39,7 @@ moves:
   - 33: TAKE_DOWN
   - 41: CONFUSION
   - 57: DREAM_EATER
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -56,12 +64,3 @@ moves:
   - NIGHTMARE
   - FLY
   - FLASH
-species: OWL
-height: 503
-weight: 900
-pokedex-entries: "Its extremely soft\nfeathers make no\nsound in flight.\fIt silently\
-  \ sneaks\nup on prey without\nbeing detected."
-icon: NoctowlIcon
-icon-palettes:
-- BROWN
-- GREEN

@@ -3,21 +3,21 @@ name: SLOWPOKE
 types:
 - Water
 - Psychic
-base-stats:
+base_stats:
   hp: 90
   attack: 65
   defense: 65
   speed: 15
-  special-attack: 40
-  special-defense: 40
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 99
-held-items:
+  sp_attack: 40
+  sp_defense: 40
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 99
+held_items:
 - 'KINGS_ROCK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Water 1
 evolutions:
@@ -27,8 +27,17 @@ evolutions:
 - Method: Trade
   Held Item: KINGS_ROCK
   Species: SLOWKING
+species: DOPEY
+height: 311
+weight: 790
+pokedex_entry: "It is always so\nabsent-minded that\nit won't react,\feven if its\n\
+  flavorful tail is\nbitten."
+icon: SlowpokeIcon
+icon_pals:
+- PINK
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: CURSE
   - 1: TACKLE
   - 6: GROWL
@@ -38,7 +47,7 @@ moves:
   - 34: HEADBUTT
   - 43: AMNESIA
   - 48: PSYCHIC_M
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -74,17 +83,8 @@ moves:
   - FLASH
   - FLAMETHROWER
   - ICE_BEAM
-  egg:
+  egg_moves:
   - SAFEGUARD
   - BELLY_DRUM
   - FUTURE_SIGHT
   - STOMP
-species: DOPEY
-height: 311
-weight: 790
-pokedex-entries: "It is always so\nabsent-minded that\nit won't react,\feven if its\n\
-  flavorful tail is\nbitten."
-icon: SlowpokeIcon
-icon-palettes:
-- PINK
-- PURPLE

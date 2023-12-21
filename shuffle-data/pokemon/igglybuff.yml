@@ -3,32 +3,41 @@ name: IGGLYBUFF
 types:
 - Normal
 - Fairy
-base-stats:
+base_stats:
   hp: 90
   attack: 30
   defense: 15
   speed: 15
-  special-attack: 40
-  special-defense: 20
-growth-rate: Fast
-catch-rate: 170
-base-experience: 39
-female-ratio: '75'
-egg-cycle: 10
-egg-groups:
+  sp_attack: 40
+  sp_defense: 20
+growth_rate: Fast
+catch_rate: 170
+base_xp: 39
+gender_ratio: '75'
+egg_step_cycle: 10
+egg_groups:
 - None
 evolutions:
 - Method: Happiness
   Time: TR_ANYTIME
   Species: JIGGLYPUFF
+species: BALLOON
+height: 100
+weight: 20
+pokedex_entry: "Instead of walking\nwith its short\nlegs, it moves\faround by bouncing\n\
+  on its soft,\ntender body."
+icon: IgglybuffIcon
+icon_pals:
+- PINK
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: SING
   - 1: CHARM
   - 4: DEFENSE_CURL
   - 9: POUND
   - 14: SWEET_KISS
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -60,16 +69,7 @@ moves:
   - NIGHTMARE
   - FLASH
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - PERISH_SONG
   - PRESENT
   - FAINT_ATTACK
-species: BALLOON
-height: 100
-weight: 20
-pokedex-entries: "Instead of walking\nwith its short\nlegs, it moves\faround by bouncing\n\
-  on its soft,\ntender body."
-icon: IgglybuffIcon
-icon-palettes:
-- PINK
-- GREEN

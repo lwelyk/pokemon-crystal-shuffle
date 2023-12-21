@@ -3,30 +3,38 @@ name: NIDOKING
 types:
 - Poison
 - Ground
-base-stats:
+base_stats:
   hp: 81
   attack: 92
   defense: 77
   speed: 85
-  special-attack: 85
-  special-defense: 75
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 195
-female-ratio: '0'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 85
+  sp_defense: 75
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 195
+gender_ratio: '0'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Ground
-evolutions: []
+species: DRILL
+height: 407
+weight: 1370
+pokedex_entry: "It uses its thick\narms, legs and\ntail to attack\fforcefully. Melee\n\
+  combat is its\nspecialty."
+icon: NidokingIcon
+icon_pals:
+- PURPLE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: HORN_ATTACK
   - 1: DOUBLE_KICK
   - 1: POISON_STING
   - 23: THRASH
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -68,12 +76,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: DRILL
-height: 407
-weight: 1370
-pokedex-entries: "It uses its thick\narms, legs and\ntail to attack\fforcefully. Melee\n\
-  combat is its\nspecialty."
-icon: NidokingIcon
-icon-palettes:
-- PURPLE
-- BLUE

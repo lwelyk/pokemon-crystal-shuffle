@@ -3,23 +3,31 @@ name: GLIGAR
 types:
 - Ground
 - Flying
-base-stats:
+base_stats:
   hp: 65
   attack: 75
   defense: 105
   speed: 85
-  special-attack: 35
-  special-defense: 65
-growth-rate: Medium-Slow
-catch-rate: 60
-base-experience: 108
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 35
+  sp_defense: 65
+growth_rate: Medium-Slow
+catch_rate: 60
+base_xp: 108
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
-evolutions: []
+species: FLYSCORPIO
+height: 307
+weight: 1430
+pokedex_entry: "It builds its nest\non a steep cliff.\nWhen it is done\fgliding, it\
+  \ hops\nalong the ground\nback to its nest."
+icon: GligarIcon
+icon_pals:
+- PURPLE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: POISON_STING
   - 6: SAND_ATTACK
   - 13: HARDEN
@@ -28,7 +36,7 @@ moves:
   - 36: SLASH
   - 44: SCREECH
   - 52: GUILLOTINE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -54,17 +62,8 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-  egg:
+  egg_moves:
   - METAL_CLAW
   - WING_ATTACK
   - RAZOR_WIND
   - COUNTER
-species: FLYSCORPIO
-height: 307
-weight: 1430
-pokedex-entries: "It builds its nest\non a steep cliff.\nWhen it is done\fgliding,\
-  \ it hops\nalong the ground\nback to its nest."
-icon: GligarIcon
-icon-palettes:
-- PURPLE
-- GRAY

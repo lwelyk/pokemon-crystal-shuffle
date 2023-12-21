@@ -3,23 +3,31 @@ name: FORRETRESS
 types:
 - Bug
 - Steel
-base-stats:
+base_stats:
   hp: 75
   attack: 90
   defense: 140
   speed: 40
-  special-attack: 60
-  special-defense: 60
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 118
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 60
+  sp_defense: 60
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 118
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Bug
-evolutions: []
+species: BAGWORM
+height: 311
+weight: 2770
+pokedex_entry: "Usually found\nhanging on to a\nfat tree trunk. It\fshoots out bits\
+  \ of\nits shell when it\nsees action."
+icon: ForretressIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: PROTECT
   - 1: SELFDESTRUCT
@@ -30,7 +38,7 @@ moves:
   - 39: EXPLOSION
   - 49: SPIKES
   - 59: DOUBLE_EDGE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -55,12 +63,3 @@ moves:
   - REST
   - ATTRACT
   - STRENGTH
-species: BAGWORM
-height: 311
-weight: 2770
-pokedex-entries: "Usually found\nhanging on to a\nfat tree trunk. It\fshoots out bits\
-  \ of\nits shell when it\nsees action."
-icon: ForretressIcon
-icon-palettes:
-- RED
-- BROWN

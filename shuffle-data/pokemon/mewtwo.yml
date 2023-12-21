@@ -2,25 +2,33 @@ constant: MEWTWO
 name: MEWTWO
 types:
 - Psychic
-base-stats:
+base_stats:
   hp: 106
   attack: 110
   defense: 90
   speed: 130
-  special-attack: 154
-  special-defense: 90
-growth-rate: Slow
-catch-rate: 3
-base-experience: 220
-held-items:
+  sp_attack: 154
+  sp_defense: 90
+growth_rate: Slow
+catch_rate: 3
+base_xp: 220
+held_items:
 - 'BERSERK_GENE '
-female-ratio: Unknown
-egg-cycle: 120
-egg-groups:
+gender_ratio: Unknown
+egg_step_cycle: 120
+egg_groups:
 - None
-evolutions: []
+species: GENETIC
+height: 607
+weight: 2690
+pokedex_entry: "Said to rest qui-\netly in an\nundiscovered cave,\fthis #MON was\n\
+  created solely for\nbattling."
+icon: MewtwoIcon
+icon_pals:
+- PURPLE
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: CONFUSION
   - 1: DISABLE
   - 11: BARRIER
@@ -32,7 +40,7 @@ moves:
   - 77: AMNESIA
   - 88: RECOVER
   - 99: SAFEGUARD
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -74,12 +82,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: GENETIC
-height: 607
-weight: 2690
-pokedex-entries: "Said to rest qui-\netly in an\nundiscovered cave,\fthis #MON was\n\
-  created solely for\nbattling."
-icon: MewtwoIcon
-icon-palettes:
-- PURPLE
-- BROWN

@@ -3,23 +3,31 @@ name: LANTURN
 types:
 - Water
 - Electric
-base-stats:
+base_stats:
   hp: 125
   attack: 58
   defense: 58
   speed: 67
-  special-attack: 76
-  special-defense: 76
-growth-rate: Slow
-catch-rate: 75
-base-experience: 156
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 76
+  sp_defense: 76
+growth_rate: Slow
+catch_rate: 75
+base_xp: 156
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 2
-evolutions: []
+species: LIGHT
+height: 311
+weight: 500
+pokedex_entry: "This #MON uses\nthe bright part of\nits body, which\fchanged from\
+  \ a\ndorsal fin, to\nlure prey."
+icon: LanturnIcon
+icon_pals:
+- BLUE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: BUBBLE
   - 1: THUNDER_WAVE
   - 1: SUPERSONIC
@@ -30,7 +38,7 @@ moves:
   - 33: CONFUSE_RAY
   - 45: TAKE_DOWN
   - 53: HYDRO_PUMP
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - ZAP_CANNON
@@ -54,12 +62,3 @@ moves:
   - WATERFALL
   - THUNDERBOLT
   - ICE_BEAM
-species: LIGHT
-height: 311
-weight: 500
-pokedex-entries: "This #MON uses\nthe bright part of\nits body, which\fchanged from\
-  \ a\ndorsal fin, to\nlure prey."
-icon: LanturnIcon
-icon-palettes:
-- BLUE
-- BLUE

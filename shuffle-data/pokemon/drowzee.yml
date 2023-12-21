@@ -2,26 +2,35 @@ constant: DROWZEE
 name: DROWZEE
 types:
 - Psychic
-base-stats:
+base_stats:
   hp: 60
   attack: 48
   defense: 45
   speed: 42
-  special-attack: 43
-  special-defense: 90
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 102
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 43
+  sp_defense: 90
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 102
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Humanshape
 evolutions:
 - Method: Level-Up
   Level: '26'
   Species: HYPNO
+species: HYPNOSIS
+height: 303
+weight: 710
+pokedex_entry: "When it twitches\nits nose, it can\ntell where someone\fis sleeping\
+  \ and\nwhat that person\nis dreaming about."
+icon: DrowzeeIcon
+icon_pals:
+- BROWN
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: POUND
   - 1: HYPNOSIS
   - 10: DISABLE
@@ -32,7 +41,7 @@ moves:
   - 40: PSYCHIC_M
   - 43: PSYCH_UP
   - 45: FUTURE_SIGHT
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,15 +69,6 @@ moves:
   - FIRE_PUNCH
   - NIGHTMARE
   - FLASH
-  egg:
+  egg_moves:
   - LIGHT_SCREEN
   - BARRIER
-species: HYPNOSIS
-height: 303
-weight: 710
-pokedex-entries: "When it twitches\nits nose, it can\ntell where someone\fis sleeping\
-  \ and\nwhat that person\nis dreaming about."
-icon: DrowzeeIcon
-icon-palettes:
-- BROWN
-- PURPLE

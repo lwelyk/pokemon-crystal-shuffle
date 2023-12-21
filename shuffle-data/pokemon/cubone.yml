@@ -2,28 +2,37 @@ constant: CUBONE
 name: CUBONE
 types:
 - Ground
-base-stats:
+base_stats:
   hp: 50
   attack: 50
   defense: 95
   speed: 35
-  special-attack: 40
-  special-defense: 50
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 87
-held-items:
+  sp_attack: 40
+  sp_defense: 50
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 87
+held_items:
 - 'THICK_CLUB '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 evolutions:
 - Method: Level-Up
   Level: '28'
   Species: MAROWAK
+species: LONELY
+height: 104
+weight: 140
+pokedex_entry: "It lost its mother\nafter its birth.\nIt wears its\fmother's skull,\n\
+  never revealing\nits true face."
+icon: CuboneIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: GROWL
   - 5: TAIL_WHIP
   - 9: BONE_CLUB
@@ -35,7 +44,7 @@ moves:
   - 33: FALSE_SWIPE
   - 37: THRASH
   - 41: BONE_RUSH
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -68,7 +77,7 @@ moves:
   - STRENGTH
   - FLAMETHROWER
   - ICE_BEAM
-  egg:
+  egg_moves:
   - ROCK_SLIDE
   - ANCIENTPOWER
   - BELLY_DRUM
@@ -76,12 +85,3 @@ moves:
   - SKULL_BASH
   - PERISH_SONG
   - SWORDS_DANCE
-species: LONELY
-height: 104
-weight: 140
-pokedex-entries: "It lost its mother\nafter its birth.\nIt wears its\fmother's skull,\n\
-  never revealing\nits true face."
-icon: CuboneIcon
-icon-palettes:
-- BROWN
-- GRAY

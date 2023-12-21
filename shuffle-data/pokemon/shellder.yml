@@ -2,29 +2,38 @@ constant: SHELLDER
 name: SHELLDER
 types:
 - Water
-base-stats:
+base_stats:
   hp: 30
   attack: 65
   defense: 100
   speed: 40
-  special-attack: 45
-  special-defense: 25
-growth-rate: Slow
-catch-rate: 190
-base-experience: 97
-held-items:
+  sp_attack: 45
+  sp_defense: 25
+growth_rate: Slow
+catch_rate: 190
+base_xp: 97
+held_items:
 - PEARL
 - 'BIG_PEARL '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 3
 evolutions:
 - Method: Item
   Used Item: WATER_STONE
   Species: CLOYSTER
+species: BIVALVE
+height: 100
+weight: 90
+pokedex_entry: "Clamping on to an\nopponent reveals\nits vulnerable\fparts, so it\
+  \ uses\nthis move only as\na last resort."
+icon: ShellderIcon
+icon_pals:
+- PURPLE
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: WITHDRAW
   - 9: SUPERSONIC
@@ -33,7 +42,7 @@ moves:
   - 33: LEER
   - 41: CLAMP
   - 49: ICE_BEAM
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -54,18 +63,9 @@ moves:
   - SURF
   - WHIRLPOOL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - BUBBLEBEAM
   - TAKE_DOWN
   - BARRIER
   - RAPID_SPIN
   - SCREECH
-species: BIVALVE
-height: 100
-weight: 90
-pokedex-entries: "Clamping on to an\nopponent reveals\nits vulnerable\fparts, so it\
-  \ uses\nthis move only as\na last resort."
-icon: ShellderIcon
-icon-palettes:
-- PURPLE
-- BROWN

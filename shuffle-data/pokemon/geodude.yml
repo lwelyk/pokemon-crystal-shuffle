@@ -3,28 +3,37 @@ name: GEODUDE
 types:
 - Rock
 - Ground
-base-stats:
+base_stats:
   hp: 40
   attack: 80
   defense: 100
   speed: 20
-  special-attack: 30
-  special-defense: 30
-growth-rate: Medium-Slow
-catch-rate: 255
-base-experience: 86
-held-items:
+  sp_attack: 30
+  sp_defense: 30
+growth_rate: Medium-Slow
+catch_rate: 255
+base_xp: 86
+held_items:
 - 'EVERSTONE '
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Mineral
 evolutions:
 - Method: Level-Up
   Level: '25'
   Species: GRAVELER
+species: ROCK
+height: 104
+weight: 440
+pokedex_entry: "Proud of their\nsturdy bodies,\nthey bash against\feach other in a\n\
+  contest to prove\nwhose is harder."
+icon: GeodudeIcon
+icon_pals:
+- GRAY
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 6: DEFENSE_CURL
   - 11: ROCK_THROW
@@ -34,7 +43,7 @@ moves:
   - 31: ROLLOUT
   - 36: EARTHQUAKE
   - 41: EXPLOSION
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -62,15 +71,6 @@ moves:
   - FIRE_PUNCH
   - STRENGTH
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - MEGA_PUNCH
   - ROCK_SLIDE
-species: ROCK
-height: 104
-weight: 440
-pokedex-entries: "Proud of their\nsturdy bodies,\nthey bash against\feach other in\
-  \ a\ncontest to prove\nwhose is harder."
-icon: GeodudeIcon
-icon-palettes:
-- GRAY
-- BROWN

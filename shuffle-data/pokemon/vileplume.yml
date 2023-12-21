@@ -3,28 +3,36 @@ name: VILEPLUME
 types:
 - Grass
 - Poison
-base-stats:
+base_stats:
   hp: 75
   attack: 80
   defense: 85
   speed: 50
-  special-attack: 100
-  special-defense: 90
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 184
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 100
+  sp_defense: 90
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 184
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Plant
-evolutions: []
+species: FLOWER
+height: 311
+weight: 410
+pokedex_entry: "By shaking its big\npetals, it scat-\nters toxic pollen\finto the\
+  \ air,\nturning the air\nyellow."
+icon: VileplumeIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: ABSORB
   - 1: SWEET_SCENT
   - 1: STUN_SPORE
   - 1: PETAL_DANCE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -46,12 +54,3 @@ moves:
   - ATTRACT
   - CUT
   - FLASH
-species: FLOWER
-height: 311
-weight: 410
-pokedex-entries: "By shaking its big\npetals, it scat-\nters toxic pollen\finto the\
-  \ air,\nturning the air\nyellow."
-icon: VileplumeIcon
-icon-palettes:
-- RED
-- PINK

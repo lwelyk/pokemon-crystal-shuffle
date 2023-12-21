@@ -2,26 +2,34 @@ constant: SNORLAX
 name: SNORLAX
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 160
   attack: 110
   defense: 65
   speed: 30
-  special-attack: 65
-  special-defense: 110
-growth-rate: Slow
-catch-rate: 25
-base-experience: 154
-held-items:
+  sp_attack: 65
+  sp_defense: 110
+growth_rate: Slow
+catch_rate: 25
+base_xp: 154
+held_items:
 - LEFTOVERS
 - 'LEFTOVERS '
-female-ratio: '12.5'
-egg-cycle: 40
-egg-groups:
+gender_ratio: '12.5'
+egg_step_cycle: 40
+egg_groups:
 - Monster
-evolutions: []
+species: SLEEPING
+height: 611
+weight: 10140
+pokedex_entry: "This #MON's\nstomach is so\nstrong, even\feating moldy or\nrotten\
+  \ food will\nnot affect it."
+icon: SnorlaxIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 8: AMNESIA
   - 15: DEFENSE_CURL
@@ -32,7 +40,7 @@ moves:
   - 43: BODY_SLAM
   - 50: ROLLOUT
   - 57: HYPER_BEAM
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -74,14 +82,5 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - LICK
-species: SLEEPING
-height: 611
-weight: 10140
-pokedex-entries: "This #MON's\nstomach is so\nstrong, even\feating moldy or\nrotten\
-  \ food will\nnot affect it."
-icon: SnorlaxIcon
-icon-palettes:
-- BROWN
-- BLUE

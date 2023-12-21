@@ -2,27 +2,36 @@ constant: PSYDUCK
 name: PSYDUCK
 types:
 - Water
-base-stats:
+base_stats:
   hp: 50
   attack: 52
   defense: 48
   speed: 55
-  special-attack: 65
-  special-defense: 50
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 80
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 50
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 80
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '33'
   Species: GOLDUCK
+species: DUCK
+height: 207
+weight: 430
+pokedex_entry: "The only time it\ncan use its psy-\nchic power is when\fits sleeping\
+  \ brain\ncells happen to\nwake."
+icon: PsyduckIcon
+icon_pals:
+- BROWN
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 5: TAIL_WHIP
   - 10: DISABLE
@@ -31,7 +40,7 @@ moves:
   - 31: PSYCH_UP
   - 40: FURY_SWIPES
   - 50: HYDRO_PUMP
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -63,7 +72,7 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - ICE_BEAM
   - HYPNOSIS
   - PSYBEAM
@@ -72,12 +81,3 @@ moves:
   - FUTURE_SIGHT
   - PSYCHIC_M
   - CROSS_CHOP
-species: DUCK
-height: 207
-weight: 430
-pokedex-entries: "The only time it\ncan use its psy-\nchic power is when\fits sleeping\
-  \ brain\ncells happen to\nwake."
-icon: PsyduckIcon
-icon-palettes:
-- BROWN
-- BLUE

@@ -3,24 +3,32 @@ name: GYARADOS
 types:
 - Water
 - Flying
-base-stats:
+base_stats:
   hp: 95
   attack: 125
   defense: 79
   speed: 81
-  special-attack: 60
-  special-defense: 100
-growth-rate: Slow
-catch-rate: 45
-base-experience: 214
-female-ratio: '50'
-egg-cycle: 5
-egg-groups:
+  sp_attack: 60
+  sp_defense: 100
+growth_rate: Slow
+catch_rate: 45
+base_xp: 214
+gender_ratio: '50'
+egg_step_cycle: 5
+egg_groups:
 - Water 2
 - Dragon
-evolutions: []
+species: ATROCIOUS
+height: 2104
+weight: 5180
+pokedex_entry: "It appears when-\never there is\nworld conflict,\fburning down any\n\
+  place it travels\nthrough."
+icon: GyaradosIcon
+icon_pals:
+- BLUE
+- RED
 moves:
-  level-up:
+  level_up:
   - 1: THRASH
   - 20: BITE
   - 25: DRAGON_RAGE
@@ -29,7 +37,7 @@ moves:
   - 40: HYDRO_PUMP
   - 45: RAIN_DANCE
   - 50: HYPER_BEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -62,12 +70,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: ATROCIOUS
-height: 2104
-weight: 5180
-pokedex-entries: "It appears when-\never there is\nworld conflict,\fburning down any\n\
-  place it travels\nthrough."
-icon: GyaradosIcon
-icon-palettes:
-- BLUE
-- RED

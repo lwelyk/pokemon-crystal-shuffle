@@ -2,24 +2,32 @@ constant: GOLDUCK
 name: GOLDUCK
 types:
 - Water
-base-stats:
+base_stats:
   hp: 80
   attack: 82
   defense: 78
   speed: 85
-  special-attack: 95
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 75
-base-experience: 174
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 95
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 75
+base_xp: 174
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
-evolutions: []
+species: DUCK
+height: 507
+weight: 1690
+pokedex_entry: "It swims grace-\nfully along on the\nquiet, slow-moving\frivers and\
+  \ lakes\nof which it is so\nfond."
+icon: GolduckIcon
+icon_pals:
+- BLUE
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: TAIL_WHIP
   - 1: DISABLE
@@ -31,7 +39,7 @@ moves:
   - 31: PSYCH_UP
   - 44: FURY_SWIPES
   - 58: HYDRO_PUMP
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,12 +73,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: DUCK
-height: 507
-weight: 1690
-pokedex-entries: "It swims grace-\nfully along on the\nquiet, slow-moving\frivers\
-  \ and lakes\nof which it is so\nfond."
-icon: GolduckIcon
-icon-palettes:
-- BLUE
-- BLUE

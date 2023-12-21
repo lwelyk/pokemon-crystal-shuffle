@@ -2,31 +2,39 @@ constant: CLEFABLE
 name: CLEFABLE
 types:
 - Fairy
-base-stats:
+base_stats:
   hp: 95
   attack: 70
   defense: 73
   speed: 60
-  special-attack: 85
-  special-defense: 90
-growth-rate: Fast
-catch-rate: 25
-base-experience: 129
-held-items:
+  sp_attack: 85
+  sp_defense: 90
+growth_rate: Fast
+catch_rate: 25
+base_xp: 129
+held_items:
 - MYSTERYBERRY
 - 'MOON_STONE '
-female-ratio: '75'
-egg-cycle: 10
-egg-groups:
+gender_ratio: '75'
+egg_step_cycle: 10
+egg_groups:
 - Fairy
-evolutions: []
+species: FAIRY
+height: 403
+weight: 880
+pokedex_entry: "Said to live in\nquiet, remote\nmountains, this\ftype of fairy has\n\
+  a strong aversion\nto being seen."
+icon: ClefableIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: SING
   - 1: DOUBLESLAP
   - 1: METRONOME
   - 1: MOONLIGHT
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -68,12 +76,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: FAIRY
-height: 403
-weight: 880
-pokedex-entries: "Said to live in\nquiet, remote\nmountains, this\ftype of fairy has\n\
-  a strong aversion\nto being seen."
-icon: ClefableIcon
-icon-palettes:
-- BROWN
-- GREEN

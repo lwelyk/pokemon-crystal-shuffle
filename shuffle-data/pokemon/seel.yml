@@ -2,27 +2,36 @@ constant: SEEL
 name: SEEL
 types:
 - Water
-base-stats:
+base_stats:
   hp: 65
   attack: 45
   defense: 55
   speed: 45
-  special-attack: 45
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 100
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 45
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 100
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '34'
   Species: DEWGONG
+species: SEA LION
+height: 307
+weight: 1980
+pokedex_entry: "The light blue fur\nthat covers it\nkeeps it protected\fagainst the\
+  \ cold.\nIt loves iceberg-\nfilled oceans."
+icon: SeelIcon
+icon_pals:
+- BLUE
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: HEADBUTT
   - 5: GROWL
   - 16: AURORA_BEAM
@@ -30,7 +39,7 @@ moves:
   - 32: TAKE_DOWN
   - 37: ICE_BEAM
   - 48: SAFEGUARD
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -52,19 +61,10 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - LICK
   - PERISH_SONG
   - DISABLE
   - PECK
   - SLAM
   - ENCORE
-species: SEA LION
-height: 307
-weight: 1980
-pokedex-entries: "The light blue fur\nthat covers it\nkeeps it protected\fagainst\
-  \ the cold.\nIt loves iceberg-\nfilled oceans."
-icon: SeelIcon
-icon-palettes:
-- BLUE
-- GRAY

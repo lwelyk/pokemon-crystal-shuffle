@@ -2,24 +2,32 @@ constant: MEGANIUM
 name: MEGANIUM
 types:
 - Grass
-base-stats:
+base_stats:
   hp: 80
   attack: 82
   defense: 100
   speed: 80
-  special-attack: 83
-  special-defense: 100
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 208
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 83
+  sp_defense: 100
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 208
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Plant
-evolutions: []
+species: HERB
+height: 511
+weight: 2220
+pokedex_entry: "Anyone who stands\nbeside it becomes\nrefreshed, just as\fif they\
+  \ were\nrelaxing in a\nsunny forest."
+icon: MeganiumIcon
+icon_pals:
+- GREEN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: GROWL
   - 1: RAZOR_LEAF
@@ -32,7 +40,7 @@ moves:
   - 41: LIGHT_SCREEN
   - 51: SAFEGUARD
   - 61: SOLARBEAM
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -61,12 +69,3 @@ moves:
   - CUT
   - STRENGTH
   - FLASH
-species: HERB
-height: 511
-weight: 2220
-pokedex-entries: "Anyone who stands\nbeside it becomes\nrefreshed, just as\fif they\
-  \ were\nrelaxing in a\nsunny forest."
-icon: MeganiumIcon
-icon-palettes:
-- GREEN
-- GREEN

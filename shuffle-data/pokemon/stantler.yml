@@ -2,23 +2,31 @@ constant: STANTLER
 name: STANTLER
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 73
   attack: 95
   defense: 62
   speed: 85
-  special-attack: 85
-  special-defense: 65
-growth-rate: Slow
-catch-rate: 45
-base-experience: 165
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 85
+  sp_defense: 65
+growth_rate: Slow
+catch_rate: 45
+base_xp: 165
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: BIG HORN
+height: 407
+weight: 1570
+pokedex_entry: "The round balls\nfound on the\nfallen antlers can\fbe ground into\
+  \ a\npowder that aids\nin sleeping."
+icon: StantlerIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 8: LEER
   - 15: HYPNOSIS
@@ -26,7 +34,7 @@ moves:
   - 31: SAND_ATTACK
   - 40: TAKE_DOWN
   - 49: CONFUSE_RAY
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -54,18 +62,9 @@ moves:
   - THIEF
   - NIGHTMARE
   - FLASH
-  egg:
+  egg_moves:
   - REFLECT
   - SPITE
   - DISABLE
   - LIGHT_SCREEN
   - BITE
-species: BIG HORN
-height: 407
-weight: 1570
-pokedex-entries: "The round balls\nfound on the\nfallen antlers can\fbe ground into\
-  \ a\npowder that aids\nin sleeping."
-icon: StantlerIcon
-icon-palettes:
-- BROWN
-- GREEN

@@ -3,23 +3,31 @@ name: ZAPDOS
 types:
 - Electric
 - Flying
-base-stats:
+base_stats:
   hp: 90
   attack: 90
   defense: 85
   speed: 100
-  special-attack: 125
-  special-defense: 90
-growth-rate: Slow
-catch-rate: 3
-base-experience: 216
-female-ratio: Unknown
-egg-cycle: 80
-egg-groups:
+  sp_attack: 125
+  sp_defense: 90
+growth_rate: Slow
+catch_rate: 3
+base_xp: 216
+gender_ratio: Unknown
+egg_step_cycle: 80
+egg_groups:
 - None
-evolutions: []
+species: ELECTRIC
+height: 503
+weight: 1160
+pokedex_entry: "Legendary bird\n#MON. They say\nlightning caused\fby the flapping\
+  \ of\nits wings causes\nsummer storms."
+icon: ZapdosIcon
+icon_pals:
+- BROWN
+- RED
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: THUNDERSHOCK
   - 13: THUNDER_WAVE
@@ -28,7 +36,7 @@ moves:
   - 49: DRILL_PECK
   - 61: LIGHT_SCREEN
   - 73: THUNDER
-  taught:
+  taught_moves:
   - CURSE
   - ROAR
   - TOXIC
@@ -56,12 +64,3 @@ moves:
   - FLY
   - FLASH
   - THUNDERBOLT
-species: ELECTRIC
-height: 503
-weight: 1160
-pokedex-entries: "Legendary bird\n#MON. They say\nlightning caused\fby the flapping\
-  \ of\nits wings causes\nsummer storms."
-icon: ZapdosIcon
-icon-palettes:
-- BROWN
-- RED

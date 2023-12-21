@@ -2,26 +2,35 @@ constant: GOLDEEN
 name: GOLDEEN
 types:
 - Water
-base-stats:
+base_stats:
   hp: 45
   attack: 67
   defense: 60
   speed: 63
-  special-attack: 35
-  special-defense: 50
-growth-rate: Medium-Fast
-catch-rate: 225
-base-experience: 111
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 35
+  sp_defense: 50
+growth_rate: Medium-Fast
+catch_rate: 225
+base_xp: 111
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 2
 evolutions:
 - Method: Level-Up
   Level: '33'
   Species: SEAKING
+species: GOLDFISH
+height: 200
+weight: 330
+pokedex_entry: "During spawning\nseason, they swim\ngracefully in the\fwater, searching\n\
+  for their perfect\nmate."
+icon: GoldeenIcon
+icon_pals:
+- PINK
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: TAIL_WHIP
   - 10: SUPERSONIC
@@ -31,7 +40,7 @@ moves:
   - 38: WATERFALL
   - 43: HORN_DRILL
   - 52: AGILITY
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -52,16 +61,7 @@ moves:
   - SURF
   - WATERFALL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - PSYBEAM
   - HAZE
   - HYDRO_PUMP
-species: GOLDFISH
-height: 200
-weight: 330
-pokedex-entries: "During spawning\nseason, they swim\ngracefully in the\fwater, searching\n\
-  for their perfect\nmate."
-icon: GoldeenIcon
-icon-palettes:
-- PINK
-- BROWN

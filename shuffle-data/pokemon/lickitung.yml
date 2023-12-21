@@ -2,23 +2,31 @@ constant: LICKITUNG
 name: LICKITUNG
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 90
   attack: 55
   defense: 75
   speed: 30
-  special-attack: 60
-  special-defense: 75
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 127
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 60
+  sp_defense: 75
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 127
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
-evolutions: []
+species: LICKING
+height: 311
+weight: 1440
+pokedex_entry: "It has a tongue\nthat is over 6'6''\nlong. It uses this\flong tongue\
+  \ to\nlick its body\nclean."
+icon: LickitungIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: LICK
   - 7: SUPERSONIC
   - 13: DEFENSE_CURL
@@ -27,7 +35,7 @@ moves:
   - 31: DISABLE
   - 37: SLAM
   - 43: SCREECH
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -71,16 +79,7 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - BELLY_DRUM
   - MAGNITUDE
   - BODY_SLAM
-species: LICKING
-height: 311
-weight: 1440
-pokedex-entries: "It has a tongue\nthat is over 6'6''\nlong. It uses this\flong tongue\
-  \ to\nlick its body\nclean."
-icon: LickitungIcon
-icon-palettes:
-- RED
-- PINK

@@ -3,28 +3,36 @@ name: WIGGLYTUFF
 types:
 - Normal
 - Fairy
-base-stats:
+base_stats:
   hp: 140
   attack: 70
   defense: 45
   speed: 45
-  special-attack: 75
-  special-defense: 50
-growth-rate: Fast
-catch-rate: 50
-base-experience: 109
-female-ratio: '75'
-egg-cycle: 10
-egg-groups:
+  sp_attack: 75
+  sp_defense: 50
+growth_rate: Fast
+catch_rate: 50
+base_xp: 109
+gender_ratio: '75'
+egg_step_cycle: 10
+egg_groups:
 - Fairy
-evolutions: []
+species: BALLOON
+height: 303
+weight: 260
+pokedex_entry: "The rich, fluffy\nfur that covers\nits body feels so\fgood that anyone\n\
+  who feels it can't\nstop touching it."
+icon: WigglytuffIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: SING
   - 1: DISABLE
   - 1: DEFENSE_CURL
   - 1: DOUBLESLAP
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -65,12 +73,3 @@ moves:
   - FLAMETHROWER
   - THUNDERBOLT
   - ICE_BEAM
-species: BALLOON
-height: 303
-weight: 260
-pokedex-entries: "The rich, fluffy\nfur that covers\nits body feels so\fgood that\
-  \ anyone\nwho feels it can't\nstop touching it."
-icon: WigglytuffIcon
-icon-palettes:
-- RED
-- PINK

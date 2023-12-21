@@ -3,26 +3,34 @@ name: KINGDRA
 types:
 - Water
 - Dragon
-base-stats:
+base_stats:
   hp: 75
   attack: 95
   defense: 95
   speed: 85
-  special-attack: 95
-  special-defense: 95
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 207
-held-items:
+  sp_attack: 95
+  sp_defense: 95
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 207
+held_items:
 - 'DRAGON_SCALE '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Dragon
-evolutions: []
+species: DRAGON
+height: 511
+weight: 3350
+pokedex_entry: "It stores energy\nby sleeping at\nunderwater depths\fat which no other\n\
+  life forms can\nsurvive."
+icon: KingdraIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: BUBBLE
   - 1: SMOKESCREEN
   - 1: LEER
@@ -33,7 +41,7 @@ moves:
   - 29: TWISTER
   - 40: AGILITY
   - 51: HYDRO_PUMP
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -58,12 +66,3 @@ moves:
   - WHIRLPOOL
   - WATERFALL
   - ICE_BEAM
-species: DRAGON
-height: 511
-weight: 3350
-pokedex-entries: "It stores energy\nby sleeping at\nunderwater depths\fat which no\
-  \ other\nlife forms can\nsurvive."
-icon: KingdraIcon
-icon-palettes:
-- BLUE
-- PURPLE

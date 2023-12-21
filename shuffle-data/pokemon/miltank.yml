@@ -2,26 +2,34 @@ constant: MILTANK
 name: MILTANK
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 95
   attack: 80
   defense: 105
   speed: 100
-  special-attack: 40
-  special-defense: 70
-growth-rate: Slow
-catch-rate: 45
-base-experience: 200
-held-items:
+  sp_attack: 40
+  sp_defense: 70
+growth_rate: Slow
+catch_rate: 45
+base_xp: 200
+held_items:
 - MOOMOO_MILK
 - 'MOOMOO_MILK '
-female-ratio: '100'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '100'
+egg_step_cycle: 20
+egg_groups:
 - Ground
-evolutions: []
+species: MILK COW
+height: 311
+weight: 1660
+pokedex_entry: "In order to milk a\nMILTANK, one must\nhave a knack for\frhythmically\
+  \ pull-\ning up and down\non its udders."
+icon: MiltankIcon
+icon_pals:
+- PINK
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 4: GROWL
   - 8: DEFENSE_CURL
@@ -31,7 +39,7 @@ moves:
   - 34: ROLLOUT
   - 43: BODY_SLAM
   - 53: HEAL_BELL
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -71,16 +79,7 @@ moves:
   - STRENGTH
   - THUNDERBOLT
   - ICE_BEAM
-  egg:
+  egg_moves:
   - PRESENT
   - REVERSAL
   - SEISMIC_TOSS
-species: MILK COW
-height: 311
-weight: 1660
-pokedex-entries: "In order to milk a\nMILTANK, one must\nhave a knack for\frhythmically\
-  \ pull-\ning up and down\non its udders."
-icon: MiltankIcon
-icon-palettes:
-- PINK
-- GRAY

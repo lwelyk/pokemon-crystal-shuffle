@@ -3,23 +3,31 @@ name: PIDGEOT
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 83
   attack: 80
   defense: 75
   speed: 91
-  special-attack: 70
-  special-defense: 70
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 172
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 70
+  sp_defense: 70
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 172
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Flying
-evolutions: []
+species: BIRD
+height: 411
+weight: 870
+pokedex_entry: "Its outstanding\nvision allows it\nto spot splashing\fMAGIKARP, even\n\
+  while flying at\n3300 feet."
+icon: PidgeotIcon
+icon_pals:
+- BROWN
+- GREEN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: SAND_ATTACK
   - 1: GUST
@@ -31,7 +39,7 @@ moves:
   - 33: WING_ATTACK
   - 46: AGILITY
   - 61: MIRROR_MOVE
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -53,12 +61,3 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-species: BIRD
-height: 411
-weight: 870
-pokedex-entries: "Its outstanding\nvision allows it\nto spot splashing\fMAGIKARP,\
-  \ even\nwhile flying at\n3300 feet."
-icon: PidgeotIcon
-icon-palettes:
-- BROWN
-- GREEN

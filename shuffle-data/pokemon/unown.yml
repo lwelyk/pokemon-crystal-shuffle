@@ -2,30 +2,29 @@ constant: UNOWN
 name: UNOWN
 types:
 - Psychic
-base-stats:
+base_stats:
   hp: 48
   attack: 72
   defense: 48
   speed: 48
-  special-attack: 72
-  special-defense: 48
-growth-rate: Medium-Fast
-catch-rate: 225
-base-experience: 61
-female-ratio: Unknown
-egg-cycle: 40
-egg-groups:
+  sp_attack: 72
+  sp_defense: 48
+growth_rate: Medium-Fast
+catch_rate: 225
+base_xp: 61
+gender_ratio: Unknown
+egg_step_cycle: 40
+egg_groups:
 - None
-evolutions: []
-moves:
-  level-up:
-  - 1: HIDDEN_POWER
 species: SYMBOL
 height: 108
 weight: 110
-pokedex-entries: "Because different\ntypes of UNOWN\nexist, it is said\fthat they\
-  \ must\nhave a variety of\nabilities."
+pokedex_entry: "Because different\ntypes of UNOWN\nexist, it is said\fthat they must\n\
+  have a variety of\nabilities."
 icon: UnownIcon
-icon-palettes:
+icon_pals:
 - GRAY
 - BLUE
+moves:
+  level_up:
+  - 1: HIDDEN_POWER

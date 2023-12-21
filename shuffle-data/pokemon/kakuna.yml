@@ -3,34 +3,34 @@ name: KAKUNA
 types:
 - Bug
 - Poison
-base-stats:
+base_stats:
   hp: 45
   attack: 25
   defense: 50
   speed: 35
-  special-attack: 25
-  special-defense: 25
-growth-rate: Medium-Fast
-catch-rate: 120
-base-experience: 71
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 25
+  sp_defense: 25
+growth_rate: Medium-Fast
+catch_rate: 120
+base_xp: 71
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Bug
 evolutions:
 - Method: Level-Up
   Level: '10'
   Species: BEEDRILL
-moves:
-  level-up:
-  - 1: HARDEN
-  - 7: HARDEN
 species: COCOON
 height: 200
 weight: 220
-pokedex-entries: "Nearly incapable\nof movement, it\nleans against\fstout trees while\n\
+pokedex_entry: "Nearly incapable\nof movement, it\nleans against\fstout trees while\n\
   waiting for its\nevolution."
 icon: KakunaIcon
-icon-palettes:
+icon_pals:
 - BROWN
 - GREEN
+moves:
+  level_up:
+  - 1: HARDEN
+  - 7: HARDEN

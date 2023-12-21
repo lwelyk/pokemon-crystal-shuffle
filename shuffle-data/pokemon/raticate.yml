@@ -2,23 +2,31 @@ constant: RATICATE
 name: RATICATE
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 55
   attack: 81
   defense: 60
   speed: 97
-  special-attack: 50
-  special-defense: 70
-growth-rate: Medium-Fast
-catch-rate: 90
-base-experience: 116
-female-ratio: '50'
-egg-cycle: 15
-egg-groups:
+  sp_attack: 50
+  sp_defense: 70
+growth_rate: Medium-Fast
+catch_rate: 90
+base_xp: 116
+gender_ratio: '50'
+egg_step_cycle: 15
+egg_groups:
 - Ground
-evolutions: []
+species: RAT
+height: 204
+weight: 410
+pokedex_entry: "The webs on its\nhind legs enable\nit to cross\frivers. It search-\n\
+  es wide areas for\nfood."
+icon: RaticateIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: TAIL_WHIP
   - 1: QUICK_ATTACK
@@ -27,7 +35,7 @@ moves:
   - 20: SCARY_FACE
   - 30: PURSUIT
   - 40: SUPER_FANG
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -60,12 +68,3 @@ moves:
   - STRENGTH
   - THUNDERBOLT
   - ICE_BEAM
-species: RAT
-height: 204
-weight: 410
-pokedex-entries: "The webs on its\nhind legs enable\nit to cross\frivers. It search-\n\
-  es wide areas for\nfood."
-icon: RaticateIcon
-icon-palettes:
-- BROWN
-- BROWN

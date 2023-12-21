@@ -2,23 +2,31 @@ constant: SEAKING
 name: SEAKING
 types:
 - Water
-base-stats:
+base_stats:
   hp: 80
   attack: 92
   defense: 65
   speed: 68
-  special-attack: 65
-  special-defense: 80
-growth-rate: Medium-Fast
-catch-rate: 60
-base-experience: 170
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 65
+  sp_defense: 80
+growth_rate: Medium-Fast
+catch_rate: 60
+base_xp: 170
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 2
-evolutions: []
+species: GOLDFISH
+height: 403
+weight: 860
+pokedex_entry: "When autumn comes,\nthe males patrol\nthe area around\ftheir nests\
+  \ in\norder to protect\ntheir offspring."
+icon: SeakingIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: TAIL_WHIP
   - 1: TAIL_WHIP
@@ -29,7 +37,7 @@ moves:
   - 41: WATERFALL
   - 49: HORN_DRILL
   - 61: AGILITY
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -51,12 +59,3 @@ moves:
   - SURF
   - WATERFALL
   - ICE_BEAM
-species: GOLDFISH
-height: 403
-weight: 860
-pokedex-entries: "When autumn comes,\nthe males patrol\nthe area around\ftheir nests\
-  \ in\norder to protect\ntheir offspring."
-icon: SeakingIcon
-icon-palettes:
-- RED
-- BROWN

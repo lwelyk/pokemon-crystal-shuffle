@@ -2,27 +2,36 @@ constant: CHARMELEON
 name: CHARMELEON
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 58
   attack: 64
   defense: 58
   speed: 80
-  special-attack: 80
-  special-defense: 65
-growth-rate: Medium-Slow
-catch-rate: 45
-base-experience: 142
-female-ratio: '12.5'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 80
+  sp_defense: 65
+growth_rate: Medium-Slow
+catch_rate: 45
+base_xp: 142
+gender_ratio: '12.5'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Dragon
 evolutions:
 - Method: Level-Up
   Level: '36'
   Species: CHARIZARD
+species: FLAME
+height: 307
+weight: 420
+pokedex_entry: "If it becomes\nagitated during\nbattle, it spouts\fintense flames,\n\
+  incinerating its\nsurroundings."
+icon: CharmeleonIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: GROWL
   - 1: EMBER
@@ -34,7 +43,7 @@ moves:
   - 41: SLASH
   - 48: DRAGON_RAGE
   - 55: FIRE_SPIN
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -64,12 +73,3 @@ moves:
   - CUT
   - STRENGTH
   - FLAMETHROWER
-species: FLAME
-height: 307
-weight: 420
-pokedex-entries: "If it becomes\nagitated during\nbattle, it spouts\fintense flames,\n\
-  incinerating its\nsurroundings."
-icon: CharmeleonIcon
-icon-palettes:
-- RED
-- BROWN

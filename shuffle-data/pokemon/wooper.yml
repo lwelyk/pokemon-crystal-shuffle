@@ -3,27 +3,36 @@ name: WOOPER
 types:
 - Water
 - Ground
-base-stats:
+base_stats:
   hp: 55
   attack: 45
   defense: 45
   speed: 15
-  special-attack: 25
-  special-defense: 25
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 52
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 25
+  sp_defense: 25
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 52
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Water 1
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '20'
   Species: QUAGSIRE
+species: WATER FISH
+height: 104
+weight: 190
+pokedex_entry: "A mucous\nmembrane covers\nits body. Touching\fit barehanded will\n\
+  cause a shooting\npain."
+icon: WooperIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: WATER_GUN
   - 1: TAIL_WHIP
   - 11: SLAM
@@ -32,7 +41,7 @@ moves:
   - 41: RAIN_DANCE
   - 51: MIST
   - 51: HAZE
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -63,16 +72,7 @@ moves:
   - FLASH
   - WHIRLPOOL
   - ICE_BEAM
-  egg:
+  egg_moves:
   - BODY_SLAM
   - ANCIENTPOWER
   - SAFEGUARD
-species: WATER FISH
-height: 104
-weight: 190
-pokedex-entries: "A mucous\nmembrane covers\nits body. Touching\fit barehanded will\n\
-  cause a shooting\npain."
-icon: WooperIcon
-icon-palettes:
-- BLUE
-- PURPLE

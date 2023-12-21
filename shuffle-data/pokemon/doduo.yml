@@ -3,26 +3,35 @@ name: DODUO
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 35
   attack: 85
   defense: 45
   speed: 75
-  special-attack: 35
-  special-defense: 35
-growth-rate: Medium-Fast
-catch-rate: 190
-base-experience: 96
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 35
+  sp_defense: 35
+growth_rate: Medium-Fast
+catch_rate: 190
+base_xp: 96
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Flying
 evolutions:
 - Method: Level-Up
   Level: '31'
   Species: DODRIO
+species: TWIN BIRD
+height: 407
+weight: 860
+pokedex_entry: "It lives on a\ngrassy plain where\nit can see a long\fway. If it sees\
+  \ an\nenemy, it runs\naway at 60 mph."
+icon: DoduoIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 1: GROWL
   - 9: PURSUIT
@@ -31,7 +40,7 @@ moves:
   - 25: RAGE
   - 33: DRILL_PECK
   - 37: AGILITY
-  taught:
+  taught_moves:
   - CURSE
   - TOXIC
   - HIDDEN_POWER
@@ -51,18 +60,9 @@ moves:
   - THIEF
   - STEEL_WING
   - FLY
-  egg:
+  egg_moves:
   - QUICK_ATTACK
   - SUPERSONIC
   - HAZE
   - FAINT_ATTACK
   - FLAIL
-species: TWIN BIRD
-height: 407
-weight: 860
-pokedex-entries: "It lives on a\ngrassy plain where\nit can see a long\fway. If it\
-  \ sees an\nenemy, it runs\naway at 60 mph."
-icon: DoduoIcon
-icon-palettes:
-- BROWN
-- BROWN

@@ -3,23 +3,31 @@ name: HERACROSS
 types:
 - Bug
 - Fighting
-base-stats:
+base_stats:
   hp: 80
   attack: 125
   defense: 75
   speed: 85
-  special-attack: 40
-  special-defense: 95
-growth-rate: Slow
-catch-rate: 45
-base-experience: 200
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 40
+  sp_defense: 95
+growth_rate: Slow
+catch_rate: 45
+base_xp: 200
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Bug
-evolutions: []
+species: SINGLEHORN
+height: 411
+weight: 1190
+pokedex_entry: "With its Herculean\npowers, it can\neasily throw arou-\fnd an object\
+  \ that\nis 100 times its\nown weight."
+icon: HeracrossIcon
+icon_pals:
+- BLUE
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: LEER
   - 6: HORN_ATTACK
@@ -29,7 +37,7 @@ moves:
   - 35: TAKE_DOWN
   - 44: REVERSAL
   - 54: MEGAHORN
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -52,16 +60,7 @@ moves:
   - FURY_CUTTER
   - CUT
   - STRENGTH
-  egg:
+  egg_moves:
   - HARDEN
   - BIDE
   - FLAIL
-species: SINGLEHORN
-height: 411
-weight: 1190
-pokedex-entries: "With its Herculean\npowers, it can\neasily throw arou-\fnd an object\
-  \ that\nis 100 times its\nown weight."
-icon: HeracrossIcon
-icon-palettes:
-- BLUE
-- PURPLE

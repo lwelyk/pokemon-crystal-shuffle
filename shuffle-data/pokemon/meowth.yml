@@ -2,26 +2,35 @@ constant: MEOWTH
 name: MEOWTH
 types:
 - Normal
-base-stats:
+base_stats:
   hp: 40
   attack: 45
   defense: 35
   speed: 90
-  special-attack: 40
-  special-defense: 40
-growth-rate: Medium-Fast
-catch-rate: 255
-base-experience: 69
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+  sp_attack: 40
+  sp_defense: 40
+growth_rate: Medium-Fast
+catch_rate: 255
+base_xp: 69
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Level-Up
   Level: '28'
   Species: PERSIAN
+species: SCRATCHCAT
+height: 104
+weight: 90
+pokedex_entry: "It loves things\nthat sparkle. When\nit sees a shiny\fobject, the\
+  \ gold\ncoin on its head\nshines too."
+icon: MeowthIcon
+icon_pals:
+- BROWN
+- PURPLE
 moves:
-  level-up:
+  level_up:
   - 1: SCRATCH
   - 1: GROWL
   - 11: BITE
@@ -30,7 +39,7 @@ moves:
   - 35: SCREECH
   - 41: FURY_SWIPES
   - 46: SLASH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -60,17 +69,8 @@ moves:
   - THIEF
   - NIGHTMARE
   - THUNDERBOLT
-  egg:
+  egg_moves:
   - SPITE
   - CHARM
   - HYPNOSIS
   - AMNESIA
-species: SCRATCHCAT
-height: 104
-weight: 90
-pokedex-entries: "It loves things\nthat sparkle. When\nit sees a shiny\fobject, the\
-  \ gold\ncoin on its head\nshines too."
-icon: MeowthIcon
-icon-palettes:
-- BROWN
-- PURPLE

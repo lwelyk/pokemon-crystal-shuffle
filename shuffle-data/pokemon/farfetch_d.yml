@@ -3,26 +3,34 @@ name: FARFETCH'D
 types:
 - Normal
 - Flying
-base-stats:
+base_stats:
   hp: 52
   attack: 65
   defense: 55
   speed: 60
-  special-attack: 58
-  special-defense: 62
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 94
-held-items:
+  sp_attack: 58
+  sp_defense: 62
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 94
+held_items:
 - 'STICK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Flying
 - Ground
-evolutions: []
+species: WILD DUCK
+height: 207
+weight: 330
+pokedex_entry: "In order to pre-\nvent their\nextinction, more\fpeople have made\n\
+  an effort to breed\nthese #MON."
+icon: FarfetchdIcon
+icon_pals:
+- BROWN
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: PECK
   - 7: SAND_ATTACK
   - 13: LEER
@@ -31,7 +39,7 @@ moves:
   - 31: AGILITY
   - 37: SLASH
   - 44: FALSE_SWIPE
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - TOXIC
@@ -56,18 +64,9 @@ moves:
   - STEEL_WING
   - CUT
   - FLY
-  egg:
+  egg_moves:
   - FORESIGHT
   - MIRROR_MOVE
   - GUST
   - QUICK_ATTACK
   - FLAIL
-species: WILD DUCK
-height: 207
-weight: 330
-pokedex-entries: "In order to pre-\nvent their\nextinction, more\fpeople have made\n\
-  an effort to breed\nthese #MON."
-icon: FarfetchdIcon
-icon-palettes:
-- BROWN
-- BROWN

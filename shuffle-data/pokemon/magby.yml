@@ -2,29 +2,38 @@ constant: MAGBY
 name: MAGBY
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 45
   attack: 75
   defense: 37
   speed: 83
-  special-attack: 70
-  special-defense: 55
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 117
-held-items:
+  sp_attack: 70
+  sp_defense: 55
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 117
+held_items:
 - BURNT_BERRY
 - 'BURNT_BERRY '
-female-ratio: '25'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '25'
+egg_step_cycle: 25
+egg_groups:
 - None
 evolutions:
 - Method: Level-Up
   Level: '30'
   Species: MAGMAR
+species: LIVE COAL
+height: 204
+weight: 470
+pokedex_entry: "It naturally spits\nan 1100-degree\nflame. It is said\fwhen many appear,\n\
+  it heralds a\nvolcanic eruption."
+icon: MagbyIcon
+icon_pals:
+- RED
+- PINK
 moves:
-  level-up:
+  level_up:
   - 1: EMBER
   - 7: LEER
   - 13: SMOG
@@ -34,7 +43,7 @@ moves:
   - 37: FLAMETHROWER
   - 43: CONFUSE_RAY
   - 49: FIRE_BLAST
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -60,18 +69,9 @@ moves:
   - THIEF
   - FIRE_PUNCH
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - KARATE_CHOP
   - MEGA_PUNCH
   - BARRIER
   - SCREECH
   - CROSS_CHOP
-species: LIVE COAL
-height: 204
-weight: 470
-pokedex-entries: "It naturally spits\nan 1100-degree\nflame. It is said\fwhen many\
-  \ appear,\nit heralds a\nvolcanic eruption."
-icon: MagbyIcon
-icon-palettes:
-- RED
-- PINK

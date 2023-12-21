@@ -2,23 +2,31 @@ constant: HITMONCHAN
 name: HITMONCHAN
 types:
 - Fighting
-base-stats:
+base_stats:
   hp: 50
   attack: 105
   defense: 79
   speed: 76
-  special-attack: 35
-  special-defense: 110
-growth-rate: Medium-Fast
-catch-rate: 45
-base-experience: 140
-female-ratio: '0'
-egg-cycle: 25
-egg-groups:
+  sp_attack: 35
+  sp_defense: 110
+growth_rate: Medium-Fast
+catch_rate: 45
+base_xp: 140
+gender_ratio: '0'
+egg_step_cycle: 25
+egg_groups:
 - Humanshape
-evolutions: []
+species: PUNCHING
+height: 407
+weight: 1110
+pokedex_entry: "To increase the\nstrength of all\nits punch moves,\fit spins its arms\n\
+  just before making\ncontact."
+icon: HitmonchanIcon
+icon_pals:
+- BROWN
+- GRAY
 moves:
-  level-up:
+  level_up:
   - 1: COMET_PUNCH
   - 7: AGILITY
   - 13: PURSUIT
@@ -29,7 +37,7 @@ moves:
   - 38: MEGA_PUNCH
   - 44: DETECT
   - 50: COUNTER
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -55,12 +63,3 @@ moves:
   - THIEF
   - FIRE_PUNCH
   - STRENGTH
-species: PUNCHING
-height: 407
-weight: 1110
-pokedex-entries: "To increase the\nstrength of all\nits punch moves,\fit spins its\
-  \ arms\njust before making\ncontact."
-icon: HitmonchanIcon
-icon-palettes:
-- BROWN
-- GRAY

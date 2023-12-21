@@ -3,25 +3,33 @@ name: STEELIX
 types:
 - Steel
 - Ground
-base-stats:
+base_stats:
   hp: 75
   attack: 85
   defense: 200
   speed: 30
-  special-attack: 55
-  special-defense: 65
-growth-rate: Medium-Fast
-catch-rate: 25
-base-experience: 196
-held-items:
+  sp_attack: 55
+  sp_defense: 65
+growth_rate: Medium-Fast
+catch_rate: 25
+base_xp: 196
+held_items:
 - 'METAL_COAT '
-female-ratio: '50'
-egg-cycle: 25
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 25
+egg_groups:
 - Mineral
-evolutions: []
+species: IRON SNAKE
+height: 3002
+weight: 8820
+pokedex_entry: "The many small\nmetal particles\nthat cover this\f#MON's body\nreflect\
+  \ bright\nlight well."
+icon: SteelixIcon
+icon_pals:
+- GRAY
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: TACKLE
   - 1: SCREECH
   - 10: BIND
@@ -31,7 +39,7 @@ moves:
   - 36: SANDSTORM
   - 40: SLAM
   - 49: CRUNCH
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROLLOUT
@@ -60,12 +68,3 @@ moves:
   - ATTRACT
   - CUT
   - STRENGTH
-species: IRON SNAKE
-height: 3002
-weight: 8820
-pokedex-entries: "The many small\nmetal particles\nthat cover this\f#MON's body\n\
-  reflect bright\nlight well."
-icon: SteelixIcon
-icon-palettes:
-- GRAY
-- BROWN

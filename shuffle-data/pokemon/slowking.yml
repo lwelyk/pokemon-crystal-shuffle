@@ -3,26 +3,34 @@ name: SLOWKING
 types:
 - Water
 - Psychic
-base-stats:
+base_stats:
   hp: 95
   attack: 75
   defense: 80
   speed: 30
-  special-attack: 100
-  special-defense: 110
-growth-rate: Medium-Fast
-catch-rate: 70
-base-experience: 164
-held-items:
+  sp_attack: 100
+  sp_defense: 110
+growth_rate: Medium-Fast
+catch_rate: 70
+base_xp: 164
+held_items:
 - 'KINGS_ROCK '
-female-ratio: '50'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '50'
+egg_step_cycle: 20
+egg_groups:
 - Monster
 - Water 1
-evolutions: []
+species: ROYAL
+height: 607
+weight: 1750
+pokedex_entry: "Every time it ya-\nwns, SHELLDER\ninjects more poi-\fson into it.\
+  \ The\npoison makes it\nmore intelligent."
+icon: SlowkingIcon
+icon_pals:
+- PINK
+- BLUE
 moves:
-  level-up:
+  level_up:
   - 1: CURSE
   - 1: TACKLE
   - 6: GROWL
@@ -32,7 +40,7 @@ moves:
   - 34: HEADBUTT
   - 43: SWAGGER
   - 48: PSYCHIC_M
-  taught:
+  taught_moves:
   - DYNAMICPUNCH
   - HEADBUTT
   - CURSE
@@ -74,12 +82,3 @@ moves:
   - WHIRLPOOL
   - FLAMETHROWER
   - ICE_BEAM
-species: ROYAL
-height: 607
-weight: 1750
-pokedex-entries: "Every time it ya-\nwns, SHELLDER\ninjects more poi-\fson into it.\
-  \ The\npoison makes it\nmore intelligent."
-icon: SlowkingIcon
-icon-palettes:
-- PINK
-- BLUE

@@ -2,29 +2,38 @@ constant: GROWLITHE
 name: GROWLITHE
 types:
 - Fire
-base-stats:
+base_stats:
   hp: 55
   attack: 70
   defense: 45
   speed: 60
-  special-attack: 70
-  special-defense: 50
-growth-rate: Slow
-catch-rate: 190
-base-experience: 91
-held-items:
+  sp_attack: 70
+  sp_defense: 50
+growth_rate: Slow
+catch_rate: 190
+base_xp: 91
+held_items:
 - BURNT_BERRY
 - 'BURNT_BERRY '
-female-ratio: '25'
-egg-cycle: 20
-egg-groups:
+gender_ratio: '25'
+egg_step_cycle: 20
+egg_groups:
 - Ground
 evolutions:
 - Method: Item
   Used Item: FIRE_STONE
   Species: ARCANINE
+species: PUPPY
+height: 204
+weight: 420
+pokedex_entry: "It controls a big\nterritory. If it\ndetects an unknown\fsmell, it\
+  \ roars\nloudly to force\nout the intruder."
+icon: GrowlitheIcon
+icon_pals:
+- RED
+- BROWN
 moves:
-  level-up:
+  level_up:
   - 1: BITE
   - 1: ROAR
   - 9: EMBER
@@ -33,7 +42,7 @@ moves:
   - 34: FLAME_WHEEL
   - 42: AGILITY
   - 50: FLAMETHROWER
-  taught:
+  taught_moves:
   - HEADBUTT
   - CURSE
   - ROAR
@@ -57,18 +66,9 @@ moves:
   - REST
   - ATTRACT
   - FLAMETHROWER
-  egg:
+  egg_moves:
   - BODY_SLAM
   - SAFEGUARD
   - CRUNCH
   - THRASH
   - FIRE_SPIN
-species: PUPPY
-height: 204
-weight: 420
-pokedex-entries: "It controls a big\nterritory. If it\ndetects an unknown\fsmell,\
-  \ it roars\nloudly to force\nout the intruder."
-icon: GrowlitheIcon
-icon-palettes:
-- RED
-- BROWN
