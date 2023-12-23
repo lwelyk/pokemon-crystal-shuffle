@@ -356,8 +356,16 @@ class Pokedex:
     def load_pokedex_file(self, file):
         f = open(file, 'r')
         reader = csv.DictReader(f)
+        dex = {}
+        new_dex = {}
         for row in reader:
-            self.pokemon_list[row["CONSTANT"]] = row
+            self.pokemon_list[row["constant"]] = {}
+            dex[int(row["dex_order"])] = row["constant"]
+            new_dex[int(row["new_dex_order"])] = row["constant"]
+        self.dex_order = [value for key, value in sorted(dex.items())]
+        print(self.dex_order)
+        self.new_dex_order = [value for key, value in sorted(new_dex.items())]
+        print(self.new_dex_order)
     
     def create_pokemon_objects(self):
         if self.pokemon_list:
